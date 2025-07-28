@@ -1,6 +1,3 @@
-from numbers import Number
-from typing import List, Tuple
-
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
@@ -11,7 +8,7 @@ from adjustText import adjust_text
 GREY50 = "#7F7F7F"
 
 
-def titleify(labels: List[str], sep: str = " "):
+def titleify(labels: list[str], sep: str = " "):
     return [sep.join(l.split("_")).title() for l in labels]
 
 
@@ -59,9 +56,9 @@ def bar_plot(
     title: str = "Accuracy by Condition",
     x_label: str = "Condition",
     y_label: str = "Accuracy",
-    fig_dimensions: List = None,
-    y_lim: Tuple[int, int] = (0, 1),
-    ind_data: List[List] = None,
+    fig_dimensions: list | None = None,
+    y_lim: tuple[int, int] = (0, 1),
+    ind_data: list[list] | None = None,
     color: str = "orange",
 ):
     """
@@ -89,10 +86,10 @@ def bar_plot(
 
 
 def comparison_bar_plot(
-    conditions: List[str],
-    accuracies: List[List],
-    errors: List[List],
-    labels: List[str],
+    conditions: list[str],
+    accuracies: list[list[float]],
+    errors: list[list[float]],
+    labels: list[str],
     file_string: str,
     transpose: bool = False,
     title: str = "Accuracy by Condition",
@@ -100,15 +97,15 @@ def comparison_bar_plot(
     label_x: bool = True,
     y_label: str = "Accuracy",
     label_y: bool = True,
-    y_lim: Tuple[int, int] = (0, 1),
-    ind_data: List[List[List]] = None,
+    y_lim: tuple[float, float] = (0, 1),
+    ind_data: list[list[list]] | None = None,
     color: str = "orange",
-    fig_size: List[int] = [14, 8],
+    fig_size: list[int] = [14, 8],
     tight: bool = True,
-    title_size: Number = None,
-    axis_label_size: Number = None,
-    axis_tick_size: Number = None,
-    legend_size: Number = None,
+    title_size: float | None = None,
+    axis_label_size: float | None = None,
+    axis_tick_size: float | None = None,
+    legend_size: float | None = None,
 ):
     """
     Creates a comparison bar plot of accuracy vs. condition given a list of conditions,
@@ -161,19 +158,19 @@ def comparison_bar_plot(
 
 
 def comparison_bar_plot_with_second_axis(
-    accuracies: List[List],
-    errors: List[List],
-    labels: List[str],
+    accuracies: list[list[float]],
+    errors: list[list[float]],
+    labels: list[str],
     file_string: str,
     title: str = "Accuracy by Condition",
     x_label: str = "Condition",
     y_label: str = "Accuracy",
     color: str = "orange",
-    fig_size: List[int] = [14, 8],
-    title_size: Number = None,
-    axis_label_size: Number = None,
-    axis_tick_size: Number = None,
-    legend_size: Number = None,
+    fig_size: list[int] = [14, 8],
+    title_size: float | None = None,
+    axis_label_size: float | None = None,
+    axis_tick_size: float | None = None,
+    legend_size: float | None = None,
 ):
     """
     Creates a comparison bar plot of accuracy vs. condition given a list of conditions,
@@ -183,26 +180,37 @@ def comparison_bar_plot_with_second_axis(
 
     plt.rcParams["figure.figsize"] = fig_size
 
-    accuracies, errors = [x[0] for x in accuracies], [x[0] for x in errors]
+    default_accuracies, default_errors = [x[0] for x in accuracies], [
+        x[0] for x in errors
+    ]
 
     MMLU_scores = [34.6, 57.0, 63.1, 78.5, 86.4, 86.8, 89.8]
 
-    tuned = np.array([0,0,1,1,1,1,2])
+    tuned = np.array([0, 0, 1, 1, 1, 1, 2])
 
     colormap = np.array(["#56C1FF", "#ED908D", "black"])
 
     fig, ax = plt.subplots()
 
-    ax.scatter(MMLU_scores, accuracies, s=300, c=colormap[tuned])
+    ax.scatter(MMLU_scores, default_accuracies, s=300, c=colormap[tuned])
 
-    ax.errorbar(MMLU_scores, accuracies, yerr=errors, fmt="o", capthick = 4, capsize=4, linewidth = 4, color = 'black')#['yellow', 'blue', 'yellow', 'blue', 'yellow', 'blue', 'yellow'])
+    ax.errorbar(
+        MMLU_scores,
+        default_accuracies,
+        yerr=default_errors,
+        fmt="o",
+        capthick=4,
+        capsize=4,
+        linewidth=4,
+        color="black",
+    )  # ['yellow', 'blue', 'yellow', 'blue', 'yellow', 'blue', 'yellow'])
 
     TEXTS = []
     for i in range(len(labels)):
         TEXTS.append(
             ax.text(
                 MMLU_scores[i],
-                accuracies[i],
+                default_accuracies[i],
                 labels[i],
                 color="black",
                 fontsize=38,
@@ -243,6 +251,7 @@ def comparison_bar_plot_with_second_axis(
     plt.tight_layout()
 
     plt.savefig(file_string)
+
 
 def raincloud_plot(
     x: str,
@@ -285,10 +294,10 @@ def raincloud_plot(
 
 
 def best_fit_and_points_plot(
-    slope: Number,
-    intercept: Number,
-    r: Number,
-    y_vals: List[Number],
+    slope: float,
+    intercept: float,
+    r: float,
+    y_vals: list[float],
     y_err: list,
     experiment: str,
     file_string: str,
@@ -329,23 +338,23 @@ def human_accuracy_distribution_plot(human_df, experiment_conditions):
 
 def human_accuracy_v_duration_plot(human_df, filestring):
     plt.rcParams["figure.figsize"] = [22, 16]
-    ax1 = plt.gca()
+    # ax1 = plt.gca()
 
-    g1 = sns.lmplot(
-        x="duration_float",
-        y="respondent_score",
-        hue="quiz_class",
-        data=human_df[human_df["Finished"] == "True"],
-        fit_reg=False,
-    )
+    # g1 = sns.lmplot(
+    #     x="duration_float",
+    #     y="respondent_score",
+    #     hue="quiz_class",
+    #     data=human_df[human_df["Finished"] == "True"],
+    #     fit_reg=False,
+    # )
 
     ax2 = plt.twinx()
 
     g2 = sns.regplot(
+        data=human_df[human_df["Finished"] == "True"],
         x="duration_float",
         y="respondent_score",
-        data=human_df[human_df["Finished"] == "True"],
-        ax=ax2,
+        ax=ax2,  # type: ignore
         scatter=False,
     )
 
@@ -396,7 +405,7 @@ def human_accuracy_raincloud_plot(human_df, experiment_conditions, filestring):
         vert=False,
     )
 
-    for idx, b in enumerate(vp["bodies"]):
+    for idx, b in enumerate(vp["bodies"]):  # type: ignore
         # Get the center of the plot
         m = np.mean(b.get_paths()[0].vertices[:, 0])
         # Modify it so we only see the upper half of the violin plot

@@ -1,20 +1,17 @@
 import math
 from itertools import cycle
-from numbers import Number
-from typing import List, Tuple
 
+import grading_stats
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
+import plotting
 import scipy.stats
 import seaborn as sns
 import statsmodels.api as sm
 import statsmodels.formula.api as smf
 from scipy.stats.distributions import chi2
 from statsmodels.formula.api import ols
-
-import grading_stats
-import plotting
 
 sns.set_palette("colorblind")
 
@@ -27,22 +24,19 @@ experiment_conditions = [
 ]
 
 
-def quiz_to_condition(n: Number) -> str:
-    n = int(n)
-    return experiment_conditions[n // 2]
+def quiz_to_condition(n: float) -> str:
+    return experiment_conditions[int(n) // 2]
 
 
-def overall_number_to_quiz_number(n: Number) -> int:
+def overall_number_to_quiz_number(n: float) -> int:
     """
     Takes a quiz number and returns the quiz number from 1 to 2.
     """
-    n = int(n)
-    return (n % 2) + 1
+    return (int(n) % 2) + 1
 
 
-def quiz_to_quiz_modded(n: Number) -> Number:
-    n = int(n)
-    return (n % 2) + 1
+def quiz_to_quiz_modded(n: float) -> int:
+    return (int(n) % 2) + 1
 
 
 def classify_quiz(row: pd.Series):
@@ -57,7 +51,7 @@ questions_per_quiz = 4
 samples_per_q = 5
 
 # answer key as a flat list
-answer_key: List[Tuple[str, bool]] = [
+answer_key: list[tuple[str, str | None, bool]] = [
     answer for condition in grading_stats.PHASE_2_ANSWERS for answer in condition
 ]
 
@@ -209,7 +203,8 @@ human_df = human_df.drop_duplicates(subset=["RecipientEmail"], keep="last")
 
 human_df = human_df.rename(columns={"Q112": "Consent", "Q113": "Attention"})
 
-def extract_quiz_number(row: pd.Series) -> int:
+
+def extract_quiz_number(row: pd.Series) -> int | None:
     if row["Finished"].lower() != "true":
         return None
     for i in range(10):
@@ -218,17 +213,10 @@ def extract_quiz_number(row: pd.Series) -> int:
             column += f".{i}"
         if pd.notnull(row[column]):
             return i
+    return None
 
 
-human_df["quiz_number"] = human_df.apply(extract_quiz_number, axis=1)
-
-
-def classify_quiz(row: pd.Series):
-    quiz_num = row["quiz_number"]
-    if math.isnan(quiz_num):
-        return "NA"
-    return quiz_to_condition(quiz_num)
-
+human_df["quiz_number"] = human_df.apply(extract_quiz_number, axis=1)  # type: ignore
 
 human_df["quiz_class"] = human_df.apply(classify_quiz, axis=1)
 
@@ -246,7 +234,7 @@ print(human_df[human_df.quiz_class != "relational"].shape[0])
 
 print("Grouped by condition:")
 
-print(human_df.groupby(['quiz_class']).size())
+print(human_df.groupby(["quiz_class"]).size())
 
 mn = human_df["duration_float"].mean()
 
@@ -261,28 +249,28 @@ human_df = human_df[human_df["Attention"] == "8"]
 
 def score_respondent(
     row: pd.Series,
-    q_scores_per_quiz: List[List[List]],
-    incorrect_responses: List[Tuple[str, str]],
-    individual_scores: List[List],
-    failure_modes: List[int],
-    scores_grouped_by_quiz: List[List[List]],
-):
+    q_scores_per_quiz: list[list[list[int]]],
+    incorrect_responses: list[tuple[str, str, str]],
+    individual_scores: list[list[float]],
+    failure_modes: list[float],
+    scores_grouped_by_quiz: list[list[list[float]]],
+) -> float | None:
     this_respondent_scores = []
     quiz_number = row["quiz_number"]
     if pd.isna(quiz_number):
-        return
+        return None
     else:
         quiz_number = int(quiz_number)
     questions = ["Q1", "Q3", "Q5", "Q7"]
     if quiz_number >= 1:
         questions = [f"{q}.{quiz_number}" for q in questions]
-    responses = [row[q] for q in questions]
+    responses: list[str] = [row[q] for q in questions]
     answers = answer_key[4 * quiz_number : 4 * quiz_number + 4]
     prev_answers = answer_key[max(0, 4 * quiz_number - 1) : 4 * quiz_number + 4 - 1]
     if len(prev_answers) < len(
         answers
     ):  # max kicked in because we were at the beginning
-        prev_answers.insert(0, " ")
+        prev_answers.insert(0, (" ", "", False))
     for i, (response, answer, prev_answer) in enumerate(
         zip(responses, answers, prev_answers)
     ):
@@ -299,7 +287,10 @@ def score_respondent(
         this_respondent_scores.append(score)
         if score != 1:
             incorrect_responses.append((response, answer[0], prev_answer[0]))
-    respondent_overall_score = np.mean(np.asarray(this_respondent_scores))
+            failure_modes[
+                grading_stats.get_failure_mode(response, answer[0]).value
+            ] += 1
+    respondent_overall_score = float(np.mean(np.asarray(this_respondent_scores)))
     individual_scores[experiment_conditions.index(row["quiz_class"])].append(
         respondent_overall_score
     )
@@ -311,9 +302,9 @@ def score_respondent(
 
 def score_respondent_all(
     row: pd.Series,
-    q_scores_per_quiz: List[List[List]],
-    incorrect_responses: List[Tuple[str, str, str]],
-    failure_modes: List[int],
+    q_scores_per_quiz: list[list[list]],
+    incorrect_responses: list[tuple[str, str, str]],
+    failure_modes: list[float],
 ):
     this_respondent_scores = []
     quiz_number = row["quiz_number"]
@@ -330,7 +321,7 @@ def score_respondent_all(
     if len(prev_answers) < len(
         answers
     ):  # max kicked in because we were at the beginning
-        prev_answers.insert(0, " ")
+        prev_answers.insert(0, (" ", "", False))
     for i, (response, answer, prev_answer) in enumerate(
         zip(responses, answers, prev_answers)
     ):
@@ -347,25 +338,28 @@ def score_respondent_all(
         this_respondent_scores.append(score)
         if score != 1:
             incorrect_responses.append((response, answer[0], prev_answer[0]))
-            if quiz_to_condition(quiz_number) == "multi_attribute":
-                with open(
-                    "data_printouts/phase_2/human_multi-attribute_errors.txt", "a"
-                ) as f:
-                    f.write(f"{questions[i]}  {response.ljust(20)}{answer[0]}\n")
+            failure_modes[
+                grading_stats.get_failure_mode(response, answer[0]).value
+            ] += 1
     this_respondent_scores_arr = np.asarray(this_respondent_scores)
     return this_respondent_scores_arr
 
-human_q_scores_per_quiz = [[[] for _ in range(4)] for _ in range(10)]
-human_incorrect_responses: List[Tuple[str, str, str]] = []
-human_failure_modes: List[int] = [0 for _ in range(len(grading_stats.FailureMode))]
 
-human_individual_scores = [[] for _ in range(len(experiment_conditions))]
-human_scores_grouped_by_quiz = [
+human_q_scores_per_quiz: list[list[list[int]]] = [
+    [[] for _ in range(4)] for _ in range(10)
+]
+human_incorrect_responses: list[tuple[str, str, str]] = []
+human_failure_modes: list[float] = [0 for _ in range(len(grading_stats.FailureMode))]
+
+human_individual_scores: list[list[float]] = [
+    [] for _ in range(len(experiment_conditions))
+]
+human_scores_grouped_by_quiz: list[list[list[float]]] = [
     [[] for _ in range(len(experiment_conditions))] for _ in range(2)
 ]
 
 human_df["respondent_score"] = human_df.apply(
-    lambda row: score_respondent(
+    lambda row: score_respondent(  # type: ignore
         row,
         human_q_scores_per_quiz,
         human_incorrect_responses,
@@ -377,11 +371,11 @@ human_df["respondent_score"] = human_df.apply(
 )
 
 human_avg_grade_per_q = [
-    np.average(q_scores) for quiz in human_q_scores_per_quiz for q_scores in quiz
+    float(np.average(q_scores)) for quiz in human_q_scores_per_quiz for q_scores in quiz
 ]
 
 human_avg_grade_per_q_stds = [
-    np.std(q_scores) for quiz in human_q_scores_per_quiz for q_scores in quiz
+    float(np.std(q_scores)) for quiz in human_q_scores_per_quiz for q_scores in quiz
 ]
 
 human_avg_grade_per_q_stderrs = [
@@ -422,7 +416,7 @@ plotting.bar_plot(
 plotting.comparison_bar_plot(
     experiment_conditions,
     [
-        [np.mean(condition) for condition in quiz]
+        [float(np.mean(condition)) for condition in quiz]
         for quiz in human_scores_grouped_by_quiz
     ],
     [
@@ -595,7 +589,7 @@ plt.clf()
 plotting.comparison_bar_plot(
     experiment_conditions[:-1],
     [
-        human_means[:-1], 
+        human_means[:-1],
         gpt4_arrows_condition_stats["avg_condition_accuracy"][:-1],
         claude3opus_condition_stats["avg_condition_accuracy"][:-1],
     ],
@@ -671,7 +665,7 @@ plotting.comparison_bar_plot(
 ################################
 
 human_df["respondent_scores"] = human_df.apply(
-    lambda row: score_respondent_all(
+    lambda row: score_respondent_all(  # type: ignore
         row,
         human_q_scores_per_quiz,
         human_incorrect_responses,
@@ -703,9 +697,7 @@ human_df_subset = human_df_exploded[
 
 all_subjects_df = pd.concat([all_subjects_df, human_df_subset])
 
-all_subjects_df = all_subjects_df.dropna(
-    subset=["quiz_number"]
-)
+all_subjects_df = all_subjects_df.dropna(subset=["quiz_number"])
 
 all_subjects_df["quiz_number"] = all_subjects_df["quiz_number"].astype(int)
 
@@ -733,7 +725,7 @@ pd.set_option("display.width", 200)
 pd.set_option("display.max_columns", 1000)
 
 all_subjects_df = all_subjects_df[
-    (all_subjects_df.subject_type ==  "GPT-4")#"Claude-3") 
+    (all_subjects_df.subject_type == "GPT-4")  # "Claude-3")
     | (all_subjects_df.subject_type == "human")
 ]
 

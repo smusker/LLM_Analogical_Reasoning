@@ -1,11 +1,10 @@
 import csv
 import random
-from typing import List, Tuple
-
-import numpy as np
-from numpy import typing as npt
+from collections.abc import Sequence
 
 import grounding_generation as gg
+import numpy as np
+from numpy import typing as npt
 
 analogies = np.array(
     [
@@ -42,9 +41,9 @@ def generate_question(
     analogy_set: npt.NDArray,
     grounding_set: npt.NDArray,
     flip: bool = False,
-    index_ordering: List[int] = None,
-    distractor: Tuple[Tuple[str, str], int] = None,
-) -> Tuple[str, str]:
+    index_ordering: list[int] | None = None,
+    distractor: tuple[tuple[str, str], int] | None = None,
+) -> tuple[str, str]:
     """
     Takes an array of words that form analogies and an array of groundings
     that have an analogy-like pattern and creates a question using them.
@@ -97,43 +96,39 @@ def convert_to_only_rhs(question):
 
 
 def generate_quiz(
-    analogies: npt.ArrayLike,
-    groundings: npt.ArrayLike,
-    flips: List[bool] = None,
-    orderings: List[List[int]] = None,
-    distractors: List[Tuple[Tuple[str, str], int]] = None,
-) -> Tuple[List[str], List[str]]:
+    analogies: Sequence | npt.NDArray,
+    groundings: Sequence | npt.NDArray,
+    flips: list[bool] | None = None,
+    orderings: list[list[int]] | None = None,
+    distractors: list[tuple[tuple[str, str], int]] | None = None,
+) -> tuple[list[str], list[str]]:
     """Takes the information required to create a quiz and returns lists of questions and answers for that quiz."""
     questions = []
     answers = []
     for i in range(len(analogies)):
-        analogy_set, grounding_set = analogies[i], groundings[i]
-        flip = flips[i] if flips else None
-        ordering = orderings[i] if orderings else None
-        distractor = distractors[i] if distractors else None
         question, answer = generate_question(
-            analogy_set,
-            grounding_set,
-            flip=flip,
-            index_ordering=ordering,
-            distractor=distractor,
+            analogies[i],
+            groundings[i],
+            flip=flips[i] if flips else False,
+            index_ordering=orderings[i] if orderings else None,
+            distractor=distractors[i] if distractors else None,
         )
         questions.append(question)
         answers.append(answer)
     return questions, answers
 
 
-def generate_pilot() -> Tuple[
-    List[Tuple[List[str], List[str]]],
-    List[Tuple[List[str], List[str]]],
-    List[Tuple[List[str], List[str]]],
-    List[Tuple[List[str], List[str]]],
-    List[Tuple[List[str], List[str]]],
-    List[Tuple[List[str], List[str]]],
+def generate_pilot() -> tuple[
+    list[tuple[list[str], list[str]]],
+    list[tuple[list[str], list[str]]],
+    list[tuple[list[str], list[str]]],
+    list[tuple[list[str], list[str]]],
+    list[tuple[list[str], list[str]]],
+    list[tuple[list[str], list[str]]],
 ]:
     """Generates and returns all quizzes for the pilot study."""
 
-    ag_pairings: List[List[List[int]]] = []
+    ag_pairings: list[list[list[int]]] = []
     pairing_bank = [(i, j) for i in range(4) for j in range(4)]
 
     while len(pairing_bank) != 0:
@@ -149,7 +144,7 @@ def generate_pilot() -> Tuple[
                     if j not in curr[1]
                 ][0]
                 if needed not in pairing_bank:  # trapped -> restart
-                    ag_pairings: List[List[List[int]]] = []
+                    ag_pairings = []
                     pairing_bank = [(i, j) for i in range(4) for j in range(4)]
                     break
                 else:  # efficient completion
@@ -180,7 +175,7 @@ def generate_pilot() -> Tuple[
         for analogies, groundings in contentful_pairings
     ]
 
-    question_orderings: List[List[int]] = [[x for x in range(4)] for _ in range(4)]
+    question_orderings: list[list[int]] = [[x for x in range(4)] for _ in range(4)]
     for i in range(4):
         random.shuffle(question_orderings[i])
 
@@ -193,7 +188,7 @@ def generate_pilot() -> Tuple[
         )
     ]
 
-    distractors: List[List[Tuple[Tuple[str, str], int]]] = []
+    distractors: list[list[tuple[tuple[str, str], int]]] = []
     for _ in range(4):
         random.shuffle(DISTRACTORS)
         random.shuffle(DISTRACTOR_GROUNDINGS)
@@ -213,7 +208,7 @@ def generate_pilot() -> Tuple[
         for (analogies, groundings), d in zip(contentful_pairings, distractors)
     ]
 
-    pair_orderings: List[List[List[int]]] = [
+    pair_orderings: list[list[list[int]]] = [
         [[x for x in range(4)] for _ in range(4)] for _ in range(4)
     ]
     for i in range(4):
@@ -254,12 +249,13 @@ def generate_pilot() -> Tuple[
     )
 
 
-def write_list_to_csv(l: List, path: str):
+def write_list_to_csv(l: list, path: str):
     """Writes a list to the first column of a csv file given a path to write to."""
     with open(f"{path}", "w", newline="", encoding="UTF8") as f:
         writer = csv.writer(f)
         for elem in l:
             writer.writerow([elem])
+
 
 pilot_path = "quiz_files/phase_1/"
 

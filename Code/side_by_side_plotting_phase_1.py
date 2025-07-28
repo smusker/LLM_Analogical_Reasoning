@@ -1,17 +1,14 @@
 import math
 from itertools import cycle
-from numbers import Number
-from typing import List, Tuple
 
+import grading_stats
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
+import plotting
 import seaborn as sns
 import statsmodels.formula.api as smf
 from scipy.stats.distributions import chi2
-
-import grading_stats
-import plotting
 
 sns.set_palette("colorblind")
 
@@ -27,7 +24,7 @@ experiment_conditions = [
 ]
 
 
-def quiz_to_condition(n: Number) -> str:
+def quiz_to_condition(n: float) -> str:
     n = int(n)
     if 0 <= n <= 15:
         return experiment_conditions[n // 4]
@@ -37,7 +34,7 @@ def quiz_to_condition(n: Number) -> str:
         return experiment_conditions[6 + ((n - 20) // 4)]
 
 
-def overall_number_to_quiz_number(n: Number) -> int:
+def overall_number_to_quiz_number(n: float) -> int:
     """
     Takes a quiz number from 0 to 28 and returns the quiz number from 1 to 4.
     """
@@ -52,7 +49,7 @@ def overall_number_to_quiz_number(n: Number) -> int:
         )
 
 
-def quiz_to_quiz_modded(n: Number) -> Number:
+def quiz_to_quiz_modded(n: float) -> int:
     n = int(n)
     if 0 <= n <= 15:
         return (n % 4) + 1
@@ -74,7 +71,7 @@ questions_per_quiz = 4
 samples_per_q = 5
 
 # answer key as a flat list
-answer_key: List[Tuple[str, bool]] = [
+answer_key: list[tuple[str, str | None, bool]] = [
     answer
     for condition in grading_stats.PILOT_ANSWERS + grading_stats.FOLLOWUP_ANSWERS
     for answer in condition
@@ -247,7 +244,9 @@ in_person_df = pd.read_csv(
 in_person_df["RecipientEmail"] = in_person_df["Q347"]
 in_person_df = in_person_df.drop(columns=["Q347"])
 in_person_df["RecipientEmail"] = in_person_df["RecipientEmail"].replace(np.nan, "")
-in_person_df = in_person_df[in_person_df["RecipientEmail"].str.contains("@University_Name.edu")]
+in_person_df = in_person_df[
+    in_person_df["RecipientEmail"].str.contains("@University_Name.edu")
+]
 in_person_df = in_person_df.drop_duplicates(subset=["RecipientEmail"], keep="last")
 
 in_person_df = in_person_df.rename(columns={"Q226": "Consent", "Q222": "Attention"})
@@ -255,9 +254,7 @@ in_person_df = in_person_df.rename(columns={"Q226": "Consent", "Q222": "Attentio
 in_person_df.insert(0, "PROLIFIC_PID", "")
 in_person_df.insert(1, "Prolific_ID", "")
 
-human_df.drop(
-    human_df.index[[0, 1]], inplace=True
-)
+human_df.drop(human_df.index[[0, 1]], inplace=True)
 
 human_df = pd.concat([human_df, in_person_df], axis=0, ignore_index=True)
 
@@ -271,7 +268,8 @@ def classify_in_person(row: pd.Series) -> int:
 
 human_df["In_Person"] = human_df.apply(classify_in_person, axis=1)
 
-def extract_quiz_number(row: pd.Series) -> int:
+
+def extract_quiz_number(row: pd.Series) -> int | None:
     if row["Finished"].lower() != "true":
         return None
     for i in range(28):
@@ -280,17 +278,10 @@ def extract_quiz_number(row: pd.Series) -> int:
             column += f".{i}"
         if pd.notnull(row[column]):
             return i
+    return None
 
 
-human_df["quiz_number"] = human_df.apply(extract_quiz_number, axis=1)
-
-
-def classify_quiz(row: pd.Series):
-    quiz_num = row["quiz_number"]
-    if math.isnan(quiz_num):
-        return "NA"
-    return quiz_to_condition(quiz_num)
-
+human_df["quiz_number"] = human_df.apply(extract_quiz_number, axis=1)  # type: ignore
 
 human_df["quiz_class"] = human_df.apply(classify_quiz, axis=1)
 
@@ -306,7 +297,7 @@ print("Grouped by condition:")
 
 human_df_for_counts = human_df.loc[human_df["In_Person"] == True]
 
-print(human_df_for_counts.groupby(['quiz_class']).size())
+print(human_df_for_counts.groupby(["quiz_class"]).size())
 
 mn = human_df["duration_float"].mean()
 
@@ -321,28 +312,28 @@ human_df = human_df[human_df["Attention"] == "8"]
 
 def score_respondent(
     row: pd.Series,
-    q_scores_per_quiz: List[List[List]],
-    incorrect_responses: List[Tuple[str, str]],
-    individual_scores: List[List],
-    failure_modes: List[int],
-    scores_grouped_by_quiz: List[List[List]],
-):
+    q_scores_per_quiz: list[list[list[int]]],
+    incorrect_responses: list[tuple[str, str, str]],
+    individual_scores: list[list[float]],
+    failure_modes: list[float],
+    scores_grouped_by_quiz: list[list[list[float]]],
+) -> float | None:
     this_respondent_scores = []
     quiz_number = row["quiz_number"]
     if pd.isna(quiz_number):
-        return
+        return None
     else:
         quiz_number = int(quiz_number)
     questions = ["Q1", "Q3", "Q5", "Q7"]
     if quiz_number >= 1:
         questions = [f"{q}.{quiz_number}" for q in questions]
-    responses = [row[q] for q in questions]
+    responses: list[str] = [row[q] for q in questions]
     answers = answer_key[4 * quiz_number : 4 * quiz_number + 4]
     prev_answers = answer_key[max(0, 4 * quiz_number - 1) : 4 * quiz_number + 4 - 1]
     if len(prev_answers) < len(
         answers
     ):  # max kicked in because we were at the beginning
-        prev_answers.insert(0, " ")
+        prev_answers.insert(0, (" ", "", False))
     for i, (response, answer, prev_answer) in enumerate(
         zip(responses, answers, prev_answers)
     ):
@@ -362,7 +353,7 @@ def score_respondent(
             failure_modes[
                 grading_stats.get_failure_mode(response, answer[0]).value
             ] += 1
-    respondent_overall_score = np.mean(np.asarray(this_respondent_scores))
+    respondent_overall_score = float(np.mean(np.asarray(this_respondent_scores)))
     individual_scores[experiment_conditions.index(row["quiz_class"])].append(
         respondent_overall_score
     )
@@ -374,9 +365,9 @@ def score_respondent(
 
 def score_respondent_all(
     row: pd.Series,
-    q_scores_per_quiz: List[List[List]],
-    incorrect_responses: List[Tuple[str, str]],
-    failure_modes: List[int],
+    q_scores_per_quiz: list[list[list]],
+    incorrect_responses: list[tuple[str, str, str]],
+    failure_modes: list[float],
 ):
     this_respondent_scores = []
     quiz_number = row["quiz_number"]
@@ -393,7 +384,7 @@ def score_respondent_all(
     if len(prev_answers) < len(
         answers
     ):  # max kicked in because we were at the beginning
-        prev_answers.insert(0, " ")
+        prev_answers.insert(0, (" ", "", False))
     for i, (response, answer, prev_answer) in enumerate(
         zip(responses, answers, prev_answers)
     ):
@@ -420,17 +411,21 @@ def score_respondent_all(
 prolific_df = human_df.loc[human_df["In_Person"] == False].copy()
 University_Name_df = human_df.loc[human_df["In_Person"] == True].copy()
 
-prolific_q_scores_per_quiz = [[[] for _ in range(4)] for _ in range(28)]
-prolific_incorrect_responses: List[Tuple[str, str]] = []
-prolific_failure_modes: List[int] = [0 for _ in range(len(grading_stats.FailureMode))]
+prolific_q_scores_per_quiz: list[list[list[int]]] = [
+    [[] for _ in range(4)] for _ in range(28)
+]
+prolific_incorrect_responses: list[tuple[str, str, str]] = []
+prolific_failure_modes: list[float] = [0 for _ in range(len(grading_stats.FailureMode))]
 
-prolific_individual_scores = [[] for _ in range(len(experiment_conditions))]
-prolific_scores_grouped_by_quiz = [
+prolific_individual_scores: list[list[float]] = [
+    [] for _ in range(len(experiment_conditions))
+]
+prolific_scores_grouped_by_quiz: list[list[list[float]]] = [
     [[] for _ in range(len(experiment_conditions))] for _ in range(4)
 ]
 
 prolific_df["respondent_score"] = prolific_df.apply(
-    lambda row: score_respondent(
+    lambda row: score_respondent(  # type: ignore
         row,
         prolific_q_scores_per_quiz,
         prolific_incorrect_responses,
@@ -444,17 +439,23 @@ prolific_failure_modes = [
     n / sum(prolific_failure_modes) for n in prolific_failure_modes
 ]
 
-University_Name_q_scores_per_quiz = [[[] for _ in range(4)] for _ in range(28)]
-University_Name_incorrect_responses: List[Tuple[str, str]] = []
-University_Name_failure_modes: List[int] = [0 for _ in range(len(grading_stats.FailureMode))]
+University_Name_q_scores_per_quiz: list[list[list[int]]] = [
+    [[] for _ in range(4)] for _ in range(28)
+]
+University_Name_incorrect_responses: list[tuple[str, str, str]] = []
+University_Name_failure_modes: list[float] = [
+    0 for _ in range(len(grading_stats.FailureMode))
+]
 
-University_Name_individual_scores = [[] for _ in range(len(experiment_conditions))]
-University_Name_scores_grouped_by_quiz = [
+University_Name_individual_scores: list[list[float]] = [
+    [] for _ in range(len(experiment_conditions))
+]
+University_Name_scores_grouped_by_quiz: list[list[list[float]]] = [
     [[] for _ in range(len(experiment_conditions))] for _ in range(4)
 ]
 
 University_Name_df["respondent_score"] = University_Name_df.apply(
-    lambda row: score_respondent(
+    lambda row: score_respondent(  # type: ignore
         row,
         University_Name_q_scores_per_quiz,
         University_Name_incorrect_responses,
@@ -473,11 +474,13 @@ University_Name_failure_modes = [
 ]
 
 prolific_avg_grade_per_q = [
-    np.average(q_scores) for quiz in prolific_q_scores_per_quiz for q_scores in quiz
+    float(np.average(q_scores))
+    for quiz in prolific_q_scores_per_quiz
+    for q_scores in quiz
 ]
 
 prolific_avg_grade_per_q_stds = [
-    np.std(q_scores) for quiz in prolific_q_scores_per_quiz for q_scores in quiz
+    float(np.std(q_scores)) for quiz in prolific_q_scores_per_quiz for q_scores in quiz
 ]
 
 prolific_avg_grade_per_q_stderrs = [
@@ -495,11 +498,15 @@ prolific_condition_stats, prolific_question_stats = grading_stats.score_stats(
 )
 
 University_Name_avg_grade_per_q = [
-    np.average(q_scores) for quiz in University_Name_q_scores_per_quiz for q_scores in quiz
+    float(np.average(q_scores))
+    for quiz in University_Name_q_scores_per_quiz
+    for q_scores in quiz
 ]
 
 University_Name_avg_grade_per_q_stds = [
-    np.std(q_scores) for quiz in University_Name_q_scores_per_quiz for q_scores in quiz
+    float(np.std(q_scores))
+    for quiz in University_Name_q_scores_per_quiz
+    for q_scores in quiz
 ]
 
 University_Name_avg_grade_per_q_stderrs = [
@@ -508,12 +515,14 @@ University_Name_avg_grade_per_q_stderrs = [
     for q_scores in quiz
 ]
 
-University_Name_condition_stats, University_Name_question_stats = grading_stats.score_stats(
-    University_Name_avg_grade_per_q,
-    University_Name_avg_grade_per_q_stds,
-    University_Name_avg_grade_per_q_stderrs,
-    experiment_conditions,
-    questions_per_quiz,
+University_Name_condition_stats, University_Name_question_stats = (
+    grading_stats.score_stats(
+        University_Name_avg_grade_per_q,
+        University_Name_avg_grade_per_q_stds,
+        University_Name_avg_grade_per_q_stderrs,
+        experiment_conditions,
+        questions_per_quiz,
+    )
 )
 
 incorrect_response_categories = {
@@ -521,6 +530,7 @@ incorrect_response_categories = {
     "GPT-4": [0, 0, 0, 0],
     "Human": [0, 0, 0, 0],
 }  # "*", "C K E", "Q Z I", "c c"
+
 
 def classify_incorrect_responses(incorrect_responses, model_name):
     for i in range(len(incorrect_responses)):
@@ -652,7 +662,7 @@ plotting.bar_plot(
 plotting.comparison_bar_plot(
     experiment_conditions,
     [
-        [np.mean(condition) if condition else 0 for condition in quiz]
+        [float(np.mean(condition)) if condition else 0 for condition in quiz]
         for quiz in University_Name_scores_grouped_by_quiz
     ],
     [
@@ -1226,16 +1236,18 @@ plotting.comparison_bar_plot(
 )
 
 # get the average accuracy (averaged over the average accuracy for each condition)
-University_Name_avg_avg = np.mean(University_Name_avgs_reordered)
-gpt4_avg_avg = np.mean(gpt4_avgs_reordered)
+University_Name_avg_avg = float(np.mean(University_Name_avgs_reordered))
+gpt4_avg_avg = float(np.mean(gpt4_avgs_reordered))
 
 # get differences from the average
-University_Name_diffs = [x - University_Name_avg_avg for x in University_Name_avgs_reordered]
+University_Name_diffs = [
+    x - University_Name_avg_avg for x in University_Name_avgs_reordered
+]
 gpt4_diffs = [x - gpt4_avg_avg for x in gpt4_avgs_reordered]
 
 # get the average absolute difference from the average
-University_Name_avg_abs_diff = np.mean([abs(x) for x in University_Name_diffs])
-gpt4_avg_abs_diff = np.mean([abs(x) for x in gpt4_diffs])
+University_Name_avg_abs_diff = float(np.mean([abs(x) for x in University_Name_diffs]))
+gpt4_avg_abs_diff = float(np.mean([abs(x) for x in gpt4_diffs]))
 
 University_Name_diffs.append(University_Name_avg_abs_diff)
 gpt4_diffs.append(gpt4_avg_abs_diff)
@@ -1478,7 +1490,7 @@ plotting.comparison_bar_plot(
         University_Name_failure_modes,
         gpt4_arrows_failure_modes,
     ],
-    [0] * 4,
+    [[0]] * 4,
     ["Human", "GPT-4"],
     "plots/phase_1/Failure_Modes.png",
     title="Failure Modes",
@@ -1550,12 +1562,12 @@ counter = 1
 
 
 def subplots_best_fit_and_points_plot(
-    slope: Number,
-    intercept: Number,
-    r: Number,
-    y_vals: List[Number],
+    slope: float,
+    intercept: float,
+    r: float,
+    y_vals: list[float],
     y_err: list,
-    i: Number,
+    i: float,
     title: str,
     suppress_xticks: bool,
     counter: int,
@@ -1636,9 +1648,9 @@ for i in range(len(experiment_conditions)):
         ]
     ):
         counter = subplots_best_fit_and_points_plot(
-            slope=stats["regressions"][i].slope,
-            intercept=stats["regressions"][i].intercept,
-            r=stats["regressions"][i].rvalue,
+            slope=stats["regressions"][i][0],
+            intercept=stats["regressions"][i][1],
+            r=stats["regressions"][i][2],
             y_vals=stats["avg_q_accuracy"][i],
             y_err=stats["stderrs_per_q_num"][i],
             i=(i + 1 + (8 * j)),
@@ -1843,9 +1855,9 @@ axes[0].set_ylabel("Human        ", rotation=0, fontsize=20)
 
 for i in range(len(experiment_conditions)):
     counter = subplots_best_fit_and_points_plot(
-        slope=University_Name_question_stats["regressions"][i].slope,
-        intercept=University_Name_question_stats["regressions"][i].intercept,
-        r=University_Name_question_stats["regressions"][i].rvalue,
+        slope=University_Name_question_stats["regressions"][i][0],
+        intercept=University_Name_question_stats["regressions"][i][1],
+        r=University_Name_question_stats["regressions"][i][2],
         y_vals=University_Name_question_stats["avg_q_accuracy"][i],
         y_err=University_Name_question_stats["stderrs_per_q_num"][i],
         i=(i + 1),
@@ -1865,7 +1877,7 @@ plt.close()
 ################################
 
 University_Name_df["respondent_scores"] = University_Name_df.apply(
-    lambda row: score_respondent_all(
+    lambda row: score_respondent_all(  # type: ignore
         row,
         University_Name_q_scores_per_quiz,
         University_Name_incorrect_responses,
@@ -1876,7 +1888,7 @@ University_Name_df["respondent_scores"] = University_Name_df.apply(
 
 
 prolific_df["respondent_scores"] = prolific_df.apply(
-    lambda row: score_respondent_all(
+    lambda row: score_respondent_all(  # type: ignore
         row,
         prolific_q_scores_per_quiz,
         prolific_incorrect_responses,
@@ -1918,9 +1930,7 @@ human_df_subset = human_df_exploded[
 
 all_subjects_df = pd.concat([all_subjects_df, human_df_subset])
 
-all_subjects_df = all_subjects_df.dropna(
-    subset=["quiz_number"]
-)
+all_subjects_df = all_subjects_df.dropna(subset=["quiz_number"])
 
 all_subjects_df["quiz_number"] = all_subjects_df["quiz_number"].astype(int)
 

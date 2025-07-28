@@ -1,13 +1,12 @@
 import ast
 from enum import Enum
 from numbers import Number
-from typing import Callable, Dict, List, Optional, Tuple
+from typing import Callable
 
 import numpy as np
 import pandas as pd
 import scipy.stats
 from Levenshtein import distance, ratio
-
 from quiz_generation import GROUNDINGS, SEPARATOR
 
 
@@ -18,35 +17,29 @@ class FailureMode(Enum):
     OTHER = 3
 
 
-def extract_content(response: str, first_and_last: bool = False) -> str | List[str]:
+def extract_content(response: str) -> str:
     """
     Extracts and returns the first contentful line in the response.
     """
     extracted_list = [s for s in response.replace(SEPARATOR, "\n").split("\n") if s]
-    if extracted_list:
-        extracted = (
-            [extracted_list[0], extracted_list[-1]]
-            if first_and_last
-            else extracted_list[0]
-        )
-    else:
-        extracted = [] if first_and_last else ""
-    return extracted
+    return extracted_list[0] if extracted_list else ""
 
 
-def is_correct(response: str, answer: str, first_and_last: bool = False) -> bool:
+def extract_content_fl(response: str) -> list[str]:
+    """
+    Extracts and returns the first and last contentful lines in the response.
+    """
+    extracted_list = [s for s in response.replace(SEPARATOR, "\n").split("\n") if s]
+    return [extracted_list[0], extracted_list[-1]] if extracted_list else []
+
+
+def is_correct(response: str, answer: str) -> bool:
     """
     Checks if the response matches the answer. Specifically,
     it checks the first contentful line in the response and
     compares it to the answer when both have all whitespace removed.
     """
-    if first_and_last:
-        for candidate in extract_content(response, first_and_last):
-            if "".join(candidate.split()) == "".join(answer.split()):
-                return True
-        return False
-    else:
-        return "".join(extract_content(response).split()) == "".join(answer.split())
+    return "".join(extract_content(response).split()) == "".join(answer.split())
 
 
 def indel_ratio(response: str, answer: str) -> float:
@@ -70,7 +63,7 @@ def is_scrambled(response: str, answer: str) -> bool:
     )
 
 
-def grounding_context(grounding: str) -> List[str]:
+def grounding_context(grounding: str) -> list[str]:
     """
     Takes one of the 16 groundings used in the pilot and returns a list of the
     3 other groundings associated with it (which would have been presented in a
@@ -102,8 +95,8 @@ def get_failure_mode(response: str, answer: str) -> FailureMode:
 def grade_charitably(
     response: str,
     answer: str,
-    pairs: List[Tuple[str, str]],
-    prompt: str = None,
+    pairs: list[tuple[str, str]],
+    prompt: str | None = None,
     case_sensitive: bool = False,
     grading_fxn: Callable[[str, str], bool] = is_correct,
     first_and_last: bool = False,
@@ -119,7 +112,13 @@ def grade_charitably(
             response = response[len(prompt) :]
     if not case_sensitive:
         response, answer = response.upper(), answer.upper()
-    if grading_fxn(response, answer, first_and_last):
+
+    result = (
+        any(grading_fxn(response, answer) for response in extract_content_fl(response))
+        if first_and_last
+        else grading_fxn(response, answer)
+    )
+    if result:
         return True
     elif len(pairs) == 0:
         return False
@@ -133,7 +132,7 @@ def grade_charitably(
                 first_and_last=first_and_last,
             )
             or grade_charitably(
-                response.replace(*pairs[0][::-1]),
+                response.replace(pairs[0][1], pairs[0][0]),
                 answer,
                 pairs[1:],
                 case_sensitive=case_sensitive,
@@ -150,7 +149,7 @@ def grade_charitably(
 
 
 def average_propagate_stds(
-    data: List[float], stds: List[float], stderrs: List[float]
+    data: list[float], stds: list[float], stderrs: list[float]
 ) -> tuple[float, float, float]:
     """
     Takes a list of data points, their standard deviations, and their standard errors and
@@ -164,47 +163,45 @@ def average_propagate_stds(
     std = np.divide(np.sqrt(np.sum(np.square(stds_np))), len(stds))
     stderr = np.divide(np.sqrt(np.sum(np.square(stderrs_np))), len(stderrs))
 
+    if not isinstance(mean, float):
+        raise TypeError("Mean should be a float.")
+
     return mean, std, stderr
 
 
-def summarize_participant_results(results: dict[str, list[float]]) -> tuple[float]:
+def summarize_participant_results(
+    results: dict[str, list[float]],
+) -> tuple[float, float, float]:
     """
     Summarizes results from a participant (formatted as the condition_stats dictionary from score_stats)
     by averaging the average scores from each condition with error propagation.
     """
     return average_propagate_stds(
-        *list(
-            map(
-                results.get,
-                [
-                    "avg_condition_accuracy",
-                    "stdevs_per_condition",
-                    "stderrs_per_condition",
-                ],
-            )
-        )
+        results.get("avg_condition_accuracy", []),
+        results.get("stdevs_per_condition", []),
+        results.get("stderrs_per_condition", []),
     )
 
 
 def score_stats(
-    avg_grade_per_q: List[Number],
-    avg_grade_per_q_stds: List[Number],
-    avg_grade_per_q_stderrs: List[Number],
-    experiment_conditions: List[str],
+    avg_grade_per_q: list[float],
+    avg_grade_per_q_stds: list[float],
+    avg_grade_per_q_stderrs: list[float],
+    experiment_conditions: list[str],
     questions_per_quiz: int,
     model_name=None,
-) -> Tuple[Dict[str, List], Dict[str, List]]:
+) -> tuple[dict[str, list[float]], dict[str, list[list[float]]]]:
     """
     Create and return two dictionaries containing stats based on
     the scoring information in avg_grade_per_q, the names of
     the experiment conditions, and the number of questions in a quiz.
     """
-    condition_stats = {
+    condition_stats: dict[str, list[float]] = {
         "avg_condition_accuracy": [],
         "stdevs_per_condition": [],
         "stderrs_per_condition": [],
     }
-    question_stats = {
+    question_stats: dict[str, list[list[float]]] = {
         "regressions": [],
         "avg_q_accuracy": [],
         "stdevs_per_q_num": [],
@@ -234,21 +231,25 @@ def score_stats(
 
         # y is the score per question in this condition, and the associated std per question (treating a q num in diff quizes as a diff question)
 
-        means_per_q_num = []
-        stds_per_q_num = []
-        stderrs_per_q_num = []
+        means_per_q_num: list[float] = []
+        stds_per_q_num: list[float] = []
+        stderrs_per_q_num: list[float] = []
         for i in range(questions_per_quiz):
             mean, std, stderr = average_propagate_stds(
-                y[i::questions_per_quiz].copy(),
-                y_stds[i::questions_per_quiz].copy(),
-                y_stderrs[i::questions_per_quiz].copy(),
+                y[i::questions_per_quiz].copy().tolist(),
+                y_stds[i::questions_per_quiz].copy().tolist(),
+                y_stderrs[i::questions_per_quiz].copy().tolist(),
             )
             means_per_q_num.append(mean)
             stds_per_q_num.append(std)
             stderrs_per_q_num.append(stderr)
 
+        reg_result = scipy.stats.linregress(
+            np.arange(len(means_per_q_num)), means_per_q_num
+        )
+
         question_stats["regressions"].append(
-            scipy.stats.linregress(np.arange(len(means_per_q_num)), means_per_q_num)
+            [reg_result.slope, reg_result.intercept, reg_result.rvalue]  # type: ignore
         )
         question_stats["avg_q_accuracy"].append(means_per_q_num)
         question_stats["stdevs_per_q_num"].append(stds_per_q_num)
@@ -269,9 +270,9 @@ def score_stats(
 
 
 def model_stats(
-    paths: List[str],
-    answer_key: List[Tuple[str, Optional[str], bool]],
-    experiment_conditions: List[str],
+    paths: list[str],
+    answer_key: list[tuple[str, str | None, bool]],
+    experiment_conditions: list[str],
     num_quizzes: int,
     questions_per_quiz: int,
     samples_per_q: int,
@@ -279,8 +280,12 @@ def model_stats(
     all_subjects_df,
     suppress_get_failure_modes=False,
     first_and_last: bool = False,
-) -> Tuple[
-    Dict[str, List], Dict[str, List], List[List[Tuple[int, str, str, str]]], List[int]
+) -> tuple[
+    dict[str, list[float]],
+    dict[str, list[list[float]]],
+    list[list[tuple[int, str, str, str]]],
+    list[float],
+    pd.DataFrame,
 ]:
     """
     Takes a list of paths to a text file of a model's responses to quizzes
@@ -295,8 +300,8 @@ def model_stats(
             responses += ast.literal_eval(f.read().split("printing all_responses")[1])
 
     model_grades = []
-    incorrect_responses: List[List[Tuple[int, str, str, str]]] = []
-    failure_modes: List[int] = [0 for _ in range(len(FailureMode))]
+    incorrect_responses: list[list[tuple[int, str, str, str]]] = []
+    failure_modes: list[float] = [0 for _ in range(len(FailureMode))]
     # scores (all 0 or 1) for each sampled response
     for quiz in range(num_quizzes):
         wrongs = []
@@ -361,13 +366,13 @@ def model_stats(
 
     # average score of sampled responses for each question
 
-    model_avg_grade_per_q = [
-        np.average(model_grades[i : i + samples_per_q])
+    model_avg_grade_per_q: list[float] = [
+        np.average(model_grades[i : i + samples_per_q])  # type: ignore
         for i in range(0, len(model_grades), samples_per_q)
     ]
 
-    model_avg_grade_per_q_stds = [
-        np.std(model_grades[i : i + samples_per_q])
+    model_avg_grade_per_q_stds: list[float] = [
+        np.std(model_grades[i : i + samples_per_q])  # type: ignore
         for i in range(0, len(model_grades), samples_per_q)
     ]
 
@@ -394,7 +399,7 @@ def model_stats(
     )
 
 
-PILOT_ANSWERS: List[Tuple[str, Optional[str], bool]] = [
+PILOT_ANSWERS: list[list[tuple[str, str | None, bool]]] = [
     [
         ("C % K % E", "oval => ", False),
         ("c c", "woman => ", True),
@@ -489,7 +494,7 @@ PILOT_ANSWERS: List[Tuple[str, Optional[str], bool]] = [
     ],
 ]
 
-FOLLOWUP_ANSWERS: List[Tuple[str, Optional[str], bool]] = [
+FOLLOWUP_ANSWERS: list[list[tuple[str, str | None, bool]]] = [
     [
         ("C % K % E", None, False),
         ("c c", None, True),
@@ -528,7 +533,7 @@ FOLLOWUP_ANSWERS: List[Tuple[str, Optional[str], bool]] = [
     ],
 ]
 
-PHASE_2_ANSWERS: List[Tuple[str, Optional[str], bool]] = [
+PHASE_2_ANSWERS: list[list[tuple[str, str | None, bool]]] = [
     [
         ("*", "human => ", False),
         ("!", "unicycle => ", False),

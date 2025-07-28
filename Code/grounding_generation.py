@@ -91,7 +91,7 @@ def replace(to_replace: str, replace_with: str) -> Callable[[str], str]:
     return replacer
 
 
-def surround(left: str, right: str = None) -> Callable[[str], str]:
+def surround(left: str, right: str | None = None) -> Callable[[str], str]:
     """Returns a function that surrounds a grounding with left and right, or left on both sides if only one string is provided."""
 
     def surrounder(grounding: str) -> str:
@@ -156,7 +156,7 @@ def generate_groundings(
     seed: str,
     row_function: Callable[[str], str],
     col_function: Callable[[str], str],
-    shape: Tuple[int] = (2, 2),
+    shape: Tuple[int, int] = (2, 2),
 ) -> npt.NDArray:
     """
     Takes a seed grounding string, a function to apply across rows, and a function to apply down columns,
@@ -181,14 +181,14 @@ def generate_groundings(
         for _ in range(shape[1] - 1):
             col_based[row].append(row_function(col_based[row][-1]))
 
-    row_based = np.array(row_based)
-    col_based = np.array(col_based)
+    row_based_arr = np.array(row_based)
+    col_based_arr = np.array(col_based)
 
-    if not np.array_equal(row_based, col_based):
+    if not np.array_equal(row_based_arr, col_based_arr):
         raise RuntimeError(
             f"Applying the row and column functions in different orders produces mismatched results:\n{row_based}\n{col_based}"
         )
-    if len(np.unique(row_based)) != np.size(row_based):
+    if len(np.unique(row_based_arr)) != np.size(row_based_arr):
         raise RuntimeError(f"Functions produced duplicate groundings.")
 
-    return row_based
+    return row_based_arr
