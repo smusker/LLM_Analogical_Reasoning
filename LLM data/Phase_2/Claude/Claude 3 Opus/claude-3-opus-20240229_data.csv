@@ -1,0 +1,116 @@
+categorial,multi_attribute,numeric,numeric_multi_attribute,relational
+"['chicken => !\nspider => !\ncat => *\nhorse => *\nant => !\ndog => *\nbee => !\nhuman => ', 'car => *\ntricycle => !\nmotorcycle => *\nskateboard => !\nbicycle => !\nunicycle => ', 'dime => *\nfeet => &\ninches => &\nquarter => *\ndollar => *\nweek => !\nday => ', 'headband => !\nt-shirt => !\ndonut => *\npants => !\npower outlet => ', 'day => !\nweek => !\nquarter => *\ndime => *\nfeet => &\ninches => &\ndollar => ', 'unicycle => !\ncar => *\ntricycle => !\nmotorcycle => *\nskateboard => !\nbicycle => ', 'power outlet => *\nheadband => !\npants => !\nt-shirt => !\ndonut => ', 'ant => !\nbee => !\ncat => *\nhorse => *\nspider => !\ndog => *\nchicken => !\nhuman => ']","['grandfather => !\ngrandmother => *\nmother => * *\nfather => ! !\nbrother => ! ! !\nsister => ', 'circle => ! !\npyramid => * * *\nsphere => ! ! !\ncone => ! ! !\ncube => * * *\nsemicircle => ! !\nsquare => ', 'headphones => ( ! )\nradio => ( ! )\nprojector => ( * )\ncamera => [ * ]\nspeaker => ( ! )\nscreen => ( * )\neye => [ * ]\nmicrophone => ', 'poker => [ ! ]\nfootball => ( * )\nbasketball => ( ! )\nboxing => [ ! ]\nchess => [ ! ]\nhockey => ( ! )\nbaseball => ( * )\nsoccer => ( * )\nwrestling => [ ! ]\ngolf => ', 'hockey => ( ! )\nmarathon => [ * ]\nfootball => ( * )\nbaseball => ( * )\ntag => [ * ]\nsoccer => ( * )\nbasketball => ( ! )\nskiing => [ * ]\ngolf => [ * ]\nchess => ', 'pyramid => * * *\nsphere => ! ! !\nsquare => * *\ntriangle => * *\ncone => ! ! !\ncube => * * *\npentagon => * *\ncircle => ', 'father => ! !\nmother => * *\ngrandfather => !\nbrother => ! ! !\ngrandmother => *\nsister => ', 'ear => [ ! ]\nheadphones => ( ! )\ncamera => [ * ]\nradio => ( ! )\neye => [ * ]\nspeaker => ( ! )\nmicrophone => [ ! ]\nscreen => ']","['feet => *\ninches => * * * * * * * * * * * *\nquarter => * * * *\ndollar => *\ndime => * * * * * * * * * *\nweek => *\nday => ', 'car => * * * *\ntricycle => * * *\nmotorcycle => * *\nbicycle => * *\nskateboard => * * * *\nunicycle => ', 'chicken => * *\nhuman => * *\ndog => * * * *\nspider => * * * * * * * *\ncat => * * * *\nhorse => * * * *\nbee => ', 'pants => * * *\npower outlet => * * *\nt-shirt => * * * *\nheadband => ', 'spider => * * * * * * * *\nhuman => * *\ncat => * * * *\nchicken => * *\ndog => * * * *\nhorse => * * * *\nbee => ', 'motorcycle => * *\ntricycle => * * *\nbicycle => * *\nunicycle => *\ncar => ', 'donut => *\npants => * * *\npower outlet => * * *\nheadband => *\nt-shirt => ', 'quarter => * * * *\ndime => * * * * * * * * * *\nday => * * * * * * *\ninches => * * * * * * * * * * * *\nweek => ']","['horse => * * * *\ncat => * * * *\nant => ! ! ! ! ! !\nbee => ! ! ! ! ! !\nchicken => ! !\nspider => ! ! ! ! ! ! ! !\ndog => * * * *\nhuman => ', 'motorcycle => * *\nunicycle => !\ntricycle => ! ! !\nskateboard => ! ! ! !\ncar => * * * *\nbicycle => ', 'day => ! ! ! ! ! ! !\ndollar => *\ndime => * * * * * * * * * *\nquarter => * * * *\nweek => !\ninches => & & & & & & & & & & & &\nfeet => ', 'pants => ! ! !\ndonut => *\nheadband => !\npower outlet => * * *\nt-shirt => ', 'headband => !\ndonut => *\npants => ! ! !\nt-shirt => ! ! ! !\npower outlet => ', 'quarter => * * * *\ndime => * * * * * * * * * *\ninches => & & & & & & & & & & & &\nday => ! ! ! ! ! ! !\ndollar => *\nfeet => &\nweek => ', 'human => * *\ndog => * * * *\nbee => ! ! ! ! ! !\nhorse => * * * *\ncat => * * * *\nspider => ! ! ! ! ! ! ! !\nant => ! ! ! ! ! !\nchicken => ', 'motorcycle => * *\nbicycle => ! !\nskateboard => ! ! ! !\ntricycle => ! ! !\ncar => * * * *\nunicycle => ']","['pants => H # H\nglove => X # X\ntorso => V\nfoot => Z\nhead => M\nshirt => V # V\nhat => \n', 'screwdriver => P\nnut => [ I ]\nnail => [ D ]\nleaf => [ L ]\ntree => [ Y ]\nwrench => I\naxe => \n', 'yes => M\nup => B\nnorth => C\neast => H\nleft => W\ndown => B ; ;\nsouth => \n', 'piglet => D D D\ndog => X\npig => D\ncalf => P P P\nkitten => E E E\nchick => N N N\ncow => \n', 'screwdriver => J\naxe => A\nhammer => H\nwrench => O\nnut => . . O .\nleaf => . . K .\nrake => \n', 'left => T\nnorth => P\ndown => V V V\nno => O O O\nyes => O\neast => C\nwest => \n', 'calf => % F\nchicken => V\ncat => T\nchick => % V\npuppy => % P\npig => W\ndog => \n', 'head => J\nlegs => K\nshirt => [ X ]\nhand => R\nglove => [ R ]\nfoot => G\npants => \n']"
+"['*', '!', '!', '*', '*', '!', '*', '*']","['* * *', '* *', '[ ! ]', '[ * ]', '[ ! ]', '! !', '* * *', '( * )']","['* * * * * * *', '*', '* * * * * *', '*', '* * * * * *', '* * * *', '* * * *', '*']","['* *', '! !', '&', '! ! ! !', '* * *', '!', '! !', '!']","['M # M', 'Y', 'C ; ;', 'P', 'K', 'C C C', 'P', '[ K ]']"
+*,*,*,*,*,!,!,!,!,!,!,!,!,!,!,⚡,?,🔌,⚪,⚡,$,$,$,$,$,*,*,*,*,*,🍩,🍩,*,*,*,*,*,*,*,&,* * *,* * *,* * *,* * *,* * *,* *,* * * *,* *,* *,* *,[ ! ],[ ! ],[ ! ],[ ! ],[ ! ],( * ),( * ),( * ),( * ),( * ),[ ! ],[ ! ],[ ! ],[ ! ],[ ! ],! ! !,! ! !,! ! !,! ! !,! ! !,* * *,* * *,* * *,* * *,* * *,[ * ],[ * ],[ * ],[ * ],[ * ],* * * * * * *,* * * * * * *,* * * * * * *,* * * * * * *,* * * * * * *,*,*,*,*,*,* *,* * * * * *,* *,* * * * * *,* *,*,*,*,*,*,* *,* *,* *,* *,* *,* * * *,* * * *,* * * *,* * * *,* * * *,* *,* *,* *,* *,* *,* * * * * * *,* * * * * * * * * * * * * * * * * * * * * * * * * * * * *,* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *,* * * * * * * * * * * * * * * * * * * * * * * * * * * * *,* * * * * * *,* * * *,* *,* * ,* * * *,* * ,! !,! !,! !,! !,! !,&,&,&,"Here is my response for Question 3:
+
+&",&,! !,! !,! !,! !,! !,:,⚡️ ⚡️ ⚡️ ⚡️ ⚡️,****,:,:,! ! ! ! ! ! ! !,! ! ! ! ! ! ! !,! ! ! ! ! ! ! !,! ! ! ! ! ! ! !,! ! ! ! ! ! ! !,🐔🐔,🐔🐔,🐔🐔,* *,🐔🐔,!,!,!,!,!,/\,^,Δ,Δ,Δ,"Question 1:
+M # M
+
+Question 2:
+Y","Question 1:
+M # M
+
+Question 2:
+Y","Question 1:
+M # M
+
+Question 2:
+Y","Question 1:
+M # M
+
+Question 2:
+Y","Question 1:
+M # M
+
+Question 2:
+Y","Question 1:
+M # M
+
+Question 2:
+Y
+
+Question 3:
+C ; ;","Question 1:
+M # M
+
+Question 2:
+Y
+
+Question 3:
+C ; ;","Question 1:
+M # M
+
+Question 2:
+Y
+
+Question 3:
+C ; ;","Question 1:
+M # M
+
+Question 2:
+Y
+
+Question 3:
+C ; ;","Question 1:
+M
+#
+M
+
+Question 2:
+Y
+
+Question 3:
+C
+;
+;","Question 1:
+M # M
+
+Question 2:
+Y
+
+Question 3:
+C ; ;
+
+Question 4:
+P","Question 1:
+M # M
+
+Question 2:
+Y
+
+Question 3:
+C ; ;
+
+Question 4:
+P","Question 1:
+M # M
+
+Question 2:
+T
+
+Question 3:
+C ; ;
+
+Question 4:
+P","Question 1:
+M # M
+
+Question 2:
+T
+
+Question 3:
+C ; ;
+
+Question 4:
+P","Question 1:
+M # M
+
+Question 2:
+Y
+
+Question 3:
+C ; ;
+
+Question 4:
+P",. . R .,. . R .,. . R .,. . R .,. . R .,C C C,C C C,"Question 2:
+west => M",C C C,C C C,P,P,P,P,P,[ K ],[ K ],[ K ],[ K ],[ K ]

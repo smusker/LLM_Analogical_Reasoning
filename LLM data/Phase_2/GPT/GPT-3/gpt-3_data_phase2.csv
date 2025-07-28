@@ -1,0 +1,451 @@
+categorial,multi_attribute,numeric,numeric_multi_attribute,relational
+"['chicken => !\r\nspider => !\r\ncat => *\r\nhorse => *\r\nant => !\r\ndog => *\r\nbee => !\r\nhuman => ', 'car => *\r\ntricycle => !\r\nmotorcycle => *\r\nskateboard => !\r\nbicycle => !\r\nunicycle => ', 'dime => *\r\nfeet => &\r\ninches => &\r\nquarter => *\r\ndollar => *\r\nweek => !\r\nday => ', 'headband => !\r\nt-shirt => !\r\ndonut => *\r\npants => !\r\npower outlet => ', 'day => !\r\nweek => !\r\nquarter => *\r\ndime => *\r\nfeet => &\r\ninches => &\r\ndollar => ', 'unicycle => !\r\ncar => *\r\ntricycle => !\r\nmotorcycle => *\r\nskateboard => !\r\nbicycle => ', 'power outlet => *\r\nheadband => !\r\npants => !\r\nt-shirt => !\r\ndonut => ', 'ant => !\r\nbee => !\r\ncat => *\r\nhorse => *\r\nspider => !\r\ndog => *\r\nchicken => !\r\nhuman => ']","['grandfather => !\r\ngrandmother => *\r\nmother => * *\r\nfather => ! !\r\nbrother => ! ! !\r\nsister => ', 'circle => ! !\r\npyramid => * * *\r\nsphere => ! ! !\r\ncone => ! ! !\r\ncube => * * *\r\nsemicircle => ! !\r\nsquare => ', 'headphones => ( ! )\r\nradio => ( ! )\r\nprojector => ( * )\r\ncamera => [ * ]\r\nspeaker => ( ! )\r\nscreen => ( * )\r\neye => [ * ]\r\nmicrophone => ', 'poker => [ ! ]\r\nfootball => ( * )\r\nbasketball => ( ! )\r\nboxing => [ ! ]\r\nchess => [ ! ]\r\nhockey => ( ! )\r\nbaseball => ( * )\r\nsoccer => ( * )\r\nwrestling => [ ! ]\r\ngolf => ', 'hockey => ( ! )\r\nmarathon => [ * ]\r\nfootball => ( * )\r\nbaseball => ( * )\r\ntag => [ * ]\r\nsoccer => ( * )\r\nbasketball => ( ! )\r\nskiing => [ * ]\r\ngolf => [ * ]\r\nchess => ', 'pyramid => * * *\r\nsphere => ! ! !\r\nsquare => * *\r\ntriangle => * *\r\ncone => ! ! !\r\ncube => * * *\r\npentagon => * *\r\ncircle => ', 'father => ! !\r\nmother => * *\r\ngrandfather => !\r\nbrother => ! ! !\r\ngrandmother => *\r\nsister => ', 'ear => [ ! ]\r\nheadphones => ( ! )\r\ncamera => [ * ]\r\nradio => ( ! )\r\neye => [ * ]\r\nspeaker => ( ! )\r\nmicrophone => [ ! ]\r\nscreen => ']","['feet => *\r\ninches => * * * * * * * * * * * *\r\nquarter => * * * *\r\ndollar => *\r\ndime => * * * * * * * * * *\r\nweek => *\r\nday => ', 'car => * * * *\r\ntricycle => * * *\r\nmotorcycle => * *\r\nbicycle => * *\r\nskateboard => * * * *\r\nunicycle => ', 'chicken => * *\r\nhuman => * *\r\ndog => * * * *\r\nspider => * * * * * * * *\r\ncat => * * * *\r\nhorse => * * * *\r\nbee => ', 'pants => * * *\r\npower outlet => * * *\r\nt-shirt => * * * *\r\nheadband => ', 'spider => * * * * * * * *\r\nhuman => * *\r\ncat => * * * *\r\nchicken => * *\r\ndog => * * * *\r\nhorse => * * * *\r\nbee => ', 'motorcycle => * *\r\ntricycle => * * *\r\nbicycle => * *\r\nunicycle => *\r\ncar => ', 'donut => *\r\npants => * * *\r\npower outlet => * * *\r\nheadband => *\r\nt-shirt => ', 'quarter => * * * *\r\ndime => * * * * * * * * * *\r\nday => * * * * * * *\r\ninches => * * * * * * * * * * * *\r\nweek => ']","['horse => * * * *\r\ncat => * * * *\r\nant => ! ! ! ! ! !\r\nbee => ! ! ! ! ! !\r\nchicken => ! !\r\nspider => ! ! ! ! ! ! ! !\r\ndog => * * * *\r\nhuman => ', 'motorcycle => * *\r\nunicycle => !\r\ntricycle => ! ! !\r\nskateboard => ! ! ! !\r\ncar => * * * *\r\nbicycle => ', 'day => ! ! ! ! ! ! !\r\ndollar => *\r\ndime => * * * * * * * * * *\r\nquarter => * * * *\r\nweek => !\r\ninches => & & & & & & & & & & & &\r\nfeet => ', 'pants => ! ! !\r\ndonut => *\r\nheadband => !\r\npower outlet => * * *\r\nt-shirt => ', 'headband => !\r\ndonut => *\r\npants => ! ! !\r\nt-shirt => ! ! ! !\r\npower outlet => ', 'quarter => * * * *\r\ndime => * * * * * * * * * *\r\ninches => & & & & & & & & & & & &\r\nday => ! ! ! ! ! ! !\r\ndollar => *\r\nfeet => &\r\nweek => ', 'human => * *\r\ndog => * * * *\r\nbee => ! ! ! ! ! !\r\nhorse => * * * *\r\ncat => * * * *\r\nspider => ! ! ! ! ! ! ! !\r\nant => ! ! ! ! ! !\r\nchicken => ', 'motorcycle => * *\r\nbicycle => ! !\r\nskateboard => ! ! ! !\r\ntricycle => ! ! !\r\ncar => * * * *\r\nunicycle => ']","['pants => H # H\nglove => X # X\ntorso => V\nfoot => Z\nhead => M\nshirt => V # V\nhat => ', 'screwdriver => P\nnut => [ I ]\nnail => [ D ]\nleaf => [ L ]\ntree => [ Y ]\nwrench => I\naxe => ', 'yes => M\nup => B\nnorth => C\neast => H\nleft => W\ndown => B ; ;\nsouth => ', 'piglet => D D D\ndog => X\npig => D\ncalf => P P P\nkitten => E E E\nchick => N N N\ncow => ', 'screwdriver => J\naxe => A\nhammer => H\nwrench => O\nnut => . . O .\nleaf => . . K .\nrake => ', 'left => T\nnorth => P\ndown => V V V\nno => O O O\nyes => O\neast => C\nwest => ', 'calf => % F\nchicken => V\ncat => T\nchick => % V\npuppy => % P\npig => W\ndog => ', 'head => J\nlegs => K\nshirt => [ X ]\nhand => R\nglove => [ R ]\nfoot => G\npants => ']"
+"['*', '!', '!', '*', '*', '!', '*', '*']","['* * *', '* *', '[ ! ]', '[ * ]', '[ ! ]', '! !', '* * *', '( * )']","['* * * * * * *', '*', '* * * * * *', '*', '* * * * * *', '* * * *', '* * * *', '*']","['* *', '! !', '&', '! ! ! !', '* * *', '!', '! !', '!']","['M # M', 'Y', 'C ; ;', 'P', 'K', 'C C C', 'P', '[ K ]']"
+"! means the animal cannot lay eggs
+* means the animal can lay eggs",!,"! means that the animal cannot lay eggs
+* means that the animal can lay eggs","! means the animal cannot lay eggs
+* means the animal can lay eggs",!,"Question 3:
+
+Question 4:",!,"Question 3:
+
+cup => *
+bowl => !
+plate => !
+silverware => !","Question 3:
+
+left => right
+up => down
+north => south
+east => west","Question 3:
+
+Question 4:
+
+Question 5:","Question 4:
+
+4 => *
+5 => *
+6 => *
+7 => *
+8","!
+*
+&","Question 4:
+
+2 => *
+3 => *
+4 => *
+5 => *
+6","! means that the item does not belong
+* means that the item belongs
+& means that the item belongs","Question 1:
+
+
+
+Question 2:
+
+
+
+Question 3:","Question 5:
+
+8 => *
+12 => *
+13 => !
+6 => *
+3","!= no
+*= yes
+&= part",!,"! means the object cannot be drawn
+* means the object can be drawn
+& means the object can be","! means that the object does not typically go on the body
+* means that the object typically goes on the",!&,"!
+!
+*
+*
+&
+&
+$","!
+*
+&","!
+*
+&",$,"Question 3:
+
+cat => *
+bat => !
+rat => !
+mat => *
+hat","Question 3:
+
+up => !
+down => !
+left => !
+right => !","Question 3:
+
+Question 4:
+
+Question 5:","Question 3:
+
+leaves => !
+branch => *
+flowers => !
+tree =>","Question 3:
+
+apple => fruit
+pear => fruit
+banana => fruit
+strawberry",!,"Question 4:
+
+
+water => *
+fire => &
+wind => &","! = no change
+* = change
+& = add","! means that the object does not go with the rest of the objects
+* means that the object goes with","Question 4:
+
+fire => *
+brick => *
+tree => *
+
+Question 5:","Question 5:
+
+The last drawing is a human.","Question 5:
+
+The last drawing would be a human.","Question 5:
+
+The last drawing would be a human.","Question 5:
+
+The final drawing would be a human.","Question 5:
+
+The last drawing should be a human.",! ! !,! ! ! !,! ! ! !,! ! ! ! ! !,! ! ! !,* *,* *,* *,* *,*,( ! ),( ! ),( ! ),( ! ),( ! ),( ! ),( ! ),( ! ),( ! ),( ! ),"( ! )
+
+
+
+( ! )","( ! )
+
+( ! )","( * )
+
+!","( ! )
+
+!","( ! )
+
+!","*
+
+Question 3:
+
+( ! )","*
+
+Question 3:
+
+A)
+
+
+B)
+
+C)
+
+D)",! ! !,"Question 3:
+
+hockey => ( ! )
+marathon => [ * ]
+football => (","*
+
+Question 3:
+A => [ * ]
+B => [ * ]
+C => [ * ]","* *
+
+Question 4:
+
+dog => *
+cat => * *
+mouse => !
+
+Question","* * *
+
+Question 4:
+
+Question 5:
+
+Question 6:
+
+Question 7:","* *
+daughter => *
+uncle => ! !
+
+Question 4:
+
+car => [ ! ]","Question 4:
+
+hut => ( ! )
+igloo => [ * ]
+teepee",* * *,"[ * ]
+
+Question 5:
+
+cat => [ * ]
+dog => [ ! ]
+mouse =>","[ * ]
+
+Question 5:
+
+tire => ( * )
+wheel => [ * ]
+ax","[ * ]
+
+Question 5:
+The words in each row are antonyms.
+
+hot =>","[ * ]
+
+Question 5:
+The first drawing is a soccer ball.
+
+The second drawing is a","[ * ]
+
+Question 5:
+
+carrots => * * *
+celery => ! ! !",* * * * * * * * * * * * * * * * * * * * * *,"*
+
+Question 2:
+
+dog => *
+bark => *
+
+dog barking","* *
+
+Question 2:
+
+A.
+
+
+B.
+
+
+C.
+
+
+D.","Question 2:
+2 => * *
+4 => * * * *
+8 => * * * *","*
+
+Question 2:
+
+Question 3:","* * *
+
+Question 3:
+The figure on the left is a _____ and the figure on the right",*,* * *,*,*,* * * *,* * * *,* * * * * * *,"Question 4:
+brick => * * * * *
+stone => * * * * *
+pe",*,"Question 5:
+apple => *
+orange => * *
+lemon => *
+watermelon => *",shorts => *,sneaker => * * * * * * *,"Question 5:
+8 => * *
+38 => * * * *
+54 => * * * *",boots => * * *,* * *,* * * * *,* * * * * * * * *,* * *,* *,"* *  *
+
+Question 3:
+apple => *
+orange => * *
+lemon => *",* * * * *,"* * * * *
+
+Question 3:
+
+drum => * * *
+guitar => *",* * * * *,* * * *,"Question 4:
+
+Parents => 
+
+Children =>",* * * * *,"Question 4:
+cow => * * * *
+pig => * * *
+chicken => *",* * *,"* * *
+
+Question 4:
+cow => * * * *
+pig => * * *
+she","* * * * *
+
+Question 5:
+happy => * * * * *
+sad => * *",* * * * * * * * * *,"* * * * *
+
+Question 5:
+The following is an incomplete series of numbers. What is the next",* * * * * * * *,"Question 5:
+
+dandelion => * * * * * *
+rose => * * * *",! ! ! ! ! ! !,"**********
+
+! ! ! ! ! ! ! ! !",! ! ! ! ! ! ! ! !,! ! ! ! ! ! ! ! !,! ! ! ! ! ! ! ! !,"Question 3:
+The first two are 
+The last one is","Question 3:
+The first two drawings are of a dog and a cat.
+
+The last drawing is",! ! !,! ! !,! ! !,"& & & & & & & & &
+
+Question 4:
+
+molecule => ! ! ! !","& & & & & & & &
+
+Question 4:
+
+4 => *
+5 => * *","Question 4:
+tree => ! ! ! ! ! ! !
+branch => & & & & &","& & & & & & & &
+
+Question 4:
+
+clockwise => ! ! ! ! ! !","& & & & & & & &
+
+Question 4:
+
+pencil => *
+pen => * *","!!!
+
+Question 5:
+
+window => * * * *
+door => * *
+curtains =>","Question 5:
+
+plant => * * * *
+flower => ! ! ! !
+tree => *","!!!
+
+Question 5:
+
+The last drawing should be of a person with a t-shirt and pants.","!!!
+
+Question 5:
+
+Question 5:
+
+dolphin => ! !
+whale => * *","! ! ! !
+
+Question 5:
+
+Question 5:
+
+Draw a pair of pants.",! ! ! ! !,! ! ! ! ! !,! ! ! ! !,! ! ! ! !,! ! ! ! !,!!!,!!!,!!!,!!!!!!,"!!!
+
+Question 1:
+
+! ! ! ! !
+
+Question 2:
+
+& & & &",* * * * * * * *,"* * * * *
+
+Question 4:
+
+1 => !
+2 => ! !
+3 => !",* * * * * *,"* * * * *
+
+Question 4:
+
+Which one of the following does not belong?
+
+A",* * * * * *,"Question 5:
+
+bed => ! ! ! !
+pillow => *
+couch => ! !",!!!,!!!,"Question 5:
+juice => * *
+milk => !
+tea => * * *","Question 5:
+H2O => * * *
+CO2 => *
+N2 => *","M, V, H, X, Z","Question 2:
+
+mouth => O
+cheek => 
+nose => 
+eye =>",# V,"Question 2:
+12 => 3
+9 => 2
+6 => 1
+3 => 
+
+Question",# V,D,D,"D
+
+Question 3:
+
+potato =>  O
+tomato => M
+carrot => C",D,D,"Question 4:
+
+The first picture is a tree.
+
+The second picture is a person.","C
+west => W","Question 4:
+
+3 =>
+
+2 =>
+
+1 =>
+
+0 =>
+
+-","Question 4:
+
+sun => K
+moon => D
+star => J
+
+Question 5:","Question 4:
+
+foot => Z
+sock => J
+shoe => A
+trouser","P
+
+Question 5:
+
+Question 5:
+
+cow => M
+chicken => B
+pig",P P P,P,"P
+
+Question 5:
+
+a => A
+b => B
+c => C
+d => D","P P P
+
+P P P",. . K .,. . R .,. . R .,. . . . . .,. . . . .,Right,Z,"Question 3:
+2 => M
+9 => I
+3 => E
+7 => 
+
+Question",. . O .,"Question 3:
+sun => Y
+moon => 
+
+Question 4:
+true => O
+false","D
+
+Question 4:
+
+I do not understand the question.",D,"D
+
+Question 4:
+
+a => A
+e => E
+i => I
+o => O",D,D,[ X ] [ R ],[ J K X R G ],[ K ],"[ X X ]
+
+Question 5:
+3 => T
+6 => X
+9 => W
+12 =>",[ X ] [ R ]

@@ -1,0 +1,262 @@
+categorial,multi_attribute,numeric,numeric_multi_attribute,relational
+"['chicken => !\nspider => !\ncat => *\nhorse => *\nant => !\ndog => *\nbee => !\nhuman => ', 'car => *\ntricycle => !\nmotorcycle => *\nskateboard => !\nbicycle => !\nunicycle => ', 'dime => *\nfeet => &\ninches => &\nquarter => *\ndollar => *\nweek => !\nday => ', 'headband => !\nt-shirt => !\ndonut => *\npants => !\npower outlet => ', 'day => !\nweek => !\nquarter => *\ndime => *\nfeet => &\ninches => &\ndollar => ', 'unicycle => !\ncar => *\ntricycle => !\nmotorcycle => *\nskateboard => !\nbicycle => ', 'power outlet => *\nheadband => !\npants => !\nt-shirt => !\ndonut => ', 'ant => !\nbee => !\ncat => *\nhorse => *\nspider => !\ndog => *\nchicken => !\nhuman => ']","['grandfather => !\ngrandmother => *\nmother => * *\nfather => ! !\nbrother => ! ! !\nsister => ', 'circle => ! !\npyramid => * * *\nsphere => ! ! !\ncone => ! ! !\ncube => * * *\nsemicircle => ! !\nsquare => ', 'headphones => ( ! )\nradio => ( ! )\nprojector => ( * )\ncamera => [ * ]\nspeaker => ( ! )\nscreen => ( * )\neye => [ * ]\nmicrophone => ', 'poker => [ ! ]\nfootball => ( * )\nbasketball => ( ! )\nboxing => [ ! ]\nchess => [ ! ]\nhockey => ( ! )\nbaseball => ( * )\nsoccer => ( * )\nwrestling => [ ! ]\ngolf => ', 'hockey => ( ! )\nmarathon => [ * ]\nfootball => ( * )\nbaseball => ( * )\ntag => [ * ]\nsoccer => ( * )\nbasketball => ( ! )\nskiing => [ * ]\ngolf => [ * ]\nchess => ', 'pyramid => * * *\nsphere => ! ! !\nsquare => * *\ntriangle => * *\ncone => ! ! !\ncube => * * *\npentagon => * *\ncircle => ', 'father => ! !\nmother => * *\ngrandfather => !\nbrother => ! ! !\ngrandmother => *\nsister => ', 'ear => [ ! ]\nheadphones => ( ! )\ncamera => [ * ]\nradio => ( ! )\neye => [ * ]\nspeaker => ( ! )\nmicrophone => [ ! ]\nscreen => ']","['feet => *\ninches => * * * * * * * * * * * *\nquarter => * * * *\ndollar => *\ndime => * * * * * * * * * *\nweek => *\nday => ', 'car => * * * *\ntricycle => * * *\nmotorcycle => * *\nbicycle => * *\nskateboard => * * * *\nunicycle => ', 'chicken => * *\nhuman => * *\ndog => * * * *\nspider => * * * * * * * *\ncat => * * * *\nhorse => * * * *\nbee => ', 'pants => * * *\npower outlet => * * *\nt-shirt => * * * *\nheadband => ', 'spider => * * * * * * * *\nhuman => * *\ncat => * * * *\nchicken => * *\ndog => * * * *\nhorse => * * * *\nbee => ', 'motorcycle => * *\ntricycle => * * *\nbicycle => * *\nunicycle => *\ncar => ', 'donut => *\npants => * * *\npower outlet => * * *\nheadband => *\nt-shirt => ', 'quarter => * * * *\ndime => * * * * * * * * * *\nday => * * * * * * *\ninches => * * * * * * * * * * * *\nweek => ']","['horse => * * * *\ncat => * * * *\nant => ! ! ! ! ! !\nbee => ! ! ! ! ! !\nchicken => ! !\nspider => ! ! ! ! ! ! ! !\ndog => * * * *\nhuman => ', 'motorcycle => * *\nunicycle => !\ntricycle => ! ! !\nskateboard => ! ! ! !\ncar => * * * *\nbicycle => ', 'day => ! ! ! ! ! ! !\ndollar => *\ndime => * * * * * * * * * *\nquarter => * * * *\nweek => !\ninches => & & & & & & & & & & & &\nfeet => ', 'pants => ! ! !\ndonut => *\nheadband => !\npower outlet => * * *\nt-shirt => ', 'headband => !\ndonut => *\npants => ! ! !\nt-shirt => ! ! ! !\npower outlet => ', 'quarter => * * * *\ndime => * * * * * * * * * *\ninches => & & & & & & & & & & & &\nday => ! ! ! ! ! ! !\ndollar => *\nfeet => &\nweek => ', 'human => * *\ndog => * * * *\nbee => ! ! ! ! ! !\nhorse => * * * *\ncat => * * * *\nspider => ! ! ! ! ! ! ! !\nant => ! ! ! ! ! !\nchicken => ', 'motorcycle => * *\nbicycle => ! !\nskateboard => ! ! ! !\ntricycle => ! ! !\ncar => * * * *\nunicycle => ']","['pants => H # H\nglove => X # X\ntorso => V\nfoot => Z\nhead => M\nshirt => V # V\nhat => \n', 'screwdriver => P\nnut => [ I ]\nnail => [ D ]\nleaf => [ L ]\ntree => [ Y ]\nwrench => I\naxe => \n', 'yes => M\nup => B\nnorth => C\neast => H\nleft => W\ndown => B ; ;\nsouth => \n', 'piglet => D D D\ndog => X\npig => D\ncalf => P P P\nkitten => E E E\nchick => N N N\ncow => \n', 'screwdriver => J\naxe => A\nhammer => H\nwrench => O\nnut => . . O .\nleaf => . . K .\nrake => \n', 'left => T\nnorth => P\ndown => V V V\nno => O O O\nyes => O\neast => C\nwest => \n', 'calf => % F\nchicken => V\ncat => T\nchick => % V\npuppy => % P\npig => W\ndog => \n', 'head => J\nlegs => K\nshirt => [ X ]\nhand => R\nglove => [ R ]\nfoot => G\npants => \n']"
+"['*', '!', '!', '*', '*', '!', '*', '*']","['* * *', '* *', '[ ! ]', '[ * ]', '[ ! ]', '! !', '* * *', '( * )']","['* * * * * * *', '*', '* * * * * *', '*', '* * * * * *', '* * * *', '* * * *', '*']","['* *', '! !', '&', '! ! ! !', '* * *', '!', '! !', '!']","['M # M', 'Y', 'C ; ;', 'P', 'K', 'C C C', 'P', '[ K ]']"
+ *, *, *, *, *, *, !, *, *, !, *, *, *, *, *, *, *, *, *, *, $, $, $, $, $, *, bicycle => !, *, bicycle => !, !, donut => !, !, *, Donut => !, donut => !, *, !, *, *, *, * * *, * * *, * * *, * * *, * * *, * * *, * * *, * * *, * * *, * * *, ( ! ), ( ! ), ( ! ), ( ! ), ( ! ), ( ! ), golf => ( ! ), golf => ( ! ), golf => ( ! )," Here are the completed drawings for each question:
+
+Question 1:
+grandfather => !  
+grandmother => *
+mother => * *
+father => ! !  
+brother => ! ! !
+sister => * * *
+
+Question 2:
+circle => ! !
+pyramid => * * *
+sphere => ! ! !
+cone => ! ! !  
+cube => * * *
+semicircle => ! !
+square => * *
+
+Question 3: 
+headphones => ( ! )
+radio => ( ! )
+projector => ( * )
+camera => [ * ]
+speaker => ( ! )
+screen => ( * )
+eye => [ * ]
+microphone => [ ! ]
+
+Question 4:
+poker => [ ! ]  
+football => ( * )
+basketball => ( ! )
+boxing => [ ! ]
+chess => [ ! ]
+hockey => ( ! )
+baseball => ( * )
+soccer => ( * )
+wrestling => [ ! ]
+golf => ( * )", ( ), ( ! ), ( ! ), ( ! ), !, !, !, !, !, !, !, *, !, !, *," Question 1:
+( ! )
+
+Question 2: 
+! ! !
+
+Question 3:
+*
+
+Question 4: 
+[ * ]", ( ! ), screen => [ * ], screen => [ * ], ( ! ), *, *, *, * * * * * * *, * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *, *, *, unicycle => *, unicycle => *, *, *, *, *, *, *, *," Question 1:
+week => *
+
+Question 2: 
+unicycle => *
+
+Question 3:
+horse => * * * * *
+
+Question 4: 
+headband => *"," Question 1:
+*
+
+Question 2: 
+*
+
+Question 3:
+* * * * * *
+
+Question 4: 
+* *"," Question 1: 
+year => *
+
+Question 2:
+bus => * * * * * 
+
+Question 3: 
+cow => * * * * *
+
+Question 4: 
+socks => * *"," Question 1:
+*
+
+Question 2: 
+*
+
+Question 3:
+* * * * * *
+
+Question 4: 
+* *", * *, *, *, *, *, *, *, *, *, *, *, *, *, *, *, * * * * * * *, * * * * * * *, * * * * * * *, * * * * * * *, * * * * * * *, ! !, ! !, ! !, ! !, ! !, ! !, ! !, ! !, ! !, ! !," Here are the completed drawings for each question:
+
+Question 1: 
+feet => & &
+
+Question 2:
+bicycle => ! ! 
+
+Question 3: 
+quarter => * * * *"," Question 1:
+* *
+
+Question 2: 
+! ! ! !
+
+Question 3:
+! ! ! ! ! !"," Question 1:
+*
+
+Question 2: 
+! ! ! !
+
+Question 3:
+! ! ! ! ! !"," Question 1:
+* *
+
+Question 2: 
+! ! ! !
+
+Question 3:
+! ! ! ! ! !"," Question 1:
+* *
+
+Question 2: 
+! ! ! !
+
+Question 3:
+! ! ! ! ! !"," Question 1:
+spider => ! ! ! ! ! ! ! !
+
+Question 2: 
+bicycle => ! !
+
+Question 3:
+week => !
+
+Question 4:
+t-shirt => !"," Question 1: sheep => ! ! ! !
+
+Question 2: bus => * * * *
+
+Question 3: year => ! ! ! ! ! ! ! ! ! ! ! ! !
+
+Question 4: socks => ! !"," Here are the completed drawings for each question:
+
+Question 1:
+human => * *
+
+Question 2: 
+bicycle => ! !
+
+Question 3:
+week => ! 
+
+Question 4:
+t-shirt => !"," Here are the completed drawings for each question:
+
+1) ! !
+2) ! ! ! ! ! 
+3) &
+4) ! ! ! ! ! ! ! !"," Question 1: 
+spider => ! ! ! ! ! ! ! !
+
+Question 2: 
+bicycle => ! !  
+
+Question 3: 
+week => ! ! ! ! ! ! !
+
+Question 4: 
+t-shirt => !", O, o, *, * * *, * * *, & & & & & & & & & & & & &, & & & & & & & & & & & & &, & & & & & & & & & & & & &, & & & & & & &, & & & & & & & & & & & & &, ! ! ! ! !, * * * * * * *, * * *, * * *, * * * *, unicycle => !, unicycle => !, !," Question 1:
+! ! ! !
+
+Question 2: 
+* * * * * * *
+
+Question 3:
+! ! ! ! ! ! ! !
+
+Question 4:
+!", unicycle => !, ^, M, M, M, M, [ X ], [ X ], [ X ], [ X ], [ X ], M, C, M, C, C," Question 1:
+hat => 
+M # M
+
+Question 2:
+axe => 
+Y
+
+Question 3: 
+south => 
+C ; ;
+
+Question 4:
+cow => 
+P P P"," Question 1:
+hat => 
+M # M
+
+Question 2: 
+axe =>
+Y
+
+Question 3:
+south =>  
+C ; ;
+
+Question 4:
+cow => 
+P P P"," Question 1:
+hat => 
+M # M
+
+Question 2:  
+axe =>
+Y
+
+Question 3:
+south =>
+C ; ; 
+
+Question 4:
+cow => 
+P P P"," Question 1:
+hat => 
+M # M
+
+Question 2:
+axe =>
+Y
+
+Question 3: 
+south =>
+C ; ;
+
+Question 4:
+cow => 
+D"," Question 1:
+hat => 
+M # M
+
+Question 2: 
+axe =>
+Y
+
+Question 3:
+south =>  
+C ; ;
+
+Question 4:
+cow => P P P", . . L ., . . C ., . . R ., . . R ., . . R ., O O O," Question 1:
+rake => K
+
+Question 2:
+west => C", C," Question 1:
+
+rake => K
+
+Question 2: 
+
+west => C", O O O, % D, % D, % D, % D, % D, [ G ], [ G ], [ G ], [ G G ], [ G ]

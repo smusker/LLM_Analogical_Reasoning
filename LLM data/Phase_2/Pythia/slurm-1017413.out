@@ -1,0 +1,2623 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 1017413
+##  Job Name : phase-1-pythia-12b-deduped
+##  Nodelist : gpu2110
+##      CPUs : 1
+##  Mem/Node : 122880 MB
+## Directory : /oscar/home/aduchnow/analogy_research/AnalogyGroundingResearch/model_serving/Pythia
+##   Job Started : Sat Mar  9 11:36:35 PM EST 2024
+###############################################################################
+✅︎ Modules Loaded
+
+Currently Loaded Modules:
+  1) python/3.9.16s-x3wdtvt        6) zlib/1.2.13-jv5y5e7
+  2) cuda/11.8.0-lpttyok           7) zstd/1.5.5-zokfqsc
+  3) cudnn/8.7.0.84-11.8-lg2dpd5   8) gcc/10.1.0-mojgbnp
+  4) gmp/6.2.1-qlaig4m             9) openssl/1.1.1t-u2rkdft
+  5) mpfr/4.2.0-n2tkxso
+
+ 
+
+✅︎ Transformers Cache Set
+✅︎ NLP Environment Activated\nRunning Code Now...
+START
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:03<00:06,  3.16s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:06<00:03,  3.14s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:07<00:00,  2.30s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:07<00:00,  2.53s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Model Loaded
+Tokenizer Loaded
+Loading categorial1
+Loading categorial2
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+chicken => !
+spider => !
+cat => *
+horse => *
+ant => !
+dog => *
+bee => !
+human => 
+
+--------- SAMPLED RESPONSE SET ---------
+stion 2:
+chicken =>!
+spider =>!
+cat => *
+horse => *
+ant
+----------------------------------------
+estion 2:
+sugar =>!
+milk =>!
+orange => *
+tea => *
+----------------------------------------
+stion 2:
+spider => *
+dog => *
+horse => *
+ant =>!
+cat =>
+----------------------------------------
+stion 2:
+(a) dog =>!
+(b) cat =>!
+(c) horse =>
+----------------------------------------
+stion 2:
+brick =>!
+garden =>!
+floor => 
+wall => 
+sky
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+chicken => !
+spider => !
+cat => *
+horse => *
+ant => !
+dog => *
+bee => !
+human => *
+
+Question 2:
+car => *
+tricycle => !
+motorcycle => *
+skateboard => !
+bicycle => !
+unicycle => 
+
+--------- SAMPLED RESPONSE SET ---------
+!
+
+Question 3:
+pencil => *
+eraser => *
+rubber => *
+----------------------------------------
+oat => *
+bus => *
+truck =>!
+train =>!
+airplane =>!
+
+----------------------------------------
+ard =>!
+sled => 
+moped => 
+motorboat => 
+motorboat
+----------------------------------------
+r =>!
+motorboat =>!
+motorcar =>!
+
+Question 3:
+tank =>
+----------------------------------------
+ycle => *
+
+Question 3:
+monkey => *
+elephant =>!
+cow =>
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+chicken => !
+spider => !
+cat => *
+horse => *
+ant => !
+dog => *
+bee => !
+human => *
+
+Question 2:
+car => *
+tricycle => !
+motorcycle => *
+skateboard => !
+bicycle => !
+unicycle => !
+
+Question 3:
+dime => *
+feet => &
+inches => &
+quarter => *
+dollar => *
+week => !
+day => 
+
+--------- SAMPLED RESPONSE SET ---------
+*
+month =>!
+
+Question 4:
+red =>!
+black =>!
+green =>
+----------------------------------------
+!
+year =>!
+
+We will also be taking a look at your reading comprehension. Below are
+----------------------------------------
+*
+month =>!
+
+Question 4:
+A => *
+B =>!
+C =>
+----------------------------------------
+
+hour =>!
+minute =>!
+second =>!
+
+Question 4:
+elephant
+----------------------------------------
+!
+year => *
+
+Question 4:
+wrench =>!
+screwdriver => *
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+chicken => !
+spider => !
+cat => *
+horse => *
+ant => !
+dog => *
+bee => !
+human => *
+
+Question 2:
+car => *
+tricycle => !
+motorcycle => *
+skateboard => !
+bicycle => !
+unicycle => !
+
+Question 3:
+dime => *
+feet => &
+inches => &
+quarter => *
+dollar => *
+week => !
+day => !
+
+Question 4:
+headband => !
+t-shirt => !
+donut => *
+pants => !
+power outlet => 
+
+--------- SAMPLED RESPONSE SET ---------
+uestion 5:
+bottle => *
+cup =>!
+glass => *
+
+----------------------------------------
+uestion 5:
+dish =>!
+bag =>!
+sauce =>
+----------------------------------------
+ypad => *
+
+Question 5:
+bike =>!
+boat =>!
+
+----------------------------------------
+!
+
+Question 5:
+shovel =>!
+couch =>!
+bed
+----------------------------------------
+=> 
+hairpin =>!
+
+Question 5:
+
+crown =>!
+
+Question
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+day => !
+week => !
+quarter => *
+dime => *
+feet => &
+inches => &
+dollar => 
+
+--------- SAMPLED RESPONSE SET ---------
+ime => *
+foot => &
+inch => &
+
+Question 2:
+
+Question 3:
+
+----------------------------------------
+ounds => ~
+
+Question 2:
+circle =>!
+square =>!
+triangle =>!
+rect
+----------------------------------------
+our =>!
+minute =>!
+second =>!
+year => 
+month => 
+week => 
+----------------------------------------
+ents => &
+
+Question 2:
+chair =>!
+table =>!
+desk => *
+floor
+----------------------------------------
+ent =>
+grain =>
+pound =>
+cup =>
+cups =>
+teaspoon =>
+tables
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+day => !
+week => !
+quarter => *
+dime => *
+feet => &
+inches => &
+dollar => *
+
+Question 2:
+unicycle => !
+car => *
+tricycle => !
+motorcycle => *
+skateboard => !
+bicycle => 
+
+--------- SAMPLED RESPONSE SET ---------
+cle =>!
+bicycle =>!
+bicycle =>!
+
+Question 3:
+
+----------------------------------------
+board =>!
+
+Question 3:
+apple => *
+banana => *
+cherry =>
+----------------------------------------
+ =>!
+
+Question 3:
+frog =>!
+horse =>!
+dog =>!
+p
+----------------------------------------
+et =>!
+umbrella => 
+stroller => 
+child =>!
+baby =>
+----------------------------------------
+e =>!
+mule => *
+
+Question 3:
+dog =>!
+cat =>!
+bird
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+day => !
+week => !
+quarter => *
+dime => *
+feet => &
+inches => &
+dollar => *
+
+Question 2:
+unicycle => !
+car => *
+tricycle => !
+motorcycle => *
+skateboard => !
+bicycle => !
+
+Question 3:
+power outlet => *
+headband => !
+pants => !
+t-shirt => !
+donut => 
+
+--------- SAMPLED RESPONSE SET ---------
+!
+
+Question 4:
+toothbrush => *
+shower =>!
+toe
+----------------------------------------
+!
+
+Question 4:
+
+Question 5:
+
+Question 6:
+
+Question 7
+----------------------------------------
+> *
+
+Question 4:
+pig =>!
+dog => *
+cat =>!
+
+----------------------------------------
+>!
+pizza =>!
+
+Question 4:
+shoe => *
+sneaker
+----------------------------------------
+
+Question 4:
+man => *
+woman => *
+girl => 
+boy =>
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+day => !
+week => !
+quarter => *
+dime => *
+feet => &
+inches => &
+dollar => *
+
+Question 2:
+unicycle => !
+car => *
+tricycle => !
+motorcycle => *
+skateboard => !
+bicycle => !
+
+Question 3:
+power outlet => *
+headband => !
+pants => !
+t-shirt => !
+donut => *
+
+Question 4:
+ant => !
+bee => !
+cat => *
+horse => *
+spider => !
+dog => *
+chicken => !
+human => 
+
+--------- SAMPLED RESPONSE SET ---------
+estion 5:
+pencil =>!
+eraser => *
+pen => *
+
+----------------------------------------
+
+
+Question 5:
+ball =>!
+rocket =>!
+car =>!
+
+----------------------------------------
+
+
+Question 5:
+car =>!
+house =>!
+cow =>!
+
+----------------------------------------
+uestion 5:
+broom =>!
+sledgehammer =>!
+ax =>
+----------------------------------------
+
+gorilla => 
+cow => *
+zebra =>!
+
+Question 5
+----------------------------------------
+Loading multi_attribute1
+Loading multi_attribute2
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+grandfather => !
+grandmother => *
+mother => * *
+father => ! !
+brother => ! ! !
+sister => 
+
+--------- SAMPLED RESPONSE SET ---------
+ers =>! *
+sister's husband =>!
+brother's wife =>!
+daughter => 
+
+----------------------------------------
+er :?!
+sister :?!?
+
+Question 2:
+grandfather =>!
+grand
+----------------------------------------
+er-in-law =>!!
+
+Question 2:
+bike => * *
+scooter =>
+----------------------------------------
+>! * *
+girl =>!! *
+
+Question 2:
+1. The number of people
+----------------------------------------
+ =>?
+grandmother's son =>?
+
+Question 2:
+cat => *
+dog =>
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+grandfather => !
+grandmother => *
+mother => * *
+father => ! !
+brother => ! ! !
+sister => * * *
+
+Question 2:
+circle => ! !
+pyramid => * * *
+sphere => ! ! !
+cone => ! ! !
+cube => * * *
+semicircle => ! !
+square => 
+
+--------- SAMPLED RESPONSE SET ---------
+
+Question 3:
+square =>!!
+triangle =>!!!
+c
+----------------------------------------
+
+
+Question 3:
+triangle =>!!!
+square =>!!!
+h
+----------------------------------------
+Question 4:
+car =>!!!
+airplane =>!!!
+
+----------------------------------------
+diamond =>!!!
+
+Question 3:
+circle =>!!
+diamond
+----------------------------------------
+angle => 
+cross =>!!
+
+Question 3:
+triangle => *!
+
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+grandfather => !
+grandmother => *
+mother => * *
+father => ! !
+brother => ! ! !
+sister => * * *
+
+Question 2:
+circle => ! !
+pyramid => * * *
+sphere => ! ! !
+cone => ! ! !
+cube => * * *
+semicircle => ! !
+square => * *
+
+Question 3:
+headphones => ( ! )
+radio => ( ! )
+projector => ( * )
+camera => [ * ]
+speaker => ( ! )
+screen => ( * )
+eye => [ * ]
+microphone => 
+
+--------- SAMPLED RESPONSE SET ---------
+door => (!! )
+window => (!! )
+
+----------------------------------------
+
+clock =>!!
+stopwatch =>!!
+watch =>!
+----------------------------------------
+se =>!!!
+dog => [ * ]
+cat => * [ *
+----------------------------------------
+board => ( * )
+
+Question 4:
+apple =>!!
+
+----------------------------------------
+ion 4:
+table => ( [ * ] )
+chair => ( * )
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+grandfather => !
+grandmother => *
+mother => * *
+father => ! !
+brother => ! ! !
+sister => * * *
+
+Question 2:
+circle => ! !
+pyramid => * * *
+sphere => ! ! !
+cone => ! ! !
+cube => * * *
+semicircle => ! !
+square => * *
+
+Question 3:
+headphones => ( ! )
+radio => ( ! )
+projector => ( * )
+camera => [ * ]
+speaker => ( ! )
+screen => ( * )
+eye => [ * ]
+microphone => [ ! ]
+
+Question 4:
+poker => [ ! ]
+football => ( * )
+basketball => ( ! )
+boxing => [ ! ]
+chess => [ ! ]
+hockey => ( ! )
+baseball => ( * )
+soccer => ( * )
+wrestling => [ ! ]
+golf => 
+
+--------- SAMPLED RESPONSE SET ---------
+ 5:
+a => (! )
+b => (!!
+----------------------------------------
+
+basketball =>!
+
+Question 5:
+shark
+----------------------------------------
+5:
+pen => [ * ]
+pencil => [ *
+----------------------------------------
+ 5:
+tree => (! )
+fence => (!
+----------------------------------------
+5:
+luggage =>!
+bag => *
+suit
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+hockey => ( ! )
+marathon => [ * ]
+football => ( * )
+baseball => ( * )
+tag => [ * ]
+soccer => ( * )
+basketball => ( ! )
+skiing => [ * ]
+golf => [ * ]
+chess => 
+
+--------- SAMPLED RESPONSE SET ---------
+uestion 2:
+hockey => (! )
+marathon => [ * ]
+football => (! )
+----------------------------------------
+ * ]
+
+Question 2:
+hockey => (! )
+marathon => (! )
+
+----------------------------------------
+uestion 2:
+dog => (! )
+cat => [ * ]
+fish => (! )
+bird
+----------------------------------------
+occer => ( * )
+basketball => (! )
+skiing => ( * )
+golf
+----------------------------------------
+uestion 2:
+
+hockey => (! )
+marathon => [ * ]
+football => (!
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+hockey => ( ! )
+marathon => [ * ]
+football => ( * )
+baseball => ( * )
+tag => [ * ]
+soccer => ( * )
+basketball => ( ! )
+skiing => [ * ]
+golf => [ * ]
+chess => [ ! ]
+
+Question 2:
+pyramid => * * *
+sphere => ! ! !
+square => * *
+triangle => * *
+cone => ! ! !
+cube => * * *
+pentagon => * *
+circle => 
+
+--------- SAMPLED RESPONSE SET ---------
+* * * *
+
+Question 3:
+molecule => ( * )
+atom => *
+----------------------------------------
+> 
+pyramid => * * *
+triangle => * *
+cone =>!!!
+
+----------------------------------------
+>!!
+
+Question 3:
+square => * *
+circle => * *
+triangle =>
+----------------------------------------
+>!!!
+
+Question 3:
+giraffe =>!
+elephant =>!!!
+----------------------------------------
+epiped =>!!!!!
+square => * *
+
+Question 3:
+triangle
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+hockey => ( ! )
+marathon => [ * ]
+football => ( * )
+baseball => ( * )
+tag => [ * ]
+soccer => ( * )
+basketball => ( ! )
+skiing => [ * ]
+golf => [ * ]
+chess => [ ! ]
+
+Question 2:
+pyramid => * * *
+sphere => ! ! !
+square => * *
+triangle => * *
+cone => ! ! !
+cube => * * *
+pentagon => * *
+circle => ! !
+
+Question 3:
+father => ! !
+mother => * *
+grandfather => !
+brother => ! ! !
+grandmother => *
+sister => 
+
+--------- SAMPLED RESPONSE SET ---------
+ =>!!
+
+Question 4:
+black => [ * ]
+
+----------------------------------------
+r =>!
+grandmother-in-law => *
+grandfather-in-law =>
+----------------------------------------
+=>!
+
+Question 4:
+red =>!!
+green =>!
+----------------------------------------
+=> *
+nephew => *
+grandnephew => *
+
+
+----------------------------------------
+w =>!
+aunt =>!!!
+
+Question 4:
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+hockey => ( ! )
+marathon => [ * ]
+football => ( * )
+baseball => ( * )
+tag => [ * ]
+soccer => ( * )
+basketball => ( ! )
+skiing => [ * ]
+golf => [ * ]
+chess => [ ! ]
+
+Question 2:
+pyramid => * * *
+sphere => ! ! !
+square => * *
+triangle => * *
+cone => ! ! !
+cube => * * *
+pentagon => * *
+circle => ! !
+
+Question 3:
+father => ! !
+mother => * *
+grandfather => !
+brother => ! ! !
+grandmother => *
+sister => * * *
+
+Question 4:
+ear => [ ! ]
+headphones => ( ! )
+camera => [ * ]
+radio => ( ! )
+eye => [ * ]
+speaker => ( ! )
+microphone => [ ! ]
+screen => 
+
+--------- SAMPLED RESPONSE SET ---------
+:
+red => ( * )
+blue => (! )
+green => (
+----------------------------------------
+e => 
+computer => 
+mouse => 
+toaster => 
+
+----------------------------------------
+=> (! )
+
+Question 5:
+paper => * *
+paper
+----------------------------------------
+n 5:
+pier =>!
+island =>!!
+be
+----------------------------------------
+n 5:
+car =>!
+truck =>!!!
+bus =>
+----------------------------------------
+Loading numeric1
+Loading numeric2
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+feet => *
+inches => * * * * * * * * * * * *
+quarter => * * * *
+dollar => *
+dime => * * * * * * * * * *
+week => *
+day => 
+
+--------- SAMPLED RESPONSE SET ---------
+
+hour => * * * * * * * * * * * * * *
+minute => * * * *
+----------------------------------------
+
+hour => * * * * * * * *
+minute => * * * * * * * * *
+
+----------------------------------------
+...........................
+hour =>............................
+minute =>............................
+
+Question 2:
+foot
+----------------------------------------
+###
+hour => * * * * * *
+minute => *
+second => * * * * * *
+
+----------------------------------------
+
+Question 2:
+symbols => *
+letters => * * * * * * * * * * * *
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+feet => *
+inches => * * * * * * * * * * * *
+quarter => * * * *
+dollar => *
+dime => * * * * * * * * * *
+week => *
+day => * * * * * * *
+
+Question 2:
+car => * * * *
+tricycle => * * *
+motorcycle => * *
+bicycle => * *
+skateboard => * * * *
+unicycle => 
+
+--------- SAMPLED RESPONSE SET ---------
+
+scooter => * * *
+moped => * *
+motor => * * *
+
+Question 3:
+----------------------------------------
+
+broom => * * *
+
+Question 3:
+snowmobile => * * * * * * *
+----------------------------------------
+
+dirt bike => *
+
+Question 3:
+shoe => * *
+glasses => * *
+
+----------------------------------------
+
+moped => *
+Segway => *
+moped => *
+scooter => *
+Segway =>
+----------------------------------------
+
+*
+* * * *
+* * * *
+
+Question 3:
+pencil => 
+*
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+feet => *
+inches => * * * * * * * * * * * *
+quarter => * * * *
+dollar => *
+dime => * * * * * * * * * *
+week => *
+day => * * * * * * *
+
+Question 2:
+car => * * * *
+tricycle => * * *
+motorcycle => * *
+bicycle => * *
+skateboard => * * * *
+unicycle => *
+
+Question 3:
+chicken => * *
+human => * *
+dog => * * * *
+spider => * * * * * * * *
+cat => * * * *
+horse => * * * *
+bee => 
+
+--------- SAMPLED RESPONSE SET ---------
+.......
+
+Question 4:
+airplane => * * * *
+
+Question 5:
+* * * *
+----------------------------------------
+
+tiger => * * * * * * *
+snail => * * * *
+
+Question 4:
+----------------------------------------
+
+wasp => *
+
+Question 4:
+
+A:
+
+I think the answer is
+
+ the answer
+----------------------------------------
+
+fish => * *
+
+Question 4:
+truck => * * * * * * * * * *
+----------------------------------------
+
+owl =>
+
+Question 4:
+cow => * * *
+pig => * *
+sheep
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+feet => *
+inches => * * * * * * * * * * * *
+quarter => * * * *
+dollar => *
+dime => * * * * * * * * * *
+week => *
+day => * * * * * * *
+
+Question 2:
+car => * * * *
+tricycle => * * *
+motorcycle => * *
+bicycle => * *
+skateboard => * * * *
+unicycle => *
+
+Question 3:
+chicken => * *
+human => * *
+dog => * * * *
+spider => * * * * * * * *
+cat => * * * *
+horse => * * * *
+bee => * * * * * *
+
+Question 4:
+pants => * * *
+power outlet => * * *
+t-shirt => * * * *
+headband => 
+
+--------- SAMPLED RESPONSE SET ---------
+
+shorts => * *
+leggings => * *
+top => * * * * * * *
+
+----------------------------------------
+
+leash => 
+gift =>
+
+Question 5:
+light => * * * * * *
+
+----------------------------------------
+
+shoe => * * * * *
+
+Question 5:
+chocolate => *
+marshmallow
+----------------------------------------
+
+saxophone => *
+hairbrush => *
+
+Question 5:
+computer => * * * * *
+----------------------------------------
+
+sunglasses => * * * *
+
+Question 5:
+baby => * * * *
+dog
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+spider => * * * * * * * *
+human => * *
+cat => * * * *
+chicken => * *
+dog => * * * *
+horse => * * * *
+bee => 
+
+--------- SAMPLED RESPONSE SET ---------
+######
+
+Question 2:
+spider => * * * * * * * *
+human => * *
+
+----------------------------------------
+********
+
+Question 2:
+
+Question 3:
+
+Question 4:
+
+Question 5:
+
+An
+----------------------------------------
+**********
+
+Question 2:
+
+(click on the image below)
+
+Question 3:
+
+(
+----------------------------------------
+####
+
+Question 2:
+spider => ####
+human => * *
+cat => ####
+ch
+----------------------------------------
+.......
+Question 2:
+spider => * * * * * * * *
+human => * *
+cat
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+spider => * * * * * * * *
+human => * *
+cat => * * * *
+chicken => * *
+dog => * * * *
+horse => * * * *
+bee => * * * * * *
+
+Question 2:
+motorcycle => * *
+tricycle => * * *
+bicycle => * *
+unicycle => *
+car => 
+
+--------- SAMPLED RESPONSE SET ---------
+
+*
+*
+*
+*
+* * * * * * * * *
+
+Question 3:
+
+----------------------------------------
+
+plane => * * * *
+tank => * * * * *
+
+Question 3:
+* *
+----------------------------------------
+
+carrying => * * *
+driving => * * * * *
+
+Question 3:
+mammal
+----------------------------------------
+
+* * * * * * * * *
+train => *
+
+Question 3:
+car => * *
+----------------------------------------
+
+bus => * * * *
+train => * * * *
+
+Question 3:
+person => * *
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+spider => * * * * * * * *
+human => * *
+cat => * * * *
+chicken => * *
+dog => * * * *
+horse => * * * *
+bee => * * * * * *
+
+Question 2:
+motorcycle => * *
+tricycle => * * *
+bicycle => * *
+unicycle => *
+car => * * * *
+
+Question 3:
+donut => *
+pants => * * *
+power outlet => * * *
+headband => *
+t-shirt => 
+
+--------- SAMPLED RESPONSE SET ---------
+
+shirt => *
+hat => *
+shoe => * * *
+
+Question 4:
+A => *
+----------------------------------------
+
+pencil => * * *
+
+Question 4:
+
+a) 
+b) * *
+c
+----------------------------------------
+
+baseball => 
+skateboard => * *
+
+Question 4:
+pencil => * *
+
+----------------------------------------
+
+jacket => * * * *
+
+Question 4:
+pencil => * * * * * *
+
+----------------------------------------
+
+hat => * * * *
+
+Question 4:
+* * * * * * * *
+* *
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+spider => * * * * * * * *
+human => * *
+cat => * * * *
+chicken => * *
+dog => * * * *
+horse => * * * *
+bee => * * * * * *
+
+Question 2:
+motorcycle => * *
+tricycle => * * *
+bicycle => * *
+unicycle => *
+car => * * * *
+
+Question 3:
+donut => *
+pants => * * *
+power outlet => * * *
+headband => *
+t-shirt => * * * *
+
+Question 4:
+quarter => * * * *
+dime => * * * * * * * * * *
+day => * * * * * * *
+inches => * * * * * * * * * * * *
+week => 
+
+--------- SAMPLED RESPONSE SET ---------
+******
+month => * * * * * * * * * * * * * * * * *
+year =>
+----------------------------------------
+
+year => * * * * * * * * * * * * * *
+
+Question 5:
+*
+----------------------------------------
+
+year => 
+month => 
+week => 
+year => 
+month => 
+day => 
+----------------------------------------
+
+year => * * * * *
+
+Question 5:
+the => *
+you => * * * *
+----------------------------------------
+
+month => * * * * * * * * * * *
+year => * * * * * * *
+----------------------------------------
+Loading numeric_multi_attribute1
+Loading numeric_multi_attribute2
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+horse => * * * *
+cat => * * * *
+ant => ! ! ! ! ! !
+bee => ! ! ! ! ! !
+chicken => ! !
+spider => ! ! ! ! ! ! ! !
+dog => * * * *
+human => 
+
+--------- SAMPLED RESPONSE SET ---------
+* * * * *
+b => * * * * * * *
+----------------------------------------
+=> * * * *
+dog => * * * *
+cat => * *
+----------------------------------------
+> 
+C => 
+D => 
+E => 
+----------------------------------------
+3:
+Question 4:
+
+A:
+
+I'm pretty sure that "
+----------------------------------------
+ drawing shows a horse, a cat, an ant, a bee, and a
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+horse => * * * *
+cat => * * * *
+ant => ! ! ! ! ! !
+bee => ! ! ! ! ! !
+chicken => ! !
+spider => ! ! ! ! ! ! ! !
+dog => * * * *
+human => * *
+
+Question 2:
+motorcycle => * *
+unicycle => !
+tricycle => ! ! !
+skateboard => ! ! ! !
+car => * * * *
+bicycle => 
+
+--------- SAMPLED RESPONSE SET ---------
+*
+airplane => * *
+ship => *
+----------------------------------------
+ => * * * *
+train =>!
+----------------------------------------
+=>!!!
+
+Question 3:
+*
+----------------------------------------
+!
+
+Question 3:
+* *
+----------------------------------------
+n 3:
+* * * *
+* *
+* *
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+horse => * * * *
+cat => * * * *
+ant => ! ! ! ! ! !
+bee => ! ! ! ! ! !
+chicken => ! !
+spider => ! ! ! ! ! ! ! !
+dog => * * * *
+human => * *
+
+Question 2:
+motorcycle => * *
+unicycle => !
+tricycle => ! ! !
+skateboard => ! ! ! !
+car => * * * *
+bicycle => ! !
+
+Question 3:
+day => ! ! ! ! ! ! !
+dollar => *
+dime => * * * * * * * * * *
+quarter => * * * *
+week => !
+inches => & & & & & & & & & & & &
+feet => 
+
+--------- SAMPLED RESPONSE SET ---------
+ =>!!!!!
+
+----------------------------------------
+
+----------------------------------------
+h =>
+yard =>
+
+Question 4:
+----------------------------------------
+ & & & & & &
+----------------------------------------
+& ### & 
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+horse => * * * *
+cat => * * * *
+ant => ! ! ! ! ! !
+bee => ! ! ! ! ! !
+chicken => ! !
+spider => ! ! ! ! ! ! ! !
+dog => * * * *
+human => * *
+
+Question 2:
+motorcycle => * *
+unicycle => !
+tricycle => ! ! !
+skateboard => ! ! ! !
+car => * * * *
+bicycle => ! !
+
+Question 3:
+day => ! ! ! ! ! ! !
+dollar => *
+dime => * * * * * * * * * *
+quarter => * * * *
+week => !
+inches => & & & & & & & & & & & &
+feet => &
+
+Question 4:
+pants => ! ! !
+donut => *
+headband => !
+power outlet => * * *
+t-shirt => 
+
+--------- SAMPLED RESPONSE SET ---------
+ers => *
+----------------------------------------
+
+horse => * * *
+----------------------------------------
+ircase => * *
+----------------------------------------
+r => *
+keyboard =>!
+----------------------------------------
+ * *
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+headband => !
+donut => *
+pants => ! ! !
+t-shirt => ! ! ! !
+power outlet => 
+
+--------- SAMPLED RESPONSE SET ---------
+n 2:
+dog =>!
+coffee => * * *
+hairbrush =>!!!
+
+
+----------------------------------------
+r =>!!!
+Question 2:
+
+Question 3:
+
+Question 4:
+Question
+----------------------------------------
+>!!!!
+
+Question 2:
+tights =>!!
+pants =>!
+----------------------------------------
+=>!
+
+Question 2:
+mushroom =>!
+beaver =>!!
+zebra
+----------------------------------------
+stion 2:
+coffee mug =>!!!
+bag =>!!!
+shirt
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+headband => !
+donut => *
+pants => ! ! !
+t-shirt => ! ! ! !
+power outlet => * * *
+
+Question 2:
+quarter => * * * *
+dime => * * * * * * * * * *
+inches => & & & & & & & & & & & &
+day => ! ! ! ! ! ! !
+dollar => *
+feet => &
+week => 
+
+--------- SAMPLED RESPONSE SET ---------
+e => 
+second => 
+day => 
+minute => 
+second => 
+----------------------------------------
+te => 
+hour => *
+minute => *
+second => *
+minute => *
+----------------------------------------
+tion 3:
+car =>!
+truck =>!
+bike =>!
+
+----------------------------------------
+stion 3:
+pencil =>!!!!!
+crayon =>!
+----------------------------------------
+tion 3:
+chair => *
+couch =>!
+table => *
+des
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+headband => !
+donut => *
+pants => ! ! !
+t-shirt => ! ! ! !
+power outlet => * * *
+
+Question 2:
+quarter => * * * *
+dime => * * * * * * * * * *
+inches => & & & & & & & & & & & &
+day => ! ! ! ! ! ! !
+dollar => *
+feet => &
+week => !
+
+Question 3:
+human => * *
+dog => * * * *
+bee => ! ! ! ! ! !
+horse => * * * *
+cat => * * * *
+spider => ! ! ! ! ! ! ! !
+ant => ! ! ! ! ! !
+chicken => 
+
+--------- SAMPLED RESPONSE SET ---------
+> * * * *
+
+----------------------------------------
+
+----------------------------------------
+e => *!!!!!
+----------------------------------------
+
+----------------------------------------
+ncil =>!
+pen => *
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+headband => !
+donut => *
+pants => ! ! !
+t-shirt => ! ! ! !
+power outlet => * * *
+
+Question 2:
+quarter => * * * *
+dime => * * * * * * * * * *
+inches => & & & & & & & & & & & &
+day => ! ! ! ! ! ! !
+dollar => *
+feet => &
+week => !
+
+Question 3:
+human => * *
+dog => * * * *
+bee => ! ! ! ! ! !
+horse => * * * *
+cat => * * * *
+spider => ! ! ! ! ! ! ! !
+ant => ! ! ! ! ! !
+chicken => ! !
+
+Question 4:
+motorcycle => * *
+bicycle => ! !
+skateboard => ! ! ! !
+tricycle => ! ! !
+car => * * * *
+unicycle => 
+
+--------- SAMPLED RESPONSE SET ---------
+n 5
+----------------------------------------
+n 5:
+bottle
+----------------------------------------
+
+----------------------------------------
+* * *
+cellphone
+----------------------------------------
+uck => *
+----------------------------------------
+Loading relational1
+Loading relational2
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+pants => H # H
+glove => X # X
+torso => V
+foot => Z
+head => M
+shirt => V # V
+hat => 
+
+
+--------- SAMPLED RESPONSE SET ---------
+
+Question 2:
+pants => H # H
+glove => X # X
+torso => V
+
+----------------------------------------
+
+Question 2:
+pants => H # H
+glove => X # H
+torso => V
+
+----------------------------------------
+
+Question 2:
+draw =>
+
+Question 3:
+draw =>
+
+Question 4:
+draw =>
+
+----------------------------------------
+
+Question 2:
+shirt => H # H
+ear => K
+shirt => V # V
+ear => K
+----------------------------------------
+
+Question 2:
+pants => H # H
+glove => X # X
+torso => V
+
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+pants => H # H
+glove => X # X
+torso => V
+foot => Z
+head => M
+shirt => V # V
+hat => 
+M # M
+
+Question 2:
+screwdriver => P
+nut => [ I ]
+nail => [ D ]
+leaf => [ L ]
+tree => [ Y ]
+wrench => I
+axe => 
+
+
+--------- SAMPLED RESPONSE SET ---------
+
+Question 3:
+pencil => H
+ruler => C
+book => J
+key => [ P ]
+----------------------------------------
+
+question 3:
+car => [ H ]
+truck => [ H ]
+bear => [ H ]
+
+----------------------------------------
+
+Question 3:
+pen => [ E ]
+spoon => [ H ]
+fork => [ H ]
+
+----------------------------------------
+
+Question 3:
+tire => O
+toothbrush => [ G ]
+toothpaste => [ F
+----------------------------------------
+
+Question 3:
+spoon => L
+bowl => R
+fork => W
+knife => 
+
+
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+pants => H # H
+glove => X # X
+torso => V
+foot => Z
+head => M
+shirt => V # V
+hat => 
+M # M
+
+Question 2:
+screwdriver => P
+nut => [ I ]
+nail => [ D ]
+leaf => [ L ]
+tree => [ Y ]
+wrench => I
+axe => 
+Y
+
+Question 3:
+yes => M
+up => B
+north => C
+east => H
+left => W
+down => B ; ;
+south => 
+
+
+--------- SAMPLED RESPONSE SET ---------
+
+Question 4:
+a => F
+b => F
+c => F
+d => F
+e => F
+----------------------------------------
+
+Question 4:
+chair => [ I ]
+couch => [ Y ]
+table => [ D ]
+
+----------------------------------------
+
+Question 4:
+spoon => D
+bottle => S
+cake => F
+cup => [S
+----------------------------------------
+
+Question 4:
+apple => R
+banana => F
+orange => [ M ]
+pear => [
+----------------------------------------
+
+Question 4:
+a => Z
+b => U
+c => M
+d => L
+e => A
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+pants => H # H
+glove => X # X
+torso => V
+foot => Z
+head => M
+shirt => V # V
+hat => 
+M # M
+
+Question 2:
+screwdriver => P
+nut => [ I ]
+nail => [ D ]
+leaf => [ L ]
+tree => [ Y ]
+wrench => I
+axe => 
+Y
+
+Question 3:
+yes => M
+up => B
+north => C
+east => H
+left => W
+down => B ; ;
+south => 
+C ; ;
+
+Question 4:
+piglet => D D D
+dog => X
+pig => D
+calf => P P P
+kitten => E E E
+chick => N N N
+cow => 
+
+
+--------- SAMPLED RESPONSE SET ---------
+
+Question 5:
+horse => C
+elephant => M M M
+zebra => Z Z Z
+c
+----------------------------------------
+
+Question 5:
+A B C D
+E F G H
+I J K L
+M N O P
+----------------------------------------
+
+Question 5:
+rock => [ P ]
+sky => [? ]
+turtle => [? ]
+
+----------------------------------------
+
+As you can see, this is a fairly simple experiment. We did not ask for the first drawing, and we
+----------------------------------------
+
+Question 5:
+A => F
+B => C
+C => E
+D => H
+E => S
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+screwdriver => J
+axe => A
+hammer => H
+wrench => O
+nut => . . O .
+leaf => . . K .
+rake => 
+
+
+--------- SAMPLED RESPONSE SET ---------
+ion 2:
+shoe => C
+guitar => G
+stove => P
+dress => B
+----------------------------------------
+ion 2:
+a tree => T
+a forest => F
+a dog => D
+a cat => C
+----------------------------------------
+ion 2:
+dog => ..
+cat =>.. K.
+fish =>....
+----------------------------------------
+ion 2:
+screwdriver =>.. A.
+axe =>... H.
+hammer
+----------------------------------------
+ion 2:
+
+Question 3:
+
+Question 4:
+
+A:
+
+The sequence is:
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+screwdriver => J
+axe => A
+hammer => H
+wrench => O
+nut => . . O .
+leaf => . . K .
+rake => 
+K
+
+Question 2:
+left => T
+north => P
+down => V V V
+no => O O O
+yes => O
+east => C
+west => 
+
+
+--------- SAMPLED RESPONSE SET ---------
+ion 3:
+car => D
+dog => K
+ball => O
+bat => H
+ball => O
+----------------------------------------
+ion 3:
+
+Question 4.
+
+Question 5:
+
+Question 6:
+
+Question 7:
+----------------------------------------
+ion 3:
+1 => E
+2 => F
+3 => G
+4 => H
+
+Question 4
+----------------------------------------
+ion 3:
+
+Question 4:
+1 2 3 4 5
+1.......
+----------------------------------------
+ion 3:
+ladder => T
+chair => P
+table =>.. A A
+chair =>.
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+screwdriver => J
+axe => A
+hammer => H
+wrench => O
+nut => . . O .
+leaf => . . K .
+rake => 
+K
+
+Question 2:
+left => T
+north => P
+down => V V V
+no => O O O
+yes => O
+east => C
+west => 
+C C C
+
+Question 3:
+calf => % F
+chicken => V
+cat => T
+chick => % V
+puppy => % P
+pig => W
+dog => 
+
+
+--------- SAMPLED RESPONSE SET ---------
+ion 4:
+1) How much is it?
+2) How long is it?
+3) What
+----------------------------------------
+ion 4:
+ladder => +
+chair => % O
+kettle => % O %
+umbre
+----------------------------------------
+ion 4:
+mushroom => F
+pear => Y
+apple => R
+banana => V
+----------------------------------------
+uestion 1:
+
+Hammmer:  
+
+Question 2:
+
+N (
+----------------------------------------
+ion 4:
+piano =>?
+saxophone =>?
+trumpet =>?
+drum
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+screwdriver => J
+axe => A
+hammer => H
+wrench => O
+nut => . . O .
+leaf => . . K .
+rake => 
+K
+
+Question 2:
+left => T
+north => P
+down => V V V
+no => O O O
+yes => O
+east => C
+west => 
+C C C
+
+Question 3:
+calf => % F
+chicken => V
+cat => T
+chick => % V
+puppy => % P
+pig => W
+dog => 
+P
+
+Question 4:
+head => J
+legs => K
+shirt => [ X ]
+hand => R
+glove => [ R ]
+foot => G
+pants => 
+
+
+--------- SAMPLED RESPONSE SET ---------
+ion 5:
+door => C
+window => E
+chair => R
+stool => K
+couch
+----------------------------------------
+ion 5:
+telescope => S
+book => O
+pen => L
+key => O
+p
+----------------------------------------
+ion 5:
+a => A
+b => B
+c => C
+d => D
+e => E
+----------------------------------------
+ion 5:
+tooth => J
+ear => A
+hair => A
+nose => L
+eye =>
+----------------------------------------
+ion 5:
+a => C
+b => B
+c => K
+d => D
+e => L
+----------------------------------------
+
+##################################################
+################### END OF RUN ###################
+##################################################
+
+Teacher forcing? True
+Samples per q: 5
+Model name: 12b-deduped
+printing experiment names
+['categorial', 'multi_attribute', 'numeric', 'numeric_multi_attribute', 'relational']
+printing all_questions
+[['chicken => !\nspider => !\ncat => *\nhorse => *\nant => !\ndog => *\nbee => !\nhuman => ', 'car => *\ntricycle => !\nmotorcycle => *\nskateboard => !\nbicycle => !\nunicycle => ', 'dime => *\nfeet => &\ninches => &\nquarter => *\ndollar => *\nweek => !\nday => ', 'headband => !\nt-shirt => !\ndonut => *\npants => !\npower outlet => ', 'day => !\nweek => !\nquarter => *\ndime => *\nfeet => &\ninches => &\ndollar => ', 'unicycle => !\ncar => *\ntricycle => !\nmotorcycle => *\nskateboard => !\nbicycle => ', 'power outlet => *\nheadband => !\npants => !\nt-shirt => !\ndonut => ', 'ant => !\nbee => !\ncat => *\nhorse => *\nspider => !\ndog => *\nchicken => !\nhuman => '], ['grandfather => !\ngrandmother => *\nmother => * *\nfather => ! !\nbrother => ! ! !\nsister => ', 'circle => ! !\npyramid => * * *\nsphere => ! ! !\ncone => ! ! !\ncube => * * *\nsemicircle => ! !\nsquare => ', 'headphones => ( ! )\nradio => ( ! )\nprojector => ( * )\ncamera => [ * ]\nspeaker => ( ! )\nscreen => ( * )\neye => [ * ]\nmicrophone => ', 'poker => [ ! ]\nfootball => ( * )\nbasketball => ( ! )\nboxing => [ ! ]\nchess => [ ! ]\nhockey => ( ! )\nbaseball => ( * )\nsoccer => ( * )\nwrestling => [ ! ]\ngolf => ', 'hockey => ( ! )\nmarathon => [ * ]\nfootball => ( * )\nbaseball => ( * )\ntag => [ * ]\nsoccer => ( * )\nbasketball => ( ! )\nskiing => [ * ]\ngolf => [ * ]\nchess => ', 'pyramid => * * *\nsphere => ! ! !\nsquare => * *\ntriangle => * *\ncone => ! ! !\ncube => * * *\npentagon => * *\ncircle => ', 'father => ! !\nmother => * *\ngrandfather => !\nbrother => ! ! !\ngrandmother => *\nsister => ', 'ear => [ ! ]\nheadphones => ( ! )\ncamera => [ * ]\nradio => ( ! )\neye => [ * ]\nspeaker => ( ! )\nmicrophone => [ ! ]\nscreen => '], ['feet => *\ninches => * * * * * * * * * * * *\nquarter => * * * *\ndollar => *\ndime => * * * * * * * * * *\nweek => *\nday => ', 'car => * * * *\ntricycle => * * *\nmotorcycle => * *\nbicycle => * *\nskateboard => * * * *\nunicycle => ', 'chicken => * *\nhuman => * *\ndog => * * * *\nspider => * * * * * * * *\ncat => * * * *\nhorse => * * * *\nbee => ', 'pants => * * *\npower outlet => * * *\nt-shirt => * * * *\nheadband => ', 'spider => * * * * * * * *\nhuman => * *\ncat => * * * *\nchicken => * *\ndog => * * * *\nhorse => * * * *\nbee => ', 'motorcycle => * *\ntricycle => * * *\nbicycle => * *\nunicycle => *\ncar => ', 'donut => *\npants => * * *\npower outlet => * * *\nheadband => *\nt-shirt => ', 'quarter => * * * *\ndime => * * * * * * * * * *\nday => * * * * * * *\ninches => * * * * * * * * * * * *\nweek => '], ['horse => * * * *\ncat => * * * *\nant => ! ! ! ! ! !\nbee => ! ! ! ! ! !\nchicken => ! !\nspider => ! ! ! ! ! ! ! !\ndog => * * * *\nhuman => ', 'motorcycle => * *\nunicycle => !\ntricycle => ! ! !\nskateboard => ! ! ! !\ncar => * * * *\nbicycle => ', 'day => ! ! ! ! ! ! !\ndollar => *\ndime => * * * * * * * * * *\nquarter => * * * *\nweek => !\ninches => & & & & & & & & & & & &\nfeet => ', 'pants => ! ! !\ndonut => *\nheadband => !\npower outlet => * * *\nt-shirt => ', 'headband => !\ndonut => *\npants => ! ! !\nt-shirt => ! ! ! !\npower outlet => ', 'quarter => * * * *\ndime => * * * * * * * * * *\ninches => & & & & & & & & & & & &\nday => ! ! ! ! ! ! !\ndollar => *\nfeet => &\nweek => ', 'human => * *\ndog => * * * *\nbee => ! ! ! ! ! !\nhorse => * * * *\ncat => * * * *\nspider => ! ! ! ! ! ! ! !\nant => ! ! ! ! ! !\nchicken => ', 'motorcycle => * *\nbicycle => ! !\nskateboard => ! ! ! !\ntricycle => ! ! !\ncar => * * * *\nunicycle => '], ['pants => H # H\nglove => X # X\ntorso => V\nfoot => Z\nhead => M\nshirt => V # V\nhat => \n', 'screwdriver => P\nnut => [ I ]\nnail => [ D ]\nleaf => [ L ]\ntree => [ Y ]\nwrench => I\naxe => \n', 'yes => M\nup => B\nnorth => C\neast => H\nleft => W\ndown => B ; ;\nsouth => \n', 'piglet => D D D\ndog => X\npig => D\ncalf => P P P\nkitten => E E E\nchick => N N N\ncow => \n', 'screwdriver => J\naxe => A\nhammer => H\nwrench => O\nnut => . . O .\nleaf => . . K .\nrake => \n', 'left => T\nnorth => P\ndown => V V V\nno => O O O\nyes => O\neast => C\nwest => \n', 'calf => % F\nchicken => V\ncat => T\nchick => % V\npuppy => % P\npig => W\ndog => \n', 'head => J\nlegs => K\nshirt => [ X ]\nhand => R\nglove => [ R ]\nfoot => G\npants => \n']]
+printing all_answers
+[['*', '!', '!', '*', '*', '!', '*', '*'], ['* * *', '* *', '[ ! ]', '[ * ]', '[ ! ]', '! !', '* * *', '( * )'], ['* * * * * * *', '*', '* * * * * *', '*', '* * * * * *', '* * * *', '* * * *', '*'], ['* *', '! !', '&', '! ! ! !', '* * *', '!', '! !', '!'], ['M # M', 'Y', 'C ; ;', 'P', 'K', 'C C C', 'P', '[ K ]']]
+printing all_responses
+['stion 2:\nchicken =>!\nspider =>!\ncat => *\nhorse => *\nant', 'estion 2:\nsugar =>!\nmilk =>!\norange => *\ntea => *', 'stion 2:\nspider => *\ndog => *\nhorse => *\nant =>!\ncat =>', 'stion 2:\n(a) dog =>!\n(b) cat =>!\n(c) horse =>', 'stion 2:\nbrick =>!\ngarden =>!\nfloor => \nwall => \nsky', '!\n\nQuestion 3:\npencil => *\neraser => *\nrubber => *', 'oat => *\nbus => *\ntruck =>!\ntrain =>!\nairplane =>!\n', 'ard =>!\nsled => \nmoped => \nmotorboat => \nmotorboat', 'r =>!\nmotorboat =>!\nmotorcar =>!\n\nQuestion 3:\ntank =>', 'ycle => *\n\nQuestion 3:\nmonkey => *\nelephant =>!\ncow =>', '*\nmonth =>!\n\nQuestion 4:\nred =>!\nblack =>!\ngreen =>', '!\nyear =>!\n\nWe will also be taking a look at your reading comprehension. Below are', '*\nmonth =>!\n\nQuestion 4:\nA => *\nB =>!\nC =>', '\nhour =>!\nminute =>!\nsecond =>!\n\nQuestion 4:\nelephant', '!\nyear => *\n\nQuestion 4:\nwrench =>!\nscrewdriver => *', 'uestion 5:\nbottle => *\ncup =>!\nglass => *\n', 'uestion 5:\ndish =>!\nbag =>!\nsauce =>', 'ypad => *\n\nQuestion 5:\nbike =>!\nboat =>!\n', '!\n\nQuestion 5:\nshovel =>!\ncouch =>!\nbed', '=> \nhairpin =>!\n\nQuestion 5:\n\ncrown =>!\n\nQuestion', 'ime => *\nfoot => &\ninch => &\n\nQuestion 2:\n\nQuestion 3:\n', 'ounds => ~\n\nQuestion 2:\ncircle =>!\nsquare =>!\ntriangle =>!\nrect', 'our =>!\nminute =>!\nsecond =>!\nyear => \nmonth => \nweek => ', 'ents => &\n\nQuestion 2:\nchair =>!\ntable =>!\ndesk => *\nfloor', 'ent =>\ngrain =>\npound =>\ncup =>\ncups =>\nteaspoon =>\ntables', 'cle =>!\nbicycle =>!\nbicycle =>!\n\nQuestion 3:\n', 'board =>!\n\nQuestion 3:\napple => *\nbanana => *\ncherry =>', ' =>!\n\nQuestion 3:\nfrog =>!\nhorse =>!\ndog =>!\np', 'et =>!\numbrella => \nstroller => \nchild =>!\nbaby =>', 'e =>!\nmule => *\n\nQuestion 3:\ndog =>!\ncat =>!\nbird', '!\n\nQuestion 4:\ntoothbrush => *\nshower =>!\ntoe', '!\n\nQuestion 4:\n\nQuestion 5:\n\nQuestion 6:\n\nQuestion 7', '> *\n\nQuestion 4:\npig =>!\ndog => *\ncat =>!\n', '>!\npizza =>!\n\nQuestion 4:\nshoe => *\nsneaker', '\nQuestion 4:\nman => *\nwoman => *\ngirl => \nboy =>', 'estion 5:\npencil =>!\neraser => *\npen => *\n', '\n\nQuestion 5:\nball =>!\nrocket =>!\ncar =>!\n', '\n\nQuestion 5:\ncar =>!\nhouse =>!\ncow =>!\n', 'uestion 5:\nbroom =>!\nsledgehammer =>!\nax =>', '\ngorilla => \ncow => *\nzebra =>!\n\nQuestion 5', "ers =>! *\nsister's husband =>!\nbrother's wife =>!\ndaughter => \n", 'er :?!\nsister :?!?\n\nQuestion 2:\ngrandfather =>!\ngrand', 'er-in-law =>!!\n\nQuestion 2:\nbike => * *\nscooter =>', '>! * *\ngirl =>!! *\n\nQuestion 2:\n1. The number of people', " =>?\ngrandmother's son =>?\n\nQuestion 2:\ncat => *\ndog =>", '\nQuestion 3:\nsquare =>!!\ntriangle =>!!!\nc', '\n\nQuestion 3:\ntriangle =>!!!\nsquare =>!!!\nh', 'Question 4:\ncar =>!!!\nairplane =>!!!\n', 'diamond =>!!!\n\nQuestion 3:\ncircle =>!!\ndiamond', 'angle => \ncross =>!!\n\nQuestion 3:\ntriangle => *!\n', 'door => (!! )\nwindow => (!! )\n', '\nclock =>!!\nstopwatch =>!!\nwatch =>!', 'se =>!!!\ndog => [ * ]\ncat => * [ *', 'board => ( * )\n\nQuestion 4:\napple =>!!\n', 'ion 4:\ntable => ( [ * ] )\nchair => ( * )', ' 5:\na => (! )\nb => (!!', '\nbasketball =>!\n\nQuestion 5:\nshark', '5:\npen => [ * ]\npencil => [ *', ' 5:\ntree => (! )\nfence => (!', '5:\nluggage =>!\nbag => *\nsuit', 'uestion 2:\nhockey => (! )\nmarathon => [ * ]\nfootball => (! )', ' * ]\n\nQuestion 2:\nhockey => (! )\nmarathon => (! )\n', 'uestion 2:\ndog => (! )\ncat => [ * ]\nfish => (! )\nbird', 'occer => ( * )\nbasketball => (! )\nskiing => ( * )\ngolf', 'uestion 2:\n\nhockey => (! )\nmarathon => [ * ]\nfootball => (!', '* * * *\n\nQuestion 3:\nmolecule => ( * )\natom => *', '> \npyramid => * * *\ntriangle => * *\ncone =>!!!\n', '>!!\n\nQuestion 3:\nsquare => * *\ncircle => * *\ntriangle =>', '>!!!\n\nQuestion 3:\ngiraffe =>!\nelephant =>!!!', 'epiped =>!!!!!\nsquare => * *\n\nQuestion 3:\ntriangle', ' =>!!\n\nQuestion 4:\nblack => [ * ]\n', 'r =>!\ngrandmother-in-law => *\ngrandfather-in-law =>', '=>!\n\nQuestion 4:\nred =>!!\ngreen =>!', '=> *\nnephew => *\ngrandnephew => *\n\n', 'w =>!\naunt =>!!!\n\nQuestion 4:', ':\nred => ( * )\nblue => (! )\ngreen => (', 'e => \ncomputer => \nmouse => \ntoaster => \n', '=> (! )\n\nQuestion 5:\npaper => * *\npaper', 'n 5:\npier =>!\nisland =>!!\nbe', 'n 5:\ncar =>!\ntruck =>!!!\nbus =>', '\nhour => * * * * * * * * * * * * * *\nminute => * * * *', '\nhour => * * * * * * * *\nminute => * * * * * * * * *\n', '...........................\nhour =>............................\nminute =>............................\n\nQuestion 2:\nfoot', '###\nhour => * * * * * *\nminute => *\nsecond => * * * * * *\n', '\nQuestion 2:\nsymbols => *\nletters => * * * * * * * * * * * *', '\nscooter => * * *\nmoped => * *\nmotor => * * *\n\nQuestion 3:', '\nbroom => * * *\n\nQuestion 3:\nsnowmobile => * * * * * * *', '\ndirt bike => *\n\nQuestion 3:\nshoe => * *\nglasses => * *\n', '\nmoped => *\nSegway => *\nmoped => *\nscooter => *\nSegway =>', '\n*\n* * * *\n* * * *\n\nQuestion 3:\npencil => \n*', '.......\n\nQuestion 4:\nairplane => * * * *\n\nQuestion 5:\n* * * *', '\ntiger => * * * * * * *\nsnail => * * * *\n\nQuestion 4:', '\nwasp => *\n\nQuestion 4:\n\nA:\n\nI think the answer is\n\n the answer', '\nfish => * *\n\nQuestion 4:\ntruck => * * * * * * * * * *', '\nowl =>\n\nQuestion 4:\ncow => * * *\npig => * *\nsheep', '\nshorts => * *\nleggings => * *\ntop => * * * * * * *\n', '\nleash => \ngift =>\n\nQuestion 5:\nlight => * * * * * *\n', '\nshoe => * * * * *\n\nQuestion 5:\nchocolate => *\nmarshmallow', '\nsaxophone => *\nhairbrush => *\n\nQuestion 5:\ncomputer => * * * * *', '\nsunglasses => * * * *\n\nQuestion 5:\nbaby => * * * *\ndog', '######\n\nQuestion 2:\nspider => * * * * * * * *\nhuman => * *\n', '********\n\nQuestion 2:\n\nQuestion 3:\n\nQuestion 4:\n\nQuestion 5:\n\nAn', '**********\n\nQuestion 2:\n\n(click on the image below)\n\nQuestion 3:\n\n(', '####\n\nQuestion 2:\nspider => ####\nhuman => * *\ncat => ####\nch', '.......\nQuestion 2:\nspider => * * * * * * * *\nhuman => * *\ncat', '\n*\n*\n*\n*\n* * * * * * * * *\n\nQuestion 3:\n', '\nplane => * * * *\ntank => * * * * *\n\nQuestion 3:\n* *', '\ncarrying => * * *\ndriving => * * * * *\n\nQuestion 3:\nmammal', '\n* * * * * * * * *\ntrain => *\n\nQuestion 3:\ncar => * *', '\nbus => * * * *\ntrain => * * * *\n\nQuestion 3:\nperson => * *', '\nshirt => *\nhat => *\nshoe => * * *\n\nQuestion 4:\nA => *', '\npencil => * * *\n\nQuestion 4:\n\na) \nb) * *\nc', '\nbaseball => \nskateboard => * *\n\nQuestion 4:\npencil => * *\n', '\njacket => * * * *\n\nQuestion 4:\npencil => * * * * * *\n', '\nhat => * * * *\n\nQuestion 4:\n* * * * * * * *\n* *', '******\nmonth => * * * * * * * * * * * * * * * * *\nyear =>', '\nyear => * * * * * * * * * * * * * *\n\nQuestion 5:\n*', '\nyear => \nmonth => \nweek => \nyear => \nmonth => \nday => ', '\nyear => * * * * *\n\nQuestion 5:\nthe => *\nyou => * * * *', '\nmonth => * * * * * * * * * * *\nyear => * * * * * * *', '* * * * *\nb => * * * * * * *', '=> * * * *\ndog => * * * *\ncat => * *', '> \nC => \nD => \nE => ', '3:\nQuestion 4:\n\nA:\n\nI\'m pretty sure that "', ' drawing shows a horse, a cat, an ant, a bee, and a', '*\nairplane => * *\nship => *', ' => * * * *\ntrain =>!', '=>!!!\n\nQuestion 3:\n*', '!\n\nQuestion 3:\n* *', 'n 3:\n* * * *\n* *\n* *', ' =>!!!!!\n', '', 'h =>\nyard =>\n\nQuestion 4:', ' & & & & & &', '& ### & ', 'ers => *', '\nhorse => * * *', 'ircase => * *', 'r => *\nkeyboard =>!', ' * *', 'n 2:\ndog =>!\ncoffee => * * *\nhairbrush =>!!!\n\n', 'r =>!!!\nQuestion 2:\n\nQuestion 3:\n\nQuestion 4:\nQuestion', '>!!!!\n\nQuestion 2:\ntights =>!!\npants =>!', '=>!\n\nQuestion 2:\nmushroom =>!\nbeaver =>!!\nzebra', 'stion 2:\ncoffee mug =>!!!\nbag =>!!!\nshirt', 'e => \nsecond => \nday => \nminute => \nsecond => ', 'te => \nhour => *\nminute => *\nsecond => *\nminute => *', 'tion 3:\ncar =>!\ntruck =>!\nbike =>!\n', 'stion 3:\npencil =>!!!!!\ncrayon =>!', 'tion 3:\nchair => *\ncouch =>!\ntable => *\ndes', '> * * * *\n', '', 'e => *!!!!!', '', 'ncil =>!\npen => *', 'n 5', 'n 5:\nbottle', '', '* * *\ncellphone', 'uck => *', '\nQuestion 2:\npants => H # H\nglove => X # X\ntorso => V\n', '\nQuestion 2:\npants => H # H\nglove => X # H\ntorso => V\n', '\nQuestion 2:\ndraw =>\n\nQuestion 3:\ndraw =>\n\nQuestion 4:\ndraw =>\n', '\nQuestion 2:\nshirt => H # H\near => K\nshirt => V # V\near => K', '\nQuestion 2:\npants => H # H\nglove => X # X\ntorso => V\n', '\nQuestion 3:\npencil => H\nruler => C\nbook => J\nkey => [ P ]', '\nquestion 3:\ncar => [ H ]\ntruck => [ H ]\nbear => [ H ]\n', '\nQuestion 3:\npen => [ E ]\nspoon => [ H ]\nfork => [ H ]\n', '\nQuestion 3:\ntire => O\ntoothbrush => [ G ]\ntoothpaste => [ F', '\nQuestion 3:\nspoon => L\nbowl => R\nfork => W\nknife => \n\n', '\nQuestion 4:\na => F\nb => F\nc => F\nd => F\ne => F', '\nQuestion 4:\nchair => [ I ]\ncouch => [ Y ]\ntable => [ D ]\n', '\nQuestion 4:\nspoon => D\nbottle => S\ncake => F\ncup => [S', '\nQuestion 4:\napple => R\nbanana => F\norange => [ M ]\npear => [', '\nQuestion 4:\na => Z\nb => U\nc => M\nd => L\ne => A', '\nQuestion 5:\nhorse => C\nelephant => M M M\nzebra => Z Z Z\nc', '\nQuestion 5:\nA B C D\nE F G H\nI J K L\nM N O P', '\nQuestion 5:\nrock => [ P ]\nsky => [? ]\nturtle => [? ]\n', '\nAs you can see, this is a fairly simple experiment. We did not ask for the first drawing, and we', '\nQuestion 5:\nA => F\nB => C\nC => E\nD => H\nE => S', 'ion 2:\nshoe => C\nguitar => G\nstove => P\ndress => B', 'ion 2:\na tree => T\na forest => F\na dog => D\na cat => C', 'ion 2:\ndog => ..\ncat =>.. K.\nfish =>....', 'ion 2:\nscrewdriver =>.. A.\naxe =>... H.\nhammer', 'ion 2:\n\nQuestion 3:\n\nQuestion 4:\n\nA:\n\nThe sequence is:', 'ion 3:\ncar => D\ndog => K\nball => O\nbat => H\nball => O', 'ion 3:\n\nQuestion 4.\n\nQuestion 5:\n\nQuestion 6:\n\nQuestion 7:', 'ion 3:\n1 => E\n2 => F\n3 => G\n4 => H\n\nQuestion 4', 'ion 3:\n\nQuestion 4:\n1 2 3 4 5\n1.......', 'ion 3:\nladder => T\nchair => P\ntable =>.. A A\nchair =>.', 'ion 4:\n1) How much is it?\n2) How long is it?\n3) What', 'ion 4:\nladder => +\nchair => % O\nkettle => % O %\numbre', 'ion 4:\nmushroom => F\npear => Y\napple => R\nbanana => V', 'uestion 1:\n\nHammmer:  \n\nQuestion 2:\n\nN (', 'ion 4:\npiano =>?\nsaxophone =>?\ntrumpet =>?\ndrum', 'ion 5:\ndoor => C\nwindow => E\nchair => R\nstool => K\ncouch', 'ion 5:\ntelescope => S\nbook => O\npen => L\nkey => O\np', 'ion 5:\na => A\nb => B\nc => C\nd => D\ne => E', 'ion 5:\ntooth => J\near => A\nhair => A\nnose => L\neye =>', 'ion 5:\na => C\nb => B\nc => K\nd => D\ne => L']

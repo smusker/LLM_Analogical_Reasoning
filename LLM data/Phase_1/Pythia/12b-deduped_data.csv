@@ -1,0 +1,3151 @@
+defaults,distracted,permuted_pairs,permuted_questions,random_permuted_pairs,randoms,only_rhs,random_finals
+"['square => E K C\nrectangle => E % K % C\ncircle => C K E\noval => ', 'king => C C C\nqueen => c c c\nman => C C\nwoman => ', 'black => } ^ {\ngray => ^\nred => } * {\npink => ', 'dog => Q Z I\npuppy => Q Q Z Z I I\ncat => Q Z I Q Z I\nkitten => ', 'king => } ^ {\nqueen => ^\nman => } * {\nwoman => ', 'black => Q Z I\ngray => Q Q Z Z I I\nred => Q Z I Q Z I\npink => ', 'dog => E K C\npuppy => E % K % C\ncat => C K E\nkitten => ', 'square => C C C\nrectangle => c c c\ncircle => C C\noval => ', 'king => E K C\nqueen => E % K % C\nman => C K E\nwoman => ', 'square => Q Z I\nrectangle => Q Q Z Z I I\ncircle => Q Z I Q Z I\noval => ', 'black => C C C\ngray => c c c\nred => C C\npink => ', 'dog => } ^ {\npuppy => ^\ncat => } * {\nkitten => ', 'black => E K C\ngray => E % K % C\nred => C K E\npink => ', 'dog => C C C\npuppy => c c c\ncat => C C\nkitten => ', 'king => Q Z I\nqueen => Q Q Z Z I I\nman => Q Z I Q Z I\nwoman => ', 'square => } ^ {\nrectangle => ^\ncircle => } * {\noval => ']","['square => E K C\npillow => A P\nrectangle => E % K % C\ncircle => C K E\noval => ', 'lime => U\nking => C C C\nqueen => c c c\nman => C C\nwoman => ', 'black => } ^ {\ngray => ^\ndoor => 8 8\nred => } * {\npink => ', 'dog => Q Z I\npuppy => Q Q Z Z I I\ncat => Q Z I Q Z I\ntree => Y Y Y\nkitten => ', 'king => } ^ {\nqueen => ^\nlime => A P\nman => } * {\nwoman => ', 'black => Q Z I\ntree => Y Y Y\ngray => Q Q Z Z I I\nred => Q Z I Q Z I\npink => ', 'door => 8 8\ndog => E K C\npuppy => E % K % C\ncat => C K E\nkitten => ', 'square => C C C\nrectangle => c c c\ncircle => C C\npillow => U\noval => ', 'king => E K C\nqueen => E % K % C\nman => C K E\nlime => 8 8\nwoman => ', 'pillow => U\nsquare => Q Z I\nrectangle => Q Q Z Z I I\ncircle => Q Z I Q Z I\noval => ', 'black => C C C\ntree => Y Y Y\ngray => c c c\nred => C C\npink => ', 'dog => } ^ {\npuppy => ^\ndoor => A P\ncat => } * {\nkitten => ', 'door => U\nblack => E K C\ngray => E % K % C\nred => C K E\npink => ', 'dog => C C C\npuppy => c c c\ncat => C C\ntree => Y Y Y\nkitten => ', 'king => Q Z I\nqueen => Q Q Z Z I I\npillow => 8 8\nman => Q Z I Q Z I\nwoman => ', 'square => } ^ {\nlime => A P\nrectangle => ^\ncircle => } * {\noval => ']","['square => E K C\noval => C % K % E\nrectangle => E % K % C\ncircle => ', 'king => C C C\nqueen => c c c\nman => C C\nwoman => ', 'pink => *\nblack => } ^ {\ngray => ^\nred => ', 'puppy => Q Q Z Z I I\nkitten => Q Q Z Z I I Q Q Z Z I I\ncat => Q Z I Q Z I\ndog => ', 'man => } * {\nqueen => ^\nking => } ^ {\nwoman => ', 'gray => Q Q Z Z I I\nblack => Q Z I\nred => Q Z I Q Z I\npink => ', 'cat => C K E\nkitten => C % K % E\npuppy => E % K % C\ndog => ', 'oval => c c\nrectangle => c c c\ncircle => C C\nsquare => ', 'woman => C % K % E\nman => C K E\nqueen => E % K % C\nking => ', 'rectangle => Q Q Z Z I I\noval => Q Q Z Z I I Q Q Z Z I I\nsquare => Q Z I\ncircle => ', 'gray => c c c\nblack => C C C\nred => C C\npink => ', 'puppy => ^\ncat => } * {\ndog => } ^ {\nkitten => ', 'red => C K E\nblack => E K C\ngray => E % K % C\npink => ', 'cat => C C\npuppy => c c c\ndog => C C C\nkitten => ', 'woman => Q Q Z Z I I Q Q Z Z I I\nking => Q Z I\nman => Q Z I Q Z I\nqueen => ', 'rectangle => ^\noval => *\nsquare => } ^ {\ncircle => ']","['king => C C C\nqueen => c c c\nman => C C\nwoman => ', 'black => } ^ {\ngray => ^\nred => } * {\npink => ', 'square => E K C\nrectangle => E % K % C\ncircle => C K E\noval => ', 'dog => Q Z I\npuppy => Q Q Z Z I I\ncat => Q Z I Q Z I\nkitten => ', 'king => } ^ {\nqueen => ^\nman => } * {\nwoman => ', 'dog => E K C\npuppy => E % K % C\ncat => C K E\nkitten => ', 'square => C C C\nrectangle => c c c\ncircle => C C\noval => ', 'black => Q Z I\ngray => Q Q Z Z I I\nred => Q Z I Q Z I\npink => ', 'square => Q Z I\nrectangle => Q Q Z Z I I\ncircle => Q Z I Q Z I\noval => ', 'king => E K C\nqueen => E % K % C\nman => C K E\nwoman => ', 'dog => } ^ {\npuppy => ^\ncat => } * {\nkitten => ', 'black => C C C\ngray => c c c\nred => C C\npink => ', 'square => } ^ {\nrectangle => ^\ncircle => } * {\noval => ', 'black => E K C\ngray => E % K % C\nred => C K E\npink => ', 'dog => C C C\npuppy => c c c\ncat => C C\nkitten => ', 'king => Q Z I\nqueen => Q Q Z Z I I\nman => Q Z I Q Z I\nwoman => ']","['book => C % K % E\nlightbulb => C K E\nbullet => E % K % C\nzebra => ', 'fireplace => Q Q Z Z I I\nplug => Q Q Z Z I I Q Q Z Z I I\nbanana => Q Z I\nbean => ', 'beer => c c c\nwire => C C C\nduck => C C\nwife => ', 'yellow => ^\ndarkness => } * {\ngun => } ^ {\ncarpet => ', 'duck => C K E\nwire => E K C\nbeer => E % K % C\nwife => ', 'darkness => C C\nyellow => c c c\ngun => C C C\ncarpet => ', 'book => Q Q Z Z I I Q Q Z Z I I\nzebra => Q Z I\nlightbulb => Q Z I Q Z I\nbullet => ', 'fireplace => ^\nplug => *\nbanana => } ^ {\nbean => ']","['banana => E K C\nfireplace => E % K % C\nbean => C K E\nplug => ', 'zebra => C C C\nbullet => c c c\nlightbulb => C C\nbook => ', 'wire => } ^ {\nbeer => ^\nduck => } * {\nwife => ', 'gun => Q Z I\nyellow => Q Q Z Z I I\ndarkness => Q Z I Q Z I\ncarpet => ', 'zebra => } ^ {\nbullet => ^\nlightbulb => } * {\nbook => ', 'wire => Q Z I\nbeer => Q Q Z Z I I\nduck => Q Z I Q Z I\nwife => ', 'gun => E K C\nyellow => E % K % C\ndarkness => C K E\ncarpet => ', 'banana => C C C\nfireplace => c c c\nbean => C C\nplug => ']","['E K C\nE % K % C\nC K E', 'C C C\nc c c\nC C', '} ^ {\n^\n} * {', 'Q Z I\nQ Q Z Z I I\nQ Z I Q Z I', '} ^ {\n^\n} * {', 'Q Z I\nQ Q Z Z I I\nQ Z I Q Z I', 'E K C\nE % K % C\nC K E', 'C C C\nc c c\nC C', 'E K C\nE % K % C\nC K E', 'Q Z I\nQ Q Z Z I I\nQ Z I Q Z I', 'C C C\nc c c\nC C', '} ^ {\n^\n} * {', 'E K C\nE % K % C\nC K E', 'C C C\nc c c\nC C', 'Q Z I\nQ Q Z Z I I\nQ Z I Q Z I', '} ^ {\n^\n} * {']","['square => E K C\nrectangle => E % K % C\ncircle => C K E\nlime => ', 'king => C C C\nqueen => c c c\nman => C C\ntree => ', 'black => } ^ {\ngray => ^\nred => } * {\ndoor => ', 'dog => Q Z I\npuppy => Q Q Z Z I I\ncat => Q Z I Q Z I\npillow => ', 'king => } ^ {\nqueen => ^\nman => } * {\npillow => ', 'black => Q Z I\ngray => Q Q Z Z I I\nred => Q Z I Q Z I\ndoor => ', 'dog => E K C\npuppy => E % K % C\ncat => C K E\nlime => ', 'square => C C C\nrectangle => c c c\ncircle => C C\ntree => ', 'king => E K C\nqueen => E % K % C\nman => C K E\ntree => ', 'square => Q Z I\nrectangle => Q Q Z Z I I\ncircle => Q Z I Q Z I\nlime => ', 'black => C C C\ngray => c c c\nred => C C\npillow => ', 'dog => } ^ {\npuppy => ^\ncat => } * {\ndoor => ', 'black => E K C\ngray => E % K % C\nred => C K E\ndoor => ', 'dog => C C C\npuppy => c c c\ncat => C C\nlime => ', 'king => Q Z I\nqueen => Q Q Z Z I I\nman => Q Z I Q Z I\npillow => ', 'square => } ^ {\nrectangle => ^\ncircle => } * {\ntree => ']"
+"['C % K % E', 'c c', '*', 'Q Q Z Z I I Q Q Z Z I I', '*', 'Q Q Z Z I I Q Q Z Z I I', 'C % K % E', 'c c', 'C % K % E', 'Q Q Z Z I I Q Q Z Z I I', 'c c', '*', 'C % K % E', 'c c', 'Q Q Z Z I I Q Q Z Z I I', '*']","['C % K % E', 'c c', '*', 'Q Q Z Z I I Q Q Z Z I I', '*', 'Q Q Z Z I I Q Q Z Z I I', 'C % K % E', 'c c', 'C % K % E', 'Q Q Z Z I I Q Q Z Z I I', 'c c', '*', 'C % K % E', 'c c', 'Q Q Z Z I I Q Q Z Z I I', '*']","['C K E', 'c c', '} * {', 'Q Z I', '*', 'Q Q Z Z I I Q Q Z Z I I', 'E K C', 'C C C', 'E K C', 'Q Z I Q Z I', 'c c', '*', 'C % K % E', 'c c', 'Q Q Z Z I I', '} * {']","['c c', '*', 'C % K % E', 'Q Q Z Z I I Q Q Z Z I I', '*', 'C % K % E', 'c c', 'Q Q Z Z I I Q Q Z Z I I', 'Q Q Z Z I I Q Q Z Z I I', 'C % K % E', '*', 'c c', '*', 'C % K % E', 'c c', 'Q Q Z Z I I Q Q Z Z I I']","['E K C', 'Q Z I Q Z I', 'c c', '*', 'C % K % E', 'c c', 'Q Q Z Z I I', '} * {']","['C % K % E', 'c c', '*', 'Q Q Z Z I I Q Q Z Z I I', '*', 'Q Q Z Z I I Q Q Z Z I I', 'C % K % E', 'c c']","['C % K % E', 'c c', '*', 'Q Q Z Z I I Q Q Z Z I I', '*', 'Q Q Z Z I I Q Q Z Z I I', 'C % K % E', 'c c', 'C % K % E', 'Q Q Z Z I I Q Q Z Z I I', 'c c', '*', 'C % K % E', 'c c', 'Q Q Z Z I I Q Q Z Z I I', '*']","['C % K % E', 'c c', '*', 'Q Q Z Z I I Q Q Z Z I I', '*', 'Q Q Z Z I I Q Q Z Z I I', 'C % K % E', 'c c', 'C % K % E', 'Q Q Z Z I I Q Q Z Z I I', 'c c', '*', 'C % K % E', 'c c', 'Q Q Z Z I I Q Q Z Z I I', '*']"
+"
+Question 2:
+square => E
+rectangle => E C
+circle => E C %
+oval => ","
+Question 2:
+square => E K C
+rectangle => % K % C
+circle => C K E","
+?
+
+Question 2:
+rectangle => 
+circle => 
+?
+
+Question 3:
+","..............
+
+Question 2:
+
+a) square or rectangle
+b) square or circle
+c)","ƒ K C E
+
+Question 2:
+
+Question 3:
+
+Question 4:
+
+In the","
+old => c c
+young => c
+
+Question 3:
+pencil => K E K
+pen =>","
+pig => 
+rabbit => 
+cat => 
+dog => 
+horse => 
+cow","
+elephant => E E E
+
+Question 3:
+1 - 2 => 1 - 2
+6 => 6","
+lady => E E E E E
+
+Question 3:
+1 2 3 4 5 6 7 8
+","
+wolf => C
+
+Question 3:
+car => C C
+plane => C
+lamp => C
+","
+blue =>
+green =>
+brown => ^
+
+Question 4:
+monday => J M
+monday","}}}
+brown => } } }
+blue => } } }
+
+Question 4:
+triangle => E
+rect","
+blue => } V {
+yellow => 
+green => } V ^
+
+Question 4:
+1,","
+brown => } {
+
+Question 4:
+A => E ^ C
+B => C C ^
+C","
+yellow => 
+blue => *
+
+Question 4:
+red => *
+green => ^
+orange =>","
+poodle => 
+puppy => 
+cat => 
+goldfish => 
+
+Question 5","
+frog => 
+hamster => 
+rabbit => 
+mouse => 
+chicken => 
+","
+rabbit => 
+horse => 
+cow => 
+monkey => 
+mouse => 
+she","
+bat => Q Z I I Q Z I
+
+Question 5:
+
+Question 6:
+
+Question 7","
+rabbit => Q Q Z I
+
+Question 5:
+A => A Y
+B => B Y
+C","}}}
+Question 2:
+car => } ^ {
+bicycle => }}}
+Question 3:
+dog","
+elephant => } * [
+cow => *
+penguin =>
+
+Question 2:
+flower","
+Question 2:
+bird => } ^ {
+house => ^
+rabbit => } * {
+
+No solution","
+Question 2:
+bird => } _ {
+lizard => 
+Question 3:
+animal => } _","
+bear => } ^ ^
+
+Question 2:
+cat => } * * * * * {
+wolf =>","
+orange => Z I C I
+yellow => Z I Z I
+green => Z Q I
+blue => Z","
+white => * I Z
+blue => * I Z I
+yellow => * I Z I
+green => Z",}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}},"
+black => Q Z I
+white => Q Z I
+blue => Q
+yellow => ^ { Z I
+","
+brown => ^
+white => Z Z Q I Z I
+yellow => Z Q Z I Z Q
+
+","
+paw => K K E
+
+Question 4:
+square => R Q Z
+circle => R Q R","ˆ K % C
+
+Question 4:
+chair => Q Q Q Q Q Q Q Q Q Q Q","
+penguin => 
+koala => 
+elephant => 
+bear => 
+whale =>","### K E #
+
+Question 4:
+1 => 1
+2 => 2
+3 => 3
+4 =>","
+mouse => M C
+
+Question 4:
+A ==> {
+B ==> } * {
+C","ᵒ C
+
+Question 5:
+a => (
+b => )
+
+Question 6:
+a","
+triangle => C C C
+
+I came across this puzzle while browsing the site on a Saturday. I found it","
+triangle => C C C C
+
+Question 5:
+
+Question 6:
+
+Question 7:
+Question","
+square => C C C
+triangle => C C C C
+
+Question 5:
+1 => ] J ^","
+triangle => C C
+
+Question 5:
+one => O
+two => O
+three => O
+four","ʼ K % C
+
+Question 2:
+
+Question 3:
+
+Question 4:
+
+Question 5","
+Question 2:
+apple => A E P
+orange => A % P
+banana => A B % N","
+Question 2:
+drawing =>
+
+So my answer was
+
+A king, a queen, a man","....... K % C
+boy =>..... C K
+girl =>..... K C
+
+Question 2:
+","..............
+
+Question 2:
+man => C % K E
+woman => E % K C
+
+","
+triangle => Q Z I Q Z
+
+Question 3:
+x => I I I
+x + y =>","˅ Q Z I ˅ I
+
+Question 3:
+1 => 1
+2 => 2
+3","
+cross => % I I I Q Z
+
+Question 3:
+A B C D
+
+Question 4:","
+triangle => 
+pentagon =>
+cube =>
+
+Question 3:
+A => A A A
+","
+triangle => T Q Z Z I
+diamond => D Q Z Z I Q Z
+
+Question 3:
+","
+brown => B B
+blue => B B B
+white => W W
+gray => W W W
+
+","ı c c c
+
+Question 4:
+chair => % Q Z J J
+table => Q Z J J","
+blue => C C
+
+Question 4:
+1 => 1 1 0 0 0 1 1 0 0 0 1","
+blue => C C C C C
+green => C C C C
+brown => C C
+yellow => C","ᴀ C
+
+Hint:
+
+ There is no word that is the same in both the questions and the drawings","
+puppy => ^
+dog => ^
+
+Question 5:
+a => A
+c => C
+","
+puppy => *
+
+Question 5:
+A => F
+B => F
+C => F
+","
+lizard => *
+
+Question 5:
+a => G
+b => G
+c => G
+d","]^
+fish => * ^
+
+Question 5:
+circle => C C C
+triangle => C C C
+","
+rabbit => 
+turtle => 
+horse => 
+elephant => 
+cow => 
+","
+yellow => % C % K E
+blue => K E % C
+green => C K E
+orange =>","~~~K~~~E
+blue => B E K
+purple => E % K % C
+green => E K","
+green => K E % C
+white => E C K
+
+Question 2:
+
+Question 3:
+","
+Question 2:
+A => a
+B => b
+C => c
+D => d
+Question 3:","Ɖ K Ɖ C
+orange =>? K? Ɖ C
+blue => K?? ","...........
+
+Question 3:
+lizard => E E E
+snake => E E
+turtle =>","
+horse => C C C
+
+Question 3:
+a => c a c
+b => d b
+c","＼
+
+Question 3:
+a => a
+b => b
+c => c
+d => d
+","
+puppy => c c c
+cat => C C
+
+Question 3:
+dog => C C C","
+hamster => 
+horse => 
+elephant => 
+rabbit => 
+fish => 
+sn","
+manhole => 
+manhole cover => 
+womanhole => 
+manhole cover => 
+woman","
+child => Q Z I I Q Z I I I
+
+Question 4:
+B => W B W
+","
+man and woman => Q Z I Q Z I
+man and woman and child => Q Z I Q Z I","
+person => Q Z I Q Z I
+
+Question 4:
+a => P Q Z I
+b =>","
+girl => Q Z I
+boy => Q Z I J I
+
+Question 4:
+man => J G","~~
+
+Question 5:
+p => p p p
+h => h h h
+f => f f f","]^
+triangle => ^
+
+Question 5:
+light => O L
+dark => O O L
+bright =>","
+star => *
+diamond => } ^
+heart => } %
+
+Question 5:
+horse => Q Q","]^
+triangle => } * {
+diamond => } ^ ^
+
+Question 5:
+1 => 1 1 1","
+triangle => } *
+
+Question 5:
+one => L A
+two => T A T
+three =>",".......
+
+Question 2:
+bunch => E % K % C
+tank => C K E
+
+","
+square => E K C
+pillow => A P
+rectangle => E % K % C
+circle","
+line =>
+
+Question 2:
+
+Rectangle => E K C
+
+Question 3:
+
+O","Ɓ % K % E
+diamond => E % C K
+
+Question 2:
+triangle => % % %","
+Question 2:
+square => K E C
+pillow => A P
+rectangle => E % K","
+lady => K
+girl => K K
+
+Question 3:
+horse => Q
+cow => K","
+lion => L
+
+Question 3:
+dog => D
+cat => C
+elephant => E
+
+","######
+
+Question 3:
+The word that begins with the same letter as the word below it.
+
+Question","
+lady => 
+
+Question 3:
+cat => P P P P
+dog => P P P
+bear","
+elephant => c c
+
+Question 3 (after showing the following drawings):
+
+Question 4 (after showing","
+yellow => 
+orange => 
+green => 
+blue => 
+
+Question 4:
+spoon =>","
+white => 4
+
+Question 4:
+A => A
+B => B
+C => C
+D =>","
+hat => ^
+
+Question 4:
+circle => (C)
+square => (E)
+triangle =>","
+blue => 
+orange => 
+green => 
+yellow => 
+purple => 
+brown =>","
+lamp => 8 8
+
+Question 4:
+the man is in the room =>
+the man is in","
+monkey => 
+elephant => 
+fish => 
+cow => 
+horse => 
+","
+wolf => 
+lizard => 
+snake => 
+fish => 
+
+Question 5:
+a","
+shark => 
+chimpanzee => 
+zebra => 
+moose => 
+","
+frog => J E J
+
+Question 5:
+car => N N
+motorcycle => N N
+","
+paws => Z Z
+
+Question 5:
+frog => Q Q Z Z
+cricket =>","
+car => A R
+horse => A R
+
+Question 2:
+molecule => A P
+dinos","~~
+boy => } ^ {
+girl => ^
+brick => } ^ {
+roof => } *","
+car => |
+truck => |
+truck => |
+truck => |
+truck => |","〔
+boy => |
+girl => } *
+question 2:
+king => } {
+queen =>","
+tangerine => } ^
+
+Question 2:
+
+The dog is a member of the animal family.","
+green => Z Y I Z I
+
+Question 3:
+boy => *
+girl => ^
+
+Question","
+green =>
+blue =>
+yellow =>
+brown =>
+
+Question 3:
+a => *
+b =>","
+white => Q I Q Q
+yellow => Q Z Z Z Z Z
+green => Q I Q I Q","
+yellow => Z I Z Q I
+purple => Z Q A A A
+
+Question 3:
+l","
+white => H D Q Z D
+yellow => Z I
+green => A Z I
+
+Question 3:","
+stove => U H M
+
+Question 4:
+A B C
+A B U
+B C U","
+mouse => Q U Q
+
+Question 4:
+car => Y Y Y
+bus => Y Y Y
+","ƒ K E
+
+Question 4:
+fish => B E I
+catfish => B E I I
+","
+fox => C K E % K %
+
+Question 4:
+bike => } [ ^
+truck","
+cow => 
+horse => 
+zebra => 
+rabbit => 
+monkey => 
+
+","
+triangle =>
+
+Question 5:
+blue => B
+red => R
+yellow => Y
+green => G","
+triangle =>
+
+Question 5:
+car => M M M
+horse => M M M
+plane => M","
+triangle => E
+
+Question 5:
+book => Q W R D
+pencil => Q R D
+","
+triangle => U U U
+
+Question 5:
+dice => R R R R R R
+wheel =>","
+triangle => U U U
+
+Question 5:
+
+A = A A A A A A A A A","
+dog => F % K C
+
+Question 2:
+I => T H
+you => H T I
+","005 C K
+
+Question 2:
+king => E K C
+queen => E % K % C
+","
+rabbit => %
+elephant => L S %
+
+Question 2:
+king => E K C
+que","Ị V C
+
+Question 2:
+car => C A T
+table => T A C
+car =>","
+horse => % C K
+
+Question 2:
+king => E 2 K C
+queen => E 2","ƒ Q Q Z Z I I I
+point => I I I I
+
+Question 3:
+1.","
+egg => 8
+
+Question 3:
+a => T
+b => A
+c => C
+d =>","000000
+
+Question 3:
+A => A B
+B => B C
+C => A B C
+D",".............
+triangle => C Z C Z C C C
+
+Question 3:
+
+A:
+
+A","
+trapezoid => W S W Z
+triangle => S S S Z
+
+Question 3:
+","
+white => c c
+
+I need the following.
+
+To get the correct answer, first read the question","
+yellow => Y Y
+purple => C C C C C C
+
+Question 4:
+A => A","
+purple => C C
+blue => C
+white => C C
+
+Question 4:
+house => O","
+orange => C C C
+brown => C C
+blue => C C
+purple => c c
+white","
+white => 
+red and white => 
+blue => C C C C C
+green => C C C","
+litter => B
+
+Question 5:
+1st => 1 1
+2nd => 2 2
+3","
+lamp => A P Q P
+
+Question 5:
+ball => Z
+circle => Z
+cross =>","
+house => A P Y
+
+Question 5:
+coffee => C C
+tea => C
+mil","
+baby => ^ ^
+
+Question 5:
+car => Q X Y
+bicycle => Q Z","
+mouse => ^
+
+Question 5:
+dog => } ^ {
+puppy => ^
+door =>","
+Question 2:
+door => O
+gray => E % C % K
+green => K E C
+Question","
+yellow => K C E
+green => K C E
+blue => K E
+
+Question 2:
+tree","
+yellow => C % E K
+question 2:
+door => X door
+
+A:
+
+Well,","
+blue => E K C
+white => E K % C
+
+Question 2:
+red => K E C","
+Question 2:
+
+door => U
+brown => O K U
+green => O K R O
+orange","𝓘𝓬𝓪𝓭
+
+Question 3:
+truck","...........
+
+Question 3:
+A => A
+B => B A B
+C => B A
+D","ʇ l w (
+
+Question 3:
+woman => % W % W
+man => % M % M","
+house => C C
+rock => C C
+
+Question 3:
+A => U
+B => E R","
+frog =>?
+
+Question 3:
+rock => R R R
+cricket => R K R","
+house => Q Z I Q Z I I I I
+car => Q Z I Q Z I I
+
+","
+bottle => 6
+
+Question 4:
+tree => c c c c c c
+dog => c","
+car => N O N
+train => O O O O
+foot => X O
+
+Question 4:
+","
+bear => X I K X I K
+
+Question 4:
+red => % % %
+blue => %","ƒ Q Z I Q Z I
+
+Question 4:
+1 => 1
+2 => 2
+3 =>","]^
+
+Question 5:
+slim => A V B
+fat => A V
+
+Question 6:
+","
+triangle => } ^ {
+
+Question 5:
+A => _ R _
+B => _ R _ _","~~
+
+Question 5:
+A => ^
+B => ^
+C => /
+D => /
+E","
+triangle => } } ^
+
+Question 5:
+elephant => A A W M
+snake => A","]^ ^
+pentagon => ^^ ^^
+hexagon => } ^^ ^^
+
+Question 5:","
+What is the last drawing?
+a. square
+b. oval
+c. rectangle
+d. circle
+","  
+
+Question 2:
+moon => ","
+Question 2:
+cube => E % C % K % E
+sphere => E % C % K %","ƒ K C
+Question 2:
+circle => C E ƒ
+triangle => E C E
+Question","
+Question 2:
+triangle => % K % E % C
+rectangle => % K % E % C
+","ƒ
+
+Question 3:
+A => E
+B => K
+C =>
+D =>
+
+Question","
+chair => c c c
+dog => C
+horse => C
+elephant => C
+
+Question 3:","
+child => C C
+
+Question 3:
+house => E C
+dog =>?
+cat =>?
+","
+woman => E E
+woman => K K
+
+Question 3:
+I = 4 = E = 3 =","
+elephant => E K E
+
+Question 3:
+
+A:
+
+A:
+
+B:","
+white => ^
+yellow => ^ ^
+
+Question 4:
+a => C K K E
+b =>","])
+
+Question 4:
+1 2 3 4 5
+
+This is an experiment on general reasoning abilities. You","]^
+
+Question 4:
+dog => D
+cat => C
+rabbit => R
+
+Question 5:
+","###
+blue => ###
+
+Question 4:
+1) => 1 = 1
+2) => 2 =","
+yellow => ^
+
+Question 4:
+apple => P
+orange => O
+
+Question 5:
+dog","
+rabbit => Q Z Z I I
+
+Question 5:
+C S C S C
+- F - F","
+Q Z Z I
+
+Question 5:
+tree => [
+rabbit =>
+]
+
+Question 6:","
+hamster => 
+lizard => 
+snake => 
+chicken => 
+lobster","
+cow => 
+horse => 
+mouse => 
+rabbit => 
+rabbit => 
+sheep","
+mouse => 
+rabbit => 
+dolphin => 
+elephant => 
+crocodile =>","
+}
+
+Question 2:
+The word for the following drawing is: {
+
+Question 3:
+The","
+child => } ^ child ^ {
+
+Question 2:
+bacteria => * * * *
+dwarf","
+} ^
+
+Question 2:
+
+Question 3:
+Question 4:
+
+Question 5:
+
+","
+horse => } ^ {
+
+A:
+
+I can't quite make out what you're after, but","~~~
+* * * * * *
+* * * * *
+* * * * *
+* * *","
+brown => 
+white => 
+yellow => 
+purple => 
+green => 
+blue =>","
+yellow => Z I I I I
+
+Question 3:
+A B C D E F G
+H I","
+blue => Q Z I Q Z I
+
+Question 3:
+
+A:
+
+I'm not sure","
+purple => Q Q Z I I
+blue => Q Q Z Z I Q
+brown => Z Z I","
+green => 
+yellow => 
+blue => Q Q Z Z I
+orange => Q Z I
+pur","
+dog-breed => 
+dog-size => 
+dog-color => 
+dog-hair =>","
+doggie => 
+doggie => 
+doggie => 
+doggie => 
+doggie =>","
+wolf => K K K K K K K K K K K K K K K K K K K K K","
+pig => P P Z I Z
+
+Question 4:
+elephant => E Y E E Y E","
+puppy => % E % C
+
+Question 4:
+chair => C Q E
+table => C","
+diamond => 
+pentagon => 
+hexagon => 
+rhombus => 
+triangle => ","
+triangle => 
+
+Question 5:
+1 2 3 => 2 3 1
+2 3 4 => 2 3","
+triangle => c c c c
+
+Question 5:
+aardvark => R A R
+elephant","ƒ
+
+Question 5:
+a => a
+b => b
+c => c
+d => d
+","
+triangle => 
+pentagon => 
+
+Question 5:
+A => Q Q Q Q Q Q Q Q","
+Question 2:
+A => C % K % E
+B => C K E
+C => E % K","..............
+
+Question 2:
+woman => % C % E
+man => % C K E
+que","
+joker => 
+
+Question 2:
+woman => C + K + E
+man => C + K +","
+queen =>
+king => 
+woman => %
+man => K
+king => C
+woman => C","
+queen => C 
+king => 
+man => 
+queen => 
+woman => 
+","
+triangle => Q Q
+
+Question 3:
+X X X X X X X X X X X X X","
+triangle =>
+
+Question 3:
+P => B M
+Q => B M
+R => B M
+","
+triangle =>
+
+Question 3:
+E
+C K K K
+K C E
+K I K C","Ｓ Q Z I I I Q Z Z I I Q Z Z I I
+
+Question 3:
+p","
+triangle => P
+
+Question 3:
+1 2 2 3 4 5 6 7 8 9 10
+1 2","
+white => C C
+
+Question 4:
+truck => R K R M
+car => R R M","
+blue => 
+yellow => 
+green => 
+orange => 
+purple => 
+brown =>","
+blue => C C
+green => C
+
+Question 4:
+loud => C % K C
+quiet","
+purple => C
+brown => C
+blue => C
+silver => C
+
+Question 4:
+","
+yellow => c c c c c
+green => C C C C C
+blue => C C C C
+","}}} *
+
+Question 5:
+(A) A (B) B (C) C (D) D","
+hamster => ^
+
+Question 5:
+cat => K
+dog => K
+fox =>
+cow","
+kitten => kitten
+
+Question 5:
+C => C C C
+E => E E E
+","]^
+fish => ^
+
+Question 5:
+house => ^
+house with a chimney => ^
+house","
+elephant => } * ^
+
+Question 5:
+a => Q Q Z Z I I
+b =>","
+blue =>
+
+Question 2:
+1) what is this? =>
+2) where is this? =>","
+yellow => 
+green => 
+orange => 
+
+Question 2:
+drawing1 =>
+drawing","
+green => E % K C
+
+Question 2:
+A = S
+B = D
+C = T","..............
+white => C % E K %
+yellow => % K % E C
+
+Question 2:"," C K K
+
+Question 2:
+B L W
+A R M
+
+Question 3:","𝐚 C C C C
+
+Question 3:
+dance => C C C
+sing => C",".................... (Fill in the blank)
+
+Question 3:
+The last drawing is a picture of a man,",".........
+
+Question 3:
+(B C)
+(B B C)
+(B E)
+","### C
+
+Question 3:
+a => a
+b => b
+c => C
+d => D
+","xtc
+
+I don't know how to do this...
+
+A:
+
+I assume you're talking","
+queen => 
+queen => 
+queen => 
+queen => 
+queen =>","
+princess =>
+
+Question 4:
+A => A A
+B => B B
+
+Question 5:","
+queen's court => I
+
+Question 4:
+red => C E C E C E C E
+","
+queen => Q Z I
+
+Question 4:
+sister => Q Z Z I Z Q Z
+","
+queen => Q Z I
+
+Question 4:
+dog => A A
+cat => A A A
+","]^$
+triangle => } ^ ^^
+
+Question 5:
+dog => A A A A
+rabbit =>","
+star => *
+
+Question 5:
+dog => C C
+puppy => c c c
+cat","]^ {
+triangle => ^ ^
+
+Question 5:
+A => A A A
+B => B B B","ˆ
+triangle => /
+
+Question 5:
+
+Question 6:
+
+Question 7:
+
+Question","]^ } ^ {
+
+Question 5:
+A => O A
+B => O B
+C => O C","
+question 2:
+A => C C C C C
+C => D D D D D
+B => C","
+horse => C C
+
+Question 2:
+A => C C C
+B => 
+C => C","
+horse => c
+pig => c
+mouse => c
+rabbit => c
+
+Question 2:
+cat","
+wolf => d
+
+Question 2:
+
+Man => C C C
+
+Man => c c c
+","
+dog => C C C C
+cat => C C C C C
+lion => C C C C C
+","
+white => } * *
+
+Question 3:
+1. | a b
+2. | b c
+","
+white => {
+
+When you're done, please send your responses to Dr. Dutton, Dr. G","
+white => ^
+
+Question 3:
+dog => f f f
+cat => c c c
+rabbit =>","
+blue =>
+
+Question 3:
+1 2 3 4 5 6 7 8 9 10
+1 2 3 4","
+green => 
+yellow =>
+
+Question 3:
+1 = 1
+0 = 1
+2 = 2","ƒ E K C
+circle => E K E
+
+Question 4:
+circle => % K E
+oval","ƒ K % E
+
+Question 4:
+circle => C K E
+heart => % K % E
+","
+heart => E C K
+diamond => E % C
+
+Question 4:
+cow => E ^ M",")/ K ^
+
+Question 4:
+C C C C C C E C C C C
+C C C","
+triangle => P K C
+
+Question 4:
+A => A
+A => A
+B => B
+","
+mouse => 
+rat => 
+snake => 
+lizard => 
+turtle => 
+","
+pig => Z Z Z Z Z Z Z Z Z Z Z Z Z Z Z Z Z Z Z Z","
+pig => R Z R Z R Z
+rabbit => R R Z R Z R Z
+
+These are","
+pig => 
+goat => 
+cow => 
+chicken => 
+lizard =>","
+pig => Z Z Z Z Z Z Z Z
+
+Question 5:
+horse => T T T Z","
+woman => *
+
+Question 2:
+apple => } * {
+bush => } * {
+tree","
+Question 2:
+boy => *
+girl => ^
+Question 3:
+cow => } * {
+","
+book => ^
+
+Question 2:
+(1) => } * {
+(2) => ^
+","
+Question 2:
+car => } * {
+boat => ^
+plane => } * {
+Question 3:","
+Question 2:
+bird => } ^ {
+fish => ^
+car => ^
+truck => *
+","
+lamb => E % C % E
+chicken => E % C % E
+
+Question 3:
+",",^ K % C E
+
+Question 3:
+triangle => E, K, C E
+circle => K","ƒ K % E
+
+Question 3:
+the letter E => ƒ
+the letter C => C","ƒ
+
+Question 3:
+brick => ƒ K R ƒ
+paper => T ^","
+puppy => K C %
+
+Question 3:
+1 => 1
+9 => 9
+11 =>",".......
+
+Question 4:
+A = {2,2,2}
+B = {2,2,","
+triangle => 
+pentagon => 
+hexagon => 
+star => 
+
+Question 4:
+1","
+triangle => C C C
+
+Question 4:
+snowman => S S
+snowflake =>","
+pentagram => E
+hexagram => E
+
+Question 4:
+p => p
+r => r
+","４ C ４
+triangle => ３ C ３
+
+Question 4:
+tree =>","
+purple => Q Z I Q Z I
+
+Question 5:
+brick => C L B I
+","
+yellow => Z Z Z Z Z Z Z
+orange => Z Z Z Z Z Z Z Z
+white =>","
+yellow =>
+orange =>
+blue =>
+brown =>
+purple =>
+white =>
+
+Question 5:","
+blue => Q Z I Q Z I I I I
+green => Q Z I Q Z I I I I","
+white =>
+
+Question 5:
+a => ^
+b => ^
+c => ^
+d => ^","................
+
+I know the answer is the rectangle, but I need to know some basic logic behind this,","~~
+triangle => ~~
+
+Question 2:
+square => Q Q Z I I
+rectangle => Q","
+Question 2:
+question mark =>????????????????","
+Question 2:
+triangle => Q Z I
+triangle => Q Q Z Z I I
+triangle => Q Q","
+question =>
+
+Question 2:
+circle => Q Q Z Z I
+square => Q Z I I
+","
+horse => E K % C C % K
+
+Question 3:
+
+a.
+b.
+c","
+chair => Q Q Z
+table => Q Z Q
+
+Question 3:
+dog => F S S
+","~~~ E K
+
+Question 3:
+dog => Q D I
+cat => Q C D
+horse => Q","
+king-queen => E % % K % E
+man-woman => % K % E % K E","Ⱦ K Q
+
+Question 3:
+A, B, C, D, E, F, G,","
+lizard => ^
+snake => ^
+
+Question 4:
+p => P
+n => N
+","
+?
+
+Question 4:
+
+Question 5:
+
+Question 6:
+
+Question 7:
+
+","
+bear => } D Q
+
+Question 4:
+A => A / B
+B => B / C
+","
+mouse => %
+
+Question 4:
+moon => - Z E
+sun => - Z E
+air","
+penguin =>
+
+Question 4:
+pencil => } ^ {
+pen => ^
+ink =>","~~~~~
+blue => C C C
+violet => C C C C
+brown => C C C
+
+","]{
+
+Question 5:
+car => ^ r
+truck => ^ r ^
+bus => ^ r ^","
+yellow => 
+green =>
+
+Question 5:
+the => S T
+the => S T S
+","
+yellow => C C C C
+
+Question 5:
+A circle with a black line through it and a red","ƒ c c c
+purple => C C ƒ
+
+Question 5:
+a => Z
+","
+Question 2:
+
+A set of four lines, each of which is an edge of a square, is shown","
+Question 2:
+1 => 1 * 2
+2 => 2 + 1
+3 => 3 - 1
+4","~~~
+
+Question 2 is very close to the first, but instead of a square, you are given the word """,")/
+triangle => ]} \ {
+Question 2:
+a square => } ^ {
+a circle => }","]^
+
+Question 2:
+
+Question 3:
+
+Question 4:
+
+Question 5:
+
+Question","
+brown => K C E
+blue => E C K
+
+Question 3:
+moon => * %
+","ʕ º º º
+yellow => Y L W
+
+Question 3:
+a => T
+","
+blue => E K C
+orange => E E C
+
+Question 3:
+
+(a) The drawing","ϰ K E
+
+Question 3:
+flying => } * {
+driving => } {
+walking","]^ K E
+
+Question 3:
+T H E
+H E T T
+T H E H
+H","######
+
+Question 4:
+boy => B C
+girl => C B
+
+A:
+
+This is","
+pig => C C C
+
+Question 4:
+red => R E
+blue => B E
+green","
+cat => C
+
+Question 4:
+lady => B B
+doctor => B D
+lawyer =>","~~~
+
+Question 4:
+red => R R R
+blue => R R R
+green => R R R","
+poodle => c c c
+
+Question 4:
+spoon => C
+knife => ^ C","
+man => Z I Q Q Z I
+woman => I I
+
+Question 5:
+tree => U L","
+wife => Q I Z I
+wife => Q Q I I
+
+Question 5:
+left => ^
+","Ｆ Q I Z I
+
+Question 5:
+happy => H H
+sad => H S H
+","
+woman => I I I
+
+Question 5:
+red => M M M M
+green => M M M","
+woman => I Z I
+
+Question 5:
+woman => 
+men => D W W D W
+","
+Question 2:
+ball => B % A % L
+bottle => A L % B
+chair =>",".........
+Question 2:
+chair => C % K % E
+table => C K E
+car => C","
+question 2:
+mouse => % C % E % K
+book => E % C K % K
+z","
+question 2:
+ball => Q % K % E 
+car => 
+question 3:
+sax","...............
+Question 2:
+A=> B => C
+B => C => A
+C => A => B
+","
+coffee => Q I
+
+Question 3:
+house => C C C C
+key => C C C","
+piano => 
+zebra => 
+zebra => 
+zebra => 
+zebra =>","
+zebra => Q Z I
+
+A:
+
+First, the zebra:
+
+ The zebra is a quadrup","
+(B B B B B B B B B B B B B B B B B B B B B B","
+pencil => C
+
+Question 3:
+dish => J J Y Y Z Z I J J Y","
+car => C C C C C C C
+
+Question 4:
+cat => C C Q Q
+du","
+cow => 
+cow => 
+cow => 
+cow => 
+cow =>","
+dog => c c c c c
+
+Question 4:
+bicycle => B B
+horse => B","
+car => 
+pencil => 
+dog =>
+
+Question 4:
+1 2 3 4 5 6","
+cat =>
+
+Question 4:
+a => T T T T T T T
+b => T T T","}$\ ^ * {
+
+Question 5:
+dog => D Q
+cat => D Q
+rabbit => D Q","}}} } } * ^
+
+Question 5:
+lizard => l l l l l l l
+rabbit =>","
+pillow => ^
+red => } * {
+
+Question 5:
+computer => q q q
+","
+car => c c
+
+Question 5:
+
+Question 6:
+
+Question 7:
+
+Question 8","
+* * * *
+
+Question 5:
+red => -
+yellow => [
+green => ]
+*","
+Question 2:
+a man => A
+woman => W
+boy => B
+girl => G
+Question 3","ƒ E K C
+
+Question 2:
+moon => C K E
+snake => K C E","
+dog => K C %
+
+Question 2:
+
+Answer:
+
+Question 3:
+
+Answer:","
+father => 
+house => 
+car => 
+table => 
+bird => 
+dog => ",".........
+
+Question 2:
+pencil =>..........
+
+Question 3:
+car =>.........","..............
+
+Question 3:
+apple => b a b b b b b b
+mouse => b b","
+chair => %
+
+Question 3:
+dog => C C C
+cat => % C C C
+
+","...........
+
+Question 3:
+ball => D C C
+balloon => D C D
+balloon =>","
+tiger => 
+lion => c
+
+Question 3:
+fighter => E T E
+bomb","々 c c c
+
+Question 3:
+dog => C K E
+horse => X K E
+c","ia Q Z Z I
+
+Question 4:
+I am very happy. => I A E I A I A","
+lamp => Q Z I
+
+Question 4:
+dog => 
+cat => 
+wolf => ","
+plane => Q Q Z Z I
+
+Question 4:
+baby => B B B B B B B","
+car => 
+piano => 
+
+Question 4:
+dog => O
+rabbit => O
+horse =>","
+bookmark => Q Z Z Z 
+bookcase => Q Z Z Z 
+bird => Q Z Z","
+sun => >
+
+Question 5:
+A => A A A A A
+B => B B B B","]^ {
+
+Question 5:
+
+I am looking for a friend. I am searching for a friend. I","
+piano => ^
+egg => ^ ^
+
+Question 5:
+courage => C
+peace => C","
+potato => } ^ {
+
+Question 5:
+1 => 1 A
+2 => 2 A
+3","]^ {
+
+Question 5:
+car => B B
+dog => B B B
+tiger => B B","
+Question 2 (incomplete):
+
+A:
+
+Answer to Question 1:
+
+ Banana: EK","
+dirt => % E % K
+
+Question 2:
+car => K C K
+pig => C","
+Question 2: 
+cat => 
+coffee => 
+Question 3:
+
+Question 4:
+","
+plug => C
+
+Question 2:
+banana => F K B
+fireplace => F % B %","
+mug =>?
+
+Question 2:
+? =>?
+
+Question 3:
+? =>?
+","
+clock => 
+pencil => 
+computer => 
+dog => 
+zebra => 
+dog","
+pen => 
+paper => 
+key => 
+mouse => 
+cow => 
+flower =>","ᐅ E
+
+Question 3:
+dog => K K K
+frog => E K
+pig","
+pencil => C C
+
+Question 3:
+pencil => C C
+trilobite => C","
+pen => 
+guitar => 
+keyboard => 
+piano => 
+monkey => ","
+man => #
+
+Question 4:
+cat => } ^ {
+dog => ^
+tiger => }","]^ *
+
+Question 4:
+flower => O K L
+egg => O % K % L
+
+Question","]^ ^ {
+
+Question 4:
+horse => ^ ^ ^
+dog => * ^ ^ ^
+crick","
+snowflake => }! {
+
+Question 4:
+
+I am not sure if it is possible","
+cat => } *
+
+Question 4:
+tree => } }
+
+Question 5:
+fence =>","
+light => 
+
+Question 5:
+skeleton => S K P
+dog => D S P D P
+","
+chair =>
+
+Question 5:
+dog => D #
+fox => D D #
+cow => D","
+car =>
+
+Question 5:
+elephant => R E R R R R
+tiger => R R","
+beef => I Q I
+
+Question 5:
+baby => b
+beard => b
+p","
+dog => Z I
+
+Question 5:
+car => Z I I I
+truck => Z Z Z","~~~~ {
+
+Question 2:
+zebra => } ^ {
+
+lightbulb => } * {
+","
+question 2:
+tree => } * {
+bird => } ^ {
+penguin => } * {","
+^
+Question 2:
+^
+^
+^
+^
+Question 3:
+^
+^
+^","
+crocodile => } - {
+
+Question 2:
+
+Question 3:
+
+Question 4:","~~
+
+Question 2:
+^ {
+bullet => ^
+zebra => } * {
+book => ","
+wife => 
+horse => Q Z I Z Z I
+
+Question 3:
+lightbulb => I","
+husband => 
+mother => 
+father => 
+son => 
+daughter => 
+brother =>","~~~~~
+
+Question 3:
+cat =>
+cat => I
+cat => ~~~
+
+Question 4:","
+frog => * * * * *
+
+Question 3:
+pencil => * * * * *
+","
+dog => Z I Q Q I
+
+Question 3:
+circle => } + {
+cross => +
+","ϵ K ϵ C
+
+Question 4:
+cat => ϵ C I
+cow =>","ƒ C Q Q C Q Q
+
+Question 4:
+
+Question 1:
+
+Question 2:
+","
+stove => F T V
+
+Question 4:
+book => {
+
+Question 5:
+
+Question","
+car => 
+dog => D C D C
+
+Question 4:
+brick => = %
+orange","
+pencil => C E K
+
+Question 4:
+
+Q Q Z Z I A
+Q Q Z","
+airplane => a a
+
+Question 5:
+moon => C C
+star => C C C
+","
+plug => 
+plug => 
+plug => 
+plug => 
+plug => 
+plug => ","
+plug => 
+
+Question 5:
+rocket => C C C
+car => C
+bus => C
+","
+candle => C
+
+Question 5:
+car => E T
+bicycle => E Q Z","
+wrench => C C C C C C C c
+
+Question 5:
+elephant => Q K Q",".............
+=>.............
+=> I
+=> I
+=> I
+=> I
+=> I
+=>","******
+
+Question 2:
+=> C K E
+=> C E K
+=> ******
+
+Question 3","..........
+=>...........
+
+Question 2:
+=> J K K
+=> C K C
+=>","..............
+
+Question 2:
+=> C K E
+=> E % K % C
+=>........",".......
+=>.........
+=>........
+=>........
+=>........
+=> E K C
+
+","~~~~
+
+Question 3:
+=> K E K
+=> K % E %
+=> E K
+=> ","
+=> C
+=> 
+=> 
+=> 
+=> 
+=> 
+=> 
+=> ","
+=>
+
+Question 3:
+=> D C D
+=> D C
+=> D
+=> C
+=>","
+=> C C
+
+Question 3:
+=> C F F
+=> t c f
+=> C F
+",", c c
+
+Question 3:
+=> E E E
+=> e e e
+=> E E
+=>","
+=> } $ {
+=> }
+
+Question 4:
+=> I ^ J
+=> I ^
+=>","
+=> }
+=> ^ *
+=> } ^
+=> ^ *
+=> } *
+=> ^ ^
+","####
+=> *
+
+Question 4:
+=> K K K
+=> K % K % K
+=> K","
+=>
+=>
+
+Question 4:
+=> C A D
+=> C D A
+=> C D
+","
+=> } / {
+=> /
+=> }
+=> } ]^ {
+=> ]^
+=> }","###
+
+Question 5:
+=> X E Q
+=> E X Q Q
+=> X E
+=> E","
+=> 
+=> 
+=> 
+=> 
+=> 
+=> 
+=> 
+=> ","~~~
+
+Question 5:
+=> Q Q Q Z Z Z Z I I Z Z Z Z Z Z Z","
+=> Q Q I
+=> Q I
+=> I
+
+Question 5:
+=>
+=>
+=>
+","ƒ Z I Q Q Z I Z I Q Z
+
+Question 5:
+=> A-Z
+=>","
+=> }
+=> } ^ {
+=> }
+=> }
+=> } ^ {
+=> }
+=>","
+=> *
+=> } * {
+=> ^
+=> } ^ {
+=> 
+=> ^
+=>","
+=> * {
+=> 
+=> } }
+
+Question 2:
+=> } * {
+=> *","
+=> *
+=> } -> {
+=> ->
+=> }
+=> ^
+=> ^
+=> ^
+","]^
+=> }
+=> } * {
+=> ^ * {
+=> }
+=> }
+=> } *","〈〉
+
+Question 3:
+=> Q Z E
+=> Q Q Z E E
+=> Q","
+=> Q Z I Q Z I
+=> 
+=> J
+=> Q Z I J
+=> Q Z","
+=> 
+=> 
+=> 
+=> 
+=> 
+=> 
+=> 
+=> ","
+=>
+
+Question 3:
+=> 2 3 2
+=> 3 3 2 2
+=> 2 3 2 3","
+=> 
+=> 
+=> T O P
+=> 
+=> 
+=> T O S
+=>","
+=> 
+=> 
+=> 
+=> 
+=> 
+=> 
+=> 
+=> ","
+=>
+
+Question 4:
+=> B T D
+=> B E T D
+=> B D E T","
+=> C % K % E
+=> K C E C % % C E
+
+Question 4:
+=>","
+=> 
+=> 
+=> 
+=> 
+=> 
+=> 
+=> 
+=> ","
+=>
+
+Question 4:
+=> Z A T
+=> Z E N T
+=> Z T E
+","~~~
+=> ~~~
+=> ~~~
+=> ~~~
+=> ~~~
+=> ~~~
+=> ","
+=> C
+=> 
+=> C
+
+Question 5:
+=> C C C
+=> c c c","
+=> C
+
+Question 5:
+=> R Y S
+=> R Y S R
+=> R S Y","
+=> C C
+
+Question 5:
+=> C C C
+=> c c c
+=> C C
+","
+=> C C
+
+Question 5:
+=> A A A A A A A A A A A A A",".......
+
+Question 2:
+=> E % K % C % D
+=> A % B % C % D",".......
+
+Question 2:
+=> X K X
+=> X % X %
+=> X C X
+=>",".......
+
+Question 2:
+=> C A K
+=> C % A % K
+=> A C % K","
+Question 2:
+=> E K C
+=> E C % K
+=> C % K E
+=> C","
+=> S S % K
+=> S % K S
+=> K S % S
+=> K S S
+","
+=> 
+=> I Q Q Z I
+=> Q Z I
+=> Q Q Z
+
+Question 3","
+=> T R K
+=> T R K T R K T R K T R K
+=> T R K","
+=> Q I Z Q
+=> Q I Z Q I
+=> Q % I Z % Q I
+=>","
+=> I Z Z I
+=>
+
+Question 3:
+=> U P O
+=> U P O O","..........
+
+Question 3:
+=> O B O
+=> O B O O B O
+=> O B","
+=> 
+=> 
+=> 
+=> 
+=> 
+=> C C
+=> c c
+","
+=> C C
+=> C C
+
+A:
+
+Answer to questions 1 and 2:
+
+ The answer",".......
+=> C
+
+Question 4:
+=> L L L
+=> L L
+=> L L
+=>","######
+
+Question 4:
+=> K K K
+=> K % K %
+=> K % K %
+","ɼɼɼ
+=> C
+=> c
+=> ɼɼɼ
+=> ","
+=> }
+=> } ^ * {
+=> 
+=> }
+
+Question 5:
+=> A B","
+=> } ^ {
+
+Question 5:
+=> { f }
+=> { f }
+=> f
+","
+=> *
+=> }
+=> } * {
+=>
+=> *
+=> } }
+=> } *","
+=> }
+
+Question 5:
+=> X X
+=> X
+=> X
+=> X
+=> X","
+=> } ^ *
+=> { } ^ *
+=> ^ { } ^
+=> ^ { } *
+","................
+
+Question 2:
+=> E C K
+=> E % C % K
+=> E %","
+=> E K E
+=> E E K
+=> C K E
+=> 
+=> E E K
+","
+=> K S E
+=> K % S % E
+=> E % S % K
+=> E % S","................
+Question 2:
+=> % K % C % E
+=> C % K E %
+=>","0001101 C 1001111
+Question 2:
+=> E K C
+=> E % K % C
+=> C","
+=> C
+
+Question 3:
+=> J J J
+=> J K J
+=> J K
+=>","..........................
+
+Question 3:
+=> C K C
+=> C % K % C
+=> C K","
+=> C c
+=> c
+=>
+
+Question 3:
+=> A A
+=> A L
+=>","
+=> 
+=> 
+=> 
+=> 
+=> 
+=> 
+=> 
+=> ","
+=> C
+=>
+=>
+=>
+=>
+
+Question 3:
+=> E K E
+=> E","
+=> Q Q Z Q Z Z I
+=> Q
+
+Question 4:
+=> Q Q Q Q Q","˙ Q Q Z I
+=> ˙ Q Q Z I ˙ I
+=> Q Z I","Q Z I
+=> Q Z I
+
+Question 4:
+=> C C Z
+=> C C Q Z",".........
+
+Question 4:
+=> C E C E C E E C E
+=> C E C E","~~~
+
+Question 4:
+=> D O P
+=> D O Q D O P Q
+=> D O","
+=> * {
+=>
+=> *
+
+Question 5:
+=> 1 + 2 * 3
+=> 1","
+=> } ^ ^ ^
+=> } * * * * *
+=> } {
+=> {
+=> }","
+=> }
+=> }
+=> *
+
+Question 5:
+=> 0 X
+=> 0 X 0
+","
+=> } ^ {
+=> ^
+=> } * {
+=> 
+=> } * {
+=> ","
+=> *
+=> } * {
+=> *
+=> } ^ {
+=> ^
+=> } * {","
+broom =>
+
+Question 2:
+coffee => E K C
+bicycle => E % K","
+Question 2:
+square =>
+rectangle =>
+circle =>
+Question 3:
+square => B L E","
+dumb => 
+apple => 
+pen => 
+question => 
+circle => 
+question =>","............
+
+Question 2:
+square => E K C
+rectangle => E % K % C
+circle","
+lime =>
+
+Question 2:
+square => E C E
+rectangle => E % C % E","
+woman => 
+child => C
+
+Question 3:
+tuna => E C E
+mouse => %","...........
+
+Question 3:
+man => C C
+woman => C
+child => C
+
+Question 4","
+lion => C C
+
+Question 3:
+
+The first one is a bird, the other two are trees","
+woman => K K
+
+Question 3:
+red => E C E
+yellow => E E E
+blue","
+house => C
+
+Question 3:
+tree => E c E
+house => C % C
+
+Question","
+chair => *
+
+Question 4:
+man => C C C
+woman => c c c
+bird =>","
+house =>
+
+Question 4:
+1 4 => 2 3 X 2 3 X 2 3
+2 3 =>","
+pencil => 
+book => 
+bookcase =>
+
+Question 4:
+tree => } > {","
+house =>
+
+Question 4:
+a => A A
+b => B B
+c => C C
+","
+window => 
+car => 
+train => 
+
+Question 4:
+1=>2 2=>1 3","
+chair =>
+
+Question 5:
+house => C C C C C C C C C C C C C","ϭ
+moon => ϭ I
+
+Question 5:
+boy => % % % % % %","
+lamp => 
+
+Question 5:
+sick => C F D
+okay => C F C
+","
+dirt =>
+
+Question 5:
+tree => d r
+mountain => d v
+
+Question 6","
+couch => 
+window => 
+airplane => 
+car => 
+train => 
+b","
+ball => } } * {
+
+Question 2:
+king => } ^ {
+queen => ^
+","]^
+
+Question 2:
+1 2 3 => -> {
+2 3 1 => ^
+
+Question 3:","
+man => *
+
+Question 2:
+king => } ^ {
+queen => ^
+man => }","].
+
+Question 2:
+{king => } * {
+{queen => } * {
+{man","
+Question 2:
+car => ^
+truck => } ^
+Question 3:
+dog => } * {","
+bottle =>
+
+Question 3:
+cat => I
+dog =>
+
+Question 4:
+c","
+window =>
+chair => ^
+
+Question 3:
+
+Question 4:
+
+Question 5:
+
+","
+hat => 
+moon => 
+earth => *
+
+Question 3:
+
+A
+1
+","
+pencil => {
+
+Question 3:
+
+bush => } ^ {
+
+Question 4:
+","
+drawing => 
+picture => 
+dog => 
+man => 
+pillow => 
+","
+strawberry => 
+tomato =>
+
+Question 4:
+moon => 
+sun => ","ƒ K E ƒ C
+
+Question 4:
+tree => T K Y
+cactus =>","
+orange => 
+wheat => 
+tall => 
+short => 
+taller => ","
+paint => 
+pencil => 
+orange => 
+apple => 
+banana => 
+","
+door => E C K E
+
+Question 4:
+pencil => Q Z Z I Q Z Z I","
+tree => 
+tree => 
+tree => 
+tree => 
+tree => 
+tree => ","
+frog => 
+rabbit => 
+horse =>
+
+Question 5:
+pencil => E E E","ict
+
+Question 5:
+
+Question 6:
+
+Question 7:
+
+Question 8:
+
+Question","
+
+Question 5:
+square => C C C
+circle => C C
+triangle => C
+
+Question 6","
+moon => C C C C C
+
+Question 5:
+red => I
+green => I I
+","ᐊ C % K ᐊ E
+question => ᐊ C % K �","ƒ K E C
+
+Answer:
+
+Question 2:
+
+What is the third word in the first"," E E C
+car => C K E
+
+Question 2:
+dog => E % K %","
+dog => D E C
+lamp => 
+car => 
+Question 2:
+
+The following figures","
+chair => % E % K
+
+Question 2:
+B = 1
+B = 2
+C = B","
+pineapple => I I I Z Z Z Z Z Z Z Z Z I I
+
+Question 3:
+","ᚼ Q Z I I Z I
+
+Question 3:
+triangle => T T Z Z Z
+oct","
+pineapple => 
+cucumber => 
+banana => 
+orange => 
+grapefruit","
+coconut => 
+mint => 
+pistachio => 
+pineapple => 
+","
+circle => Q Z Z I I Q
+
+Question 3:
+brick => C K % C
+c","
+chair => 
+hat => 
+door => 
+book => 
+cat => 
+mouse => ","
+bacon => 
+car => 
+dog => 
+cat => 
+horse => 
+tooth","
+sun => S S S
+
+Question 4:
+A => A
+B => B
+C => C
+","
+dough => 
+pearl => 
+chocolate => 
+lollipop => 
+cup","
+pencil => 
+book => 
+pen => 
+computer => 
+computer => 
+computer =>","
+window => *
+
+Question 5:
+red => E E
+green => E
+blue => E
+
+","
+car => } {
+
+Question 5:
+tortoise => {
+turtle => {
+
+Question","
+lamp =>
+
+Question 5:
+blue => E E E
+yellow => E E
+green => E","
+window =>
+
+Question 5:
+green => R G C
+orange => R O R
+
+Question 6","
+window => } _ {
+
+Question 5:
+bottle => B C
+sink => B
+","
+dog => 
+chair => 
+window => 
+question => 
+pencil => 
+table =>","ˈdøər
+pencil => ˈpelən
+
+Question 2:
+dog =>","
+key =>
+hand =>
+
+Question 2:
+door => O
+key => K
+hand => H
+","
+chair => 
+coffee => 
+snow => 
+pencil => 
+table => 
+","
+Question 2:
+red => C K E
+green => C K E
+blue => C K E
+Question","ƒ C
+
+Question 3:
+red => K E K
+green => K E R
+yellow => K","
+cow => C C C
+
+Question 3:
+A => E E E
+B => K K K","ƒ C
+
+Question 3:
+red => D
+red => D
+blue => D
+blue => D","
+orange => C C %
+
+Question 3:
+chair => K K K
+table => K K C
+","ɣ
+
+Question 3:
+cat => C
+
+Question 4:
+dog =>
+
+Question 5:","
+woman => Z I Q Z Z I Q Z I I
+
+Question 4:
+pencil => C X","
+dress => Z I
+
+Question 4:
+tree => F F
+table => F T
+chair =>","
+pig => 
+horse => 
+lion => 
+snake => 
+horse => 
+mouse","
+blanket => 
+chimney => 
+hat => 
+suit => 
+hair => 
+","
+table => 
+chair => 
+house => 
+window => 
+door => 
+
+Question 4:","
+house => } } ^ {
+rock => } ^ {
+
+Question 5:
+the => ] ^]","
+cross => } + {
+
+Question 5:
+circle => } + {
+cross => } * {
+","
+house => 
+car => 
+dog =>
+housefly =>
+
+Question 5:
+chair =>
+","
+car => } * ^
+
+Question 5:
+pencil => C C
+rubber => c c
+","
+triangle => 
+star =>
+
+Question 5:
+1. => {
+2. =>
+3."

@@ -1,0 +1,715 @@
+categorial,multi_attribute,numeric,numeric_multi_attribute,relational
+"['chicken => !\r\nspider => !\r\ncat => *\r\nhorse => *\r\nant => !\r\ndog => *\r\nbee => !\r\nhuman => ', 'car => *\r\ntricycle => !\r\nmotorcycle => *\r\nskateboard => !\r\nbicycle => !\r\nunicycle => ', 'dime => *\r\nfeet => &\r\ninches => &\r\nquarter => *\r\ndollar => *\r\nweek => !\r\nday => ', 'headband => !\r\nt-shirt => !\r\ndonut => *\r\npants => !\r\npower outlet => ', 'day => !\r\nweek => !\r\nquarter => *\r\ndime => *\r\nfeet => &\r\ninches => &\r\ndollar => ', 'unicycle => !\r\ncar => *\r\ntricycle => !\r\nmotorcycle => *\r\nskateboard => !\r\nbicycle => ', 'power outlet => *\r\nheadband => !\r\npants => !\r\nt-shirt => !\r\ndonut => ', 'ant => !\r\nbee => !\r\ncat => *\r\nhorse => *\r\nspider => !\r\ndog => *\r\nchicken => !\r\nhuman => ']","['grandfather => !\r\ngrandmother => *\r\nmother => * *\r\nfather => ! !\r\nbrother => ! ! !\r\nsister => ', 'circle => ! !\r\npyramid => * * *\r\nsphere => ! ! !\r\ncone => ! ! !\r\ncube => * * *\r\nsemicircle => ! !\r\nsquare => ', 'headphones => ( ! )\r\nradio => ( ! )\r\nprojector => ( * )\r\ncamera => [ * ]\r\nspeaker => ( ! )\r\nscreen => ( * )\r\neye => [ * ]\r\nmicrophone => ', 'poker => [ ! ]\r\nfootball => ( * )\r\nbasketball => ( ! )\r\nboxing => [ ! ]\r\nchess => [ ! ]\r\nhockey => ( ! )\r\nbaseball => ( * )\r\nsoccer => ( * )\r\nwrestling => [ ! ]\r\ngolf => ', 'hockey => ( ! )\r\nmarathon => [ * ]\r\nfootball => ( * )\r\nbaseball => ( * )\r\ntag => [ * ]\r\nsoccer => ( * )\r\nbasketball => ( ! )\r\nskiing => [ * ]\r\ngolf => [ * ]\r\nchess => ', 'pyramid => * * *\r\nsphere => ! ! !\r\nsquare => * *\r\ntriangle => * *\r\ncone => ! ! !\r\ncube => * * *\r\npentagon => * *\r\ncircle => ', 'father => ! !\r\nmother => * *\r\ngrandfather => !\r\nbrother => ! ! !\r\ngrandmother => *\r\nsister => ', 'ear => [ ! ]\r\nheadphones => ( ! )\r\ncamera => [ * ]\r\nradio => ( ! )\r\neye => [ * ]\r\nspeaker => ( ! )\r\nmicrophone => [ ! ]\r\nscreen => ']","['feet => *\r\ninches => * * * * * * * * * * * *\r\nquarter => * * * *\r\ndollar => *\r\ndime => * * * * * * * * * *\r\nweek => *\r\nday => ', 'car => * * * *\r\ntricycle => * * *\r\nmotorcycle => * *\r\nbicycle => * *\r\nskateboard => * * * *\r\nunicycle => ', 'chicken => * *\r\nhuman => * *\r\ndog => * * * *\r\nspider => * * * * * * * *\r\ncat => * * * *\r\nhorse => * * * *\r\nbee => ', 'pants => * * *\r\npower outlet => * * *\r\nt-shirt => * * * *\r\nheadband => ', 'spider => * * * * * * * *\r\nhuman => * *\r\ncat => * * * *\r\nchicken => * *\r\ndog => * * * *\r\nhorse => * * * *\r\nbee => ', 'motorcycle => * *\r\ntricycle => * * *\r\nbicycle => * *\r\nunicycle => *\r\ncar => ', 'donut => *\r\npants => * * *\r\npower outlet => * * *\r\nheadband => *\r\nt-shirt => ', 'quarter => * * * *\r\ndime => * * * * * * * * * *\r\nday => * * * * * * *\r\ninches => * * * * * * * * * * * *\r\nweek => ']","['horse => * * * *\r\ncat => * * * *\r\nant => ! ! ! ! ! !\r\nbee => ! ! ! ! ! !\r\nchicken => ! !\r\nspider => ! ! ! ! ! ! ! !\r\ndog => * * * *\r\nhuman => ', 'motorcycle => * *\r\nunicycle => !\r\ntricycle => ! ! !\r\nskateboard => ! ! ! !\r\ncar => * * * *\r\nbicycle => ', 'day => ! ! ! ! ! ! !\r\ndollar => *\r\ndime => * * * * * * * * * *\r\nquarter => * * * *\r\nweek => !\r\ninches => & & & & & & & & & & & &\r\nfeet => ', 'pants => ! ! !\r\ndonut => *\r\nheadband => !\r\npower outlet => * * *\r\nt-shirt => ', 'headband => !\r\ndonut => *\r\npants => ! ! !\r\nt-shirt => ! ! ! !\r\npower outlet => ', 'quarter => * * * *\r\ndime => * * * * * * * * * *\r\ninches => & & & & & & & & & & & &\r\nday => ! ! ! ! ! ! !\r\ndollar => *\r\nfeet => &\r\nweek => ', 'human => * *\r\ndog => * * * *\r\nbee => ! ! ! ! ! !\r\nhorse => * * * *\r\ncat => * * * *\r\nspider => ! ! ! ! ! ! ! !\r\nant => ! ! ! ! ! !\r\nchicken => ', 'motorcycle => * *\r\nbicycle => ! !\r\nskateboard => ! ! ! !\r\ntricycle => ! ! !\r\ncar => * * * *\r\nunicycle => ']","['pants => H # H\nglove => X # X\ntorso => V\nfoot => Z\nhead => M\nshirt => V # V\nhat => ', 'screwdriver => P\nnut => [ I ]\nnail => [ D ]\nleaf => [ L ]\ntree => [ Y ]\nwrench => I\naxe => ', 'yes => M\nup => B\nnorth => C\neast => H\nleft => W\ndown => B ; ;\nsouth => ', 'piglet => D D D\ndog => X\npig => D\ncalf => P P P\nkitten => E E E\nchick => N N N\ncow => ', 'screwdriver => J\naxe => A\nhammer => H\nwrench => O\nnut => . . O .\nleaf => . . K .\nrake => ', 'left => T\nnorth => P\ndown => V V V\nno => O O O\nyes => O\neast => C\nwest => ', 'calf => % F\nchicken => V\ncat => T\nchick => % V\npuppy => % P\npig => W\ndog => ', 'head => J\nlegs => K\nshirt => [ X ]\nhand => R\nglove => [ R ]\nfoot => G\npants => ']"
+"['*', '!', '!', '*', '*', '!', '*', '*']","['* * *', '* *', '[ ! ]', '[ * ]', '[ ! ]', '! !', '* * *', '( * )']","['* * * * * * *', '*', '* * * * * *', '*', '* * * * * *', '* * * *', '* * * *', '*']","['* *', '! !', '&', '! ! ! !', '* * *', '!', '! !', '!']","['M # M', 'Y', 'C ; ;', 'P', 'K', 'C C C', 'P', '[ K ]']"
+"!
+Question 2:
+cat => !
+chicken => !
+bee => ","!
+
+Question 2:
+
+Question 3:
+
+Question 4:
+
+Question 5","*
+Answer:
+
+Question 2:
+apple => !
+orange => *
+ban","*
+Question 2:
+chicken => !
+spider => !
+cat =>","*
+Question 2:
+
+Question 3:
+
+Question 4:
+
+Question 5:","!
+scooter => !
+
+Question 3:
+dog => *
+cow ","!
+
+Question 3:
+tree => *
+house => !
+cloud => ","*
+wheelchair => !
+
+Question 3:
+orange => !
+apple =>","!
+scooter => !
+
+Question 3:
+apple => !
+orange =>","*
+
+Question 3:
+apple => !
+orange => *
+strawberry ","*
+hour => !
+
+Question 4:
+football => *
+basketball","!
+
+Question 4:
+fence => *
+house => *
+tree =>","!
+
+Question 4:
+apple => *
+orange => *
+grapes =>","!
+
+Question 4:
+mountain => !
+hill => *
+valley ","!
+
+Question 4:
+a => *
+b => !
+c => ","*
+phone => *
+
+Question 5:
+
+Question 6:
+
+Question 7","!
+shoe => !
+
+Question 5:
+kitten => !
+baby =>","!
+shoe => !
+tattoo => !
+
+Question 5:
+couch ","*
+
+Question 5:
+soup => *
+salad => !
+sandwich","*
+shirt => !
+
+Question 5:
+apple => *
+banana =>","*
+dollar sign => *
+Question 2:
+
+Question 3:
+
+Question 4","&
+
+Question 2:
+
+Question 3:
+
+Question 4:
+
+Question 5","&
+
+Question 2:
+
+day => *
+week => *
+quarter =>","*
+dollar => *
+month => !
+day => !
+week => ","&
+Question 2:
+a => *
+b => &
+c => *","*
+
+Question 3:
+mountain => !
+hill => !
+valley ","!
+
+Question 3:
+crow => !
+owl => *
+lion ","*
+
+Question 3:
+donut => *
+cake => *
+ice cream ","*
+
+Question 3:
+clockwise => !
+counterclockwise => !
+straight","*
+
+Question 3:
+sphere => !
+cylinder => !
+cone =>","*
+cup => !
+
+Question 4:
+lollipop => !
+cotton","*
+hair => !
+
+Question 4:
+apple => *
+ball => ","!
+sunglasses => *
+
+Question 4:
+soup => !
+sal","*
+
+Question 4:
+computer => *
+monitor => !
+mouse => ","!
+necklace => !
+
+Question 4:
+a => *
+b =>","!
+cow => !
+
+Question 5:
+car => !
+pencil ","!
+
+Question 5:
+pencil => *
+paper => !
+pencil sharp","!
+cow => !
+
+Question 5:
+ball => *
+candy ","*
+
+Question 5:
+dog => *
+cat => *
+pig => ","*
+
+Question 5:
+mountain => !
+hill => *
+mound ","! ! !
+uncle => ! ! !
+aunt => ! ","! ! !
+Question 2:
+
+Question 3:
+
+Question 4:
+
+","* * *
+cousin => ! * !
+aunt => !","! ! !
+Question 2:
+cow => !
+sheep => !","! ! *
+cousin => * * *
+Question 2:
+
+","* * *
+
+Question 3:
+
+Question 4:
+
+Question 5:
+","* *
+
+Question 3:
+tape => * * *
+paper =>","! !
+
+Question 3:
+1 => ! !
+2 => ! ","! !
+triangle => ! ! !
+
+Question 3:
+bird =>","! ! !
+rectangle => * * *
+
+Question 3:
+*","( ! )
+
+Question 4:
+dog => * !
+cat => ","( ! )
+
+Question 4:
+house => ( * )
+car ","( ! )
+
+Question 4:
+[ * ] => ! ! ","( ! )
+
+Question 4:
+
+Question 5:
+
+Question 6:
+","( ! )
+
+Question 4:
+dog => !
+cat => ! ","( ! )
+
+Question 5:
+black => ! ! !
+white ","[ ! ]
+
+Question 5:
+cat => * * * *
+","[ ! ]
+
+Question 5:
+1 => [ ! ]
+2 ","[ ! ]
+
+Question 5:
+A => ! ! ! !
+","( ! )
+
+Question 5:
+apple => ( ! )
+cherry","( ! )
+Question 2:
+dog => ( ! )
+cat =>","[ * ]
+Question 2:
+
+Question 3:
+
+Question 4:
+
+","[ * ]
+Question 2:
+
+Question 3:
+
+Question 4:
+
+","( * )
+Question 2:
+( * ) => [ * ]","( ! )
+Question 2:
+( * )
+[ * ]
+(","! ! !
+octagon => * * *
+hexagon => * ","! ! !
+rectangle => * *
+oval => ! ! !","! ! !
+hexagon => ! ! !
+diamond => * ","! ! !
+
+Question 3:
+( ! ) => ( ! ","! ! !
+parallelogram => * * !
+oval => *","*
+uncle => * *
+cousin => ! ! !
+
+","* * *
+aunt => *
+cousin => *
+uncle ","! ! !
+uncle => ! ! !
+cousin => !","! ! !
+grandfather => !
+daughter => ! !
+
+Question ","* *
+daughter => * *
+son => ! ! !
+
+Question","( ! )
+lens => ( ! )
+
+Question 5:
+p","[ * ]
+
+Question 5:
+apple => * *
+orange => ","[ * ]
+
+Question 5:
+apple => *
+pear => *","( ! )
+keyboard => [ ! ]
+
+Question 5:
+s","( ! )
+
+Question 5:
+hand => [ * ]
+pen ",* * * * * * * * * * * * ,"*
+hour => * * * * * * * * * ",* * * * * * * * * * * * ,"*
+hour => * * * * * * * * * ",* * * * * * * * * * * * ,"*
+
+Question 3:
+sun => *
+moon => *
+star => ","* * *
+
+Question 3:
+a => *
+b => * ","* * *
+
+Question 3:
+drum => * * * *","* *
+
+Question 3:
+ball => * * * * * ","* *
+
+Question 3:
+c => * * * * *
+","* * * *
+frog => * * *
+snake => *","* * * *
+
+Question 4:
+dirty => * * *","* * * * *
+
+Question 4:
+tree => * * ","* * * * * * * *
+
+Question 4:
+apple ","* * *
+
+Question 4:
+moon => * * * * ","* * *
+collar => * * *
+glasses => * *","* * * *
+hair => * * * * * *
+","* *
+shorts => * * * * * *
+tie =>","* * *
+jacket => * * * *
+
+Question 5:","* * * * * * *
+hat => * * * ","* * *
+Question 2:
+Question 3:
+Question 4:
+Question 5","* * * * * * *
+Question 2:
+
+Question 3:","* * *
+Question 2:
+spider => * * * * ","* * * *
+Question 2:
+
+Question 3:
+
+Question 4:","* * * * * *
+Question 2:
+* * * *","* * *
+bus => * * * *
+train => * ","* * * *
+boat => * * *
+
+Question 3:
+","* * *
+truck => * *
+bus => * * *","*
+truck => * * *
+
+Question 3:
+cow => ","* * *
+bus => * * * *
+truck => *","* *
+
+Question 4:
+
+Question 5:
+broom => * *","* * *
+
+Question 4:
+fountain => * * * *","* * *
+
+Question 4:
+dinosaur => * * *
+c","* *
+
+Question 4:
+lion => * * * *
+t","* * * *
+
+Question 4:
+cactus => * *
+grass","* * * * * * * *
+
+Question 5:
+crow",* * * * * * * * * * * * ,"* * * * * * * * *
+
+Question 5:
+",* * * * * * * * * * * * ,"* * * * * * *
+
+Question 5:
+dumbbell ","! ! ! ! ! !
+Question 2:
+
+Question 3:
+
+","* * * *
+Question 2:
+horse => ! ! ! !","* * * *
+Question 2:
+horse => ! ! ! !","* * * *
+Question 2:
+Question 3:
+Question 4:
+Question","! ! ! ! ! ! !
+Question 2:
+horse => !","* * * *
+
+Question 3:
+apple => * * * ","* * ! ! !
+bus => ! ! ! ! ! ","* *
+scooter => ! ! ! ! ! !
+
+Question ","* * * * ! !
+
+Question 3:
+computer => ! ","! ! ! !
+bike => ! ! ! !
+motorcycle =>","! ! ! ! ! ! ! ! ! ! ! !
+",! ! ! ! ! ! ! ! ! ! ! ! ,"* * * * * * * * * * *
+gallon",& & & & & & & & & & & & ,"* * * * * * * * * *
+meter => ","! !
+shorts => ! !
+
+Question 5:
+pencil => ","!
+shoes => ! ! ! ! ! ! !
+
+Question ","!
+book => ! ! !
+
+Question 5:
+battery => *","* * !
+light switch => !
+
+Question 5:
+
+Question 6:","* * ! ! ! ! !
+door => ! ! ! ","*
+eyeglasses => ! ! ! ! ! ! !
+Question 2","! ! ! ! !
+Question 2:
+headband => !
+donut","! ! ! ! ! ! ! !
+Question 2:
+headband ","! ! ! ! !
+question mark => ! ! ! ! !","! ! ! ! !
+Question 2:
+headband => ! !
+","! ! ! ! ! ! ! ! ! !
+Question 3:","! ! ! ! ! ! !
+
+Question 3:
+baseball =>","! ! ! ! ! ! !
+
+Question 3:
+a => ","!
+minute => * * * * * * * * * ","! ! ! ! ! ! ! ! ! ! !
+minute ","* * * *
+frog => * * * * *
+
+Question","* * * *
+cow => * * * *
+
+Question ","* * * *
+
+Question 4:
+banana => ! ! !","* * * *
+cow => * * * *
+
+Question ","* * *
+
+Question 4:
+* * * * * * ","! ! ! ! ! !
+scooter => ! ! !
+
+","! ! ! ! !
+horse => * * * *
+bicycle","! ! ! ! ! !
+scooter => ! ! ! !","! ! ! ! ! ! ! !
+scooter => ! !","! ! ! !
+
+Question 5:
+apple => ! ! ! ","# #
+pants => H # H
+
+Question 2:
+pants => H #","?
+Question 2:
+pants => H # H
+glove => X # X
+","? ?
+Question 2:
+pants => H # H
+glove => X #","#
+Question 2:
+pants => #
+glove => #
+torso =>","? # ?
+
+Question 2:
+
+Question 3:
+
+Question 4:
+","[ X ]
+hammer => [ S ]
+
+Question 3:
+
+Question 4","[ T ]
+hammer => [ O ]
+
+Question 3:
+football =>","[ H ]
+
+Question 3:
+circle => [ C ]
+diamond =>","[ I ]
+
+Question 3:
+tower => T
+sail => [ I","[ O ]
+
+Question 3:
+pencil => [ P ]
+eraser ","[ H ]
+west => W
+
+Question 4:
+guitar => [ E ","[ C ]
+west => W ; ;
+no => [ D ]
+
+","[ B ]
+right => [ C ]
+
+Question 4:
+dog => W","[ A ]
+west => C
+
+Question 4:
+ball => [ B ]","[ L ]
+west => [ L ]
+
+Question 4:
+
+Question 5","# # #
+
+Question 5:
+A => Y
+B => X
+C ","[ O ] [ O ] [ O ]
+
+Question 5:
+crow ","[ C ] [ C ] [ C ]
+horse => [ H ] ","[ M ]
+
+Question 5:
+carrot => H H H
+apple => [","#
+horse => # # #
+
+Question 5:
+cow => #",. . . . . . . . . . . . ,". . O . .
+Question 2:
+A => . . . O",". . . . .
+Question 2:
+apple => . . .",". . . .
+Question 2:
+cabbage => A
+leek =>",". . H .
+Question 2:
+truck => H
+mountain => .",". . . . .
+south => . . . . .
+",". . . .
+
+Question 3:
+squirrel => I
+fish =>",". . . .
+
+Question 3:
+up => O O O
+south =>",". . . . . . .
+
+Question 3:
+left => T",". . . .
+
+Question 3:
+apple => . . . ","% P
+
+Question 4:
+. . . . . . . .","% W
+
+Question 4:
+dog => % W
+cat => T
+chicken ","% %
+
+Question 4:
+cat => % V
+dog => % %","% W
+
+Question 4:
+
+Question 5:
+
+Question 6:
+
+Question ","% P
+
+Question 4:
+bird => % . .
+worm => .","[ R ]
+
+Question 5:
+cigar => - O
+cigarette => ","[ G G G ]
+
+Question 5:
+hand => R
+heart => [ X","[ G ]
+
+Question 5:
+left => T
+north => P
+down =>","[ . ]
+
+Question 5:
+[ . ] => [ . ","[ O ]
+
+Question 5:
+A => O
+B => [ ]
+"

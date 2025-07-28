@@ -1,0 +1,4037 @@
+Loading defaults1
+Loading defaults2
+Loading defaults3
+Loading defaults4
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+square => E K C
+rectangle => E % K % C
+circle => C K E
+oval => 
+
+--------- SAMPLED RESPONSE SET ---------
+ O
+----------------------------------------
+ O
+----------------------------------------
+ O K E
+----------------------------------------
+ O K E
+----------------------------------------
+ O K E
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+square => E K C
+rectangle => E % K % C
+circle => C K E
+oval => C % K % E
+
+Question 2:
+king => C C C
+queen => c c c
+man => C C
+woman => 
+
+--------- SAMPLED RESPONSE SET ---------
+ woman => c c
+----------------------------------------
+ woman => c c
+----------------------------------------
+ woman => c c
+----------------------------------------
+ woman => c c
+----------------------------------------
+ woman => c c
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+square => E K C
+rectangle => E % K % C
+circle => C K E
+oval => C % K % E
+
+Question 2:
+king => C C C
+queen => c c c
+man => C C
+woman => c c
+
+Question 3:
+black => } ^ {
+gray => ^
+red => } * {
+pink => 
+
+--------- SAMPLED RESPONSE SET ---------
+ Question 1:
+
+oval => C % K % E
+
+Question 2: 
+
+woman => c c
+----------------------------------------
+ Question 1:
+
+oval => C % K % E
+
+Question 2: 
+
+prince => c c
+----------------------------------------
+ Question 1:
+
+oval => C % K % E
+
+Question 2: 
+
+woman => c c  
+----------------------------------------
+ Question 1:
+
+oval => C % K % E
+
+Question 2: 
+
+woman => c c 
+----------------------------------------
+ Question 1:
+
+oval => C % K % E
+
+Question 2: 
+
+woman => c c
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+square => E K C
+rectangle => E % K % C
+circle => C K E
+oval => C % K % E
+
+Question 2:
+king => C C C
+queen => c c c
+man => C C
+woman => c c
+
+Question 3:
+black => } ^ {
+gray => ^
+red => } * {
+pink => *
+
+Question 4:
+dog => Q Z I
+puppy => Q Q Z Z I I
+cat => Q Z I Q Z I
+kitten => 
+
+--------- SAMPLED RESPONSE SET ---------
+ kitten => Q Q Z Z I I Q Q Z Z I I
+----------------------------------------
+ kitten => Q Q Z Z I I Q Q Z Z I I
+----------------------------------------
+ kitten => Q Q Z Z I I Q Q Z Z I I
+----------------------------------------
+ kitten => Q Q Z Z I I Q Q Z Z I I
+----------------------------------------
+ kitten => Q Q Z Z I I Q Q Z Z I I
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+king => } ^ {
+queen => ^
+man => } * {
+woman => 
+
+--------- SAMPLED RESPONSE SET ---------
+ *
+----------------------------------------
+ *
+----------------------------------------
+ *
+----------------------------------------
+ *
+----------------------------------------
+ *
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+king => } ^ {
+queen => ^
+man => } * {
+woman => *
+
+Question 2:
+black => Q Z I
+gray => Q Q Z Z I I
+red => Q Z I Q Z I
+pink => 
+
+--------- SAMPLED RESPONSE SET ---------
+ *
+----------------------------------------
+ pink => Q Z I Q Z I Q Z I
+----------------------------------------
+ Question 1:
+*
+
+Question 2: 
+Q Z I Q Z I Q Z I
+----------------------------------------
+ pink => Q Q Z Z I I Q Q Z Z I I
+----------------------------------------
+ pink => Q Z I Q Z I Q Z I
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+king => } ^ {
+queen => ^
+man => } * {
+woman => *
+
+Question 2:
+black => Q Z I
+gray => Q Q Z Z I I
+red => Q Z I Q Z I
+pink => Q Q Z Z I I Q Q Z Z I I
+
+Question 3:
+dog => E K C
+puppy => E % K % C
+cat => C K E
+kitten => 
+
+--------- SAMPLED RESPONSE SET ---------
+ kitten => C % K % E
+----------------------------------------
+ kitten => C % K % E
+----------------------------------------
+ kitten => C % K % E
+----------------------------------------
+ kitten => C % K % E
+----------------------------------------
+ kitten => C % K % E
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+king => } ^ {
+queen => ^
+man => } * {
+woman => *
+
+Question 2:
+black => Q Z I
+gray => Q Q Z Z I I
+red => Q Z I Q Z I
+pink => Q Q Z Z I I Q Q Z Z I I
+
+Question 3:
+dog => E K C
+puppy => E % K % C
+cat => C K E
+kitten => C % K % E
+
+Question 4:
+square => C C C
+rectangle => c c c
+circle => C C
+oval => 
+
+--------- SAMPLED RESPONSE SET ---------
+ oval => o o
+----------------------------------------
+ oval => o o
+----------------------------------------
+ oval => o o
+----------------------------------------
+ oval => o o
+----------------------------------------
+ oval => o o
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+king => E K C
+queen => E % K % C
+man => C K E
+woman => 
+
+--------- SAMPLED RESPONSE SET ---------
+ % C K E
+----------------------------------------
+ % K C
+----------------------------------------
+ % K C
+----------------------------------------
+ % K E C
+----------------------------------------
+ C % K % E
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+king => E K C
+queen => E % K % C
+man => C K E
+woman => C % K % E
+
+Question 2:
+square => Q Z I
+rectangle => Q Q Z Z I I
+circle => Q Z I Q Z I
+oval => 
+
+--------- SAMPLED RESPONSE SET ---------
+ Oval => Q Q Z Z I I Q Q Z Z I I
+----------------------------------------
+ Oval => Q Z I Q Z I Q Z I
+----------------------------------------
+ Oval => Q Z I Q Z I Q Z I
+----------------------------------------
+ Oval => Q Q Z Z I I Q Z I
+----------------------------------------
+ Oval => Q Q Z Z I I Q Z I
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+king => E K C
+queen => E % K % C
+man => C K E
+woman => C % K % E
+
+Question 2:
+square => Q Z I
+rectangle => Q Q Z Z I I
+circle => Q Z I Q Z I
+oval => Q Q Z Z I I Q Q Z Z I I
+
+Question 3:
+black => C C C
+gray => c c c
+red => C C
+pink => 
+
+--------- SAMPLED RESPONSE SET ---------
+ pink => c c
+----------------------------------------
+ pink => c c
+----------------------------------------
+ pink => c c
+----------------------------------------
+ pink => c c
+----------------------------------------
+ pink => c c
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+king => E K C
+queen => E % K % C
+man => C K E
+woman => C % K % E
+
+Question 2:
+square => Q Z I
+rectangle => Q Q Z Z I I
+circle => Q Z I Q Z I
+oval => Q Q Z Z I I Q Q Z Z I I
+
+Question 3:
+black => C C C
+gray => c c c
+red => C C
+pink => c c
+
+Question 4:
+dog => } ^ {
+puppy => ^
+cat => } * {
+kitten => 
+
+--------- SAMPLED RESPONSE SET ---------
+ Question 1:
+woman => C % K % E
+
+Question 2: 
+oval => Q Q Z Z
+----------------------------------------
+ Last drawing:
+
+Question 1: 
+C % K % E
+
+Question 2:  
+Q Z
+----------------------------------------
+ Question 1:
+C % K % E
+
+Question 2: 
+Q Z I Q Z I Q Z
+----------------------------------------
+ Question 1:
+
+C % K % E
+
+Question 2: 
+
+Q Z I Q Z I Q
+----------------------------------------
+ Question 1:
+C % K % E
+
+Question 2: 
+Q Q Z Z I I Q Q
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+black => E K C
+gray => E % K % C
+red => C K E
+pink => 
+
+--------- SAMPLED RESPONSE SET ---------
+ C % K % E
+----------------------------------------
+ C % K % E
+----------------------------------------
+ C % K % E
+----------------------------------------
+ C % K % E
+----------------------------------------
+ C % K % E
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+black => E K C
+gray => E % K % C
+red => C K E
+pink => C % K % E
+
+Question 2:
+dog => C C C
+puppy => c c c
+cat => C C
+kitten => 
+
+--------- SAMPLED RESPONSE SET ---------
+ kitten => c c
+----------------------------------------
+ kitten => c c
+----------------------------------------
+ kitten => c c
+----------------------------------------
+ kitten => c c
+----------------------------------------
+ Here are the responses:
+
+Question 1: 
+C % K % E
+
+Question 2:
+c
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+black => E K C
+gray => E % K % C
+red => C K E
+pink => C % K % E
+
+Question 2:
+dog => C C C
+puppy => c c c
+cat => C C
+kitten => c c
+
+Question 3:
+king => Q Z I
+queen => Q Q Z Z I I
+man => Q Z I Q Z I
+woman => 
+
+--------- SAMPLED RESPONSE SET ---------
+ woman => Q Q Z Z I I Q Q Z Z I I
+----------------------------------------
+ woman => Q Q Z Z I I Q Q Z Z I I
+----------------------------------------
+ woman => Q Z I Q Z I Q Z I Q Z I
+----------------------------------------
+ woman => Q Q Z Z I I Q Q Z Z I I
+----------------------------------------
+ woman => Q Q Z Z I I Q Q Z Z I I
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+black => E K C
+gray => E % K % C
+red => C K E
+pink => C % K % E
+
+Question 2:
+dog => C C C
+puppy => c c c
+cat => C C
+kitten => c c
+
+Question 3:
+king => Q Z I
+queen => Q Q Z Z I I
+man => Q Z I Q Z I
+woman => Q Q Z Z I I Q Q Z Z I I
+
+Question 4:
+square => } ^ {
+rectangle => ^
+circle => } * {
+oval => 
+
+--------- SAMPLED RESPONSE SET ---------
+ * { ^ }
+----------------------------------------
+ ^
+----------------------------------------
+ {
+----------------------------------------
+ *
+----------------------------------------
+ { * }
+----------------------------------------
+Loading distracted1
+Loading distracted2
+Loading distracted3
+Loading distracted4
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+square => E K C
+pillow => A P
+rectangle => E % K % C
+circle => C K E
+oval => 
+
+--------- SAMPLED RESPONSE SET ---------
+ O K C
+----------------------------------------
+ O
+----------------------------------------
+ O
+----------------------------------------
+ O
+----------------------------------------
+ O
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+square => E K C
+pillow => A P
+rectangle => E % K % C
+circle => C K E
+oval => C % K % E
+
+Question 2:
+lime => U
+king => C C C
+queen => c c c
+man => C C
+woman => 
+
+--------- SAMPLED RESPONSE SET ---------
+ woman => c c
+----------------------------------------
+ woman => c c
+----------------------------------------
+ woman => c c
+----------------------------------------
+ woman => c c
+----------------------------------------
+ Woman => c c
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+square => E K C
+pillow => A P
+rectangle => E % K % C
+circle => C K E
+oval => C % K % E
+
+Question 2:
+lime => U
+king => C C C
+queen => c c c
+man => C C
+woman => c c
+
+Question 3:
+black => } ^ {
+gray => ^
+door => 8 8
+red => } * {
+pink => 
+
+--------- SAMPLED RESPONSE SET ---------
+ Question 1:
+oval => C % K % E
+
+Question 2: 
+woman => c c
+----------------------------------------
+ Question 1:
+
+oval => C % K % E
+
+Question 2: 
+
+woman => c c
+----------------------------------------
+ Question 1:
+
+oval => C % K % E
+
+Question 2: 
+
+woman => c c
+----------------------------------------
+ Question 1:
+
+oval => C % K % E
+
+Question 2: 
+
+woman => c c
+----------------------------------------
+ Question 1:
+
+oval => C % K % E
+
+Question 2: 
+
+woman => c c
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+square => E K C
+pillow => A P
+rectangle => E % K % C
+circle => C K E
+oval => C % K % E
+
+Question 2:
+lime => U
+king => C C C
+queen => c c c
+man => C C
+woman => c c
+
+Question 3:
+black => } ^ {
+gray => ^
+door => 8 8
+red => } * {
+pink => *
+
+Question 4:
+dog => Q Z I
+puppy => Q Q Z Z I I
+cat => Q Z I Q Z I
+tree => Y Y Y
+kitten => 
+
+--------- SAMPLED RESPONSE SET ---------
+ Q Q Z Z I I
+----------------------------------------
+ Q Q Z Z I I Q Q Z Z I I
+----------------------------------------
+ *
+----------------------------------------
+ Q Q Z Z I I
+----------------------------------------
+ Q Q Z Z I I
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+king => } ^ {
+queen => ^
+lime => A P
+man => } * {
+woman => 
+
+--------- SAMPLED RESPONSE SET ---------
+ *
+----------------------------------------
+ *
+----------------------------------------
+ *
+----------------------------------------
+ *
+----------------------------------------
+ *
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+king => } ^ {
+queen => ^
+lime => A P
+man => } * {
+woman => *
+
+Question 2:
+black => Q Z I
+tree => Y Y Y
+gray => Q Q Z Z I I
+red => Q Z I Q Z I
+pink => 
+
+--------- SAMPLED RESPONSE SET ---------
+ pink => Q Q Z Z I I
+----------------------------------------
+ Question 1: 
+*
+
+Question 2:
+Q Z I Q Z I
+----------------------------------------
+ pink => Q Z I Q Z I Q Z I
+----------------------------------------
+ Pink => Q Z I Q Z I Q Z I
+----------------------------------------
+ pink => Q Z I Q Z I Q Z I
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+king => } ^ {
+queen => ^
+lime => A P
+man => } * {
+woman => *
+
+Question 2:
+black => Q Z I
+tree => Y Y Y
+gray => Q Q Z Z I I
+red => Q Z I Q Z I
+pink => Q Q Z Z I I Q Q Z Z I I
+
+Question 3:
+door => 8 8
+dog => E K C
+puppy => E % K % C
+cat => C K E
+kitten => 
+
+--------- SAMPLED RESPONSE SET ---------
+ kitten => C % K % E
+----------------------------------------
+ kitten => C % K % E
+----------------------------------------
+ *
+----------------------------------------
+ kitten => C % K % E
+----------------------------------------
+ kitten => C % K % E
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+king => } ^ {
+queen => ^
+lime => A P
+man => } * {
+woman => *
+
+Question 2:
+black => Q Z I
+tree => Y Y Y
+gray => Q Q Z Z I I
+red => Q Z I Q Z I
+pink => Q Q Z Z I I Q Q Z Z I I
+
+Question 3:
+door => 8 8
+dog => E K C
+puppy => E % K % C
+cat => C K E
+kitten => C % K % E
+
+Question 4:
+square => C C C
+rectangle => c c c
+circle => C C
+pillow => U
+oval => 
+
+--------- SAMPLED RESPONSE SET ---------
+ oval
+----------------------------------------
+ Oval
+----------------------------------------
+ O
+----------------------------------------
+ o
+----------------------------------------
+ oval
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+king => E K C
+queen => E % K % C
+man => C K E
+lime => 8 8
+woman => 
+
+--------- SAMPLED RESPONSE SET ---------
+ % K E C
+----------------------------------------
+ % K C
+----------------------------------------
+ % K C
+----------------------------------------
+ % K C
+----------------------------------------
+ % K C
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+king => E K C
+queen => E % K % C
+man => C K E
+lime => 8 8
+woman => C % K % E
+
+Question 2:
+pillow => U
+square => Q Z I
+rectangle => Q Q Z Z I I
+circle => Q Z I Q Z I
+oval => 
+
+--------- SAMPLED RESPONSE SET ---------
+ oval => U U
+----------------------------------------
+ oval => U U
+----------------------------------------
+ oval => U U
+----------------------------------------
+ oval => U U
+----------------------------------------
+ oval => U U
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+king => E K C
+queen => E % K % C
+man => C K E
+lime => 8 8
+woman => C % K % E
+
+Question 2:
+pillow => U
+square => Q Z I
+rectangle => Q Q Z Z I I
+circle => Q Z I Q Z I
+oval => Q Q Z Z I I Q Q Z Z I I
+
+Question 3:
+black => C C C
+tree => Y Y Y
+gray => c c c
+red => C C
+pink => 
+
+--------- SAMPLED RESPONSE SET ---------
+ C C
+----------------------------------------
+ pink => c c
+----------------------------------------
+ pink => c c
+----------------------------------------
+ pink => c c
+----------------------------------------
+ pink => c c
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+king => E K C
+queen => E % K % C
+man => C K E
+lime => 8 8
+woman => C % K % E
+
+Question 2:
+pillow => U
+square => Q Z I
+rectangle => Q Q Z Z I I
+circle => Q Z I Q Z I
+oval => Q Q Z Z I I Q Q Z Z I I
+
+Question 3:
+black => C C C
+tree => Y Y Y
+gray => c c c
+red => C C
+pink => c c
+
+Question 4:
+dog => } ^ {
+puppy => ^
+door => A P
+cat => } * {
+kitten => 
+
+--------- SAMPLED RESPONSE SET ---------
+ *
+----------------------------------------
+ Question 1:
+lime => 8 8
+woman => C % K % E
+
+Question 2: 
+oval
+----------------------------------------
+ *
+----------------------------------------
+ Question 1:
+
+E % K % C
+
+Question 2: 
+
+Q Q Z Z I I Q
+----------------------------------------
+ ^
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+door => U
+black => E K C
+gray => E % K % C
+red => C K E
+pink => 
+
+--------- SAMPLED RESPONSE SET ---------
+ C K E
+----------------------------------------
+ C K E
+----------------------------------------
+ C K E
+----------------------------------------
+ K C E
+----------------------------------------
+ C K E
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+door => U
+black => E K C
+gray => E % K % C
+red => C K E
+pink => C % K % E
+
+Question 2:
+dog => C C C
+puppy => c c c
+cat => C C
+tree => Y Y Y
+kitten => 
+
+--------- SAMPLED RESPONSE SET ---------
+ kitten => c c
+----------------------------------------
+ kitten => c c
+----------------------------------------
+ kitten => c c
+----------------------------------------
+ kitten => c c
+----------------------------------------
+ kitten => c c
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+door => U
+black => E K C
+gray => E % K % C
+red => C K E
+pink => C % K % E
+
+Question 2:
+dog => C C C
+puppy => c c c
+cat => C C
+tree => Y Y Y
+kitten => c c
+
+Question 3:
+king => Q Z I
+queen => Q Q Z Z I I
+pillow => 8 8
+man => Q Z I Q Z I
+woman => 
+
+--------- SAMPLED RESPONSE SET ---------
+ pillow => 8 8 
+
+woman => Q Z I Q Z I Q Z I Q Z I
+----------------------------------------
+ woman => Q Q Z Z I I Q Q Z Z I I
+----------------------------------------
+ woman => Q Q Z Z I I Q Q Z Z I I
+----------------------------------------
+ woman => Q Q Z Z I I Q Q Z Z I I
+----------------------------------------
+ woman => Q Q Z Z I I Q Q Z Z I I
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+door => U
+black => E K C
+gray => E % K % C
+red => C K E
+pink => C % K % E
+
+Question 2:
+dog => C C C
+puppy => c c c
+cat => C C
+tree => Y Y Y
+kitten => c c
+
+Question 3:
+king => Q Z I
+queen => Q Q Z Z I I
+pillow => 8 8
+man => Q Z I Q Z I
+woman => Q Q Z Z I I Q Q Z Z I I
+
+Question 4:
+square => } ^ {
+lime => A P
+rectangle => ^
+circle => } * {
+oval => 
+
+--------- SAMPLED RESPONSE SET ---------
+ } * {
+----------------------------------------
+ * } {
+----------------------------------------
+ * {
+----------------------------------------
+ *
+----------------------------------------
+ { * }
+----------------------------------------
+Loading permuted_pairs1
+Loading permuted_pairs2
+Loading permuted_pairs3
+Loading permuted_pairs4
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+square => E K C
+oval => C % K % E
+rectangle => E % K % C
+circle => 
+
+--------- SAMPLED RESPONSE SET ---------
+ O
+----------------------------------------
+ O
+----------------------------------------
+ O
+----------------------------------------
+ O
+----------------------------------------
+ O
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+square => E K C
+oval => C % K % E
+rectangle => E % K % C
+circle => C K E
+
+Question 2:
+king => C C C
+queen => c c c
+man => C C
+woman => 
+
+--------- SAMPLED RESPONSE SET ---------
+ woman => c c
+----------------------------------------
+ woman => c c
+----------------------------------------
+ woman => c c
+----------------------------------------
+ woman => c c
+----------------------------------------
+ woman => c c
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+square => E K C
+oval => C % K % E
+rectangle => E % K % C
+circle => C K E
+
+Question 2:
+king => C C C
+queen => c c c
+man => C C
+woman => c c
+
+Question 3:
+pink => *
+black => } ^ {
+gray => ^
+red => 
+
+--------- SAMPLED RESPONSE SET ---------
+ *
+----------------------------------------
+ *
+----------------------------------------
+ *
+----------------------------------------
+ *
+----------------------------------------
+ *
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+square => E K C
+oval => C % K % E
+rectangle => E % K % C
+circle => C K E
+
+Question 2:
+king => C C C
+queen => c c c
+man => C C
+woman => c c
+
+Question 3:
+pink => *
+black => } ^ {
+gray => ^
+red => } * {
+
+Question 4:
+puppy => Q Q Z Z I I
+kitten => Q Q Z Z I I Q Q Z Z I I
+cat => Q Z I Q Z I
+dog => 
+
+--------- SAMPLED RESPONSE SET ---------
+ dog => Q Q Z Z I I Q Q Z Z I I Q Q Z Z I I
+----------------------------------------
+ dog => Q Q Z Z I I Q Q Z Z I I Q Q Z Z I I
+----------------------------------------
+ dog => Q Q Z Z I I Q Q Z Z I I Q Q Z Z I I
+----------------------------------------
+ dog => Q Q Z Z I I Q Q Z Z I I Q Q Z Z I I
+----------------------------------------
+ dog => Q Q Z Z I I Q Q Z Z I I Q Q Z Z I I
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+man => } * {
+queen => ^
+king => } ^ {
+woman => 
+
+--------- SAMPLED RESPONSE SET ---------
+ *
+----------------------------------------
+ *
+----------------------------------------
+ *
+----------------------------------------
+ *
+----------------------------------------
+ *
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+man => } * {
+queen => ^
+king => } ^ {
+woman => *
+
+Question 2:
+gray => Q Q Z Z I I
+black => Q Z I
+red => Q Z I Q Z I
+pink => 
+
+--------- SAMPLED RESPONSE SET ---------
+ pink => Q Z I
+----------------------------------------
+ pink => Q Z I
+----------------------------------------
+ pink => Q I
+----------------------------------------
+ pink => Q Z I Q Z I
+----------------------------------------
+ pink => Q I
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+man => } * {
+queen => ^
+king => } ^ {
+woman => *
+
+Question 2:
+gray => Q Q Z Z I I
+black => Q Z I
+red => Q Z I Q Z I
+pink => Q Q Z Z I I Q Q Z Z I I
+
+Question 3:
+cat => C K E
+kitten => C % K % E
+puppy => E % K % C
+dog => 
+
+--------- SAMPLED RESPONSE SET ---------
+ dog => E K C
+----------------------------------------
+ dog => K C E
+----------------------------------------
+ dog => E K C
+----------------------------------------
+ dog => E K C
+----------------------------------------
+ dog => E K C
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+man => } * {
+queen => ^
+king => } ^ {
+woman => *
+
+Question 2:
+gray => Q Q Z Z I I
+black => Q Z I
+red => Q Z I Q Z I
+pink => Q Q Z Z I I Q Q Z Z I I
+
+Question 3:
+cat => C K E
+kitten => C % K % E
+puppy => E % K % C
+dog => E K C
+
+Question 4:
+oval => c c
+rectangle => c c c
+circle => C C
+square => 
+
+--------- SAMPLED RESPONSE SET ---------
+ square => c c c c
+----------------------------------------
+ square => c c c c
+----------------------------------------
+ square => c c c c
+----------------------------------------
+ square => C C C C
+----------------------------------------
+ square => C C C C
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+woman => C % K % E
+man => C K E
+queen => E % K % C
+king => 
+
+--------- SAMPLED RESPONSE SET ---------
+ E K C
+----------------------------------------
+ E K C
+----------------------------------------
+ E K C
+----------------------------------------
+ E K C
+----------------------------------------
+ E K C
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+woman => C % K % E
+man => C K E
+queen => E % K % C
+king => E K C
+
+Question 2:
+rectangle => Q Q Z Z I I
+oval => Q Q Z Z I I Q Q Z Z I I
+square => Q Z I
+circle => 
+
+--------- SAMPLED RESPONSE SET ---------
+ Question 1:
+
+king => E K C
+
+Question 2: 
+circle => Q Z I Q Z
+----------------------------------------
+ Question 1: 
+king => E K C
+
+Question 2:
+rectangle => Q Q Z Z I I
+----------------------------------------
+ Question 1:
+king => E K C
+
+Question 2: 
+circle => Q Z I Q Z I
+----------------------------------------
+ Question 1:
+E K C
+
+Question 2: 
+Q Z I
+----------------------------------------
+ Question 1:
+king => E K C
+
+Question 2: 
+circle => Q Z I Q Z I
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+woman => C % K % E
+man => C K E
+queen => E % K % C
+king => E K C
+
+Question 2:
+rectangle => Q Q Z Z I I
+oval => Q Q Z Z I I Q Q Z Z I I
+square => Q Z I
+circle => Q Z I Q Z I
+
+Question 3:
+gray => c c c
+black => C C C
+red => C C
+pink => 
+
+--------- SAMPLED RESPONSE SET ---------
+ Question 1:
+king => E K C
+
+Question 2: 
+circle => Q Z I Q Z I
+----------------------------------------
+ Question 1:
+
+king => E K C
+prince => K C E
+
+Question 2: 
+----------------------------------------
+ Question 1:
+prince => C K C
+
+Question 2: 
+triangle => Q Z I
+----------------------------------------
+ Question 1:
+C K C
+
+Question 2: 
+Q Z I Q Z I
+
+Question 3
+----------------------------------------
+ pink => c c
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+woman => C % K % E
+man => C K E
+queen => E % K % C
+king => E K C
+
+Question 2:
+rectangle => Q Q Z Z I I
+oval => Q Q Z Z I I Q Q Z Z I I
+square => Q Z I
+circle => Q Z I Q Z I
+
+Question 3:
+gray => c c c
+black => C C C
+red => C C
+pink => c c
+
+Question 4:
+puppy => ^
+cat => } * {
+dog => } ^ {
+kitten => 
+
+--------- SAMPLED RESPONSE SET ---------
+ Question 1:
+
+king => E K C
+
+Question 2: 
+square => Q Z I
+circle
+----------------------------------------
+ Question 1:
+prince => C K E
+
+Question 2:  
+triangle => Q Z I
+----------------------------------------
+ Question 1:
+woman => C % K % E  
+man => C K E
+queen => E % K
+----------------------------------------
+ Question 1:
+prince => E K % C
+
+Question 2:  
+pentagon => Q Q Z
+----------------------------------------
+ Question 1: 
+king => E K C
+
+Question 2:
+circle => Q Z I Q Z I
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+red => C K E
+black => E K C
+gray => E % K % C
+pink => 
+
+--------- SAMPLED RESPONSE SET ---------
+ % K C
+----------------------------------------
+ % K C
+----------------------------------------
+ % K C
+----------------------------------------
+ % % K %
+----------------------------------------
+ % K C
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+red => C K E
+black => E K C
+gray => E % K % C
+pink => C % K % E
+
+Question 2:
+cat => C C
+puppy => c c c
+dog => C C C
+kitten => 
+
+--------- SAMPLED RESPONSE SET ---------
+ kitten => c c
+----------------------------------------
+ kitten => c c
+----------------------------------------
+ kitten => c c
+----------------------------------------
+ kitten => c c
+----------------------------------------
+ kitten => c c
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+red => C K E
+black => E K C
+gray => E % K % C
+pink => C % K % E
+
+Question 2:
+cat => C C
+puppy => c c c
+dog => C C C
+kitten => c c
+
+Question 3:
+woman => Q Q Z Z I I Q Q Z Z I I
+king => Q Z I
+man => Q Z I Q Z I
+queen => 
+
+--------- SAMPLED RESPONSE SET ---------
+ queen => Q Q Z Z I I
+----------------------------------------
+ Question 1:
+gray => E % K % C
+
+Question 2: 
+kitten => c c
+----------------------------------------
+ queen => Q Q Z Z I I
+----------------------------------------
+ queen => Q Z I Q Z I
+----------------------------------------
+ Question 1:
+E % K % C
+
+Question 2: 
+c c
+
+Question 3:
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+red => C K E
+black => E K C
+gray => E % K % C
+pink => C % K % E
+
+Question 2:
+cat => C C
+puppy => c c c
+dog => C C C
+kitten => c c
+
+Question 3:
+woman => Q Q Z Z I I Q Q Z Z I I
+king => Q Z I
+man => Q Z I Q Z I
+queen => Q Q Z Z I I
+
+Question 4:
+rectangle => ^
+oval => *
+square => } ^ {
+circle => 
+
+--------- SAMPLED RESPONSE SET ---------
+ circle => O
+----------------------------------------
+ circle => O
+----------------------------------------
+ circle => *
+----------------------------------------
+ {
+----------------------------------------
+ ^
+----------------------------------------
+Loading permuted_questions1
+Loading permuted_questions2
+Loading permuted_questions3
+Loading permuted_questions4
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+king => C C C
+queen => c c c
+man => C C
+woman => 
+
+--------- SAMPLED RESPONSE SET ---------
+ c c
+----------------------------------------
+ c c
+----------------------------------------
+ c c
+----------------------------------------
+ c c
+----------------------------------------
+ c c
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+king => C C C
+queen => c c c
+man => C C
+woman => c c
+
+Question 2:
+black => } ^ {
+gray => ^
+red => } * {
+pink => 
+
+--------- SAMPLED RESPONSE SET ---------
+ Question 1: c c
+
+Question 2: *
+----------------------------------------
+ Here are the responses for the reasoning questions:
+
+Question 1:
+c c
+
+Question 2: 
+----------------------------------------
+ Question 1:
+
+c c
+
+Question 2: 
+
+*
+----------------------------------------
+ Question 1: 
+c c
+
+Question 2: 
+*
+----------------------------------------
+ Here are the responses:
+
+Question 1:
+c c
+
+Question 2: 
+*
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+king => C C C
+queen => c c c
+man => C C
+woman => c c
+
+Question 2:
+black => } ^ {
+gray => ^
+red => } * {
+pink => *
+
+Question 3:
+square => E K C
+rectangle => E % K % C
+circle => C K E
+oval => 
+
+--------- SAMPLED RESPONSE SET ---------
+ Question 1:
+man => c c
+
+Question 2: 
+pink => *
+
+Question 3:
+----------------------------------------
+ Question 1:
+man => C C 
+woman => c c
+
+Question 2: 
+black => }
+----------------------------------------
+ oval => % C K %
+----------------------------------------
+ Question 1:
+man => C C
+woman => c c
+
+Question 2: 
+black => } ^
+----------------------------------------
+ Question 1:
+c c
+
+Question 2: 
+{ * }  
+
+Question 3:
+C %
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+king => C C C
+queen => c c c
+man => C C
+woman => c c
+
+Question 2:
+black => } ^ {
+gray => ^
+red => } * {
+pink => *
+
+Question 3:
+square => E K C
+rectangle => E % K % C
+circle => C K E
+oval => C % K % E
+
+Question 4:
+dog => Q Z I
+puppy => Q Q Z Z I I
+cat => Q Z I Q Z I
+kitten => 
+
+--------- SAMPLED RESPONSE SET ---------
+ kitten => Q Q Z Z I I Q Q Z Z I I
+----------------------------------------
+ kitten => Q Q Z Z I I Q Q Z Z I I
+----------------------------------------
+ kitten => Q Q Z Z I I Q Q Z Z I I
+----------------------------------------
+ kitten => Q Q Z Z I I Q Q Z Z I I
+----------------------------------------
+ kitten => Q Q Z Z I I Q Q Z Z I I
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+king => } ^ {
+queen => ^
+man => } * {
+woman => 
+
+--------- SAMPLED RESPONSE SET ---------
+ *
+----------------------------------------
+ *
+----------------------------------------
+ *
+----------------------------------------
+ *
+----------------------------------------
+ *
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+king => } ^ {
+queen => ^
+man => } * {
+woman => *
+
+Question 2:
+dog => E K C
+puppy => E % K % C
+cat => C K E
+kitten => 
+
+--------- SAMPLED RESPONSE SET ---------
+ kitten => C % K % E
+----------------------------------------
+ kitten => C % K % E
+----------------------------------------
+ kitten => C % K % E
+----------------------------------------
+ kitten => C % K % E
+----------------------------------------
+ kitten => C % K % E
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+king => } ^ {
+queen => ^
+man => } * {
+woman => *
+
+Question 2:
+dog => E K C
+puppy => E % K % C
+cat => C K E
+kitten => C % K % E
+
+Question 3:
+square => C C C
+rectangle => c c c
+circle => C C
+oval => 
+
+--------- SAMPLED RESPONSE SET ---------
+ oval => c c
+----------------------------------------
+ Question 1:
+*
+
+Question 2: 
+E % K % C
+
+Question 3:
+c
+----------------------------------------
+ Question 1:
+*
+
+Question 2: 
+C % K % E
+
+Question 3:
+c
+----------------------------------------
+ Question 1:
+*
+
+Question 2: 
+C % K % E
+
+Question 3:
+o
+----------------------------------------
+ Question 1:
+*
+
+Question 2: 
+E % K % C
+
+Question 3:
+o
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+king => } ^ {
+queen => ^
+man => } * {
+woman => *
+
+Question 2:
+dog => E K C
+puppy => E % K % C
+cat => C K E
+kitten => C % K % E
+
+Question 3:
+square => C C C
+rectangle => c c c
+circle => C C
+oval => c c
+
+Question 4:
+black => Q Z I
+gray => Q Q Z Z I I
+red => Q Z I Q Z I
+pink => 
+
+--------- SAMPLED RESPONSE SET ---------
+ pink => Q Q Z Z I I Q Q Z Z I I
+----------------------------------------
+ pink => Q Z I Q Q Z Z I I
+----------------------------------------
+ pink => Q Q Z Z I I Q Q Z Z I I
+----------------------------------------
+ pink => Q Q Z Z I I Q Q Z Z I I
+----------------------------------------
+ pink => Q Z I Q Z I Q Z I Q Z I
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+square => Q Z I
+rectangle => Q Q Z Z I I
+circle => Q Z I Q Z I
+oval => 
+
+--------- SAMPLED RESPONSE SET ---------
+ Q Q Z Z I I Q Z I Q Z I
+----------------------------------------
+ Q Z I Q Z I
+----------------------------------------
+ Q Z I Q Z I Q Z I
+----------------------------------------
+ Q Z I Q Z I Q Z I Q Z I
+----------------------------------------
+ Q Q Z Z I I Q Z I Q Z I
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+square => Q Z I
+rectangle => Q Q Z Z I I
+circle => Q Z I Q Z I
+oval => Q Q Z Z I I Q Q Z Z I I
+
+Question 2:
+king => E K C
+queen => E % K % C
+man => C K E
+woman => 
+
+--------- SAMPLED RESPONSE SET ---------
+ woman => % C % E
+----------------------------------------
+ woman => % C K %
+----------------------------------------
+ woman => % C % K
+----------------------------------------
+ Woman => % C % K
+----------------------------------------
+ woman => % C % K
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+square => Q Z I
+rectangle => Q Q Z Z I I
+circle => Q Z I Q Z I
+oval => Q Q Z Z I I Q Q Z Z I I
+
+Question 2:
+king => E K C
+queen => E % K % C
+man => C K E
+woman => C % K % E
+
+Question 3:
+dog => } ^ {
+puppy => ^
+cat => } * {
+kitten => 
+
+--------- SAMPLED RESPONSE SET ---------
+ ^
+----------------------------------------
+ Question 1:
+
+oval => Q Q Z Z I I Q Q Z Z I I Q Q Z Z I
+----------------------------------------
+ Question 1:
+
+Q Q Z Z I I Q Q Z Z I I Q Q Z Z I I
+----------------------------------------
+ Question 1:
+
+Q Q Z Z I I Q Q Z Z I I Q Q Z Z I I
+----------------------------------------
+ Question 1:
+
+Q Q Z Z I I Q Q Z Z I I Q Q Z Z I I
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+square => Q Z I
+rectangle => Q Q Z Z I I
+circle => Q Z I Q Z I
+oval => Q Q Z Z I I Q Q Z Z I I
+
+Question 2:
+king => E K C
+queen => E % K % C
+man => C K E
+woman => C % K % E
+
+Question 3:
+dog => } ^ {
+puppy => ^
+cat => } * {
+kitten => *
+
+Question 4:
+black => C C C
+gray => c c c
+red => C C
+pink => 
+
+--------- SAMPLED RESPONSE SET ---------
+ Question 1:
+
+Oval => Q Q Z Z I I Q Q Z Z I I Q Q Z Z
+----------------------------------------
+ Question 1:
+
+Q Q Z Z I I Q Q Z Z I I Q Q Z Z I I Q
+----------------------------------------
+ Question 1:
+
+oval => Q Q Z Z I I Q Q Z Z I I Q Q Z Z I
+----------------------------------------
+ pink => c c
+----------------------------------------
+ Question 1:
+
+oval => Q Q Z Z I I Q Q Z Z I I Q Q Z Z I
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+square => } ^ {
+rectangle => ^
+circle => } * {
+oval => 
+
+--------- SAMPLED RESPONSE SET ---------
+ *
+----------------------------------------
+ *
+----------------------------------------
+ *
+----------------------------------------
+ * ) ( *
+----------------------------------------
+ *
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+square => } ^ {
+rectangle => ^
+circle => } * {
+oval => *
+
+Question 2:
+black => E K C
+gray => E % K % C
+red => C K E
+pink => 
+
+--------- SAMPLED RESPONSE SET ---------
+ *
+----------------------------------------
+ *
+----------------------------------------
+ *
+----------------------------------------
+ pink => % K % E
+----------------------------------------
+ *
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+square => } ^ {
+rectangle => ^
+circle => } * {
+oval => *
+
+Question 2:
+black => E K C
+gray => E % K % C
+red => C K E
+pink => C % K % E
+
+Question 3:
+dog => C C C
+puppy => c c c
+cat => C C
+kitten => 
+
+--------- SAMPLED RESPONSE SET ---------
+ Question 1:
+*
+
+Question 2: 
+C % K % E
+
+Question 3:
+c
+----------------------------------------
+ Question 1:
+
+oval => *
+
+Question 2: 
+pink => C % K % E
+----------------------------------------
+ kitten => c c
+----------------------------------------
+ Question 1:
+*
+
+Question 2: 
+% C % K % E
+
+Question 3:
+----------------------------------------
+ kitten => c c
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+square => } ^ {
+rectangle => ^
+circle => } * {
+oval => *
+
+Question 2:
+black => E K C
+gray => E % K % C
+red => C K E
+pink => C % K % E
+
+Question 3:
+dog => C C C
+puppy => c c c
+cat => C C
+kitten => c c
+
+Question 4:
+king => Q Z I
+queen => Q Q Z Z I I
+man => Q Z I Q Z I
+woman => 
+
+--------- SAMPLED RESPONSE SET ---------
+ woman => Q Q Z Z I I Q Q Z Z I I
+----------------------------------------
+ woman => Q Q Z Z I I Q Q Z Z I I
+----------------------------------------
+ woman => Q Q Z Z I I Q Q Z Z I I
+----------------------------------------
+ woman => Q Z I Q Z I Q Z I Q Z I
+----------------------------------------
+ woman => Q Q Z Z I I Q Q Z Z I I
+----------------------------------------
+Loading random_permuted_pairs1
+Loading random_permuted_pairs2
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+book => C % K % E
+lightbulb => C K E
+bullet => E % K % C
+zebra => 
+
+--------- SAMPLED RESPONSE SET ---------
+ E K C
+----------------------------------------
+ E K C
+----------------------------------------
+ E K C
+----------------------------------------
+ E C K
+----------------------------------------
+ C K E
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+book => C % K % E
+lightbulb => C K E
+bullet => E % K % C
+zebra => E K C
+
+Question 2:
+fireplace => Q Q Z Z I I
+plug => Q Q Z Z I I Q Q Z Z I I
+banana => Q Z I
+bean => 
+
+--------- SAMPLED RESPONSE SET ---------
+ Question 1:
+zebra => E K C
+bullet => C % K % E
+
+Question 2: 
+----------------------------------------
+ bean => Q Z I
+----------------------------------------
+ bean => Q Z I
+----------------------------------------
+ bean => Q Z I
+----------------------------------------
+ bean => Q Z I
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+book => C % K % E
+lightbulb => C K E
+bullet => E % K % C
+zebra => E K C
+
+Question 2:
+fireplace => Q Q Z Z I I
+plug => Q Q Z Z I I Q Q Z Z I I
+banana => Q Z I
+bean => Q Z I Q Z I
+
+Question 3:
+beer => c c c
+wire => C C C
+duck => C C
+wife => 
+
+--------- SAMPLED RESPONSE SET ---------
+ wife => C C
+----------------------------------------
+ wife => C C
+----------------------------------------
+ wife => C C
+----------------------------------------
+ wife => C C
+----------------------------------------
+ wife => C C
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+book => C % K % E
+lightbulb => C K E
+bullet => E % K % C
+zebra => E K C
+
+Question 2:
+fireplace => Q Q Z Z I I
+plug => Q Q Z Z I I Q Q Z Z I I
+banana => Q Z I
+bean => Q Z I Q Z I
+
+Question 3:
+beer => c c c
+wire => C C C
+duck => C C
+wife => c c
+
+Question 4:
+yellow => ^
+darkness => } * {
+gun => } ^ {
+carpet => 
+
+--------- SAMPLED RESPONSE SET ---------
+ ^
+----------------------------------------
+ carpet => } ^ {
+----------------------------------------
+ ^
+----------------------------------------
+ ^
+----------------------------------------
+ ^
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+duck => C K E
+wire => E K C
+beer => E % K % C
+wife => 
+
+--------- SAMPLED RESPONSE SET ---------
+ %
+----------------------------------------
+ % K % C
+----------------------------------------
+ %
+----------------------------------------
+ %
+----------------------------------------
+ %
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+duck => C K E
+wire => E K C
+beer => E % K % C
+wife => C % K % E
+
+Question 2:
+darkness => C C
+yellow => c c c
+gun => C C C
+carpet => 
+
+--------- SAMPLED RESPONSE SET ---------
+ carpet => c c c
+----------------------------------------
+ carpet => c c
+----------------------------------------
+ carpet => c c
+----------------------------------------
+ carpet => c c c
+----------------------------------------
+ carpet => c c
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+duck => C K E
+wire => E K C
+beer => E % K % C
+wife => C % K % E
+
+Question 2:
+darkness => C C
+yellow => c c c
+gun => C C C
+carpet => c c
+
+Question 3:
+book => Q Q Z Z I I Q Q Z Z I I
+zebra => Q Z I
+lightbulb => Q Z I Q Z I
+bullet => 
+
+--------- SAMPLED RESPONSE SET ---------
+ bullet => Q Z I
+----------------------------------------
+ bullet => Q Z I
+----------------------------------------
+ bullet => Q Z I
+----------------------------------------
+ bullet => Q Z I
+----------------------------------------
+ Q Z I
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+duck => C K E
+wire => E K C
+beer => E % K % C
+wife => C % K % E
+
+Question 2:
+darkness => C C
+yellow => c c c
+gun => C C C
+carpet => c c
+
+Question 3:
+book => Q Q Z Z I I Q Q Z Z I I
+zebra => Q Z I
+lightbulb => Q Z I Q Z I
+bullet => Q Q Z Z I I
+
+Question 4:
+fireplace => ^
+plug => *
+banana => } ^ {
+bean => 
+
+--------- SAMPLED RESPONSE SET ---------
+ }
+----------------------------------------
+ ^
+----------------------------------------
+ ^
+----------------------------------------
+ ^
+----------------------------------------
+ ^
+----------------------------------------
+Loading randoms1
+Loading randoms2
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+banana => E K C
+fireplace => E % K % C
+bean => C K E
+plug => 
+
+--------- SAMPLED RESPONSE SET ---------
+ *
+----------------------------------------
+ C K E
+----------------------------------------
+ E K C
+----------------------------------------
+ C K E
+----------------------------------------
+ E K C
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+banana => E K C
+fireplace => E % K % C
+bean => C K E
+plug => C % K % E
+
+Question 2:
+zebra => C C C
+bullet => c c c
+lightbulb => C C
+book => 
+
+--------- SAMPLED RESPONSE SET ---------
+ book => c c
+----------------------------------------
+ book => C C
+----------------------------------------
+ book => C C
+----------------------------------------
+ book => c c
+----------------------------------------
+ book => C C
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+banana => E K C
+fireplace => E % K % C
+bean => C K E
+plug => C % K % E
+
+Question 2:
+zebra => C C C
+bullet => c c c
+lightbulb => C C
+book => c c
+
+Question 3:
+wire => } ^ {
+beer => ^
+duck => } * {
+wife => 
+
+--------- SAMPLED RESPONSE SET ---------
+ *
+----------------------------------------
+ *
+----------------------------------------
+ *
+----------------------------------------
+ ^
+----------------------------------------
+ *
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+banana => E K C
+fireplace => E % K % C
+bean => C K E
+plug => C % K % E
+
+Question 2:
+zebra => C C C
+bullet => c c c
+lightbulb => C C
+book => c c
+
+Question 3:
+wire => } ^ {
+beer => ^
+duck => } * {
+wife => *
+
+Question 4:
+gun => Q Z I
+yellow => Q Q Z Z I I
+darkness => Q Z I Q Z I
+carpet => 
+
+--------- SAMPLED RESPONSE SET ---------
+ carpet => Q Q Z Z I I
+----------------------------------------
+ carpet => Q Z I
+----------------------------------------
+ carpet => Q Q Z Z I I
+----------------------------------------
+ carpet => Q Z I
+----------------------------------------
+ carpet => Q Q Z Z I I
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+zebra => } ^ {
+bullet => ^
+lightbulb => } * {
+book => 
+
+--------- SAMPLED RESPONSE SET ---------
+ * *
+----------------------------------------
+ * *
+----------------------------------------
+ * *
+----------------------------------------
+ * *
+----------------------------------------
+ * *
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+zebra => } ^ {
+bullet => ^
+lightbulb => } * {
+book => *
+
+Question 2:
+wire => Q Z I
+beer => Q Q Z Z I I
+duck => Q Z I Q Z I
+wife => 
+
+--------- SAMPLED RESPONSE SET ---------
+ *
+----------------------------------------
+ *
+----------------------------------------
+ *
+----------------------------------------
+ *
+----------------------------------------
+ *
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+zebra => } ^ {
+bullet => ^
+lightbulb => } * {
+book => *
+
+Question 2:
+wire => Q Z I
+beer => Q Q Z Z I I
+duck => Q Z I Q Z I
+wife => Q Q Z Z I I Q Q Z Z I I
+
+Question 3:
+gun => E K C
+yellow => E % K % C
+darkness => C K E
+carpet => 
+
+--------- SAMPLED RESPONSE SET ---------
+ *
+----------------------------------------
+ *
+----------------------------------------
+ *
+----------------------------------------
+ *
+----------------------------------------
+ *
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+zebra => } ^ {
+bullet => ^
+lightbulb => } * {
+book => *
+
+Question 2:
+wire => Q Z I
+beer => Q Q Z Z I I
+duck => Q Z I Q Z I
+wife => Q Q Z Z I I Q Q Z Z I I
+
+Question 3:
+gun => E K C
+yellow => E % K % C
+darkness => C K E
+carpet => C % K % E
+
+Question 4:
+banana => C C C
+fireplace => c c c
+bean => C C
+plug => 
+
+--------- SAMPLED RESPONSE SET ---------
+ *
+----------------------------------------
+ *
+----------------------------------------
+ *
+----------------------------------------
+ *
+----------------------------------------
+ *
+----------------------------------------
+Loading only_rhs1
+Loading only_rhs2
+Loading only_rhs3
+Loading only_rhs4
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various sequences of patterns, for which you will need to provide the last entry. Respond as concisely as possible with only the last pattern.
+
+Question 1:
+=> E K C
+=> E % K % C
+=> C K E
+=> 
+
+--------- SAMPLED RESPONSE SET ---------
+ K
+----------------------------------------
+ E
+----------------------------------------
+ E
+----------------------------------------
+ E
+----------------------------------------
+ K
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various sequences of patterns, for which you will need to provide the last entry. Respond as concisely as possible with only the last pattern.
+
+Question 1:
+=> E K C
+=> E % K % C
+=> C K E
+=> C % K % E
+
+Question 2:
+=> C C C
+=> c c c
+=> C C
+=> 
+
+--------- SAMPLED RESPONSE SET ---------
+ c
+----------------------------------------
+ C
+----------------------------------------
+ c
+----------------------------------------
+ c
+----------------------------------------
+ c
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various sequences of patterns, for which you will need to provide the last entry. Respond as concisely as possible with only the last pattern.
+
+Question 1:
+=> E K C
+=> E % K % C
+=> C K E
+=> C % K % E
+
+Question 2:
+=> C C C
+=> c c c
+=> C C
+=> c c
+
+Question 3:
+=> } ^ {
+=> ^
+=> } * {
+=> 
+
+--------- SAMPLED RESPONSE SET ---------
+ Question 1:
+E
+
+Question 2: 
+C
+
+Question 3:
+*
+----------------------------------------
+ Question 1: E
+
+Question 2: C
+
+Question 3: *
+----------------------------------------
+ Question 1: E
+
+Question 2: C
+
+Question 3: }
+----------------------------------------
+ Question 1: E
+
+Question 2: C
+
+Question 3: *
+----------------------------------------
+ Question 1: E
+
+Question 2: C
+
+Question 3: ^
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various sequences of patterns, for which you will need to provide the last entry. Respond as concisely as possible with only the last pattern.
+
+Question 1:
+=> E K C
+=> E % K % C
+=> C K E
+=> C % K % E
+
+Question 2:
+=> C C C
+=> c c c
+=> C C
+=> c c
+
+Question 3:
+=> } ^ {
+=> ^
+=> } * {
+=> *
+
+Question 4:
+=> Q Z I
+=> Q Q Z Z I I
+=> Q Z I Q Z I
+=> 
+
+--------- SAMPLED RESPONSE SET ---------
+ * Q Z I Q Z I
+----------------------------------------
+ * Q Z I Q Z I
+----------------------------------------
+ * Q Z I Q Z I
+----------------------------------------
+ * Q Z I Q Z I
+----------------------------------------
+ * Q Z I Q Z I
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various sequences of patterns, for which you will need to provide the last entry. Respond as concisely as possible with only the last pattern.
+
+Question 1:
+=> } ^ {
+=> ^
+=> } * {
+=> 
+
+--------- SAMPLED RESPONSE SET ---------
+ *
+----------------------------------------
+ *
+----------------------------------------
+ *
+----------------------------------------
+ *
+----------------------------------------
+ *
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various sequences of patterns, for which you will need to provide the last entry. Respond as concisely as possible with only the last pattern.
+
+Question 1:
+=> } ^ {
+=> ^
+=> } * {
+=> *
+
+Question 2:
+=> Q Z I
+=> Q Q Z Z I I
+=> Q Z I Q Z I
+=> 
+
+--------- SAMPLED RESPONSE SET ---------
+ *
+
+Q Z I Q Z I Q Z I
+----------------------------------------
+ *
+
+Z I
+----------------------------------------
+ *
+
+Q Z I Q Z I Q Z I
+----------------------------------------
+ *
+
+Q Z I Q Z I Q Z I
+----------------------------------------
+ *
+
+Q Z I Q Z I Q Z I
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various sequences of patterns, for which you will need to provide the last entry. Respond as concisely as possible with only the last pattern.
+
+Question 1:
+=> } ^ {
+=> ^
+=> } * {
+=> *
+
+Question 2:
+=> Q Z I
+=> Q Q Z Z I I
+=> Q Z I Q Z I
+=> Q Q Z Z I I Q Q Z Z I I
+
+Question 3:
+=> E K C
+=> E % K % C
+=> C K E
+=> 
+
+--------- SAMPLED RESPONSE SET ---------
+ *
+
+Q Q Z Z I I Q Q Z Z I I
+
+C % K % E
+----------------------------------------
+ *
+
+Q Q Z Z I I Q Q Z Z I I
+
+C % K % E
+----------------------------------------
+ *
+
+Q Q Z Z I I Q Q Z Z I I Q Q Z Z I I
+
+C
+----------------------------------------
+ *
+
+Q Q Z Z I I Q Q Z Z I I
+
+C % K % E
+----------------------------------------
+ *
+
+Q Q Z Z I I Q Q Z Z I I
+
+C % K % E
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various sequences of patterns, for which you will need to provide the last entry. Respond as concisely as possible with only the last pattern.
+
+Question 1:
+=> } ^ {
+=> ^
+=> } * {
+=> *
+
+Question 2:
+=> Q Z I
+=> Q Q Z Z I I
+=> Q Z I Q Z I
+=> Q Q Z Z I I Q Q Z Z I I
+
+Question 3:
+=> E K C
+=> E % K % C
+=> C K E
+=> C % K % E
+
+Question 4:
+=> C C C
+=> c c c
+=> C C
+=> 
+
+--------- SAMPLED RESPONSE SET ---------
+ *
+
+Q Q Z Z I I Q Q Z Z I I
+
+C % K % E 
+----------------------------------------
+ *
+
+Q Q Z Z I I Q Q Z Z I I
+
+C % K % E 
+----------------------------------------
+ *
+
+Q Q Z Z I I Q Q Z Z I I
+
+C % K % E 
+----------------------------------------
+ *
+
+Q Q Z Z I I Q Q Z Z I I
+
+C % K % E 
+----------------------------------------
+ *
+
+Q Q Z Z I I Q Q Z Z I I
+
+C % K % E 
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various sequences of patterns, for which you will need to provide the last entry. Respond as concisely as possible with only the last pattern.
+
+Question 1:
+=> E K C
+=> E % K % C
+=> C K E
+=> 
+
+--------- SAMPLED RESPONSE SET ---------
+ K
+----------------------------------------
+ K
+----------------------------------------
+ E
+----------------------------------------
+ E
+----------------------------------------
+ K
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various sequences of patterns, for which you will need to provide the last entry. Respond as concisely as possible with only the last pattern.
+
+Question 1:
+=> E K C
+=> E % K % C
+=> C K E
+=> C % K % E
+
+Question 2:
+=> Q Z I
+=> Q Q Z Z I I
+=> Q Z I Q Z I
+=> 
+
+--------- SAMPLED RESPONSE SET ---------
+ I
+----------------------------------------
+ I
+----------------------------------------
+ I
+----------------------------------------
+ I I
+----------------------------------------
+ I
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various sequences of patterns, for which you will need to provide the last entry. Respond as concisely as possible with only the last pattern.
+
+Question 1:
+=> E K C
+=> E % K % C
+=> C K E
+=> C % K % E
+
+Question 2:
+=> Q Z I
+=> Q Q Z Z I I
+=> Q Z I Q Z I
+=> Q Q Z Z I I Q Q Z Z I I
+
+Question 3:
+=> C C C
+=> c c c
+=> C C
+=> 
+
+--------- SAMPLED RESPONSE SET ---------
+ Question 1:
+E % K % C
+
+Question 2: 
+Q Q Z Z I I Q Q
+----------------------------------------
+ Question 1:
+E % K % C
+
+Question 2: 
+Q Q Z Z I I Q Q
+----------------------------------------
+ C
+----------------------------------------
+ C
+----------------------------------------
+ c
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various sequences of patterns, for which you will need to provide the last entry. Respond as concisely as possible with only the last pattern.
+
+Question 1:
+=> E K C
+=> E % K % C
+=> C K E
+=> C % K % E
+
+Question 2:
+=> Q Z I
+=> Q Q Z Z I I
+=> Q Z I Q Z I
+=> Q Q Z Z I I Q Q Z Z I I
+
+Question 3:
+=> C C C
+=> c c c
+=> C C
+=> c c
+
+Question 4:
+=> } ^ {
+=> ^
+=> } * {
+=> 
+
+--------- SAMPLED RESPONSE SET ---------
+ C
+
+Q Z I Q Z I Q Z I
+
+c c
+
+} * {
+----------------------------------------
+ C
+
+Q Z I Q Z I
+
+C
+
+}
+----------------------------------------
+ Question 1:
+E % K % C
+
+Question 2: 
+Q Q Z Z I I Q Q
+----------------------------------------
+ C
+
+Q Q Z Z I I
+
+c c
+
+^
+----------------------------------------
+ C
+
+Q Q Z Z I I Q Q Z Z I I
+
+c
+
+}
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various sequences of patterns, for which you will need to provide the last entry. Respond as concisely as possible with only the last pattern.
+
+Question 1:
+=> E K C
+=> E % K % C
+=> C K E
+=> 
+
+--------- SAMPLED RESPONSE SET ---------
+ E
+----------------------------------------
+ E
+----------------------------------------
+ E
+----------------------------------------
+ K
+----------------------------------------
+ E
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various sequences of patterns, for which you will need to provide the last entry. Respond as concisely as possible with only the last pattern.
+
+Question 1:
+=> E K C
+=> E % K % C
+=> C K E
+=> C % K % E
+
+Question 2:
+=> C C C
+=> c c c
+=> C C
+=> 
+
+--------- SAMPLED RESPONSE SET ---------
+ c
+----------------------------------------
+ c
+----------------------------------------
+ C
+----------------------------------------
+ c
+----------------------------------------
+ c
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various sequences of patterns, for which you will need to provide the last entry. Respond as concisely as possible with only the last pattern.
+
+Question 1:
+=> E K C
+=> E % K % C
+=> C K E
+=> C % K % E
+
+Question 2:
+=> C C C
+=> c c c
+=> C C
+=> c c
+
+Question 3:
+=> Q Z I
+=> Q Q Z Z I I
+=> Q Z I Q Z I
+=> 
+
+--------- SAMPLED RESPONSE SET ---------
+ E
+
+c
+
+Q Z I Q Z I Q Z I
+----------------------------------------
+ Question 1:
+E
+
+Question 2: 
+C
+
+Question 3:
+Q Z I Q Z
+----------------------------------------
+ Question 1:
+E % K % C
+
+Question 2: 
+C
+
+Question 3:
+Q
+----------------------------------------
+ Question 1:
+E % K % C
+
+Question 2: 
+C
+
+Question 3:
+Q
+----------------------------------------
+ Question 1:
+E
+
+Question 2: 
+C
+
+Question 3:
+Q Z I Q Z
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various sequences of patterns, for which you will need to provide the last entry. Respond as concisely as possible with only the last pattern.
+
+Question 1:
+=> E K C
+=> E % K % C
+=> C K E
+=> C % K % E
+
+Question 2:
+=> C C C
+=> c c c
+=> C C
+=> c c
+
+Question 3:
+=> Q Z I
+=> Q Q Z Z I I
+=> Q Z I Q Z I
+=> Q Q Z Z I I Q Q Z Z I I
+
+Question 4:
+=> } ^ {
+=> ^
+=> } * {
+=> 
+
+--------- SAMPLED RESPONSE SET ---------
+ Question 1:
+E % K % C
+
+Question 2: 
+c c
+
+Question 3:
+----------------------------------------
+ Question 1:
+E % K % C
+
+Question 2: 
+c c
+
+Question 3:
+----------------------------------------
+ Question 1:
+E % K % C
+
+Question 2:
+c c
+
+Question 3: 
+----------------------------------------
+ *
+----------------------------------------
+ Question 1:
+E % K % C
+
+Question 2: 
+c c
+
+Question 3:
+----------------------------------------
+Loading random_finals1
+Loading random_finals2
+Loading random_finals3
+Loading random_finals4
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+square => E K C
+rectangle => E % K % C
+circle => C K E
+lime => 
+
+--------- SAMPLED RESPONSE SET ---------
+ O
+----------------------------------------
+ O
+----------------------------------------
+ O
+----------------------------------------
+ O
+----------------------------------------
+ O
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+square => E K C
+rectangle => E % K % C
+circle => C K E
+lime => C % K % E
+
+Question 2:
+king => C C C
+queen => c c c
+man => C C
+tree => 
+
+--------- SAMPLED RESPONSE SET ---------
+ tree => c c
+----------------------------------------
+ tree => c c
+----------------------------------------
+ tree => c c
+----------------------------------------
+ tree => c c
+----------------------------------------
+ tree => c c
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+square => E K C
+rectangle => E % K % C
+circle => C K E
+lime => C % K % E
+
+Question 2:
+king => C C C
+queen => c c c
+man => C C
+tree => c c
+
+Question 3:
+black => } ^ {
+gray => ^
+red => } * {
+door => 
+
+--------- SAMPLED RESPONSE SET ---------
+ * {
+----------------------------------------
+ * Question 1: lime => C % K % E
+* Question 2: tree => c c  
+* Question
+----------------------------------------
+ * door
+----------------------------------------
+ * {
+----------------------------------------
+ * Question 1: lime => C % K % E
+* Question 2: tree => c c  
+* Question
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+square => E K C
+rectangle => E % K % C
+circle => C K E
+lime => C % K % E
+
+Question 2:
+king => C C C
+queen => c c c
+man => C C
+tree => c c
+
+Question 3:
+black => } ^ {
+gray => ^
+red => } * {
+door => *
+
+Question 4:
+dog => Q Z I
+puppy => Q Q Z Z I I
+cat => Q Z I Q Z I
+pillow => 
+
+--------- SAMPLED RESPONSE SET ---------
+ I I Z Z
+----------------------------------------
+ pillow => Q Q Z Z I I Q Q Z Z I I
+----------------------------------------
+ pillow => Q Z I Q Z I
+----------------------------------------
+ pillow => Q Q Z Z I I Q Q Z Z I I
+----------------------------------------
+ pillow => Q Q Z Z I I Q Q Z Z I I
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+king => } ^ {
+queen => ^
+man => } * {
+pillow => 
+
+--------- SAMPLED RESPONSE SET ---------
+ *
+----------------------------------------
+ *
+----------------------------------------
+ *
+----------------------------------------
+ *
+----------------------------------------
+ *
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+king => } ^ {
+queen => ^
+man => } * {
+pillow => *
+
+Question 2:
+black => Q Z I
+gray => Q Q Z Z I I
+red => Q Z I Q Z I
+door => 
+
+--------- SAMPLED RESPONSE SET ---------
+ Q Z I Q Z I Q Z I
+----------------------------------------
+ Q Z I Q Z I Q Z I
+----------------------------------------
+ *
+----------------------------------------
+ Q Z I Q Z I
+----------------------------------------
+ *
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+king => } ^ {
+queen => ^
+man => } * {
+pillow => *
+
+Question 2:
+black => Q Z I
+gray => Q Q Z Z I I
+red => Q Z I Q Z I
+door => Q Q Z Z I I Q Q Z Z I I
+
+Question 3:
+dog => E K C
+puppy => E % K % C
+cat => C K E
+lime => 
+
+--------- SAMPLED RESPONSE SET ---------
+ lime => % K E
+----------------------------------------
+ lime => % K % E
+----------------------------------------
+ E K % C
+----------------------------------------
+ lime => % C K % E
+----------------------------------------
+ lime => % K E %
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+king => } ^ {
+queen => ^
+man => } * {
+pillow => *
+
+Question 2:
+black => Q Z I
+gray => Q Q Z Z I I
+red => Q Z I Q Z I
+door => Q Q Z Z I I Q Q Z Z I I
+
+Question 3:
+dog => E K C
+puppy => E % K % C
+cat => C K E
+lime => C % K % E
+
+Question 4:
+square => C C C
+rectangle => c c c
+circle => C C
+tree => 
+
+--------- SAMPLED RESPONSE SET ---------
+ O
+----------------------------------------
+ O
+----------------------------------------
+ *
+----------------------------------------
+ O
+----------------------------------------
+ O
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+king => E K C
+queen => E % K % C
+man => C K E
+tree => 
+
+--------- SAMPLED RESPONSE SET ---------
+ C K C
+----------------------------------------
+ E
+----------------------------------------
+ T K E
+----------------------------------------
+ E
+----------------------------------------
+ C K E
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+king => E K C
+queen => E % K % C
+man => C K E
+tree => C % K % E
+
+Question 2:
+square => Q Z I
+rectangle => Q Q Z Z I I
+circle => Q Z I Q Z I
+lime => 
+
+--------- SAMPLED RESPONSE SET ---------
+ lime => Q Z I Q Z I
+----------------------------------------
+ lime => Q Z I Q Z I
+----------------------------------------
+ lime => Q Z I Q Z I
+----------------------------------------
+ lime => Q Z I Q Z I
+----------------------------------------
+ I apologize, I do not actually have general reasoning abilities or the ability to complete drawings. As an AI assistant created by
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+king => E K C
+queen => E % K % C
+man => C K E
+tree => C % K % E
+
+Question 2:
+square => Q Z I
+rectangle => Q Q Z Z I I
+circle => Q Z I Q Z I
+lime => Q Q Z Z I I Q Q Z Z I I
+
+Question 3:
+black => C C C
+gray => c c c
+red => C C
+pillow => 
+
+--------- SAMPLED RESPONSE SET ---------
+ pillow => c c
+----------------------------------------
+ pillow => c c
+----------------------------------------
+ C C
+----------------------------------------
+ pillow => c c
+----------------------------------------
+ pillow => c c
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+king => E K C
+queen => E % K % C
+man => C K E
+tree => C % K % E
+
+Question 2:
+square => Q Z I
+rectangle => Q Q Z Z I I
+circle => Q Z I Q Z I
+lime => Q Q Z Z I I Q Q Z Z I I
+
+Question 3:
+black => C C C
+gray => c c c
+red => C C
+pillow => c c
+
+Question 4:
+dog => } ^ {
+puppy => ^
+cat => } * {
+door => 
+
+--------- SAMPLED RESPONSE SET ---------
+ Question 1:
+woman => C % K % E
+
+Question 2:  
+triangle => Q Z I Q
+----------------------------------------
+ Question 1:
+woman => C % K % E
+
+Question 2:  
+triangle => Q Z I Q
+----------------------------------------
+ Question 1:
+woman => C % K % E
+
+Question 2:  
+triangle => Q Z I Q
+----------------------------------------
+ Question 1: 
+woman => % E C %
+
+Question 2:  
+triangle => Q Z I Q
+----------------------------------------
+ Question 1:
+woman => C % K % E
+
+Question 2: 
+triangle => Q Z I Q
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+black => E K C
+gray => E % K % C
+red => C K E
+door => 
+
+--------- SAMPLED RESPONSE SET ---------
+ I do not actually have general reasoning abilities or understand the rules of this experiment. As an AI assistant created by Anthrop
+----------------------------------------
+ %
+----------------------------------------
+ *
+----------------------------------------
+ 🚪
+----------------------------------------
+ %
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+black => E K C
+gray => E % K % C
+red => C K E
+door => C % K % E
+
+Question 2:
+dog => C C C
+puppy => c c c
+cat => C C
+lime => 
+
+--------- SAMPLED RESPONSE SET ---------
+ c c
+----------------------------------------
+ lime => c c
+----------------------------------------
+ lime => c c
+----------------------------------------
+ lime => c c
+----------------------------------------
+ lime => c c
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+black => E K C
+gray => E % K % C
+red => C K E
+door => C % K % E
+
+Question 2:
+dog => C C C
+puppy => c c c
+cat => C C
+lime => c c
+
+Question 3:
+king => Q Z I
+queen => Q Q Z Z I I
+man => Q Z I Q Z I
+pillow => 
+
+--------- SAMPLED RESPONSE SET ---------
+ pillow => Q Z I Q Z I
+----------------------------------------
+ pillow => Q Z I Q Z I
+----------------------------------------
+ pillow => Q Q Z Z I I Q Q Z Z I I
+----------------------------------------
+ pillow => Q Z I Q Z I
+----------------------------------------
+ pillow => Q Z I Q Z I
+----------------------------------------
+
+About to prompt model (5 times) with:
+
+We are conducting an experiment on general reasoning abilities. Below we will show you various words and drawings of each, after which you will need to complete the last drawing. Respond as concisely as possible with only the last drawing.
+
+Question 1:
+black => E K C
+gray => E % K % C
+red => C K E
+door => C % K % E
+
+Question 2:
+dog => C C C
+puppy => c c c
+cat => C C
+lime => c c
+
+Question 3:
+king => Q Z I
+queen => Q Q Z Z I I
+man => Q Z I Q Z I
+pillow => Q Q Z Z I I Q Q Z Z I I
+
+Question 4:
+square => } ^ {
+rectangle => ^
+circle => } * {
+tree => 
+
+--------- SAMPLED RESPONSE SET ---------
+ ^
+----------------------------------------
+ ^
+----------------------------------------
+ ^
+----------------------------------------
+ ^
+----------------------------------------
+ ^
+----------------------------------------
+
+##################################################
+################### END OF RUN ###################
+##################################################
+
+Teacher forcing? True
+Samples per q: 5
+Model name: claude-2
+printing experiment_names
+['defaults', 'distracted', 'permuted_pairs', 'permuted_questions', 'random_permuted_pairs', 'randoms', 'only_rhs', 'random_finals']
+printing all_questions
+[['square => E K C\nrectangle => E % K % C\ncircle => C K E\noval => ', 'king => C C C\nqueen => c c c\nman => C C\nwoman => ', 'black => } ^ {\ngray => ^\nred => } * {\npink => ', 'dog => Q Z I\npuppy => Q Q Z Z I I\ncat => Q Z I Q Z I\nkitten => ', 'king => } ^ {\nqueen => ^\nman => } * {\nwoman => ', 'black => Q Z I\ngray => Q Q Z Z I I\nred => Q Z I Q Z I\npink => ', 'dog => E K C\npuppy => E % K % C\ncat => C K E\nkitten => ', 'square => C C C\nrectangle => c c c\ncircle => C C\noval => ', 'king => E K C\nqueen => E % K % C\nman => C K E\nwoman => ', 'square => Q Z I\nrectangle => Q Q Z Z I I\ncircle => Q Z I Q Z I\noval => ', 'black => C C C\ngray => c c c\nred => C C\npink => ', 'dog => } ^ {\npuppy => ^\ncat => } * {\nkitten => ', 'black => E K C\ngray => E % K % C\nred => C K E\npink => ', 'dog => C C C\npuppy => c c c\ncat => C C\nkitten => ', 'king => Q Z I\nqueen => Q Q Z Z I I\nman => Q Z I Q Z I\nwoman => ', 'square => } ^ {\nrectangle => ^\ncircle => } * {\noval => '], ['square => E K C\npillow => A P\nrectangle => E % K % C\ncircle => C K E\noval => ', 'lime => U\nking => C C C\nqueen => c c c\nman => C C\nwoman => ', 'black => } ^ {\ngray => ^\ndoor => 8 8\nred => } * {\npink => ', 'dog => Q Z I\npuppy => Q Q Z Z I I\ncat => Q Z I Q Z I\ntree => Y Y Y\nkitten => ', 'king => } ^ {\nqueen => ^\nlime => A P\nman => } * {\nwoman => ', 'black => Q Z I\ntree => Y Y Y\ngray => Q Q Z Z I I\nred => Q Z I Q Z I\npink => ', 'door => 8 8\ndog => E K C\npuppy => E % K % C\ncat => C K E\nkitten => ', 'square => C C C\nrectangle => c c c\ncircle => C C\npillow => U\noval => ', 'king => E K C\nqueen => E % K % C\nman => C K E\nlime => 8 8\nwoman => ', 'pillow => U\nsquare => Q Z I\nrectangle => Q Q Z Z I I\ncircle => Q Z I Q Z I\noval => ', 'black => C C C\ntree => Y Y Y\ngray => c c c\nred => C C\npink => ', 'dog => } ^ {\npuppy => ^\ndoor => A P\ncat => } * {\nkitten => ', 'door => U\nblack => E K C\ngray => E % K % C\nred => C K E\npink => ', 'dog => C C C\npuppy => c c c\ncat => C C\ntree => Y Y Y\nkitten => ', 'king => Q Z I\nqueen => Q Q Z Z I I\npillow => 8 8\nman => Q Z I Q Z I\nwoman => ', 'square => } ^ {\nlime => A P\nrectangle => ^\ncircle => } * {\noval => '], ['square => E K C\noval => C % K % E\nrectangle => E % K % C\ncircle => ', 'king => C C C\nqueen => c c c\nman => C C\nwoman => ', 'pink => *\nblack => } ^ {\ngray => ^\nred => ', 'puppy => Q Q Z Z I I\nkitten => Q Q Z Z I I Q Q Z Z I I\ncat => Q Z I Q Z I\ndog => ', 'man => } * {\nqueen => ^\nking => } ^ {\nwoman => ', 'gray => Q Q Z Z I I\nblack => Q Z I\nred => Q Z I Q Z I\npink => ', 'cat => C K E\nkitten => C % K % E\npuppy => E % K % C\ndog => ', 'oval => c c\nrectangle => c c c\ncircle => C C\nsquare => ', 'woman => C % K % E\nman => C K E\nqueen => E % K % C\nking => ', 'rectangle => Q Q Z Z I I\noval => Q Q Z Z I I Q Q Z Z I I\nsquare => Q Z I\ncircle => ', 'gray => c c c\nblack => C C C\nred => C C\npink => ', 'puppy => ^\ncat => } * {\ndog => } ^ {\nkitten => ', 'red => C K E\nblack => E K C\ngray => E % K % C\npink => ', 'cat => C C\npuppy => c c c\ndog => C C C\nkitten => ', 'woman => Q Q Z Z I I Q Q Z Z I I\nking => Q Z I\nman => Q Z I Q Z I\nqueen => ', 'rectangle => ^\noval => *\nsquare => } ^ {\ncircle => '], ['king => C C C\nqueen => c c c\nman => C C\nwoman => ', 'black => } ^ {\ngray => ^\nred => } * {\npink => ', 'square => E K C\nrectangle => E % K % C\ncircle => C K E\noval => ', 'dog => Q Z I\npuppy => Q Q Z Z I I\ncat => Q Z I Q Z I\nkitten => ', 'king => } ^ {\nqueen => ^\nman => } * {\nwoman => ', 'dog => E K C\npuppy => E % K % C\ncat => C K E\nkitten => ', 'square => C C C\nrectangle => c c c\ncircle => C C\noval => ', 'black => Q Z I\ngray => Q Q Z Z I I\nred => Q Z I Q Z I\npink => ', 'square => Q Z I\nrectangle => Q Q Z Z I I\ncircle => Q Z I Q Z I\noval => ', 'king => E K C\nqueen => E % K % C\nman => C K E\nwoman => ', 'dog => } ^ {\npuppy => ^\ncat => } * {\nkitten => ', 'black => C C C\ngray => c c c\nred => C C\npink => ', 'square => } ^ {\nrectangle => ^\ncircle => } * {\noval => ', 'black => E K C\ngray => E % K % C\nred => C K E\npink => ', 'dog => C C C\npuppy => c c c\ncat => C C\nkitten => ', 'king => Q Z I\nqueen => Q Q Z Z I I\nman => Q Z I Q Z I\nwoman => '], ['book => C % K % E\nlightbulb => C K E\nbullet => E % K % C\nzebra => ', 'fireplace => Q Q Z Z I I\nplug => Q Q Z Z I I Q Q Z Z I I\nbanana => Q Z I\nbean => ', 'beer => c c c\nwire => C C C\nduck => C C\nwife => ', 'yellow => ^\ndarkness => } * {\ngun => } ^ {\ncarpet => ', 'duck => C K E\nwire => E K C\nbeer => E % K % C\nwife => ', 'darkness => C C\nyellow => c c c\ngun => C C C\ncarpet => ', 'book => Q Q Z Z I I Q Q Z Z I I\nzebra => Q Z I\nlightbulb => Q Z I Q Z I\nbullet => ', 'fireplace => ^\nplug => *\nbanana => } ^ {\nbean => '], ['banana => E K C\nfireplace => E % K % C\nbean => C K E\nplug => ', 'zebra => C C C\nbullet => c c c\nlightbulb => C C\nbook => ', 'wire => } ^ {\nbeer => ^\nduck => } * {\nwife => ', 'gun => Q Z I\nyellow => Q Q Z Z I I\ndarkness => Q Z I Q Z I\ncarpet => ', 'zebra => } ^ {\nbullet => ^\nlightbulb => } * {\nbook => ', 'wire => Q Z I\nbeer => Q Q Z Z I I\nduck => Q Z I Q Z I\nwife => ', 'gun => E K C\nyellow => E % K % C\ndarkness => C K E\ncarpet => ', 'banana => C C C\nfireplace => c c c\nbean => C C\nplug => '], ['E K C\nE % K % C\nC K E', 'C C C\nc c c\nC C', '} ^ {\n^\n} * {', 'Q Z I\nQ Q Z Z I I\nQ Z I Q Z I', '} ^ {\n^\n} * {', 'Q Z I\nQ Q Z Z I I\nQ Z I Q Z I', 'E K C\nE % K % C\nC K E', 'C C C\nc c c\nC C', 'E K C\nE % K % C\nC K E', 'Q Z I\nQ Q Z Z I I\nQ Z I Q Z I', 'C C C\nc c c\nC C', '} ^ {\n^\n} * {', 'E K C\nE % K % C\nC K E', 'C C C\nc c c\nC C', 'Q Z I\nQ Q Z Z I I\nQ Z I Q Z I', '} ^ {\n^\n} * {'], ['square => E K C\nrectangle => E % K % C\ncircle => C K E\nlime => ', 'king => C C C\nqueen => c c c\nman => C C\ntree => ', 'black => } ^ {\ngray => ^\nred => } * {\ndoor => ', 'dog => Q Z I\npuppy => Q Q Z Z I I\ncat => Q Z I Q Z I\npillow => ', 'king => } ^ {\nqueen => ^\nman => } * {\npillow => ', 'black => Q Z I\ngray => Q Q Z Z I I\nred => Q Z I Q Z I\ndoor => ', 'dog => E K C\npuppy => E % K % C\ncat => C K E\nlime => ', 'square => C C C\nrectangle => c c c\ncircle => C C\ntree => ', 'king => E K C\nqueen => E % K % C\nman => C K E\ntree => ', 'square => Q Z I\nrectangle => Q Q Z Z I I\ncircle => Q Z I Q Z I\nlime => ', 'black => C C C\ngray => c c c\nred => C C\npillow => ', 'dog => } ^ {\npuppy => ^\ncat => } * {\ndoor => ', 'black => E K C\ngray => E % K % C\nred => C K E\ndoor => ', 'dog => C C C\npuppy => c c c\ncat => C C\nlime => ', 'king => Q Z I\nqueen => Q Q Z Z I I\nman => Q Z I Q Z I\npillow => ', 'square => } ^ {\nrectangle => ^\ncircle => } * {\ntree => ']]
+printing all_answers
+[['C % K % E', 'c c', '*', 'Q Q Z Z I I Q Q Z Z I I', '*', 'Q Q Z Z I I Q Q Z Z I I', 'C % K % E', 'c c', 'C % K % E', 'Q Q Z Z I I Q Q Z Z I I', 'c c', '*', 'C % K % E', 'c c', 'Q Q Z Z I I Q Q Z Z I I', '*'], ['C % K % E', 'c c', '*', 'Q Q Z Z I I Q Q Z Z I I', '*', 'Q Q Z Z I I Q Q Z Z I I', 'C % K % E', 'c c', 'C % K % E', 'Q Q Z Z I I Q Q Z Z I I', 'c c', '*', 'C % K % E', 'c c', 'Q Q Z Z I I Q Q Z Z I I', '*'], ['C K E', 'c c', '} * {', 'Q Z I', '*', 'Q Q Z Z I I Q Q Z Z I I', 'E K C', 'C C C', 'E K C', 'Q Z I Q Z I', 'c c', '*', 'C % K % E', 'c c', 'Q Q Z Z I I', '} * {'], ['c c', '*', 'C % K % E', 'Q Q Z Z I I Q Q Z Z I I', '*', 'C % K % E', 'c c', 'Q Q Z Z I I Q Q Z Z I I', 'Q Q Z Z I I Q Q Z Z I I', 'C % K % E', '*', 'c c', '*', 'C % K % E', 'c c', 'Q Q Z Z I I Q Q Z Z I I'], ['E K C', 'Q Z I Q Z I', 'c c', '*', 'C % K % E', 'c c', 'Q Q Z Z I I', '} * {'], ['C % K % E', 'c c', '*', 'Q Q Z Z I I Q Q Z Z I I', '*', 'Q Q Z Z I I Q Q Z Z I I', 'C % K % E', 'c c'], ['C % K % E', 'c c', '*', 'Q Q Z Z I I Q Q Z Z I I', '*', 'Q Q Z Z I I Q Q Z Z I I', 'C % K % E', 'c c', 'C % K % E', 'Q Q Z Z I I Q Q Z Z I I', 'c c', '*', 'C % K % E', 'c c', 'Q Q Z Z I I Q Q Z Z I I', '*'], ['C % K % E', 'c c', '*', 'Q Q Z Z I I Q Q Z Z I I', '*', 'Q Q Z Z I I Q Q Z Z I I', 'C % K % E', 'c c', 'C % K % E', 'Q Q Z Z I I Q Q Z Z I I', 'c c', '*', 'C % K % E', 'c c', 'Q Q Z Z I I Q Q Z Z I I', '*']]
+printing all_responses
+[' O', ' O', ' O K E', ' O K E', ' O K E', ' woman => c c', ' woman => c c', ' woman => c c', ' woman => c c', ' woman => c c', ' Question 1:\n\noval => C % K % E\n\nQuestion 2: \n\nwoman => c c', ' Question 1:\n\noval => C % K % E\n\nQuestion 2: \n\nprince => c c', ' Question 1:\n\noval => C % K % E\n\nQuestion 2: \n\nwoman => c c  ', ' Question 1:\n\noval => C % K % E\n\nQuestion 2: \n\nwoman => c c ', ' Question 1:\n\noval => C % K % E\n\nQuestion 2: \n\nwoman => c c', ' kitten => Q Q Z Z I I Q Q Z Z I I', ' kitten => Q Q Z Z I I Q Q Z Z I I', ' kitten => Q Q Z Z I I Q Q Z Z I I', ' kitten => Q Q Z Z I I Q Q Z Z I I', ' kitten => Q Q Z Z I I Q Q Z Z I I', ' *', ' *', ' *', ' *', ' *', ' *', ' pink => Q Z I Q Z I Q Z I', ' Question 1:\n*\n\nQuestion 2: \nQ Z I Q Z I Q Z I', ' pink => Q Q Z Z I I Q Q Z Z I I', ' pink => Q Z I Q Z I Q Z I', ' kitten => C % K % E', ' kitten => C % K % E', ' kitten => C % K % E', ' kitten => C % K % E', ' kitten => C % K % E', ' oval => o o', ' oval => o o', ' oval => o o', ' oval => o o', ' oval => o o', ' % C K E', ' % K C', ' % K C', ' % K E C', ' C % K % E', ' Oval => Q Q Z Z I I Q Q Z Z I I', ' Oval => Q Z I Q Z I Q Z I', ' Oval => Q Z I Q Z I Q Z I', ' Oval => Q Q Z Z I I Q Z I', ' Oval => Q Q Z Z I I Q Z I', ' pink => c c', ' pink => c c', ' pink => c c', ' pink => c c', ' pink => c c', ' Question 1:\nwoman => C % K % E\n\nQuestion 2: \noval => Q Q Z Z', ' Last drawing:\n\nQuestion 1: \nC % K % E\n\nQuestion 2:  \nQ Z', ' Question 1:\nC % K % E\n\nQuestion 2: \nQ Z I Q Z I Q Z', ' Question 1:\n\nC % K % E\n\nQuestion 2: \n\nQ Z I Q Z I Q', ' Question 1:\nC % K % E\n\nQuestion 2: \nQ Q Z Z I I Q Q', ' C % K % E', ' C % K % E', ' C % K % E', ' C % K % E', ' C % K % E', ' kitten => c c', ' kitten => c c', ' kitten => c c', ' kitten => c c', ' Here are the responses:\n\nQuestion 1: \nC % K % E\n\nQuestion 2:\nc', ' woman => Q Q Z Z I I Q Q Z Z I I', ' woman => Q Q Z Z I I Q Q Z Z I I', ' woman => Q Z I Q Z I Q Z I Q Z I', ' woman => Q Q Z Z I I Q Q Z Z I I', ' woman => Q Q Z Z I I Q Q Z Z I I', ' * { ^ }', ' ^', ' {', ' *', ' { * }', ' O K C', ' O', ' O', ' O', ' O', ' woman => c c', ' woman => c c', ' woman => c c', ' woman => c c', ' Woman => c c', ' Question 1:\noval => C % K % E\n\nQuestion 2: \nwoman => c c', ' Question 1:\n\noval => C % K % E\n\nQuestion 2: \n\nwoman => c c', ' Question 1:\n\noval => C % K % E\n\nQuestion 2: \n\nwoman => c c', ' Question 1:\n\noval => C % K % E\n\nQuestion 2: \n\nwoman => c c', ' Question 1:\n\noval => C % K % E\n\nQuestion 2: \n\nwoman => c c', ' Q Q Z Z I I', ' Q Q Z Z I I Q Q Z Z I I', ' *', ' Q Q Z Z I I', ' Q Q Z Z I I', ' *', ' *', ' *', ' *', ' *', ' pink => Q Q Z Z I I', ' Question 1: \n*\n\nQuestion 2:\nQ Z I Q Z I', ' pink => Q Z I Q Z I Q Z I', ' Pink => Q Z I Q Z I Q Z I', ' pink => Q Z I Q Z I Q Z I', ' kitten => C % K % E', ' kitten => C % K % E', ' *', ' kitten => C % K % E', ' kitten => C % K % E', ' oval', ' Oval', ' O', ' o', ' oval', ' % K E C', ' % K C', ' % K C', ' % K C', ' % K C', ' oval => U U', ' oval => U U', ' oval => U U', ' oval => U U', ' oval => U U', ' C C', ' pink => c c', ' pink => c c', ' pink => c c', ' pink => c c', ' *', ' Question 1:\nlime => 8 8\nwoman => C % K % E\n\nQuestion 2: \noval', ' *', ' Question 1:\n\nE % K % C\n\nQuestion 2: \n\nQ Q Z Z I I Q', ' ^', ' C K E', ' C K E', ' C K E', ' K C E', ' C K E', ' kitten => c c', ' kitten => c c', ' kitten => c c', ' kitten => c c', ' kitten => c c', ' pillow => 8 8 \n\nwoman => Q Z I Q Z I Q Z I Q Z I', ' woman => Q Q Z Z I I Q Q Z Z I I', ' woman => Q Q Z Z I I Q Q Z Z I I', ' woman => Q Q Z Z I I Q Q Z Z I I', ' woman => Q Q Z Z I I Q Q Z Z I I', ' } * {', ' * } {', ' * {', ' *', ' { * }', ' O', ' O', ' O', ' O', ' O', ' woman => c c', ' woman => c c', ' woman => c c', ' woman => c c', ' woman => c c', ' *', ' *', ' *', ' *', ' *', ' dog => Q Q Z Z I I Q Q Z Z I I Q Q Z Z I I', ' dog => Q Q Z Z I I Q Q Z Z I I Q Q Z Z I I', ' dog => Q Q Z Z I I Q Q Z Z I I Q Q Z Z I I', ' dog => Q Q Z Z I I Q Q Z Z I I Q Q Z Z I I', ' dog => Q Q Z Z I I Q Q Z Z I I Q Q Z Z I I', ' *', ' *', ' *', ' *', ' *', ' pink => Q Z I', ' pink => Q Z I', ' pink => Q I', ' pink => Q Z I Q Z I', ' pink => Q I', ' dog => E K C', ' dog => K C E', ' dog => E K C', ' dog => E K C', ' dog => E K C', ' square => c c c c', ' square => c c c c', ' square => c c c c', ' square => C C C C', ' square => C C C C', ' E K C', ' E K C', ' E K C', ' E K C', ' E K C', ' Question 1:\n\nking => E K C\n\nQuestion 2: \ncircle => Q Z I Q Z', ' Question 1: \nking => E K C\n\nQuestion 2:\nrectangle => Q Q Z Z I I', ' Question 1:\nking => E K C\n\nQuestion 2: \ncircle => Q Z I Q Z I', ' Question 1:\nE K C\n\nQuestion 2: \nQ Z I', ' Question 1:\nking => E K C\n\nQuestion 2: \ncircle => Q Z I Q Z I', ' Question 1:\nking => E K C\n\nQuestion 2: \ncircle => Q Z I Q Z I', ' Question 1:\n\nking => E K C\nprince => K C E\n\nQuestion 2: ', ' Question 1:\nprince => C K C\n\nQuestion 2: \ntriangle => Q Z I', ' Question 1:\nC K C\n\nQuestion 2: \nQ Z I Q Z I\n\nQuestion 3', ' pink => c c', ' Question 1:\n\nking => E K C\n\nQuestion 2: \nsquare => Q Z I\ncircle', ' Question 1:\nprince => C K E\n\nQuestion 2:  \ntriangle => Q Z I', ' Question 1:\nwoman => C % K % E  \nman => C K E\nqueen => E % K', ' Question 1:\nprince => E K % C\n\nQuestion 2:  \npentagon => Q Q Z', ' Question 1: \nking => E K C\n\nQuestion 2:\ncircle => Q Z I Q Z I', ' % K C', ' % K C', ' % K C', ' % % K %', ' % K C', ' kitten => c c', ' kitten => c c', ' kitten => c c', ' kitten => c c', ' kitten => c c', ' queen => Q Q Z Z I I', ' Question 1:\ngray => E % K % C\n\nQuestion 2: \nkitten => c c', ' queen => Q Q Z Z I I', ' queen => Q Z I Q Z I', ' Question 1:\nE % K % C\n\nQuestion 2: \nc c\n\nQuestion 3:', ' circle => O', ' circle => O', ' circle => *', ' {', ' ^', ' c c', ' c c', ' c c', ' c c', ' c c', ' Question 1: c c\n\nQuestion 2: *', ' Here are the responses for the reasoning questions:\n\nQuestion 1:\nc c\n\nQuestion 2: ', ' Question 1:\n\nc c\n\nQuestion 2: \n\n*', ' Question 1: \nc c\n\nQuestion 2: \n*', ' Here are the responses:\n\nQuestion 1:\nc c\n\nQuestion 2: \n*', ' Question 1:\nman => c c\n\nQuestion 2: \npink => *\n\nQuestion 3:', ' Question 1:\nman => C C \nwoman => c c\n\nQuestion 2: \nblack => }', ' oval => % C K %', ' Question 1:\nman => C C\nwoman => c c\n\nQuestion 2: \nblack => } ^', ' Question 1:\nc c\n\nQuestion 2: \n{ * }  \n\nQuestion 3:\nC %', ' kitten => Q Q Z Z I I Q Q Z Z I I', ' kitten => Q Q Z Z I I Q Q Z Z I I', ' kitten => Q Q Z Z I I Q Q Z Z I I', ' kitten => Q Q Z Z I I Q Q Z Z I I', ' kitten => Q Q Z Z I I Q Q Z Z I I', ' *', ' *', ' *', ' *', ' *', ' kitten => C % K % E', ' kitten => C % K % E', ' kitten => C % K % E', ' kitten => C % K % E', ' kitten => C % K % E', ' oval => c c', ' Question 1:\n*\n\nQuestion 2: \nE % K % C\n\nQuestion 3:\nc', ' Question 1:\n*\n\nQuestion 2: \nC % K % E\n\nQuestion 3:\nc', ' Question 1:\n*\n\nQuestion 2: \nC % K % E\n\nQuestion 3:\no', ' Question 1:\n*\n\nQuestion 2: \nE % K % C\n\nQuestion 3:\no', ' pink => Q Q Z Z I I Q Q Z Z I I', ' pink => Q Z I Q Q Z Z I I', ' pink => Q Q Z Z I I Q Q Z Z I I', ' pink => Q Q Z Z I I Q Q Z Z I I', ' pink => Q Z I Q Z I Q Z I Q Z I', ' Q Q Z Z I I Q Z I Q Z I', ' Q Z I Q Z I', ' Q Z I Q Z I Q Z I', ' Q Z I Q Z I Q Z I Q Z I', ' Q Q Z Z I I Q Z I Q Z I', ' woman => % C % E', ' woman => % C K %', ' woman => % C % K', ' Woman => % C % K', ' woman => % C % K', ' ^', ' Question 1:\n\noval => Q Q Z Z I I Q Q Z Z I I Q Q Z Z I', ' Question 1:\n\nQ Q Z Z I I Q Q Z Z I I Q Q Z Z I I', ' Question 1:\n\nQ Q Z Z I I Q Q Z Z I I Q Q Z Z I I', ' Question 1:\n\nQ Q Z Z I I Q Q Z Z I I Q Q Z Z I I', ' Question 1:\n\nOval => Q Q Z Z I I Q Q Z Z I I Q Q Z Z', ' Question 1:\n\nQ Q Z Z I I Q Q Z Z I I Q Q Z Z I I Q', ' Question 1:\n\noval => Q Q Z Z I I Q Q Z Z I I Q Q Z Z I', ' pink => c c', ' Question 1:\n\noval => Q Q Z Z I I Q Q Z Z I I Q Q Z Z I', ' *', ' *', ' *', ' * ) ( *', ' *', ' *', ' *', ' *', ' pink => % K % E', ' *', ' Question 1:\n*\n\nQuestion 2: \nC % K % E\n\nQuestion 3:\nc', ' Question 1:\n\noval => *\n\nQuestion 2: \npink => C % K % E', ' kitten => c c', ' Question 1:\n*\n\nQuestion 2: \n% C % K % E\n\nQuestion 3:', ' kitten => c c', ' woman => Q Q Z Z I I Q Q Z Z I I', ' woman => Q Q Z Z I I Q Q Z Z I I', ' woman => Q Q Z Z I I Q Q Z Z I I', ' woman => Q Z I Q Z I Q Z I Q Z I', ' woman => Q Q Z Z I I Q Q Z Z I I', ' E K C', ' E K C', ' E K C', ' E C K', ' C K E', ' Question 1:\nzebra => E K C\nbullet => C % K % E\n\nQuestion 2: ', ' bean => Q Z I', ' bean => Q Z I', ' bean => Q Z I', ' bean => Q Z I', ' wife => C C', ' wife => C C', ' wife => C C', ' wife => C C', ' wife => C C', ' ^', ' carpet => } ^ {', ' ^', ' ^', ' ^', ' %', ' % K % C', ' %', ' %', ' %', ' carpet => c c c', ' carpet => c c', ' carpet => c c', ' carpet => c c c', ' carpet => c c', ' bullet => Q Z I', ' bullet => Q Z I', ' bullet => Q Z I', ' bullet => Q Z I', ' Q Z I', ' }', ' ^', ' ^', ' ^', ' ^', ' *', ' C K E', ' E K C', ' C K E', ' E K C', ' book => c c', ' book => C C', ' book => C C', ' book => c c', ' book => C C', ' *', ' *', ' *', ' ^', ' *', ' carpet => Q Q Z Z I I', ' carpet => Q Z I', ' carpet => Q Q Z Z I I', ' carpet => Q Z I', ' carpet => Q Q Z Z I I', ' * *', ' * *', ' * *', ' * *', ' * *', ' *', ' *', ' *', ' *', ' *', ' *', ' *', ' *', ' *', ' *', ' *', ' *', ' *', ' *', ' *', ' K', ' E', ' E', ' E', ' K', ' c', ' C', ' c', ' c', ' c', ' Question 1:\nE\n\nQuestion 2: \nC\n\nQuestion 3:\n*', ' Question 1: E\n\nQuestion 2: C\n\nQuestion 3: *', ' Question 1: E\n\nQuestion 2: C\n\nQuestion 3: }', ' Question 1: E\n\nQuestion 2: C\n\nQuestion 3: *', ' Question 1: E\n\nQuestion 2: C\n\nQuestion 3: ^', ' * Q Z I Q Z I', ' * Q Z I Q Z I', ' * Q Z I Q Z I', ' * Q Z I Q Z I', ' * Q Z I Q Z I', ' *', ' *', ' *', ' *', ' *', ' *\n\nQ Z I Q Z I Q Z I', ' *\n\nZ I', ' *\n\nQ Z I Q Z I Q Z I', ' *\n\nQ Z I Q Z I Q Z I', ' *\n\nQ Z I Q Z I Q Z I', ' *\n\nQ Q Z Z I I Q Q Z Z I I\n\nC % K % E', ' *\n\nQ Q Z Z I I Q Q Z Z I I\n\nC % K % E', ' *\n\nQ Q Z Z I I Q Q Z Z I I Q Q Z Z I I\n\nC', ' *\n\nQ Q Z Z I I Q Q Z Z I I\n\nC % K % E', ' *\n\nQ Q Z Z I I Q Q Z Z I I\n\nC % K % E', ' *\n\nQ Q Z Z I I Q Q Z Z I I\n\nC % K % E ', ' *\n\nQ Q Z Z I I Q Q Z Z I I\n\nC % K % E ', ' *\n\nQ Q Z Z I I Q Q Z Z I I\n\nC % K % E ', ' *\n\nQ Q Z Z I I Q Q Z Z I I\n\nC % K % E ', ' *\n\nQ Q Z Z I I Q Q Z Z I I\n\nC % K % E ', ' K', ' K', ' E', ' E', ' K', ' I', ' I', ' I', ' I I', ' I', ' Question 1:\nE % K % C\n\nQuestion 2: \nQ Q Z Z I I Q Q', ' Question 1:\nE % K % C\n\nQuestion 2: \nQ Q Z Z I I Q Q', ' C', ' C', ' c', ' C\n\nQ Z I Q Z I Q Z I\n\nc c\n\n} * {', ' C\n\nQ Z I Q Z I\n\nC\n\n}', ' Question 1:\nE % K % C\n\nQuestion 2: \nQ Q Z Z I I Q Q', ' C\n\nQ Q Z Z I I\n\nc c\n\n^', ' C\n\nQ Q Z Z I I Q Q Z Z I I\n\nc\n\n}', ' E', ' E', ' E', ' K', ' E', ' c', ' c', ' C', ' c', ' c', ' E\n\nc\n\nQ Z I Q Z I Q Z I', ' Question 1:\nE\n\nQuestion 2: \nC\n\nQuestion 3:\nQ Z I Q Z', ' Question 1:\nE % K % C\n\nQuestion 2: \nC\n\nQuestion 3:\nQ', ' Question 1:\nE % K % C\n\nQuestion 2: \nC\n\nQuestion 3:\nQ', ' Question 1:\nE\n\nQuestion 2: \nC\n\nQuestion 3:\nQ Z I Q Z', ' Question 1:\nE % K % C\n\nQuestion 2: \nc c\n\nQuestion 3:', ' Question 1:\nE % K % C\n\nQuestion 2: \nc c\n\nQuestion 3:', ' Question 1:\nE % K % C\n\nQuestion 2:\nc c\n\nQuestion 3: ', ' *', ' Question 1:\nE % K % C\n\nQuestion 2: \nc c\n\nQuestion 3:', ' O', ' O', ' O', ' O', ' O', ' tree => c c', ' tree => c c', ' tree => c c', ' tree => c c', ' tree => c c', ' * {', ' * Question 1: lime => C % K % E\n* Question 2: tree => c c  \n* Question', ' * door', ' * {', ' * Question 1: lime => C % K % E\n* Question 2: tree => c c  \n* Question', ' I I Z Z', ' pillow => Q Q Z Z I I Q Q Z Z I I', ' pillow => Q Z I Q Z I', ' pillow => Q Q Z Z I I Q Q Z Z I I', ' pillow => Q Q Z Z I I Q Q Z Z I I', ' *', ' *', ' *', ' *', ' *', ' Q Z I Q Z I Q Z I', ' Q Z I Q Z I Q Z I', ' *', ' Q Z I Q Z I', ' *', ' lime => % K E', ' lime => % K % E', ' E K % C', ' lime => % C K % E', ' lime => % K E %', ' O', ' O', ' *', ' O', ' O', ' C K C', ' E', ' T K E', ' E', ' C K E', ' lime => Q Z I Q Z I', ' lime => Q Z I Q Z I', ' lime => Q Z I Q Z I', ' lime => Q Z I Q Z I', ' I apologize, I do not actually have general reasoning abilities or the ability to complete drawings. As an AI assistant created by', ' pillow => c c', ' pillow => c c', ' C C', ' pillow => c c', ' pillow => c c', ' Question 1:\nwoman => C % K % E\n\nQuestion 2:  \ntriangle => Q Z I Q', ' Question 1:\nwoman => C % K % E\n\nQuestion 2:  \ntriangle => Q Z I Q', ' Question 1:\nwoman => C % K % E\n\nQuestion 2:  \ntriangle => Q Z I Q', ' Question 1: \nwoman => % E C %\n\nQuestion 2:  \ntriangle => Q Z I Q', ' Question 1:\nwoman => C % K % E\n\nQuestion 2: \ntriangle => Q Z I Q', ' I do not actually have general reasoning abilities or understand the rules of this experiment. As an AI assistant created by Anthrop', ' %', ' *', ' 🚪', ' %', ' c c', ' lime => c c', ' lime => c c', ' lime => c c', ' lime => c c', ' pillow => Q Z I Q Z I', ' pillow => Q Z I Q Z I', ' pillow => Q Q Z Z I I Q Q Z Z I I', ' pillow => Q Z I Q Z I', ' pillow => Q Z I Q Z I', ' ^', ' ^', ' ^', ' ^', ' ^']

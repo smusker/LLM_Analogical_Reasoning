@@ -1,0 +1,404 @@
+defaults,distracted,permuted_pairs,permuted_questions,random_permuted_pairs,randoms,only_rhs,random_finals
+"['square => E K C\r\nrectangle => E % K % C\r\ncircle => C K E\r\noval => ', 'king => C C C\r\nqueen => c c c\r\nman => C C\r\nwoman => ', 'black => } ^ {\r\ngray => ^\r\nred => } * {\r\npink => ', 'dog => Q Z I\r\npuppy => Q Q Z Z I I\r\ncat => Q Z I Q Z I\r\nkitten => ', 'king => } ^ {\r\nqueen => ^\r\nman => } * {\r\nwoman => ', 'black => Q Z I\r\ngray => Q Q Z Z I I\r\nred => Q Z I Q Z I\r\npink => ', 'dog => E K C\r\npuppy => E % K % C\r\ncat => C K E\r\nkitten => ', 'square => C C C\r\nrectangle => c c c\r\ncircle => C C\r\noval => ', 'king => E K C\r\nqueen => E % K % C\r\nman => C K E\r\nwoman => ', 'square => Q Z I\r\nrectangle => Q Q Z Z I I\r\ncircle => Q Z I Q Z I\r\noval => ', 'black => C C C\r\ngray => c c c\r\nred => C C\r\npink => ', 'dog => } ^ {\r\npuppy => ^\r\ncat => } * {\r\nkitten => ', 'black => E K C\r\ngray => E % K % C\r\nred => C K E\r\npink => ', 'dog => C C C\r\npuppy => c c c\r\ncat => C C\r\nkitten => ', 'king => Q Z I\r\nqueen => Q Q Z Z I I\r\nman => Q Z I Q Z I\r\nwoman => ', 'square => } ^ {\r\nrectangle => ^\r\ncircle => } * {\r\noval => ']","['square => E K C\r\npillow => A P\r\nrectangle => E % K % C\r\ncircle => C K E\r\noval => ', 'lime => U\r\nking => C C C\r\nqueen => c c c\r\nman => C C\r\nwoman => ', 'black => } ^ {\r\ngray => ^\r\ndoor => 8 8\r\nred => } * {\r\npink => ', 'dog => Q Z I\r\npuppy => Q Q Z Z I I\r\ncat => Q Z I Q Z I\r\ntree => Y Y Y\r\nkitten => ', 'king => } ^ {\r\nqueen => ^\r\nlime => A P\r\nman => } * {\r\nwoman => ', 'black => Q Z I\r\ntree => Y Y Y\r\ngray => Q Q Z Z I I\r\nred => Q Z I Q Z I\r\npink => ', 'door => 8 8\r\ndog => E K C\r\npuppy => E % K % C\r\ncat => C K E\r\nkitten => ', 'square => C C C\r\nrectangle => c c c\r\ncircle => C C\r\npillow => U\r\noval => ', 'king => E K C\r\nqueen => E % K % C\r\nman => C K E\r\nlime => 8 8\r\nwoman => ', 'pillow => U\r\nsquare => Q Z I\r\nrectangle => Q Q Z Z I I\r\ncircle => Q Z I Q Z I\r\noval => ', 'black => C C C\r\ntree => Y Y Y\r\ngray => c c c\r\nred => C C\r\npink => ', 'dog => } ^ {\r\npuppy => ^\r\ndoor => A P\r\ncat => } * {\r\nkitten => ', 'door => U\r\nblack => E K C\r\ngray => E % K % C\r\nred => C K E\r\npink => ', 'dog => C C C\r\npuppy => c c c\r\ncat => C C\r\ntree => Y Y Y\r\nkitten => ', 'king => Q Z I\r\nqueen => Q Q Z Z I I\r\npillow => 8 8\r\nman => Q Z I Q Z I\r\nwoman => ', 'square => } ^ {\r\nlime => A P\r\nrectangle => ^\r\ncircle => } * {\r\noval => ']","['square => E K C\r\noval => C % K % E\r\nrectangle => E % K % C\r\ncircle => ', 'king => C C C\r\nqueen => c c c\r\nman => C C\r\nwoman => ', 'pink => *\r\nblack => } ^ {\r\ngray => ^\r\nred => ', 'puppy => Q Q Z Z I I\r\nkitten => Q Q Z Z I I Q Q Z Z I I\r\ncat => Q Z I Q Z I\r\ndog => ', 'man => } * {\r\nqueen => ^\r\nking => } ^ {\r\nwoman => ', 'gray => Q Q Z Z I I\r\nblack => Q Z I\r\nred => Q Z I Q Z I\r\npink => ', 'cat => C K E\r\nkitten => C % K % E\r\npuppy => E % K % C\r\ndog => ', 'oval => c c\r\nrectangle => c c c\r\ncircle => C C\r\nsquare => ', 'woman => C % K % E\r\nman => C K E\r\nqueen => E % K % C\r\nking => ', 'rectangle => Q Q Z Z I I\r\noval => Q Q Z Z I I Q Q Z Z I I\r\nsquare => Q Z I\r\ncircle => ', 'gray => c c c\r\nblack => C C C\r\nred => C C\r\npink => ', 'puppy => ^\r\ncat => } * {\r\ndog => } ^ {\r\nkitten => ', 'red => C K E\r\nblack => E K C\r\ngray => E % K % C\r\npink => ', 'cat => C C\r\npuppy => c c c\r\ndog => C C C\r\nkitten => ', 'woman => Q Q Z Z I I Q Q Z Z I I\r\nking => Q Z I\r\nman => Q Z I Q Z I\r\nqueen => ', 'rectangle => ^\r\noval => *\r\nsquare => } ^ {\r\ncircle => ']","['king => C C C\r\nqueen => c c c\r\nman => C C\r\nwoman => ', 'black => } ^ {\r\ngray => ^\r\nred => } * {\r\npink => ', 'square => E K C\r\nrectangle => E % K % C\r\ncircle => C K E\r\noval => ', 'dog => Q Z I\r\npuppy => Q Q Z Z I I\r\ncat => Q Z I Q Z I\r\nkitten => ', 'king => } ^ {\r\nqueen => ^\r\nman => } * {\r\nwoman => ', 'dog => E K C\r\npuppy => E % K % C\r\ncat => C K E\r\nkitten => ', 'square => C C C\r\nrectangle => c c c\r\ncircle => C C\r\noval => ', 'black => Q Z I\r\ngray => Q Q Z Z I I\r\nred => Q Z I Q Z I\r\npink => ', 'square => Q Z I\r\nrectangle => Q Q Z Z I I\r\ncircle => Q Z I Q Z I\r\noval => ', 'king => E K C\r\nqueen => E % K % C\r\nman => C K E\r\nwoman => ', 'dog => } ^ {\r\npuppy => ^\r\ncat => } * {\r\nkitten => ', 'black => C C C\r\ngray => c c c\r\nred => C C\r\npink => ', 'square => } ^ {\r\nrectangle => ^\r\ncircle => } * {\r\noval => ', 'black => E K C\r\ngray => E % K % C\r\nred => C K E\r\npink => ', 'dog => C C C\r\npuppy => c c c\r\ncat => C C\r\nkitten => ', 'king => Q Z I\r\nqueen => Q Q Z Z I I\r\nman => Q Z I Q Z I\r\nwoman => ']","['book => C % K % E\r\nlightbulb => C K E\r\nbullet => E % K % C\r\nzebra => ', 'fireplace => Q Q Z Z I I\r\nplug => Q Q Z Z I I Q Q Z Z I I\r\nbanana => Q Z I\r\nbean => ', 'beer => c c c\r\nwire => C C C\r\nduck => C C\r\nwife => ', 'yellow => ^\r\ndarkness => } * {\r\ngun => } ^ {\r\ncarpet => ', 'duck => C K E\r\nwire => E K C\r\nbeer => E % K % C\r\nwife => ', 'darkness => C C\r\nyellow => c c c\r\ngun => C C C\r\ncarpet => ', 'book => Q Q Z Z I I Q Q Z Z I I\r\nzebra => Q Z I\r\nlightbulb => Q Z I Q Z I\r\nbullet => ', 'fireplace => ^\r\nplug => *\r\nbanana => } ^ {\r\nbean => ']","['banana => E K C\r\nfireplace => E % K % C\r\nbean => C K E\r\nplug => ', 'zebra => C C C\r\nbullet => c c c\r\nlightbulb => C C\r\nbook => ', 'wire => } ^ {\r\nbeer => ^\r\nduck => } * {\r\nwife => ', 'gun => Q Z I\r\nyellow => Q Q Z Z I I\r\ndarkness => Q Z I Q Z I\r\ncarpet => ', 'zebra => } ^ {\r\nbullet => ^\r\nlightbulb => } * {\r\nbook => ', 'wire => Q Z I\r\nbeer => Q Q Z Z I I\r\nduck => Q Z I Q Z I\r\nwife => ', 'gun => E K C\r\nyellow => E % K % C\r\ndarkness => C K E\r\ncarpet => ', 'banana => C C C\r\nfireplace => c c c\r\nbean => C C\r\nplug => ']","['E K C\r\nE % K % C\r\nC K E', 'C C C\r\nc c c\r\nC C', '} ^ {\r\n^\r\n} * {', 'Q Z I\r\nQ Q Z Z I I\r\nQ Z I Q Z I', '} ^ {\r\n^\r\n} * {', 'Q Z I\r\nQ Q Z Z I I\r\nQ Z I Q Z I', 'E K C\r\nE % K % C\r\nC K E', 'C C C\r\nc c c\r\nC C', 'E K C\r\nE % K % C\r\nC K E', 'Q Z I\r\nQ Q Z Z I I\r\nQ Z I Q Z I', 'C C C\r\nc c c\r\nC C', '} ^ {\r\n^\r\n} * {', 'E K C\r\nE % K % C\r\nC K E', 'C C C\r\nc c c\r\nC C', 'Q Z I\r\nQ Q Z Z I I\r\nQ Z I Q Z I', '} ^ {\r\n^\r\n} * {']","['square => E K C\r\nrectangle => E % K % C\r\ncircle => C K E\r\nlime => ', 'king => C C C\r\nqueen => c c c\r\nman => C C\r\ntree => ', 'black => } ^ {\r\ngray => ^\r\nred => } * {\r\ndoor => ', 'dog => Q Z I\r\npuppy => Q Q Z Z I I\r\ncat => Q Z I Q Z I\r\npillow => ', 'king => } ^ {\r\nqueen => ^\r\nman => } * {\r\npillow => ', 'black => Q Z I\r\ngray => Q Q Z Z I I\r\nred => Q Z I Q Z I\r\ndoor => ', 'dog => E K C\r\npuppy => E % K % C\r\ncat => C K E\r\nlime => ', 'square => C C C\r\nrectangle => c c c\r\ncircle => C C\r\ntree => ', 'king => E K C\r\nqueen => E % K % C\r\nman => C K E\r\ntree => ', 'square => Q Z I\r\nrectangle => Q Q Z Z I I\r\ncircle => Q Z I Q Z I\r\nlime => ', 'black => C C C\r\ngray => c c c\r\nred => C C\r\npillow => ', 'dog => } ^ {\r\npuppy => ^\r\ncat => } * {\r\ndoor => ', 'black => E K C\r\ngray => E % K % C\r\nred => C K E\r\ndoor => ', 'dog => C C C\r\npuppy => c c c\r\ncat => C C\r\nlime => ', 'king => Q Z I\r\nqueen => Q Q Z Z I I\r\nman => Q Z I Q Z I\r\npillow => ', 'square => } ^ {\r\nrectangle => ^\r\ncircle => } * {\r\ntree => ']"
+"['C % K % E', 'c c', '*', 'Q Q Z Z I I Q Q Z Z I I', '*', 'Q Q Z Z I I Q Q Z Z I I', 'C % K % E', 'c c', 'C % K % E', 'Q Q Z Z I I Q Q Z Z I I', 'c c', '*', 'C % K % E', 'c c', 'Q Q Z Z I I Q Q Z Z I I', '*']","['C % K % E', 'c c', '*', 'Q Q Z Z I I Q Q Z Z I I', '*', 'Q Q Z Z I I Q Q Z Z I I', 'C % K % E', 'c c', 'C % K % E', 'Q Q Z Z I I Q Q Z Z I I', 'c c', '*', 'C % K % E', 'c c', 'Q Q Z Z I I Q Q Z Z I I', '*']","['C K E', 'c c', '} * {', 'Q Z I', '*', 'Q Q Z Z I I Q Q Z Z I I', 'E K C', 'C C C', 'E K C', 'Q Z I Q Z I', 'c c', '*', 'C % K % E', 'c c', 'Q Q Z Z I I', '} * {']","['c c', '*', 'C % K % E', 'Q Q Z Z I I Q Q Z Z I I', '*', 'C % K % E', 'c c', 'Q Q Z Z I I Q Q Z Z I I', 'Q Q Z Z I I Q Q Z Z I I', 'C % K % E', '*', 'c c', '*', 'C % K % E', 'c c', 'Q Q Z Z I I Q Q Z Z I I']","['E K C', 'Q Z I Q Z I', 'c c', '*', 'C % K % E', 'c c', 'Q Q Z Z I I', '} * {']","['C % K % E', 'c c', '*', 'Q Q Z Z I I Q Q Z Z I I', '*', 'Q Q Z Z I I Q Q Z Z I I', 'C % K % E', 'c c']","['C % K % E', 'c c', '*', 'Q Q Z Z I I Q Q Z Z I I', '*', 'Q Q Z Z I I Q Q Z Z I I', 'C % K % E', 'c c', 'C % K % E', 'Q Q Z Z I I Q Q Z Z I I', 'c c', '*', 'C % K % E', 'c c', 'Q Q Z Z I I Q Q Z Z I I', '*']","['C % K % E', 'c c', '*', 'Q Q Z Z I I Q Q Z Z I I', '*', 'Q Q Z Z I I Q Q Z Z I I', 'C % K % E', 'c c', 'C % K % E', 'Q Q Z Z I I Q Q Z Z I I', 'c c', '*', 'C % K % E', 'c c', 'Q Q Z Z I I Q Q Z Z I I', '*']"
+% C K %,C K E,C % K % E,"C % K % E
+
+Question 2:
+
+%",% K E %,c c,c c,c c,c c,c c,^ *,^ *,*,*,*,Q Q Z Z I I,Q Q Z Z I I,Q Q Z Z I I,Q Q Z Z I I,Q Q Z Z I I,"^
+
+^","* 
+
+Question 2:
+
+8 + 2 = 
+
+10",*,*,^,"Question 3:
+3 => 
+4 => 
+5 => 
+6 => 
+
+Question",Q Z I Q Z I,Q Z I Q Z I Q Z I,Q Z I Q Z Z I,Q Z I Q Z I,C K E C K E,C % K % E,C % K % E,C % K % E,C K % E,C C C,c c,c c,C C C C,c c,% C % K E,C % K % E,C % K % E,"C % K % E
+
+C % K % E",% C K E %,Q Z I Q Z I,Q Z I Q Z I,Q Z I Q Z I,Q Z I Z I,Q Z I Q Z I,c c C,C C C c c,c c C C,C C C C,C C c,*,*,*,*,*,%,"Question 2:
+
+A B
+
+A B C",pink => % K % C,C % K % E,C % K % E,c c,c c,c c,c c,c c,"Question 4:
+2 => 4
+3 => 9
+4 => 16
+5 => 
+
+Question",Q Q Z Z I I Q Q Z Z I I,Q Z I Q Z I,"Question 4:
+
+4 => 8
+5 => 10
+6 => 12","Question 4:
+
+book => D G B
+books => D G B D G B
+
+Question",}   {,*,*,*,} {,Oval,C K E,oval,%,oval,c c,c c,c c,c c,c c,*,*,*,*,*,Q Q Z I I,Q Z I Q Z I,Q Q Z Z I I,Q Z I Q Z I,Q Q Z Z I I,"^
+
+queen => ^
+lime => A P
+man => } * {
+woman =>  ^",*,*,"^
+
+Question 2:
+
+king => } ^ {
+queen => ^
+lime => A P",^,Q Z I Q Z I Q Z I,Q Z I Q Z I Q Z I,Q Z I Q Z I Q Z I,Q Z I Q Z I Q Z I,Z I Q Z I,C K E C K E,C K E K C,C % K % E,C K E K C,C K E K C,C C C C,C C C C,C C,C C,C C C C,queen,C % K % E,"Question 2:
+
+Question 3:",8 8,C K E,Q Z I Q Z I,Q Z I,Q Z I Q Z I,Q Z I Q Z I,Q Z I Q Z I,"C C C C
+
+Question 4:
+
+Which one of the following does not belong?
+
+A)",C C C C C,C C c c,C C C C,"C C C C
+
+Question 4:
+The first two drawings are the same.",*,*,*,*,*,%,pink => C,"Question 2:
+
+pail =>
+
+Question 3:
+
+fork =>",pink => C K E,"Question 2:
+
+chair => S
+table => E R A
+lamp => P M A",c c,c c,c c,c c,c c,Q Q Z Z I I,Q Q Z Z I I,Q Q Z Z I I,Q Q Z Z I I,Q Q Z Z I I,A   P,A P A P,A   P,A P A P,A P A P,C E K,C % K % E,C % K % E,C % K % E,"C K E
+
+C K E",c c,c c,c c,c c,c c,*,},*,*,*,Q Q Z Z I I Q Q Z Z I I,Q Q Z Z I I,Q Q Z Z I I,Q Z I Z I,Q Z I I Q Z I,^,} ^ {,} {,"* }
+
+
+Question 2:
+a)
+
+Question 3:
+a)",^,"Question 3:
+
+3 => 8
+6 => 5
+9 => 2
+
+Question 4:","Question 3:
+
+A => D
+B => E
+C => F
+
+Question 4:","Q Z I
+
+Question 3:
+
+Question 4:
+
+Question 5:
+
+
+Question 1:","Q Z I
+
+Question 3:
+
+The drawing is of a black and white checkerboard.","Question 3:
+
+two =>
+
+Question 4:
+
+eleven => 
+
+Question 5",E K C,E K C,E K C,dog,E K C,C C C,C C C,C C C,C C C,C C C,king,E K C,C % K % E,"E K C
+
+
+Question 2:
+
+C % K % E",E % K % C,Q Z I,Q Z I Q Z I,Q Z I Q Z I,Q Z I Q Z I,Q Q Z Z I I,C,C,C,C,C,{ *,*,^ } {,} * {,} * {,"Question 2:
+
+The drawing should be of a pink elephant.","Question 2:
+
+A
+
+Question 3:
+
+%","Question 2:
+
+Question 3:
+
+
+Question 1:
+
+Question 2:
+
+Question 3",C % K % E,pink => C K E,c   C,C C C,c C,"c c
+
+c c",c c,Q Q Z Z I I,Q Z I Q Q Z Z I I,Q Q Z Z I I,Q Z I Z I Q,Q Z I Q Z I,O,O,O,*,O,C C,"c c
+
+C C
+
+Question 2:
+
+The word ""but"" can be used as a conjunction","c c
+
+
+C C","c c
+
+C C C
+c c c","c c
+
+crown","*
+
+Question 3:
+
+Question 4:
+
+Question 5:
+
+
+Question 1:
+
+Question","Question 3:
+
+tree => ^
+flower => }
+
+Question 4:
+
+car => <","Question 3:
+
+3 =>
+6 =>
+9 =>","} * {
+
+Question 3:
+ Tuesday => 2
+
+Wednesday => 3
+
+Thursday => 4","Question 3:
+
+car => 
+
+Question 4:
+
+dog => 
+
+Question 5",C % K % E,% C K % E,% C K % E,C K E,C K E,Q Q Z Z I I Q Q Z Z I I,Q  Q Z Z I I,Q Z I Q Z I Q Q Z Z I I,Q Q Z Z I I Q Q Z Z I I,Q Q Z Z I I,*,"^
+
+^",*,"^
+
+Question 2:
+
+Question 3:
+
+Question 4:
+
+
+Question 5:",*,C % K % E,% K % C,% K % E,C % K % E,C % K % E,c c,c c,C,C,c c,Q Z I Q Z I Q Z I,Q Z I Q Z I Q Z I,Q Z I Q Z I Q Z I,Q Q Z Z I I Q Z I,Q Z I Q Z I Q Z I,Oval,oval,oval,Q Z I Q Z I,Q Q Z Z I I,% C % K E,% C % K % E %,% C % K % E %,% C % K % E %,% C % K % E %,*,*,*,*,*,c c,c c,C c,c c,C c,"Question 2:
+
+dog =>  
+
+cat => 
+
+mouse => 
+
+rat",^ * {,} * {,^ *,^,"Question 3:
+
+3 => 3
+6 => 6
+9 => 9",C K E %,C % K % E,"E % C % K
+
+Question 3:
+dog => D O G
+cat => C A T
+mouse",C K E %,c c,c c,c c,c c,c c,"Question 5:
+one => 1
+two => 2
+three => 3
+four => 4",Q Z I Q Z I,"Question 5:
+
+big => H J
+small => h j
+medium => H J H J","Question 5:
+
+Question 5:
+
+Question 6:
+
+Question 6:
+
+Question 7",Q Q Z Z I I Q Q Z Z I I,"Question 2:
+
+% => K
+^ => C
+< => E",E % K % C,% E % C,E % K % C,"Question 2:
+
+car => C A R
+train => T R A I N
+boat => B",Q Z I,Q Z I,Q Z I,Q Z I,Q Z I,C C,C C,C C,C C C,C C C,*,*,* } {,} { *,} { *,WIFE,C % E % K,The last drawing would be a drawing of a knife.,K C,The last drawing would be a woman.,C C C,C C C,C C,C C C,C C C,Q Z I,Q Z I,Q Z I,Q Z I,Q Z I,"} ^ {
+
+Question 5:
+
+apple =>   O
+orange => O O
+lemon => O","} ^ {
+
+Question 5:
+tire => O O
+cloud => O
+tree => O O","Question 5:
+
+car =>  
+house => 
+cloud => 
+
+Question 1:","Question 5:
+
+joy => ^ ^ ^
+joke => ^ ^
+joyful => ^ ^","} ^ {  } ^ {
+
+Question 5:
+
+fork => Y
+spoon => Y
+knife",plug => E K C,plug => E K C,"Question 2:
+
+The last drawing would be of a plug.",plug => % K % C,% E K %,C C,C,C,c c,C,^   {,^   {,} ^ {,} ^ {,} ^ {,Q Q Z Z I I Q Q Z Z I I,Q Q Z Z I I,Q Z I Z I,Q Z I I,Q Z Z I I,V,"_______
+
+book => +",^,"_____
+
+Question 1: ^","_____
+
+book => } ^ {",Q Z I Q Z I,Q Q Z Z I I,Q Q Z Z I I,Q Z I Q Z I,Q Z I Q Z I,%,% E K,E % K % C,E K C,% E % K,C c,"Question 5:
+ truck => U I
+ wheel => U
+ stop => U I I
+
+U I",C,C,C,C K E,C K E,C K E,C K E,K % C,c c,c,c c,C,c c,*,*,*,*,{,"Question 5:
+=> 1 4 7
+=> 2 5 8
+=> 3 6 9
+=> 4 7",Q Z I Q Z I,I,Q Z I Q Z I Q Z I,Q Z I Q Z I,*,*,*,{},*,I,Q Z I Q Z I,Q Z I Q Z I Q Z I,Q Z I Q Z I,=> I,% C % K % E,% C % K % E,% C % K % E,% C % K % E,% C K E,c c,c c,"Question 5:
+=> 4 7 10
+=> 13
+=> 16
+=> 19","Question 5:
+=> E D C
+=> E D C E
+=> D C E D
+=>",C,K C E,C K E,C K E,C K E,C K E,Q Z I Q Z I,Q Z I Q Z I Q Z I,Q Z I Q Z I,Q Q Z Z I I Q Q Z Z I I,"Q % Q % Z % Z % I % I
+=> I Z Q","Question 4:
+=> T T T
+=> T T T T T
+=> T T T T T",c  c,"Question 4:
+=> 2 4 6
+=> 2 4 6 8
+=> 2 4 6 8 10","Question 4:
+=> B A A
+=> A A B
+=> B A B
+=> A B",C,*,*,*,*,*,C K E,=> C % K % E,C K E,C K E,K % C,c c,C,c c,c c,c c,Q Q Z Z I I Q Z I,Q Q Z Z I I Q Q Z Z I I,Q Q Z Z I I Q Z I,Q Z I Q Z I,Q Q Z Z I I Q Q Z Z I I,*,*,*,*,*,rectangle,"Question 2:
+
+3 => + 2
+6 => x 3
+9 => - 6
+12 =>",lime => L I M E,"Question 2:
+2 => 4
+3 => 6
+4 => 8
+
+Question 3:","Question 2:
+
+The drawing for question 2 is not available.",c c,%   %,c c,c c,% c %,} ^ {,} ^ {,} ^ {,} ^ {,} ^ {,Q Q Z Z I I,"Question 5:
+
+car => U V W
+truck => U V W U V W
+bike","Question 5:
+
+car => W X Y
+bus => W X Y Y
+train => W X",I I,Q Q Z Z I I,"Question 2:
+
+green => 
+
+yellow => 
+
+red => 
+
+blue =>",^,"Question 2:
+
+dog => 
+
+ball => 
+
+tree => 
+
+Question 3","Question 2:
+
+dog => o o
+cat => o o o
+bird => o
+
+Question","Question 2:
+
+potato => 
+
+Question 3:
+
+apple =>",Q Z I Q Z I,Q Z I Q Z I,Z I Q Z I,Z I Q Z I,Q Z I Q Z I,C K E C K E,C K E % K % C,% E % K C,C K E K C,% K % C K E,C C,c c c,C C C C,C,c c c,"Question 2:
+
+A
+B
+C
+
+D","Question 2:
+
+2+2=4
+3+3=6
+4+4=","Question 2:
+
+The first two drawings are of a man and a tree. The last drawing should","Question 2:
+
+The first drawing is a man, the second is a king, and the third","Question 2:
+
+2 =>
+
+3 =>
+
+4 =>
+
+5 =>",Q Z I,Q Q Z Z I I,Q Z I,I,Q Z I Q Z I,C C C  C C,C C C C,C C C C,C C C c c c,C C C C C,*,} ^ } { {,} * {  } ^ {,*,} {,"The last drawing would be a door that is black, gray, and red.","Question 2:
+up =>  
+down =>
+left =>
+right =>","Question 2:
+3 => 7
+6 => 2
+9 => 1
+12 =>","Question 2:
+
+coffee => E K C
+tea => E % K % C",The last drawing is a door.,C,c c,C,"C
+
+Question 3:
+
+3 => 3
+6 => 6
+9 => 9",c c,Q Q Z Z I I,Q Z I Q Z I,Q Q Z Z I I,Q Q Z Z I I,Q Q Z Z I I,"Question 5:
+
+None","Question 5:
+The first two figures are the same, but the last is different.
+
+Question 6","Question 5:
+snake => s s
+lizard => s
+clam => S
+
+Question",} * {,^ *

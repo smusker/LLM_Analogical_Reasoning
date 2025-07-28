@@ -1,0 +1,751 @@
+defaults,distracted,permuted_pairs,permuted_questions,random_permuted_pairs,randoms,only_rhs,random_finals
+"['square => E K C\nrectangle => E % K % C\ncircle => C K E\noval => ', 'king => C C C\nqueen => c c c\nman => C C\nwoman => ', 'black => } ^ {\ngray => ^\nred => } * {\npink => ', 'dog => Q Z I\npuppy => Q Q Z Z I I\ncat => Q Z I Q Z I\nkitten => ', 'king => } ^ {\nqueen => ^\nman => } * {\nwoman => ', 'black => Q Z I\ngray => Q Q Z Z I I\nred => Q Z I Q Z I\npink => ', 'dog => E K C\npuppy => E % K % C\ncat => C K E\nkitten => ', 'square => C C C\nrectangle => c c c\ncircle => C C\noval => ', 'king => E K C\nqueen => E % K % C\nman => C K E\nwoman => ', 'square => Q Z I\nrectangle => Q Q Z Z I I\ncircle => Q Z I Q Z I\noval => ', 'black => C C C\ngray => c c c\nred => C C\npink => ', 'dog => } ^ {\npuppy => ^\ncat => } * {\nkitten => ', 'black => E K C\ngray => E % K % C\nred => C K E\npink => ', 'dog => C C C\npuppy => c c c\ncat => C C\nkitten => ', 'king => Q Z I\nqueen => Q Q Z Z I I\nman => Q Z I Q Z I\nwoman => ', 'square => } ^ {\nrectangle => ^\ncircle => } * {\noval => ']","['square => E K C\npillow => A P\nrectangle => E % K % C\ncircle => C K E\noval => ', 'lime => U\nking => C C C\nqueen => c c c\nman => C C\nwoman => ', 'black => } ^ {\ngray => ^\ndoor => 8 8\nred => } * {\npink => ', 'dog => Q Z I\npuppy => Q Q Z Z I I\ncat => Q Z I Q Z I\ntree => Y Y Y\nkitten => ', 'king => } ^ {\nqueen => ^\nlime => A P\nman => } * {\nwoman => ', 'black => Q Z I\ntree => Y Y Y\ngray => Q Q Z Z I I\nred => Q Z I Q Z I\npink => ', 'door => 8 8\ndog => E K C\npuppy => E % K % C\ncat => C K E\nkitten => ', 'square => C C C\nrectangle => c c c\ncircle => C C\npillow => U\noval => ', 'king => E K C\nqueen => E % K % C\nman => C K E\nlime => 8 8\nwoman => ', 'pillow => U\nsquare => Q Z I\nrectangle => Q Q Z Z I I\ncircle => Q Z I Q Z I\noval => ', 'black => C C C\ntree => Y Y Y\ngray => c c c\nred => C C\npink => ', 'dog => } ^ {\npuppy => ^\ndoor => A P\ncat => } * {\nkitten => ', 'door => U\nblack => E K C\ngray => E % K % C\nred => C K E\npink => ', 'dog => C C C\npuppy => c c c\ncat => C C\ntree => Y Y Y\nkitten => ', 'king => Q Z I\nqueen => Q Q Z Z I I\npillow => 8 8\nman => Q Z I Q Z I\nwoman => ', 'square => } ^ {\nlime => A P\nrectangle => ^\ncircle => } * {\noval => ']","['square => E K C\noval => C % K % E\nrectangle => E % K % C\ncircle => ', 'king => C C C\nqueen => c c c\nman => C C\nwoman => ', 'pink => *\nblack => } ^ {\ngray => ^\nred => ', 'puppy => Q Q Z Z I I\nkitten => Q Q Z Z I I Q Q Z Z I I\ncat => Q Z I Q Z I\ndog => ', 'man => } * {\nqueen => ^\nking => } ^ {\nwoman => ', 'gray => Q Q Z Z I I\nblack => Q Z I\nred => Q Z I Q Z I\npink => ', 'cat => C K E\nkitten => C % K % E\npuppy => E % K % C\ndog => ', 'oval => c c\nrectangle => c c c\ncircle => C C\nsquare => ', 'woman => C % K % E\nman => C K E\nqueen => E % K % C\nking => ', 'rectangle => Q Q Z Z I I\noval => Q Q Z Z I I Q Q Z Z I I\nsquare => Q Z I\ncircle => ', 'gray => c c c\nblack => C C C\nred => C C\npink => ', 'puppy => ^\ncat => } * {\ndog => } ^ {\nkitten => ', 'red => C K E\nblack => E K C\ngray => E % K % C\npink => ', 'cat => C C\npuppy => c c c\ndog => C C C\nkitten => ', 'woman => Q Q Z Z I I Q Q Z Z I I\nking => Q Z I\nman => Q Z I Q Z I\nqueen => ', 'rectangle => ^\noval => *\nsquare => } ^ {\ncircle => ']","['king => C C C\nqueen => c c c\nman => C C\nwoman => ', 'black => } ^ {\ngray => ^\nred => } * {\npink => ', 'square => E K C\nrectangle => E % K % C\ncircle => C K E\noval => ', 'dog => Q Z I\npuppy => Q Q Z Z I I\ncat => Q Z I Q Z I\nkitten => ', 'king => } ^ {\nqueen => ^\nman => } * {\nwoman => ', 'dog => E K C\npuppy => E % K % C\ncat => C K E\nkitten => ', 'square => C C C\nrectangle => c c c\ncircle => C C\noval => ', 'black => Q Z I\ngray => Q Q Z Z I I\nred => Q Z I Q Z I\npink => ', 'square => Q Z I\nrectangle => Q Q Z Z I I\ncircle => Q Z I Q Z I\noval => ', 'king => E K C\nqueen => E % K % C\nman => C K E\nwoman => ', 'dog => } ^ {\npuppy => ^\ncat => } * {\nkitten => ', 'black => C C C\ngray => c c c\nred => C C\npink => ', 'square => } ^ {\nrectangle => ^\ncircle => } * {\noval => ', 'black => E K C\ngray => E % K % C\nred => C K E\npink => ', 'dog => C C C\npuppy => c c c\ncat => C C\nkitten => ', 'king => Q Z I\nqueen => Q Q Z Z I I\nman => Q Z I Q Z I\nwoman => ']","['book => C % K % E\nlightbulb => C K E\nbullet => E % K % C\nzebra => ', 'fireplace => Q Q Z Z I I\nplug => Q Q Z Z I I Q Q Z Z I I\nbanana => Q Z I\nbean => ', 'beer => c c c\nwire => C C C\nduck => C C\nwife => ', 'yellow => ^\ndarkness => } * {\ngun => } ^ {\ncarpet => ', 'duck => C K E\nwire => E K C\nbeer => E % K % C\nwife => ', 'darkness => C C\nyellow => c c c\ngun => C C C\ncarpet => ', 'book => Q Q Z Z I I Q Q Z Z I I\nzebra => Q Z I\nlightbulb => Q Z I Q Z I\nbullet => ', 'fireplace => ^\nplug => *\nbanana => } ^ {\nbean => ']","['banana => E K C\nfireplace => E % K % C\nbean => C K E\nplug => ', 'zebra => C C C\nbullet => c c c\nlightbulb => C C\nbook => ', 'wire => } ^ {\nbeer => ^\nduck => } * {\nwife => ', 'gun => Q Z I\nyellow => Q Q Z Z I I\ndarkness => Q Z I Q Z I\ncarpet => ', 'zebra => } ^ {\nbullet => ^\nlightbulb => } * {\nbook => ', 'wire => Q Z I\nbeer => Q Q Z Z I I\nduck => Q Z I Q Z I\nwife => ', 'gun => E K C\nyellow => E % K % C\ndarkness => C K E\ncarpet => ', 'banana => C C C\nfireplace => c c c\nbean => C C\nplug => ']","['E K C\nE % K % C\nC K E', 'C C C\nc c c\nC C', '} ^ {\n^\n} * {', 'Q Z I\nQ Q Z Z I I\nQ Z I Q Z I', '} ^ {\n^\n} * {', 'Q Z I\nQ Q Z Z I I\nQ Z I Q Z I', 'E K C\nE % K % C\nC K E', 'C C C\nc c c\nC C', 'E K C\nE % K % C\nC K E', 'Q Z I\nQ Q Z Z I I\nQ Z I Q Z I', 'C C C\nc c c\nC C', '} ^ {\n^\n} * {', 'E K C\nE % K % C\nC K E', 'C C C\nc c c\nC C', 'Q Z I\nQ Q Z Z I I\nQ Z I Q Z I', '} ^ {\n^\n} * {']","['square => E K C\nrectangle => E % K % C\ncircle => C K E\nlime => ', 'king => C C C\nqueen => c c c\nman => C C\ntree => ', 'black => } ^ {\ngray => ^\nred => } * {\ndoor => ', 'dog => Q Z I\npuppy => Q Q Z Z I I\ncat => Q Z I Q Z I\npillow => ', 'king => } ^ {\nqueen => ^\nman => } * {\npillow => ', 'black => Q Z I\ngray => Q Q Z Z I I\nred => Q Z I Q Z I\ndoor => ', 'dog => E K C\npuppy => E % K % C\ncat => C K E\nlime => ', 'square => C C C\nrectangle => c c c\ncircle => C C\ntree => ', 'king => E K C\nqueen => E % K % C\nman => C K E\ntree => ', 'square => Q Z I\nrectangle => Q Q Z Z I I\ncircle => Q Z I Q Z I\nlime => ', 'black => C C C\ngray => c c c\nred => C C\npillow => ', 'dog => } ^ {\npuppy => ^\ncat => } * {\ndoor => ', 'black => E K C\ngray => E % K % C\nred => C K E\ndoor => ', 'dog => C C C\npuppy => c c c\ncat => C C\nlime => ', 'king => Q Z I\nqueen => Q Q Z Z I I\nman => Q Z I Q Z I\npillow => ', 'square => } ^ {\nrectangle => ^\ncircle => } * {\ntree => ']"
+"['C % K % E', 'c c', '*', 'Q Q Z Z I I Q Q Z Z I I', '*', 'Q Q Z Z I I Q Q Z Z I I', 'C % K % E', 'c c', 'C % K % E', 'Q Q Z Z I I Q Q Z Z I I', 'c c', '*', 'C % K % E', 'c c', 'Q Q Z Z I I Q Q Z Z I I', '*']","['C % K % E', 'c c', '*', 'Q Q Z Z I I Q Q Z Z I I', '*', 'Q Q Z Z I I Q Q Z Z I I', 'C % K % E', 'c c', 'C % K % E', 'Q Q Z Z I I Q Q Z Z I I', 'c c', '*', 'C % K % E', 'c c', 'Q Q Z Z I I Q Q Z Z I I', '*']","['C K E', 'c c', '} * {', 'Q Z I', '*', 'Q Q Z Z I I Q Q Z Z I I', 'E K C', 'C C C', 'E K C', 'Q Z I Q Z I', 'c c', '*', 'C % K % E', 'c c', 'Q Q Z Z I I', '} * {']","['c c', '*', 'C % K % E', 'Q Q Z Z I I Q Q Z Z I I', '*', 'C % K % E', 'c c', 'Q Q Z Z I I Q Q Z Z I I', 'Q Q Z Z I I Q Q Z Z I I', 'C % K % E', '*', 'c c', '*', 'C % K % E', 'c c', 'Q Q Z Z I I Q Q Z Z I I']","['E K C', 'Q Z I Q Z I', 'c c', '*', 'C % K % E', 'c c', 'Q Q Z Z I I', '} * {']","['C % K % E', 'c c', '*', 'Q Q Z Z I I Q Q Z Z I I', '*', 'Q Q Z Z I I Q Q Z Z I I', 'C % K % E', 'c c']","['C % K % E', 'c c', '*', 'Q Q Z Z I I Q Q Z Z I I', '*', 'Q Q Z Z I I Q Q Z Z I I', 'C % K % E', 'c c', 'C % K % E', 'Q Q Z Z I I Q Q Z Z I I', 'c c', '*', 'C % K % E', 'c c', 'Q Q Z Z I I Q Q Z Z I I', '*']","['C % K % E', 'c c', '*', 'Q Q Z Z I I Q Q Z Z I I', '*', 'Q Q Z Z I I Q Q Z Z I I', 'C % K % E', 'c c', 'C % K % E', 'Q Q Z Z I I Q Q Z Z I I', 'c c', '*', 'C % K % E', 'c c', 'Q Q Z Z I I Q Q Z Z I I', '*']"
+O % K % E,O % K % E,O % K % E,O % K % E,C % K % E,c c,c c,c c,c c,c c,*,*,*,*,*,Q Q Z Z I I Q Q Z Z I I,Q Q Z Z I I Q Q Z Z I I,Q Q Z Z I I Q Q Z Z I I,Q Q Z Z I I Q Q Z Z I I,Q Q Z Z I I Q Q Z Z I I,*,*,*,*,*,pink => Q Q Z Z I I Q Q Z Z I I,pink => Q Q Z Z I I Q Q Z Z I I,pink => Q Z I Q Q Z Z I I,pink => Q Z I Q Z I Q Z I,pink => Q Z I Q Z I Q Z I,C % K % E,kitten => C % K % E,kitten => C % K % E,kitten => C % K % E,kitten => C % K % E,c c,c c,c c,c c,(,C % E % K,C % E % K,% C K E,% C K E,% C K E,Q Q Z Z I I Q Q Z Z I I,oval => Q Q Z Z I I Q Q Z Z I I,Q Q Z Z I I Q Q Z Z I I,"Question 1:
+C % K % E
+
+Question 2:
+Q Q Z Z I I Q Q Z Z I I",oval => Q Q Z Z I I Q Q Z Z I I,c c,c c,c c,c c,c c,*,*,*,*,*,% C % K % E,C % K % E,P % K % E,C % K % E,pink => C % K % E,kitten => c c,kitten => c c,kitten => c c,kitten => c c,kitten => c c,Q Q Z Z I I Q Q Z Z I I,"Here is the concise response with only the requested drawing for Question 3:
+
+Q Q Z Z I I Q Q Z Z I I",Q Q Z Z I I Q Q Z Z I I,Q Q Z Z I I Q Q Z Z I I,Q Q Z Z I I Q Q Z Z I I,*,*,*,*,*,A % P,A % P %,O % P,A % P %,A % P,c c,c c,c c,c c,c c,*,*,*,*,*,Q Q Z Z I I Q Q Z Z I I,Q Q Z Z I I Q Q Z Z I I,Q Q Z Z I I Q Q Z Z I I,Q Q Z Z I I Q Q Z Z I I,Q Q Z Z I I Q Q Z Z I I,*,*,*,*,*,Q Z I Q Z I Q Z I,Q Q Z Z I I Q Q Z Z I I,pink => Q Q Z Z I I Q Q Z Z I I,pink => Q Q Z Z I I Q Q Z Z I I,Q Z I Q Z I Q Z I,C % K % E,C % K % E,C % K % E,C % K % E,C % K % E,U U,U U,"Here is my attempt at the final drawing for Question 4:
+
+U U",U U,U U,C % E,C % E,C % E,? % C % E,C % E,oval => Q Q Z Z I I Q Q Z Z I I,oval => Q Q Z Z I I Q Q Z Z I I,oval => Q Q Z Z I I Q Q Z Z I I,oval => Q Q Z Z I I Q Q Z Z I I,"Here is my response for Question 2:
+
+Q Q Z Z I I Q Q Z Z I I",c c,c c,c c,c c,c c,*,*,*,*,*,🟥 🟧 🟪,% C K % E,% C K % E,% C K % E,% E K % C,c c,c c,c c,c c,c c,Q Q Z Z I I,Q Q Z Z I I,Q Q Z Z I I,Q Q Z Z I I,Q Q Z Z I I,(,{,{,(,(,C K E,K C E,K C E,C K E,% C E K %,c c,c c,c c,c c,c c,"Question 1:
+K % C % E
+
+Question 2:
+C
+
+Question 3:
+*","Question 1:
+%
+
+Question 2:
+C
+
+Question 3:
+*}^{","For Question 1, based on the pattern, the last drawing for ""circle"" should be:
+%
+
+For Question 2, based on the pattern, the last drawing for ""woman"" should be:
+C
+
+For Question 3, based on the pattern, the last drawing for ""red"" should be:
+{ * }","Question 1:
+K % E % C
+
+Question 2:
+C
+
+Question 3:
+*","Question 1:
+K % E % C
+
+Question 2:
+C
+
+Question 3:
+*",Q Z I Q Z I Q Z I Q Z I,Q Z I Q Z I Q Z I Q Z I,Q Z I Q Z I Q Z I Q Z I,Q Z I Q Z I Q Z I Q Z I,Q Z I Q Z I Q Z I Q Z I,* ,* {,* {,* {,* *,pink => Q Q Z Z I I Q Q Z Z I I,pink => Q Q Z Z I I Q Q Z Z I I,Q Q Z Z I I,pink => Q Q Z Z I I Q Q Z Z I I,I I,dog => E K C,"Question 1:
+} * {
+
+Question 2:
+Q Z I Q Z I Q Z I Q Z I
+
+Question 3:
+E K C",dog => E K C,"Here is my attempt at the last drawing for Question 3:
+
+E K C",dog => E K C,c c c c,c c c c,c c c,c c c c,c c c c,E K C,E K C,E K C,E K C,E K C,O O O O,O O O O,O O O O,O O O O,O O O O,c c,c c,c c,c c,c c,*,*,*,*,*,C % E % K,C % K % E,C % E % K,C % K % E,C % K % E,kitten => c c,kitten => c c,kitten => c c,kitten => c c,kitten => c c,I I Q Q Z Z I I Q Q Z Z,queen => Q Q Z Z I I,queen => Q Q Z Z I I,I I Q Q Z Z I I Q Q Z Z,queen => Q Q Z Z I I,(,(,(,(,(,c c,c c,c c,c c,c c,*,*,*,*,*,C % K % E,oval => C % K % E,oval => C % K % E,(  K  ),oval => C % K % E,Q Q Z Z I I Q Q Z Z I I,Q Q Z Z I I Q Q Z Z I I,Q Q Z Z I I Q Q Z Z I I,Q Q Z Z I I Q Q Z Z I I,Q Q Z Z I I Q Q Z Z I I,*,*,*,*,*,kitten => C % K % E,kitten => C % K % E,kitten => C % K % E,kitten => C % K % E,kitten => C % K % E,c c,c c,c c,c c,c c,Q Q Z Z I I Q Q Z Z I I,Q Q Z Z I I Q Q Z Z I I,Q Q Z Z I I Q Q Z Z I I,Q Q Z Z I I Q Q Z Z I I,Q Q Z Z I I Q Q Z Z I I,Q Q Z Z I I Q Q Z Z I I,Q Q Z Z I I Q Q Z Z I I,Q Q Z Z I I Q Q Z Z I I,Q Q Z Z I I Q Q Z Z I I,Q Q Z Z I I Q Q Z Z I I,C % K % E,C % K % E,C % K % E,C % K % E,C % K % E,*,*,*,*,*,c c,c c,c c,c c,c c,*,*,*,*,*,"Question 1:
+*
+
+Question 2:
+C % K % E",C % K % E,"Here is my response for Question 2:
+
+C % K % E",C % K % E,C % K % E,c c,c c,c c,c c,c c,Q Q Z Z I I Q Q Z Z I I,Q Q Z Z I I Q Q Z Z I I,Q Q Z Z I I Q Q Z Z I I,Q Q Z Z I I Q Q Z Z I I,Q Q Z Z I I Q Q Z Z I I,E K C,E K C,C % E % K,Z % B % R % A,Z % E % B % R % A,bean => Q Z I Q Z I,bean => Q Z I Q Z I,bean => Q Z I Q Z I,bean => Q Z I Q Z I,bean => Q Z I Q Z I,wife => C C C C,wife => c c c c,wife => c c c c,wife => C C C C,wife => C C C C,^^^,"For Question 4, the answer is:
+
+^ * ^","Here are the concise responses with only the last drawing for each question:
+
+Question 1:
+E C K
+
+Question 2:
+Q Z I Q Z I Q Z I Q Z I
+
+Question 3:
+C C C C
+
+Question 4:
+* ^ *",^^^,{*},E  F  K  F  C,E I K I C,E F K F C,E # K # C,E % K % C,carpet => c c c c c c,carpet => c c c c c c,carpet => c c c c c c,carpet => c c c c c c,carpet => c c c c c c,I I,I I,I I,I I,I I,{,{,}*{,{,{,🔌 % 🔌,% C E,C % E,C % K % E,C % K % E,"Here is my attempt at the last drawing for Question 2:
+
+c c",c c,c c,"Here is my attempt at completing the last drawing for Question 2:
+
+c c","Here is the drawing for the last item in Question 2:
+
+c c","Question 1:
+plug => C % K % E
+
+Question 2:
+book => c c
+
+Question 3:
+wife => * ^","Question 1:
+plug => C % K % E
+
+Question 2:
+book => c c
+
+Question 3:
+wife => * }","Question 1:
+E % K % C
+
+Question 2:
+c
+
+Question 3:
+* ^","Question 1:
+E % K % C
+
+Question 2:
+c
+
+Question 3:
+* ^","Question 1:
+plug => C % K % E
+
+Question 2:
+book => c c
+
+Question 3:
+wife => * }",I I Z Z Q Q,I I Z Z Q Q,I I Z Z Q Q,I I Z Z Q Q,I I Z Z Q Q,][,?,} ~ {,?,} # {,"Question 1:
+*
+
+Question 2:
+Q Q Z Z I I Q Z I",wife => Q Q Z Z I I Q Q Z Z I I,"Question 1:
+*
+
+Question 2:
+Q Q Z Z I I Q Z I","Question 1:
+} * * {
+
+Question 2:
+Q Q Z Z I I Q Q Z Z I I","Question 1:
+}*^{
+
+Question 2:
+Q Q Z Z I I Q Q Z Z I I","*
+
+Q Q Z Z I I Q Q Z Z I I Q Q Z Z I I
+
+E % K % C % E % K % C","*
+
+Q Q Z Z I I Q Q Z Z I I Q Q Z Z I I
+
+% E % K % C","Here are my responses for each question, providing only the requested drawing:
+
+Question 1:
+} * {
+
+Question 2:
+Q Q Z Z I I Q Q Z Z I I Q Q Z Z I I
+
+Question 3:
+E % K % C % E % K % C","Question 1:
+*
+
+Question 2:
+Q Q Z Z I I Q Q Z Z I I Q Q Z Z I I
+
+Question 3:
+E % K % C % E % K % C","*
+
+Q Q Z Z I I Q Q Z Z I I Q Q Z Z I I
+
+% E % K % C %","Question 1:
+ * *
+
+Question 2:
+Q Q Z Z I I Q Q Z Z I I Q Q Z Z I I
+
+Question 3:
+C % K % E % 
+
+Question 4:
+c c",plug => c c,"Here is my response for Question 4:
+
+c c",},"Here is my attempt at completing the last drawing for Question 4:
+
+c c",C % K % E,C % K % E,C % K % E,C % K % E,C % K % E,"Here are my responses for each question:
+
+Question 1:
+E % K % C
+
+Question 2:
+c c","Here are the concise responses for the last entry in each sequence:
+
+Question 1:
+E % K % C
+
+Question 2:
+c","Here are the concise responses for the last pattern in each sequence:
+
+Question 1:
+E % K % C
+
+Question 2:
+c","Here are my responses for the last entry in each sequence:
+
+Question 1:
+E % K % C
+
+Question 2:
+c c","Here are my responses for the pattern sequences:
+
+Question 1:
+E % K % C
+
+Question 2:
+c","Here are my responses for the last entry in each sequence:
+
+Question 1:
+E % K % C
+
+Question 2:
+C
+
+Question 3:
+*","Here are my responses for the last entry in each pattern sequence:
+
+Question 1:
+E % K % C
+
+Question 2:
+C
+
+Question 3:
+*","Here are my responses for the pattern completion questions:
+
+Question 1:
+E K C
+
+Question 2:
+C
+
+Question 3:
+*","Here are my responses for the last entry in each sequence:
+
+Question 1:
+E % K % C
+
+Question 2:
+C
+
+Question 3:
+*","Here are my responses for the last entry in each pattern sequence:
+
+Question 1:
+E % K % C
+
+Question 2:
+C
+
+Question 3:
+*","Here are my responses for each question:
+
+Question 1:
+E K C
+
+Question 2:
+C
+
+Question 3:
+} ^ {
+
+Question 4:
+Q Q Q Z Z Z I I I","Here are the concise answers for the last entry in each sequence:
+
+Question 1:
+E % K % C
+
+Question 2:
+C
+
+Question 3:
+}
+
+Question 4:
+Q Q Q Z Z Z I I I","Here are my responses for each question:
+
+Question 1:
+E K C
+
+Question 2:
+C
+
+Question 3:
+} ^ {
+
+Question 4:
+Q Q Q Z Z Z I I I","Here are my responses for each question:
+
+Question 1:
+E K C
+
+Question 2:
+C
+
+Question 3:
+} { 
+
+Question 4:
+Q Q Q Z Z Z I I I","Here are the concise answers for the last entry in each pattern sequence:
+
+Question 1:
+E K C
+
+Question 2:
+C
+
+Question 3:
+}
+
+Question 4:
+Q Q Q Z Z Z I I I",*,*,*,*,*,"Here are my responses for the pattern sequences:
+
+Question 1:
+}#{
+
+Question 2:
+QQZZII","Question 1:
+} + {
+
+Question 2:
+Q Q Q Z Z Z I I I","Question 1:
+}
+
+Question 2:
+Q Q Q Z Z Z I I I","Question 1:
+}
+
+Question 2:
+Q Q Q Z Z Z I I I","Here are my responses to each question:
+
+Question 1:
+} ^ {
+
+Question 2:
+Q Q Q Z Z Z I I I","Question 1:
+}
+
+Question 2:
+Q Z I Q Q Z Z I I Q Z I Q Q Z Z I I
+
+Question 3:
+C % K % E","Here are my responses for the last entry in each sequence:
+
+Question 1:
+}
+
+Question 2:
+Q Z I Q Z I Q Z I Q Z I
+
+Question 3:
+C % K % E","Question 1:
+} ^ {
+
+Question 2:
+Q Z I Q Z I Q Q Z Z I I
+
+Question 3:
+C % K % E","Here are the concise answers for the last entry in each sequence:
+
+Question 1:
+}
+
+Question 2:
+Q Z I Q Z I Q Z I Q Z I
+
+Question 3:
+C % K % E","Here are the concise responses for the last entry in each sequence:
+
+Question 1:
+} / {
+
+Question 2:
+Q Z I Q Z I Q Z I Q Z I
+
+Question 3:
+C % K % E","1. *
+
+2. Q Z I Q Z I Q Q Z Z I I
+
+3. E K C
+
+4. c c","Question 1:
+}
+
+Question 2:
+Q Z I Q Z I Q Q Z Z I I Q Q Z Z I I
+
+Question 3:
+E K C
+
+Question 4:
+c c","Question 1:
+}
+
+Question 2:
+Q Z I Q Z I Q Q Z Z I I Q Q Z Z I I
+
+Question 3:
+E K C
+
+Question 4:
+c c","Question 1:
+}
+
+Question 2:
+Q Z I Q Z I Q Q Z Z I I Q Q Z Z I I
+
+Question 3:
+E K C
+
+Question 4:
+c c","Here are my responses for the last entry in each sequence:
+
+Question 1:
+}
+
+Question 2:
+Q Z I Q Z I Q Z I Q Z I
+
+Question 3:
+E K C
+
+Question 4:
+c c",C % K % E,C % K % E,C % K % E,C % K % E,C % K % E,"Here are my responses for the last entry in each sequence:
+
+Question 1:
+E K C
+
+Question 2:
+Q Q Z Z I I Q Q Z Z I I","Here are my responses for the last entry in each sequence:
+
+Question 1:
+E K C
+
+Question 2:
+Q Q Z Z I I Q Q Z Z I I","Here are my responses for the last entry in each sequence:
+
+Question 1:
+E K C
+
+Question 2:
+Q Q Z Z I I Q Q Z Z I I","Here are the concise answers for the pattern sequences:
+
+Question 1:
+E K C
+
+Question 2:
+Q Q Z Z I I Q Q Z Z I I","Here are my responses to the pattern sequence questions:
+
+Question 1:
+E K C
+
+Question 2:
+Q Q Z Z I I Q Q Z Z I I","Here are my responses for the last entry in each sequence:
+
+Question 1:
+E K C
+
+Question 2:
+Q Z I Q Z I Q Z I Q Z I
+
+Question 3:
+c c","Here are the concise responses for the last entry in each sequence:
+
+Question 1:
+E % K % C
+
+Question 2:
+Q Z I Q Z I Q Z I Q Z I
+
+Question 3:
+c c","Here are the concise answers for the last entry in each pattern sequence:
+
+Question 1:
+E % K % C
+
+Question 2:
+Q Z I Q Z I Q Z I Q Z I
+
+Question 3:
+c c","Here are the concise responses for the last entry in each sequence:
+
+Question 1:
+E K C
+
+Question 2:
+Q Z I Q Z I Q Z I Q Z I
+
+Question 3:
+c c","Here are my responses for the last entry in each sequence:
+
+Question 1:
+E % K % C
+
+Question 2:
+Q Z I Q Z I Q Z I Q Z I
+
+Question 3:
+c c","Here are my responses for the last entry in each sequence:
+
+Question 1:
+E K C
+
+Question 2:
+Q Z I Q Z I Q Z I Q Z I
+
+Question 3:
+C
+
+Question 4:
+*","Here are the concise answers for the last entry in each sequence:
+
+Question 1:
+E K C
+
+Question 2:
+Q Z I Q Z I Q Z I Q Z I
+
+Question 3:
+C
+
+Question 4:
+*","Here are my responses for each question:
+
+Question 1:
+E % K % C
+
+Question 2:
+Q Z I Q Z I Q Z I Q Z I
+
+Question 3:
+C
+
+Question 4:
+*","Here are the concise responses for each question:
+
+Question 1:
+E K C
+
+Question 2:
+Q Z I Q Z I Q Z I Q Z I
+
+Question 3:
+C
+
+Question 4:
+*","Here are the concise answers for the last entry in each sequence:
+
+Question 1:
+E K C
+
+Question 2:
+Q Z I Q Z I Q Z I Q Z I
+
+Question 3:
+C
+
+Question 4:
+*",C % K % E,C % K % E,C % K % E,C % K % E,C % K % E,"Here are my responses to the pattern sequence questions:
+
+Question 1:
+E % K % C
+
+Question 2:
+c c","Here are the concise answers for the last entry in each sequence:
+
+Question 1:
+E % K % C
+
+Question 2:
+c","Here are my responses for the pattern completion questions:
+
+Question 1:
+E % K % C
+
+Question 2:
+c c","Here are my responses for the pattern sequences:
+
+Question 1:
+E % K % C
+
+Question 2:
+c","Here are the concise answers for the pattern sequences:
+
+Question 1:
+E % K % C
+
+Question 2:
+c c","Here are the concise answers for the last entry in each sequence:
+
+Question 1:
+E K C
+
+Question 2:
+C
+
+Question 3:
+Q Q Q Z Z Z I I I","Here are my responses for the last entry in each sequence:
+
+Question 1:
+E K C
+
+Question 2:
+C
+
+Question 3:
+Q Q Z Z I I Q Q Z Z I I","Here are my responses for the last entry in each sequence:
+
+Question 1:
+E K C
+
+Question 2:
+C
+
+Question 3:
+Q Q Z Z I I Q Q Z Z I I","Here are my responses for the last entry in each sequence:
+
+Question 1:
+E K C
+
+Question 2:
+C
+
+Question 3:
+Q Q Q Z Z Z I I I","Here are my responses for the last entry in each pattern sequence:
+
+Question 1:
+E K C
+
+Question 2:
+C
+
+Question 3:
+Q Q Q Z Z Z I I I","Here are the concise answers for the last entry in each sequence:
+
+Question 1:
+E % K % C
+
+Question 2:
+C
+
+Question 3:
+Q Z I Q Z I Q Z I Q Z I
+
+Question 4:
+*","Here are my responses for the last entry in each sequence:
+
+Question 1:
+E K C
+
+Question 2:
+C
+
+Question 3:
+Q Z I Q Z I Q Z I Q Z I
+
+Question 4:
+*","Here are the concise answers for the last entry in each sequence:
+
+Question 1:
+E % K % C
+
+Question 2:
+C
+
+Question 3:
+Q Z I Q Z I Q Z I Q Z I
+
+Question 4:
+*","Here are the concise answers for the last entry in each sequence:
+
+Question 1:
+E K C
+
+Question 2:
+C
+
+Question 3:
+Q Z I Q Z I Q Z I Q Z I
+
+Question 4:
+*","Here are my responses for the last entry in each sequence:
+
+Question 1:
+E % K % C
+
+Question 2:
+C
+
+Question 3:
+Q Z I Q Z I Q Z I Q Z I
+
+Question 4:
+*",🍐 K 🍋,".
+  .
+.   .
+  .",🍋 % K % E,⚪ % 🔵 % 🟢,E C K,"Here is my response for Question 2:
+
+c c",🌳🌳,"Here is the completed drawing for Question 2:
+
+c c",🌳🌳,tree => c c,"E
+
+C
+
+*",},},"Question 1:
+E % K % C %
+
+Question 2:
+C
+
+Question 3:
+* ^ *",},I I Q Q Z Z,I I Z Z Q Q,I I Z Z Q Q,I I Q Q Z Z,I I Q Q Z Z,} ~ {,( ),(__),} ~ {,|___|,door => Q Z I Q Z I Q Z I,door => Q Z I Q Z I Q Z I,door => Q Q Z Z I I Q Q Z Z I I,door => Q Q Q Z Z Z I I I,"Question 1:
+}*^{
+
+Question 2:
+QZIQZI",lime => E % C % K,lime => E % C % K,lime => % C % K % E,"}
+
+Q Z I Q Z I Q Z I Q Z I
+
+% C % K % E","Question 1:
+}*^{
+
+Question 2:
+Q Z I Q Z I Q Z I Q Z I
+
+Question 3:
+C%K%E",tree => c c,tree => c,"Question 4:
+c c",tree => c c,tree => c c,🌳,🌳,"/|\
+ |
+ |",🌳,🌳,lime => Q Q Z I I Z,lime => Q Z I Q Z I Q Z I,lime => Q Z I Q Z I Q Z I,lime => Q Z I Q Z I Q Z I,lime => Q Q Z I Q Q Z I,c c,"Here is my attempt at the final drawing for Question 3:
+
+c c",c c,c c,c c,door => * *,door => * *,door => * *,"Here are the concise responses with only the last drawing for each question:
+
+Question 1:
+C E K
+
+Question 2:
+Q Z I Q Z I Q Z I Q Z I
+
+Question 3:
+c
+
+Question 4:
+} {",Door => * *,🚪 K 🚪,🚪 🔑 🔓,🚪 🔑 🔓,D % O % O % R,D % O % O % R,🍋 🍋,"Here is the completed drawing for Question 2:
+
+c c",🍋 🍋,l l,🍋 🍋,pillow => Q Q Z Z I I Q Q Z Z I I,"Here is my response for Question 3:
+
+Q Q Z Z I I Q Q Z Z I I",pillow => Q Q Z Z I I Q Q Z Z I I,pillow => Q Q Z Z I I Q Q Z Z I I,pillow => Q Q Z Z I I Q Q Z Z I I,}^^^{,"Here is my response for Question 4:
+
+* ^ *",}}}^^^{{{,}}}^^^{{{,*
