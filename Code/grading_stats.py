@@ -7,7 +7,8 @@ import numpy as np
 import pandas as pd
 import scipy.stats
 from Levenshtein import distance, ratio
-from quiz_generation import GROUNDINGS, SEPARATOR
+
+from Code.quiz_generation import GROUNDINGS, SEPARATOR
 
 
 class FailureMode(Enum):

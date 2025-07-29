@@ -2,9 +2,10 @@ import csv
 import random
 from collections.abc import Sequence
 
-import grounding_generation as gg
 import numpy as np
 from numpy import typing as npt
+
+import Code.grounding_generation as gg
 
 analogies = np.array(
     [
