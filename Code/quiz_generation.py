@@ -1,9 +1,12 @@
 import csv
 import random
+import sys
 from collections.abc import Sequence
 
 import numpy as np
 from numpy import typing as npt
+
+sys.path.insert(1, "../LLM_Analogical_Reasoning")
 
 import Code.grounding_generation as gg
 
