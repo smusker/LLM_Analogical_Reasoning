@@ -95,7 +95,7 @@ all_subjects_df = pd.DataFrame(
     all_subjects_df,
 ) = grading_stats.model_stats(
     [
-        "quiz_results/phase_1/GPT_arrows/GPT-3/gpt-3_results_arrows.txt",
+        "LLM Data/Phase_1/GPT_arrows/GPT-3/gpt-3_results_arrows.txt",
     ],
     answer_key,
     experiment_conditions,
@@ -115,7 +115,7 @@ all_subjects_df = pd.DataFrame(
     all_subjects_df,
 ) = grading_stats.model_stats(
     [
-        "quiz_results/phase_1/GPT_arrows/GPT-4/gpt-4_results_arrows.txt",
+        "LLM Data/Phase_1/GPT_arrows/GPT-4/gpt-4_results_arrows.txt",
     ],
     answer_key,
     experiment_conditions,
@@ -135,7 +135,7 @@ all_subjects_df = pd.DataFrame(
     all_subjects_df,
 ) = grading_stats.model_stats(
     [
-        "quiz_results/phase_1/Pythia/12b-deduped_results.txt",
+        "LLM Data/Phase_1/Pythia/12b-deduped_results.txt",
     ],
     answer_key,
     experiment_conditions,
@@ -154,7 +154,7 @@ all_subjects_df = pd.DataFrame(
     all_subjects_df,
 ) = grading_stats.model_stats(
     [
-        "quiz_results/phase_1/Falcon_arrows/falcon_40b_results_arrows.txt",
+        "LLM Data/Phase_1/Falcon_arrows/falcon_40b_results_arrows.txt",
     ],
     answer_key,
     experiment_conditions,
@@ -173,7 +173,7 @@ all_subjects_df = pd.DataFrame(
     all_subjects_df,
 ) = grading_stats.model_stats(
     [
-        "quiz_results/phase_1/Claude/Claude 2/claude-2_long_results.txt",
+        "LLM Data/Phase_1/Claude/Claude 2/claude-2_long_results.txt",
     ],
     answer_key,
     experiment_conditions,
@@ -193,7 +193,7 @@ all_subjects_df = pd.DataFrame(
     all_subjects_df,
 ) = grading_stats.model_stats(
     [
-        "quiz_results/phase_1/Claude/Claude 3 Opus/claude-3-opus-20240229_results.txt",
+        "LLM Data/Phase_1/Claude/Claude 3 Opus/claude-3-opus-20240229_results.txt",
     ],
     answer_key,
     experiment_conditions,
@@ -208,11 +208,11 @@ all_subjects_df = pd.DataFrame(
 all_subjects_df["quiz_class"] = all_subjects_df.apply(classify_quiz, axis=1)
 
 pilot_df = pd.read_csv(
-    "quiz_results/phase_1/Human/Final+pilot+survey_May+1,+2023_12.26/Final pilot survey_June 1, 2023_12.35.csv"
+    "LLM Data/Phase_1/Human/Final+pilot+survey_May+1,+2023_12.26/Final pilot survey_June 1, 2023_12.35.csv"
 )
 
 followup_df = pd.read_csv(
-    "quiz_results/phase_1/Human/Pilot+survey+follow+up+controls_May+17,+2023_11.58/Pilot survey follow up controls_June 1, 2023_12.39.csv"
+    "LLM Data/Phase_1/Human/Pilot+survey+follow+up+controls_May+17,+2023_11.58/Pilot survey follow up controls_June 1, 2023_12.39.csv"
 )
 followup_q_columns = [
     [f"Q{n}{s}" for n in [1, 3, 5, 7, 9, 10, 11]]
@@ -238,7 +238,7 @@ human_df.insert(0, "PROLIFIC_PID", human_df.pop("PROLIFIC_PID"))
 human_df.insert(1, "Prolific_ID", human_df.pop("Prolific_ID"))
 
 in_person_df = pd.read_csv(
-    "quiz_results/phase_1/Human/In_Person_Phase_1/Phase+1+(Students)_October+8,+2023_15.09/Phase 1 (Students)_October 15, 2023_10.49.csv"
+    "LLM Data/Phase_1/Human/In_Person_Phase_1/Phase+1+(Students)_October+8,+2023_15.09/Phase 1 (Students)_October 15, 2023_10.49.csv"
 )
 
 in_person_df["RecipientEmail"] = in_person_df["Q347"]

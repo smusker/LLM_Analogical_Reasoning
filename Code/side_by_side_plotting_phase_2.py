@@ -6,12 +6,9 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 import plotting
-import scipy.stats
 import seaborn as sns
-import statsmodels.api as sm
 import statsmodels.formula.api as smf
 from scipy.stats.distributions import chi2
-from statsmodels.formula.api import ols
 
 sns.set_palette("colorblind")
 
@@ -73,7 +70,7 @@ all_subjects_df = pd.DataFrame(
     all_subjects_df,
 ) = grading_stats.model_stats(
     [
-        "quiz_results/phase_2/GPT/GPT-3/gpt-3_results_phase2.txt",
+        "LLM Data/Phase_2/GPT/GPT-3/gpt-3_results_phase2.txt",
     ],
     answer_key,
     experiment_conditions,
@@ -94,7 +91,7 @@ all_subjects_df = pd.DataFrame(
     all_subjects_df,
 ) = grading_stats.model_stats(
     [
-        "quiz_results/phase_2/GPT/GPT-4/gpt-4_results_phase2.txt",
+        "LLM Data/Phase_2/GPT/GPT-4/gpt-4_results_phase2.txt",
     ],
     answer_key,
     experiment_conditions,
@@ -114,7 +111,7 @@ all_subjects_df = pd.DataFrame(
     all_subjects_df,
 ) = grading_stats.model_stats(
     [
-        "quiz_results/phase_2/Falcon/falcon_40b_results_phase2.txt",
+        "LLM Data/Phase_2/Falcon/falcon_40b_results_phase2.txt",
     ],
     answer_key,
     experiment_conditions,
@@ -133,7 +130,7 @@ all_subjects_df = pd.DataFrame(
     claude2_failure_modes,
     all_subjects_df,
 ) = grading_stats.model_stats(
-    ["quiz_results/phase_2/Claude/Claude 2/claude-2_results.txt"],
+    ["LLM Data/Phase_2/Claude/Claude 2/claude-2_results.txt"],
     answer_key,
     experiment_conditions,
     num_quizzes,
@@ -152,7 +149,7 @@ all_subjects_df = pd.DataFrame(
     claude3opus_failure_modes,
     all_subjects_df,
 ) = grading_stats.model_stats(
-    ["quiz_results/phase_2/Claude/Claude 3 Opus/claude-3-opus-20240229_results.txt"],
+    ["LLM Data/Phase_2/Claude/Claude 3 Opus/claude-3-opus-20240229_results.txt"],
     answer_key,
     experiment_conditions,
     num_quizzes,
@@ -172,7 +169,7 @@ all_subjects_df = pd.DataFrame(
     all_subjects_df,
 ) = grading_stats.model_stats(
     [
-        "quiz_results/phase_2/Pythia/12b-deduped_results.txt",
+        "LLM Data/Phase_2/Pythia/12b-deduped_results.txt",
     ],
     answer_key,
     experiment_conditions,
@@ -188,7 +185,7 @@ all_subjects_df["quiz_class"] = all_subjects_df.apply(classify_quiz, axis=1)
 
 
 human_df = pd.read_csv(
-    "quiz_results/phase_2/Human/Phase 2 (Students)_December 5, 2023_14.54.csv"
+    "LLM Data/Phase_2/Human/Phase 2 (Students)_December 5, 2023_14.54.csv"
 )
 
 human_df["RecipientEmail"] = human_df["Q111"]

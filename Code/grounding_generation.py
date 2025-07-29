@@ -1,10 +1,9 @@
 from collections.abc import Callable
-from typing import Tuple
 
 import numpy as np
 from numpy import typing as npt
 
-# * ASSUMPTION: These fxns assume groundings are always characters with spaces between
+# * ASSUMPTION: These functions assume groundings are always characters with spaces between
 
 
 def check_distinct(grounding: str, transformed: str, description: str):
@@ -156,7 +155,7 @@ def generate_groundings(
     seed: str,
     row_function: Callable[[str], str],
     col_function: Callable[[str], str],
-    shape: Tuple[int, int] = (2, 2),
+    shape: tuple[int, int] = (2, 2),
 ) -> npt.NDArray:
     """
     Takes a seed grounding string, a function to apply across rows, and a function to apply down columns,
