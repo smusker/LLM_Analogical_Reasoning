@@ -1,12 +1,11 @@
 import ast
 from enum import Enum
-from numbers import Number
 from typing import Callable
 
 import numpy as np
 import pandas as pd
 import scipy.stats
-from Levenshtein import distance, ratio
+from Levenshtein import ratio
 
 from Code.quiz_generation import GROUNDINGS, SEPARATOR
 

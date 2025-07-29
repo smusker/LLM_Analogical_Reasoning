@@ -84,10 +84,7 @@ def convert_to_only_rhs(question):
         for word in line_words:
             question_words.append(word)
 
-    question_words_rhs = []
-    question_words_rhs.append(question_words[1])
-    question_words_rhs.append(question_words[3])
-    question_words_rhs.append(question_words[5])
+    question_words_rhs = [question_words[i] for i in [1, 3, 5]]
 
     new_question = ""
 

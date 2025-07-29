@@ -300,13 +300,10 @@ human_df_for_counts = human_df.loc[human_df["In_Person"] == True]
 print(human_df_for_counts.groupby(["quiz_class"]).size())
 
 mn = human_df["duration_float"].mean()
-
 std = human_df["duration_float"].std()
 
 human_df = human_df[(human_df["duration_float"]) - mn <= 2 * std]
-
 human_df = human_df[mn - (human_df["duration_float"]) <= 2 * std]
-
 human_df = human_df[human_df["Attention"] == "8"]
 
 
@@ -1798,11 +1795,9 @@ claude3opus_q4_errs = [
 
 
 q1_vals = [human_q1_vals, gpt4_q1_vals, claude3opus_q1_vals]
-
 q1_errs = [human_q1_errs, gpt4_q1_errs, claude3opus_q1_errs]
 
 q4_vals = [human_q4_vals, gpt4_q4_vals, claude3opus_q4_vals]
-
 q4_errs = [human_q4_errs, gpt4_q4_errs, claude3opus_q4_errs]
 
 plt.tight_layout(pad=3)

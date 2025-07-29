@@ -195,9 +195,7 @@ human_df = human_df.drop(columns=["Q111"])
 human_df["RecipientEmail"] = human_df["RecipientEmail"].replace(np.nan, "")
 
 human_df = human_df[human_df["RecipientEmail"].str.contains("@University_Name.edu")]
-
 human_df = human_df.drop_duplicates(subset=["RecipientEmail"], keep="last")
-
 human_df = human_df.rename(columns={"Q112": "Consent", "Q113": "Attention"})
 
 
@@ -234,13 +232,10 @@ print("Grouped by condition:")
 print(human_df.groupby(["quiz_class"]).size())
 
 mn = human_df["duration_float"].mean()
-
 std = human_df["duration_float"].std()
 
 human_df = human_df[(human_df["duration_float"]) - mn <= 2 * std]
-
 human_df = human_df[mn - (human_df["duration_float"]) <= 2 * std]
-
 human_df = human_df[human_df["Attention"] == "8"]
 
 
