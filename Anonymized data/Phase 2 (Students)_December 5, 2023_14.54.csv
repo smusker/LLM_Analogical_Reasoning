@@ -1,0 +1,333 @@
+StartDate,EndDate,Status,IPAddress,Progress,Duration (in seconds),Finished,RecordedDate,ResponseId,RecipientLastName,RecipientFirstName,RecipientEmail,ExternalReference,LocationLatitude,LocationLongitude,DistributionChannel,UserLanguage,Q112,Q113,Q1,Q3,Q5,Q7,Q9,Q10,Q11,Q1,Q3,Q5,Q7,Q9,Q10,Q11,Q1,Q3,Q5,Q7,Q9,Q10,Q11,Q1,Q3,Q5,Q7,Q9,Q10,Q11,Q1,Q3,Q5,Q7,Q9,Q10,Q11,Q1,Q3,Q5,Q7,Q9,Q10,Q11,Q1,Q3,Q5,Q7,Q9,Q10,Q11,Q1,Q3,Q5,Q7,Q9,Q10,Q11,Q1,Q3,Q5,Q7,Q9,Q10,Q11,Q1,Q3,Q5,Q7,Q9,Q10,Q11,Q111
+Start Date,End Date,Response Type,IP Address,Progress,Duration (in seconds),Finished,Recorded Date,Response ID,Recipient Last Name,Recipient First Name,Recipient Email,External Data Reference,Location Latitude,Location Longitude,Distribution Channel,User Language,"Thank you for beginning our survey! We expect it to take less than ten minutes. We will start with some preliminary questions, and then we will present the main task which will consist of four questions.
+
+The data collected by this survey will be anonymous and will not include any personal information. The data will be used to inform a research study and will be stored and processed for those purposes. By selecting ""I consent,"" you indicate that you have read the information above and wish to proceed.
+
+Do you consent to taking this survey?",This question is to ensure that you are a person. Please select the answer to three plus five.,"chicken => !
+spider => !
+cat => *
+horse => *
+ant => !
+dog => *
+bee => !
+human =>","car => *
+tricycle => !
+motorcycle => *
+skateboard => !
+bicycle => !
+unicycle =>","dime => *
+feet => &
+inches => &
+quarter => *
+dollar => *
+week => !
+day =>","headband => !
+t-shirt => !
+donut => *
+pants => !
+power outlet =>",How confident were you that your answers were correct?,"In a few sentences, please briefly describe what you thought the task involved.","In a few sentences, please briefly describe the strategy or strategies that you employed to answer the questions.","day => !
+week => !
+quarter => *
+dime => *
+feet => &
+inches => &
+dollar =>","unicycle => !
+car => *
+tricycle => !
+motorcycle => *
+skateboard => !
+bicycle =>","power outlet => *
+headband => !
+pants => !
+t-shirt => !
+donut =>","ant => !
+bee => !
+cat => *
+horse => *
+spider => !
+dog => *
+chicken => !
+human =>",How confident were you that your answers were correct?,"In a few sentences, please briefly describe what you thought the task involved.","In a few sentences, please briefly describe the strategy or strategies that you employed to answer the questions.","grandfather => !
+grandmother => *
+mother => * *
+father => ! !
+brother => ! ! !
+sister =>","circle => ! !
+pyramid => * * *
+sphere => ! ! !
+cone => ! ! !
+cube => * * *
+semicircle => ! !
+square =>","headphones => ( ! )
+radio => ( ! )
+projector => ( * )
+camera => [ * ]
+speaker => ( ! )
+screen => ( * )
+eye => [ * ]
+microphone =>","poker => [ ! ]
+football => ( * )
+basketball => ( ! )
+boxing => [ ! ]
+chess => [ ! ]
+hockey => ( ! )
+baseball => ( * )
+soccer => ( * )
+wrestling => [ ! ]
+golf =>",How confident were you that your answers were correct?,"In a few sentences, please briefly describe what you thought the task involved.","In a few sentences, please briefly describe the strategy or strategies that you employed to answer the questions.","hockey => ( ! )
+marathon => [ * ]
+football => ( * )
+baseball => ( * )
+tag => [ * ]
+soccer => ( * )
+basketball => ( ! )
+skiing => [ * ]
+golf => [ * ]
+chess =>","pyramid => * * *
+sphere => ! ! !
+square => * *
+triangle => * *
+cone => ! ! !
+cube => * * *
+pentagon => * *
+circle =>","father => ! !
+mother => * *
+grandfather => !
+brother => ! ! !
+grandmother => *
+sister =>","ear => [ ! ]
+headphones => ( ! )
+camera => [ * ]
+radio => ( ! )
+eye => [ * ]
+speaker => ( ! )
+microphone => [ ! ]
+screen =>",How confident were you that your answers were correct?,"In a few sentences, please briefly describe what you thought the task involved.","In a few sentences, please briefly describe the strategy or strategies that you employed to answer the questions.","feet => *
+inches => * * * * * * * * * * * *
+quarter => * * * *
+dollar => *
+dime => * * * * * * * * * *
+week => *
+day =>","car => * * * *
+tricycle => * * *
+motorcycle => * *
+bicycle => * *
+skateboard => * * * *
+unicycle =>","chicken => * *
+human => * *
+dog => * * * *
+spider => * * * * * * * *
+cat => * * * *
+horse => * * * *
+bee =>","pants => * * *
+power outlet => * * *
+t-shirt => * * * *
+headband =>",How confident were you that your answers were correct?,"In a few sentences, please briefly describe what you thought the task involved.","In a few sentences, please briefly describe the strategy or strategies that you employed to answer the questions.","spider => * * * * * * * *
+human => * *
+cat => * * * *
+chicken => * *
+dog => * * * *
+horse => * * * *
+bee =>","motorcycle => * *
+tricycle => * * *
+bicycle => * *
+unicycle => *
+car =>","donut => *
+pants => * * *
+power outlet => * * *
+headband => *
+t-shirt =>","quarter => * * * *
+dime => * * * * * * * * * *
+day => * * * * * * *
+inches => * * * * * * * * * * * *
+week =>",How confident were you that your answers were correct?,"In a few sentences, please briefly describe what you thought the task involved.","In a few sentences, please briefly describe the strategy or strategies that you employed to answer the questions.","horse => * * * *
+cat => * * * *
+ant => ! ! ! ! ! !
+bee => ! ! ! ! ! !
+chicken => ! !
+spider => ! ! ! ! ! ! ! !
+dog => * * * *
+human =>","motorcycle => * *
+unicycle => !
+tricycle => ! ! !
+skateboard => ! ! ! !
+car => * * * *
+bicycle =>","day => ! ! ! ! ! ! !
+dollar => *
+dime => * * * * * * * * * *
+quarter => * * * *
+week => !
+inches => & & & & & & & & & & & &
+feet =>","pants => ! ! !
+donut => *
+headband => !
+power outlet => * * *
+t-shirt =>",How confident were you that your answers were correct?,"In a few sentences, please briefly describe what you thought the task involved.","In a few sentences, please briefly describe the strategy or strategies that you employed to answer the questions.","headband => !
+donut => *
+pants => ! ! !
+t-shirt => ! ! ! !
+power outlet =>","quarter => * * * *
+dime => * * * * * * * * * *
+inches => & & & & & & & & & & & &
+day => ! ! ! ! ! ! !
+dollar => *
+feet => &
+week =>","human => * *
+dog => * * * *
+bee => ! ! ! ! ! !
+horse => * * * *
+cat => * * * *
+spider => ! ! ! ! ! ! ! !
+ant => ! ! ! ! ! !
+chicken =>","motorcycle => * *
+bicycle => ! !
+skateboard => ! ! ! !
+tricycle => ! ! !
+car => * * * *
+unicycle =>",How confident were you that your answers were correct?,"In a few sentences, please briefly describe what you thought the task involved.","In a few sentences, please briefly describe the strategy or strategies that you employed to answer the questions.","pants => H # H
+glove => X # X
+torso => V
+foot => Z
+head => M
+shirt => V # V
+hat =>","screwdriver => P
+nut => [ I ]
+nail => [ D ]
+leaf => [ L ]
+tree => [ Y ]
+wrench => I
+axe =>","yes => M
+up => B
+north => C
+east => H
+left => W
+down => B ; ;
+south =>","piglet => D D D
+dog => X
+pig => D
+calf => P P P
+kitten => E E E
+chick => N N N
+cow =>",How confident were you that your answers were correct?,"In a few sentences, please briefly describe what you thought the task involved.","In a few sentences, please briefly describe the strategy or strategies that you employed to answer the questions.","screwdriver => J
+axe => A
+hammer => H
+wrench => O
+nut => . . O .
+leaf => . . K .
+rake =>","left => T
+north => P
+down => V V V
+no => O O O
+yes => O
+east => C
+west =>","calf => % F
+chicken => V
+cat => T
+chick => % V
+puppy => % P
+pig => W
+dog =>","head => J
+legs => K
+shirt => [ X ]
+hand => R
+glove => [ R ]
+foot => G
+pants =>",How confident were you that your answers were correct?,"In a few sentences, please briefly describe what you thought the task involved.","In a few sentences, please briefly describe the strategy or strategies that you employed to answer the questions.",What is your [University-name] email?
+"{""ImportId"":""startDate"",""timeZone"":""America/Denver""}","{""ImportId"":""endDate"",""timeZone"":""America/Denver""}","{""ImportId"":""status""}","{""ImportId"":""ipAddress""}","{""ImportId"":""progress""}","{""ImportId"":""duration""}","{""ImportId"":""finished""}","{""ImportId"":""recordedDate"",""timeZone"":""America/Denver""}","{""ImportId"":""_recordId""}","{""ImportId"":""recipientLastName""}","{""ImportId"":""recipientFirstName""}","{""ImportId"":""recipientEmail""}","{""ImportId"":""externalDataReference""}","{""ImportId"":""locationLatitude""}","{""ImportId"":""locationLongitude""}","{""ImportId"":""distributionChannel""}","{""ImportId"":""userLanguage""}","{""ImportId"":""QID112""}","{""ImportId"":""QID113""}","{""ImportId"":""QID1_TEXT""}","{""ImportId"":""QID3_TEXT""}","{""ImportId"":""QID5_TEXT""}","{""ImportId"":""QID7_TEXT""}","{""ImportId"":""QID9""}","{""ImportId"":""QID10_TEXT""}","{""ImportId"":""QID11_TEXT""}","{""ImportId"":""QID12_TEXT""}","{""ImportId"":""QID14_TEXT""}","{""ImportId"":""QID16_TEXT""}","{""ImportId"":""QID18_TEXT""}","{""ImportId"":""QID20""}","{""ImportId"":""QID21_TEXT""}","{""ImportId"":""QID22_TEXT""}","{""ImportId"":""QID23_TEXT""}","{""ImportId"":""QID25_TEXT""}","{""ImportId"":""QID27_TEXT""}","{""ImportId"":""QID29_TEXT""}","{""ImportId"":""QID31""}","{""ImportId"":""QID32_TEXT""}","{""ImportId"":""QID33_TEXT""}","{""ImportId"":""QID34_TEXT""}","{""ImportId"":""QID36_TEXT""}","{""ImportId"":""QID38_TEXT""}","{""ImportId"":""QID40_TEXT""}","{""ImportId"":""QID42""}","{""ImportId"":""QID43_TEXT""}","{""ImportId"":""QID44_TEXT""}","{""ImportId"":""QID45_TEXT""}","{""ImportId"":""QID47_TEXT""}","{""ImportId"":""QID49_TEXT""}","{""ImportId"":""QID51_TEXT""}","{""ImportId"":""QID53""}","{""ImportId"":""QID54_TEXT""}","{""ImportId"":""QID55_TEXT""}","{""ImportId"":""QID56_TEXT""}","{""ImportId"":""QID58_TEXT""}","{""ImportId"":""QID60_TEXT""}","{""ImportId"":""QID62_TEXT""}","{""ImportId"":""QID64""}","{""ImportId"":""QID65_TEXT""}","{""ImportId"":""QID66_TEXT""}","{""ImportId"":""QID67_TEXT""}","{""ImportId"":""QID69_TEXT""}","{""ImportId"":""QID71_TEXT""}","{""ImportId"":""QID73_TEXT""}","{""ImportId"":""QID75""}","{""ImportId"":""QID76_TEXT""}","{""ImportId"":""QID77_TEXT""}","{""ImportId"":""QID78_TEXT""}","{""ImportId"":""QID80_TEXT""}","{""ImportId"":""QID82_TEXT""}","{""ImportId"":""QID84_TEXT""}","{""ImportId"":""QID86""}","{""ImportId"":""QID87_TEXT""}","{""ImportId"":""QID88_TEXT""}","{""ImportId"":""QID89_TEXT""}","{""ImportId"":""QID91_TEXT""}","{""ImportId"":""QID93_TEXT""}","{""ImportId"":""QID95_TEXT""}","{""ImportId"":""QID97""}","{""ImportId"":""QID98_TEXT""}","{""ImportId"":""QID99_TEXT""}","{""ImportId"":""QID100_TEXT""}","{""ImportId"":""QID102_TEXT""}","{""ImportId"":""QID104_TEXT""}","{""ImportId"":""QID106_TEXT""}","{""ImportId"":""QID108""}","{""ImportId"":""QID109_TEXT""}","{""ImportId"":""QID110_TEXT""}","{""ImportId"":""QID111_TEXT""}"
+2023-10-17 13:32:12,2023-10-17 13:35:28,IP Address,,100,195,TRUE,2023-10-17 13:35:29,,,,,,,,email,EN,I consent.,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Z # Z,D,D,P,3,Some sort of logical reasoning but probably something to do with programming?,I didn't know what logic was being used in the beginning but I finally got it at the last answer,,,,,,,,
+2023-10-17 13:36:09,2023-10-17 13:42:49,IP Address,,100,399,TRUE,2023-10-17 13:42:50,,,,,,,,email,EN,I consent.,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,* *,! !,&,! ! ! !,6,"I thought the task described pattern recognition which got progressively more difficult. For example some of the themes included number of wheels (with different symbols for whether the object was motorized or not), number of holes, number of units in a larger unit, etc. ","I looked for similarities between the objects and tried to determine what aspects they shared. Then I attempted to find what the quantity of the units represented (!, *, etc.) and tried to fill in the missing unit. ",,,,,,,,,,,,,,,,,,,,,,
+2023-10-18 12:53:06,2023-10-18 13:00:17,IP Address,,100,431,TRUE,2023-10-18 13:00:19,,,,,,,,email,EN,I consent.,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,****,****,*,*,2,Describe the semantic similarity between words through the number of stars.,"make connections between words and * numbers, attempt to recall my previous responses",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-10-18 12:51:57,2023-10-18 13:07:15,IP Address,,100,918,TRUE,2023-10-18 13:07:17,,,,,,,,email,EN,I consent.,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,S,D,P,[ G ],3,The reasoning ability to learn the pattern through given examples,"I am confused about the first question. For the second, initially I was trying to see whether the character represents the word shown.  But after the first two questions, I was aware that I should relate similar words / counterparts to each other.",
+2023-10-18 13:02:27,2023-10-18 13:08:07,IP Address,,100,339,TRUE,2023-10-18 13:08:08,,,,,,,,email,EN,I consent.,8,human,!,!,.,5,Interpreting patterns and making inferences,Trying to find groups of the different objects and seeing the similarities and differences between them,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-10-18 13:06:33,2023-10-18 13:10:58,IP Address,,100,264,TRUE,2023-10-18 13:10:59,,,,,,,,email,EN,I consent.,8,,,,,,,,$,!,*,*,7 (most confident),"From the given categorization with symbols, I was to categorize the item with a symbol to where I thought it belonged.",I checked to see what items in the same category had in common in order to determine whether the last item was similar to them or not.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-10-18 13:17:31,2023-10-18 13:20:53,IP Address,,100,202,TRUE,2023-10-18 13:20:54,,,,,,,,email,EN,I consent.,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,*******,*,******,*,7 (most confident),The task involved analyzing the words and finding patterns for how those words compared and related to the other words in the list based on commonalities. ,"I just thought about the noun listed and then the characteristics that might be associated with the number of asterisks, and then I looked to see if the pattern was consistent with the other words too. ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-10-18 13:19:13,2023-10-18 13:27:18,IP Address,,100,485,TRUE,2023-10-18 13:27:19,,,,,,,,email,EN,I consent.,8,,,,,,,,,,,,,,,,,,,,,,[ ! ],! !,* * *,( * ),6,"I think there were 2 categories that each of the words fell into, each with 2 options (e.g. seeing/hearing, input/output). We had to figure out what those categories were and identify the categories for another unknown word following this pattern.","I tried to look for commonalities among the words that were in the same category, as well as differences between those in that category and words in a different category. I tried to think of broad descriptors that could fit each word to help me figure out what the categories were.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-10-18 13:21:15,2023-10-18 13:29:21,IP Address,,100,485,TRUE,2023-10-18 13:29:23,,,,,,,,email,EN,I consent.,8,,,,,,,,,,,,,,,***,**,!,*,5,"The task seemed to involve inductively decoding a relation between objects and an abstract categorization ""*"" or ""!"" I was presented with a sample of mappings under this relation and asked to inductively predict how a new object should map based on high-level categorization.","I attempted to narrow down the possible relation, starting with the most common human associations between items in sets (e.g. soccer, golf, and football use balls, whereas poker does not).",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-10-18 13:38:12,2023-10-18 13:41:08,IP Address,,100,175,TRUE,2023-10-18 13:41:09,,,,,,,,email,EN,I consent.,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,K,C C C,P,[ K ],7 (most confident),"some kind of pattern recognition and sorting out which of the various words were related and how that had an impact on the ""drawings""","I looked at the list of words and identified pairs that were related to each other, and looked at one of the pairs to see how that translated into the ""drawings"", and then applied that to the missing drawing.",
+2023-10-18 13:50:00,2023-10-18 13:55:08,IP Address,,100,308,TRUE,2023-10-18 13:55:09,,,,,,,,email,EN,I consent.,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,****,****,****,****,4,"From the first sentence I recognized it was about a characteristic each thing had (# of holes, limbs, etc). I understood the first few except I just didn't know how many limbs a bee had. The last question confused me though because I thought it was demonstrating # of inches in a foot, # of days in a week, so I approximated the # of weeks in a month.",Read through the example values and tried to find a common pattern.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-10-18 13:51:03,2023-10-18 13:57:18,IP Address,,100,375,TRUE,2023-10-18 13:57:19,,,,,,,,email,EN,I consent.,8,,,,,,,,,,,,,,,,,,,,,,[ * ],* *,! ! !,( * ),3,I thought it involved some logical reasoning about sequences.,I tried to figure out the similarities between similar answers. I then categorized them and guessed what the next answer would be.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-10-18 14:00:36,2023-10-18 14:03:45,IP Address,,100,188,TRUE,2023-10-18 14:03:48,,,,,,,,email,EN,I consent.,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,****,*,&,!!,3,Finding patterns between the symbols and words; extrapolating to the last word.,Determining how the words were divided up and which symbols they corresponded to,,,,,,,,,,,,,,,,,,,,,,
+2023-10-19 12:13:20,2023-10-19 12:18:22,IP Address,,100,302,TRUE,2023-10-19 12:18:24,,,,,,,,email,EN,I consent.,8,,,,,,,,,,,,,,,***,* *,( ! ),( * ),3,"It seemed like I was supposed to identify a link between the content of the word and the corresponding symbol. The first 2 were easier, but as the words became more complex it became harder to identify the pattern of word/meaning and symbol. It didn't seem to have to do with a pattern of the order of words or symbols.",I thought about the words and what they mean- how many dimensions is the shape in? does the sport use a ball? etc.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-10-19 12:14:23,2023-10-19 12:20:08,IP Address,,100,345,TRUE,2023-10-19 12:20:09,,,,,,,,email,EN,I consent.,8,human,!,>,!,3,The tasks enable us to think critically and its a great experience.,I just used the normal psychological way about thinking answer. I think logical reasoning works here.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-10-19 12:31:49,2023-10-19 12:37:59,IP Address,,100,369,TRUE,2023-10-19 12:38:02,,,,,,,,email,EN,I consent.,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,*******,*,******,**,6,The task involved determining how the objects on the list are related to one another based on the number of *'s for each item. Then writing in the number of qualities the final word has based on the common feature.,I counted the number of *'s for each item and thought about what common quality they all had that would fit that number.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-10-19 12:34:09,2023-10-19 12:39:28,IP Address,,100,318,TRUE,2023-10-19 12:39:30,,,,,,,,email,EN,I consent.,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,M # M,Y,C ; ;,P,6,"Looking at relationships between the other items and their corresponding letters/symbols, and determining the correct letter/symbol for the item that we were asked about. Such as, if pig is P and piglet is PPP, then if cow is C then we can reason that calf is CCC.","Looking at items that share a similarity, and determining what the relationship between their corresponding answers/letters/symbols are. ",,,,,,,,
+2023-10-19 12:37:35,2023-10-19 12:41:27,IP Address,,100,231,TRUE,2023-10-19 12:41:28,,,,,,,,email,EN,I consent.,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,**,!,**,!,4,"I thought the task involved finding similarities, both in relation to the number of symbols and to the kind of symbols (as related to the opposite symbols)","I first looked at the number of symbols in each drawing, and tried to figure out how those related to the words at hand and what they had in common. I then looked at the symbols themselves and attempted to compare the words with the same symbols to see what they had in common.",,,,,,,,,,,,,,,
+2023-10-19 12:39:27,2023-10-19 12:44:32,IP Address,,100,304,TRUE,2023-10-19 12:44:32,,,,,,,,email,EN,I consent.,8,,,,,,,,*,!,*,*,5,"I began reasoning my way through the items, looking at what punctuation (!, *, etc.) was associated with which category. I tried to find a link between the categories and the one I was trying to identify to come to a conclusion. ","I tried to find a commonality between the categories and the punctuation. More often than not, the punctuations were often repeated. For instance, with the example that involved cats, dogs, and humans, I decided that they were both mammals and that is why cats and dogs were linked with the same punctuation. ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-10-19 12:43:40,2023-10-19 12:48:19,IP Address,,100,279,TRUE,2023-10-19 12:48:20,,,,,,,,email,EN,I consent.,8,,,,,,,,*,!,*,*,5,"As far as I can tell, it was a grouping exercise - identifying the common thread between items with various markers (*/&/!) to sort the last item in the list appropriately.","My strategy was to try to identify common groups. For some, it was a simple grouping - for the one with donut, it was just determining between clothing versus non-clothing items. With more options available, it was useful to group all the items in the list before and then choose the most appropriate group to sort the final list item.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-10-19 13:33:06,2023-10-19 13:40:48,IP Address,,100,462,TRUE,2023-10-19 13:40:51,,,,,,,,email,EN,I consent.,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,******,****,****,****,6,"For each question, the items had a common attribute (like legs, wheels, holes) which were depicted in terms of stars. I had to complete the blank item with its appropriate number of stars. ","First I looked for visual patterns. However, once I figured out that the items shared a common attribute in different quantities, my strategy involved trying to figure out that common attribute and calculating the appropriate number of stars for the blank item.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-10-19 13:38:04,2023-10-19 13:42:25,IP Address,,100,261,TRUE,2023-10-19 13:42:26,,,,,,,,email,EN,I consent.,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,*******,*,**,**,4,"Finding the similarity/pattern between the given items and their respective amount of asterisks (which represent some number, based on a category).",I took a given item and its respective *'s and the item it was related to (given below) and that item's respective *'s and tried to find the pattern,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-10-17 13:17:19,2023-10-17 13:19:12,IP Address,,89,113,FALSE,2023-10-24 13:19:14,,,,None,,,,anonymous,EN,I consent.,9,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,None
+2023-10-17 13:19:22,2023-10-17 13:23:44,Spam,,89,261,FALSE,2023-10-24 13:23:47,,,,None,,,,anonymous,EN,I consent.,9,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,None
+2023-10-17 13:24:14,2023-10-17 13:25:15,Spam,,89,60,FALSE,2023-10-24 13:25:17,,,,None,,,,anonymous,EN,I consent.,9,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,None
+2023-10-17 13:25:23,2023-10-17 13:25:49,IP Address,,89,26,FALSE,2023-10-24 13:25:53,,,,None,,,,anonymous,EN,I consent.,9,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,None
+2023-11-20 12:03:55,2023-11-20 12:09:12,IP Address,,100,317,TRUE,2023-11-20 12:09:13,,,,,,,,email,EN,I consent.,8,,,,,,,,,,,,,,,,,,,,,,[ * ],!!,***,( * ),6,"I thought the task involved figuring out what the different words had in common and therefore figuring out which aspects of the drawings represented which feature. Then, determining what features applied to the last word and applying the correct drawing to it.",I first looked at words that had the same/similar drawings and tried to figure out what they had in common and what was different about them. I kept comparing words and their drawings to confirm my beliefs. Then I compared them to the last word and tried to come up with the drawing for it.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-11-20 12:34:51,2023-11-20 12:47:20,IP Address,,100,749,TRUE,2023-11-20 12:47:21,,,,,,,,email,EN,I consent.,8,,,,,,,,,,,,,,,* * *,* *,[ ! ],[ * ],6,Making associations between signs and actions/things described. Elimination and comparison strategies,"Elimination, comparison",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-11-20 12:42:35,2023-11-20 12:47:25,IP Address,,100,290,TRUE,2023-11-20 12:47:26,,,,,,,,email,EN,I consent.,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,K,CCC,P,[ K ],7 (most confident),Using word relationships to figure out which each letter / symbol represented ,I compared the relationship between words in the examples ,
+2023-11-20 12:55:44,2023-11-20 12:58:47,IP Address,,100,183,TRUE,2023-11-20 12:58:48,,,,,,,,email,EN,I consent.,8,*,!,!,*,7 (most confident),Differentiating between different categories of items,I was trying to find patterns amongst the items ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-11-21 11:02:46,2023-11-21 11:08:30,IP Address,,100,344,TRUE,2023-11-21 11:08:31,,,,,,,,email,EN,I consent.,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,!!!!!,!!!,****,!,2,Pattern recognition. Sorting things into categories based on similar qualities and then translating that into a symbol language. ,I was trying to find what quality about the object/word correlated with the amount of symbols and the kind of symbol. And what characteristic of the object correlated with the change in type of symbol. ,,,,,,,,,,,,,,,
+2023-11-28 12:09:01,2023-11-28 12:14:22,IP Address,,100,320,TRUE,2023-11-28 12:14:23,,,,,,,,email,EN,I consent.,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,M # M ,Y,C ; ;,P,6,"The task involved pattern matching in which several mappings from common words to codes were given, and only some of the data was necessary to recognize the pattern. The common words could be separated into pairs (animals/baby animals; tools/things the tool acts on, etc.) with codes relating the pairs of words, but several of the listed words were not listed with their pairs, which was a bit distracting.",I recognized the codes that were similar (i.e. P and PPP or [I] and I) and used them to recognize which words they connected. Then I used the common words to recognize the general pattern and answer the question.,,,,,,,,
+2023-11-28 12:32:18,2023-11-28 12:34:42,IP Address,,100,144,TRUE,2023-11-28 12:34:43,,,,,,,,email,EN,I consent.,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,!!,!!,&,!!!,4,matching the symbols to the different words ,comparing the answers they had already given and the similarities between them,,,,,,,,,,,,,,,,,,,,,,
+2023-11-28 12:43:06,2023-11-28 12:48:00,IP Address,,100,293,TRUE,2023-11-28 12:48:01,,,,,,,,email,EN,I consent.,8,,,,,,,,,,,,,,,***,**,[!],(*),5,Finding patterns between groups of similarly related objects. ,"I would try to figure out what the words with the same symbol (ie parenthesis or bracket) or character (! or *) had in common, and work backwards with the unknown one",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-11-28 13:28:48,2023-11-28 13:38:31,IP Address,,100,582,TRUE,2023-11-28 13:38:32,,,,,,,,email,EN,I consent.,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,!!,**,&,!!!!,6,The task involved finding the similarities among the objects. The number of one feature was represented in the number of symbols and the other feature divided the objects into different categories and was represented in the difference of symbols.,"First, I found the feature that corresponded to the number of symbols of each object. Then I found the differences among different objects that corresponds to the differences among symbols.",,,,,,,,,,,,,,,,,,,,,,
+2023-11-29 12:25:43,2023-11-29 12:38:05,IP Address,,100,742,TRUE,2023-11-29 12:38:06,,,,,,,,email,EN,I consent.,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B,T,P,[ K ],4,"recognizing patterns: letters and symbols corresponded to certain objects with a fundamental rule. first two questions were hard, and initially I thought K was the answer to no1 (no rule, just felt right), but i was trying to relate the size on the object to the letter in the alphabet (larger = closer to A). as for last two questions, the rules were straightforward = easy.","1: trying to see if a letter in the word corresponded to another letter via a +# rule. then tried to relate it to the size of the object (larger = closer to A, smaller = closer to Z).
+3 and 4: recognizing the relation of the words to each other, then seeing what letter/symbol they corresponded to",
+2023-11-29 12:37:50,2023-11-29 12:40:42,IP Address,,100,171,TRUE,2023-11-29 12:40:42,,,,,,,,email,EN,I consent.,8,,,,,,,,,,,,,,,,,,,,,,!,***,*,*,2,I thought it might have something to do with symbol patterns,"At first, I chose the answers I was most drawn to. Afterward, I started choosing symbols based on previous answers.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-11-29 13:04:49,2023-11-29 13:11:36,IP Address,,100,406,TRUE,2023-11-29 13:11:37,,,,,,,,email,EN,I consent.,8,>,>,!,*,2,Categorizing items,I tried to look for patterns between the different categories of items and the symbols.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-11-30 11:00:20,2023-11-30 11:06:23,IP Address,,100,362,TRUE,2023-11-30 11:06:24,,,,,,,,email,EN,I consent.,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,*******,*,****,*,4,"The proportion of asteriks changed from one category to the other -- usually signifiying a relation between the items on the list. One had to guess the number of asteriks in the missing column, depending on the relation to others in the same list. ","I mostly guessed when the quantities were not clear to me. At times, I could draw the co-relation and entered the number of asteriks depending on the relation I inferred. ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-11-30 11:36:51,2023-11-30 11:43:42,IP Address,,100,410,TRUE,2023-11-30 11:43:43,,,,,,,,email,EN,I consent.,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,coat => **,!,**,!,5,Find patterns. ,I tried to find the commonground for the things with same symbols and speculate meaning of the number of symbols. ,,,,,,,,,,,,,,,
+2023-11-30 11:42:05,2023-11-30 11:47:48,IP Address,,100,343,TRUE,2023-11-30 11:47:49,,,,,,,,email,EN,I consent.,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,M#M,Y,C ; ;,P,7 (most confident),I think that the task involved the recognition of common pattern among the different items,"I analyzed recurrent patterns among the listed items and, through such a recognition, I tried to give an answer according that matched the analogy I imagined",,,,,,,,
+2023-11-30 11:44:58,2023-11-30 11:49:31,IP Address,,100,273,TRUE,2023-11-30 11:49:32,,,,,,,,email,EN,I consent.,8,,,,,,,,*,!,!,*,5,"Pattern recognition, identifying what categories corresponded with which symbols, and put the appropriate words into the correct groups. It involves, I think, identifying what elements of the given words are in question. ","I tried to ask myself what elements were being considered (e.g. size, type of animal, genre of object). This started by asking what the elements with a given symbol had in common. ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-11-30 15:03:34,2023-11-30 15:07:23,IP Address,,100,228,TRUE,2023-11-30 15:07:24,,,,,,,,email,EN,I consent.,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,'=>**,'=>****,***,****,1 (least confident),Finding patterns in the data and then providing the information for the last one,"I tried to find patterns in the data and apply them to the last one, but I don't think I was very good at it",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-11-30 15:09:01,2023-11-30 15:13:55,IP Address,,100,294,TRUE,2023-11-30 15:13:56,,,,,,,,email,EN,I consent.,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,!!!!,!!!!!!!!!!!!!!!!!!!!!!!!!!,***,!,2,"Trying to figure out, based on the given symbols and definitions, what the definition of the last given word would be. ","At first I had no idea what was happening so I just guessed, but later I realized I should try to find correlations between the desired term and given terms and see if I could divide/multiply or assess it by level of correlation.",,,,,,,,,,,,,,,
+2023-11-30 15:09:04,2023-11-30 15:14:47,IP Address,,100,343,TRUE,2023-11-30 15:14:48,,,,,,,,email,EN,I consent.,8,,,,,,,,,,,,,,,,,,,,,,*,!!!,***,*,4,I thought this task was about making conclusions about what the symbols represented based on the similarities between items of the same symbol. It seemed to be about cracking the code of what these items had in common and how they can be represented by distinct symbols. ,"At first I was confused, but then I caught on my looking at which items had certainly traits in common and which did not. ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-11-30 15:18:47,2023-11-30 15:21:46,IP Address,,100,178,TRUE,2023-11-30 15:21:46,,,,,,,,email,EN,I consent.,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,J,TTT,%T,K,1 (least confident),Some sort of logic testing/pattern assessment,I honestly was not sure how to answer these questions. I did not really notice a clear pattern for the answers.,
+2023-11-30 15:22:47,2023-11-30 15:31:31,IP Address,,100,524,TRUE,2023-11-30 15:31:31,,,,,,,,email,EN,I consent.,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,**,!!,&&&&&&,!!!,4,I think the task challenged my perception of comparing objects in abstract manners as well as how I can categorize different kinds of objects based on symbols and icons. It also challenge the understanding of objects from different perspectives,"I try to pare up objects with same symbols. Then I try to figure out the answer based on similar symbols that the question provided. I would also consider why it is the number attached to certain objects and why some objects have different symbols. Besides that, I also keep in mind the relationships between different objects. ",,,,,,,,,,,,,,,,,,,,,,
+2023-12-04 10:12:11,2023-12-04 10:17:08,IP Address,,100,296,TRUE,2023-12-04 10:17:09,,,,,,,,email,EN,I consent.,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,******,****,****,****,5,"Each represented parts of a whole, 4 quarters in a dollar, 10 dimes in a dollar, 7 days in a week, 12 inches in a foot. weeks could be described through different because 52 in a year seemed like too many to type I chose 4 in a month.","Thinking about associations of parts and wholes, the given answers seemed to correlate different wholes like dollars, weeks, and feet so I tried to find an associated whole",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-12-04 13:17:32,2023-12-04 13:31:37,IP Address,,100,845,TRUE,2023-12-04 13:31:38,,,,,,,,email,EN,I consent.,8,*,!,!,*,7 (most confident),"To me the task was to match the similarity of the word given to me with the words presented above, via a shared symbol. 
+
+I'm not sure if there was a correct answer here, because all correct is unlikely :)). The very first question I was unsure of, but all the rest I was very confident in my answer. 
+
+I think the real research may be this final description, and my rating of how confident I was. Based on the fact that every time I answered the problem, I was told that I got it correct.","I looked for patterns between the key value (word, symbol) pairs presented to me. When I saw motorcyle was ! and bicycle was *, I thought, what's the difference between them. Well motorcycle is motorized and so is a car, whereas tricycle, skateboard, bicycle, and finally unicycle are not motorized. 
+
+I searched for similarities in all of the problems. 
+Something key is that I visualized all of the words in my mind and compared them all at once visually, and then searched for words to describe differences (kind of tearing them each apart in my mind). I'd think: ""chicken, white-feathers-small, two feet"", while vigorously flitting to the other answers in kind. 
+
+By the last problem, I began to look over the words and draw loose similarities before looking at their symbols. 
+
+
+The only one I wasn't sure of was the first problem. The first one stumped me, but I went with intuition. I had a strong telling of which one was correct. Based on intuitive reasoning. ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-12-04 14:11:39,2023-12-04 14:16:29,IP Address,,100,290,TRUE,2023-12-04 14:16:30,,,,,,,,email,EN,I consent.,8,,,,,,,,,,,,,,,* * *,* *,( ! ),( ! ),3,"I thought the task involved looking at symbols and extrapolating the appropiate symbols for another word, similar to an IQ test question.","To answer the questions, I tried finding a similar word and using the symbols from that word.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-12-04 14:11:45,2023-12-04 14:16:50,IP Address,,100,305,TRUE,2023-12-04 14:16:51,,,,,,,,email,EN,I consent.,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,*******,*,******,*,5,It seemed that the task required figuring out the analogy of what the number of stars was representing for each object and applying that analogy to the last object.,"I would figure out what the stars meant to each item: number of wheels, number of holes, part to a whole, etc. and then apply that to the last item. I did not have much of a problem coming up with an idea about what the stars meant.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-12-05 09:24:11,2023-12-05 09:28:32,IP Address,,100,260,TRUE,2023-12-05 09:28:33,,,,,,,,email,EN,I consent.,8,,,,,,,,#,!,'@,*,3,I thought the task was about grouping words together to the same symbol. Essentially trying to see if there are patterns or similarities between the words and assigning it to the right symbol.,"I would rely on my own knowledge on the words to see if the given matching words had similarities to the one that did not have an assigned value. And if it did, then I would give that character as the answer. If not, the I would check for the second symbol. If neither seemed to match, then I would just guess a symbol.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-12-05 09:39:43,2023-12-05 09:43:22,IP Address,,100,218,TRUE,2023-12-05 09:43:22,,,,,,,,email,EN,I consent.,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,M # M,Y,A,P,4,I assume it involved intuition and problem solving skills,I looked through the variables and based on what the other variables signified I tried to understand what the variable in question might have signified.,,,,,,,,
+2023-12-05 09:43:33,2023-12-05 09:47:31,IP Address,,100,238,TRUE,2023-12-05 09:47:32,,,,,,,,email,EN,I consent.,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,'=>,!!,&,!!,3,The task involved learning the meaning and interpretation of the displayed signs,I tried to follow the signs from the closest object and reason what the quantities meant,,,,,,,,,,,,,,,,,,,,,,
+2023-12-05 09:57:19,2023-12-05 10:04:22,IP Address,,100,422,TRUE,2023-12-05 10:04:22,,,,,,,,email,EN,I consent.,8,human => *,*,!,!,4,I think the task involved recognizing patterns in the symbol sequence and applying those patterns to guess the next symbol. I thought it also possibly involved recognizing connections between the word that was given and the symbol that followed or seeing how the sequence of words was related to the symbols.  ,I tried looking at the frequency of each symbol when guessing the next one and tried to note if any of them were alternating. I also looked at the number of letters in the words shown and tried to find a pattern that matches the symbols. ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-12-05 10:04:04,2023-12-05 10:07:36,IP Address,,100,211,TRUE,2023-12-05 10:07:36,,,,,,,,email,EN,I consent.,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,#,!!,*****,!,3,Inferring the symbols representing the object based on the legend given,I grouped like objects together and the degree to which each object represented the group to determine the symbol type and number,,,,,,,,,,,,,,,
+2023-12-05 10:04:10,2023-12-05 10:08:10,IP Address,,100,239,TRUE,2023-12-05 10:08:11,,,,,,,,email,EN,I consent.,8,,,,,,,,,,,,,,,,,,,,,,[ * ],!!,* * *,( * ),5,figuring out which aspects of the drawing were related to which characteristics of objects/things and then creating a new drawing ,I grouped the words into how they were similar if they had the same character to figure our which characters correspond to which characteristics. Then I used this to make the new drawing.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-12-05 10:17:04,2023-12-05 10:20:42,IP Address,,100,218,TRUE,2023-12-05 10:20:43,,,,,,,,email,EN,I consent.,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,29,***,*******,****,1 (least confident),i don't get it,just see the recurrences of asterisk,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-12-05 10:49:01,2023-12-05 11:00:35,IP Address,,100,693,TRUE,2023-12-05 11:00:36,,,,,,,,email,EN,I consent.,8,,,,,,,,,,,,,,,***,**,[!],(*),5,Understanding patterns and associating the symbols to what the thing represents ,"I looked at each symbol associated with the one thing one at a time. For example, I first looked at () and compared each thing that had brackets to understand their similarities. Then I would look at the next symbol ! Within the brackets and compare those that are similar and those that are different ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-12-05 11:53:18,2023-12-05 11:56:02,IP Address,,100,164,TRUE,2023-12-05 11:56:03,,,,,,,,email,EN,I consent.,8,,,,,,,,&,!,*,!,5,Finding similarities between entities of the same grouping,Studied the entities that were in the same group and common characteristics amongst them,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-12-05 11:58:50,2023-12-05 12:02:13,IP Address,,100,202,TRUE,2023-12-05 12:02:14,,,,,,,,email,EN,I consent.,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,M,I,D,P,6,The task.was to determine patterns or trends in the keywords that belong to each item ,I look through the whole list of items and found the ones that show a similar trend,,,,,,,,
+2023-12-05 12:35:04,2023-12-05 12:40:58,IP Address,,100,353,TRUE,2023-12-05 12:40:59,,,,,,,,email,EN,I consent.,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,**,****,****,****,4,"I counted the number of asterisks and then thought about the object, considering a feature that appeared that number of times in the object. For example, I remember the human having two asterisks. A feature of humans is that they walk on two legs. ","I counted the asterisks, thought about what that number of features were associated with the object, and then tested my theory with the rest of the objects to make sure that I had the answer I was most confident in",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-12-05 12:42:44,2023-12-05 12:46:56,IP Address,,100,252,TRUE,2023-12-05 12:46:57,,,,,,,,email,EN,I consent.,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,C C C,P,[ K ],6,Finding out common patterns across words and distance between words,"Find out general pattern, then identify a word that is in relation to the question",
+2023-12-05 12:55:48,2023-12-05 13:02:29,IP Address,,100,401,TRUE,2023-12-05 13:02:30,,,,,,,,email,EN,I consent.,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,!!,!!,&,!!!!,6,"We were given categories of things, and we had to figure out the rule and how to apply it to the object given. The first one was difficult, once I realized that it was the number of legs it made sense, but it didn't occur to me until after the answer that there was whether or not the animal was a mammal as another indicator. After the first one, it was easy to look at the categories and figure out the patterns as in number of wheels and whether or not they are motorized, then the measure (i.e. time, length, etc.) and the largest unit is one while the smaller are how many go into it. I honestly forget what the last one was because I just immediately saw the pattern and answered, so yeah. ","Figure out what the things with a common symbol all have in common, and what the things with the same number of symbols all have in common and use that to figure out what the answer to the question is.",,,,,,,,,,,,,,,,,,,,,,
+2023-12-05 12:55:36,2023-12-05 13:02:54,IP Address,,100,438,TRUE,2023-12-05 13:02:55,,,,,,,,email,EN,I consent.,8,*,!,!,*,6,"I thought that the task involved figuring out what the rule was for grouping the words into categories, the applying that rule to a new word. For example, I though that the first question had the rule that ""mammal => *"", so I answered that ""human => *""",I mentally grouped the words hat had the same symbol and tried to find a common thread through them. I then checked to make sure that none of the other words shared hat common thread,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-12-05 12:57:54,2023-12-05 13:03:50,IP Address,,100,356,TRUE,2023-12-05 13:03:51,,,,,,,,email,EN,I consent.,8,,,,,,,,penny =>,!,*,*,4,I think it involves understanding relationships and what is equal to what. ,I used my contextual understanding of relationships to answer the questions.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-12-05 13:31:36,2023-12-05 13:42:22,IP Address,,100,646,TRUE,2023-12-05 13:42:22,,,,,,,,email,EN,I consent.,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,T,P [ D ] [ Y ],C ; ;,P,4,The task involved making logical relationships between to parts of the different objects given ,I tried to find the relation of the asked variable to the given information I had,,,,,,,,
+2023-12-05 13:42:49,2023-12-05 13:47:15,IP Address,,100,266,TRUE,2023-12-05 13:47:16,,,,,,,,email,EN,I consent.,8,,,,,,,,,,,,,,,,,,,,,,(!),'=>!!**,'=>,[!],1 (least confident),Assigning random characters to an object/sport/ feeling and seeing if the unseen question was correct?,Random answers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-12-05 13:42:22,2023-12-05 13:49:13,IP Address,,100,411,TRUE,2023-12-05 13:49:14,,,,,,,,email,EN,I consent.,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,W,CCC,P,[ K ],5,"The task involved finding correspondences from a set of words to arbitrary letters. The task had a variety of words that were related to one another and had the same mapping relation. Using this patter, you could determine what the answer was to the question posed.",I tried to look for the most clear connections between the words given. I also chose to ignore the words/letter combinations that didn't seem to have any relations.,
+2023-12-05 13:42:28,2023-12-05 13:49:28,IP Address,,100,419,TRUE,2023-12-05 13:49:29,,,,,,,,email,EN,I consent.,8,,,,,,,,,,,,,,,***,**,(!),[*],5,"It seemed like I was trying to find the similarities between all the different words and their corresponding images then trying to project an image onto the given word. I made comparisons based on some more clear things like audio versus visual comparisons but as it went on, the similarities were harder to determine. Seemed to be a pattern matching task.",I tried to find the similarities between all the words by visualizing in my head what they meant and seeing if there were similar images brought up. ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-12-05 13:47:03,2023-12-05 13:53:18,IP Address,,100,374,TRUE,2023-12-05 13:53:18,,,,,,,,email,EN,I consent.,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,****,****,****,****,4,"I thought the task involved finding how the given word related to the stars, given the measurements relative to the other words.  From the top of my memory, for example, the pants, shirts, and headband, etc. were counting how many holes these items had.  I would then indicate how many I could count or remember and type this out with the amount of stars necessary.","I tried to use context clues about the shared characteristics the items had to each other and how these could be quantified.  These ended up usually being right, I did not know how many lens a bee had, however, and did not properly correlate the last measurement.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-12-05 14:07:00,2023-12-05 14:10:12,IP Address,,100,192,TRUE,2023-12-05 14:10:13,,,,,,,,email,EN,I consent.,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,!!*,!,!!,!,6,Some sort of logical reasoning and drawing connections,Tried to identify the similarities between the examples given and use that to determine the result ,,,,,,,,,,,,,,,
+2023-12-05 14:08:20,2023-12-05 14:12:54,IP Address,,100,273,TRUE,2023-12-05 14:12:55,,,,,,,,email,EN,I consent.,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,*******,*,******,**,7 (most confident),"Find the most common shared property of the examples, and apply to the question.",Try to find the most common property among the examples ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-12-05 14:11:22,2023-12-05 14:15:22,IP Address,,100,239,TRUE,2023-12-05 14:15:23,,,,,,,,email,EN,I consent.,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,*,*******,******,*,7 (most confident),"It involves the number of variables in each parameter. For example, the bee has 6 feet, headband has one hole, etc",I could not understand the first two questions but then realized the star accounts for the unique parameters assigned to each variable,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-12-05 14:11:30,2023-12-05 14:16:43,IP Address,,100,313,TRUE,2023-12-05 14:16:44,,,,,,,,email,EN,I consent.,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,K,C,% T,[ G ],1 (least confident),I thought the task involved coming up with an estimated output on a novel item based on the previously provided data outputs.,I tried to see what patterns were being made with previous data and see what correlation items with similar structure had,
+2023-12-05 14:16:27,2023-12-05 14:19:53,IP Address,,100,205,TRUE,2023-12-05 14:19:54,,,,,,,,email,EN,I consent.,8,,,,,,,,*,!,*,*,6,Finding the correlation between two categories ,"First observed if there were obvious/categorical similarities between paired element, if not, went to details",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-12-05 14:18:28,2023-12-05 14:26:35,IP Address,,100,486,TRUE,2023-12-05 14:26:35,,,,,,,,email,EN,I consent.,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,M # M,Y,C,P,4,I thought the task involved determining a pattern based on the previous examples and using it to complete the pattern,"I figured out that each example had a pair that went with it. The other thing that went with each example wasn’t always present, but you could still figure out the pattern as long as there was one pair.",,,,,,,,
+2023-12-05 14:34:49,2023-12-05 14:38:02,IP Address,,100,193,TRUE,2023-12-05 14:38:03,,,,,,,,email,EN,I consent.,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,***,!!,&,!!,5,"Determining patterns
+","Look at the links between the words, then associate those links with the items for the translations.",,,,,,,,,,,,,,,,,,,,,,
+2023-12-05 14:38:25,2023-12-05 14:41:48,IP Address,,100,203,TRUE,2023-12-05 14:41:49,,,,,,,,email,EN,I consent.,8,*,!,!,*,7 (most confident),Finding the similarities between objects ,I tried to find commonalities between groups and then reason which group the unknown object fit into,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-12-05 14:38:28,2023-12-05 14:43:02,IP Address,,100,274,TRUE,2023-12-05 14:43:03,,,,,,,,email,EN,I consent.,8,,,,,,,,,,,,,,,,,,,,,,[ * ],!,***,[!],3,"The task seemed to involve identifying which parts of the association belonged to what symbol. Example: parenthesis must be connected in some way to all things that had parenthesis, and understanding that connection would tell you the answer.",I tried to group together common ideas from the given symbols and come up with a symbol notation that would most accurately describe the object I was asked to symbolize,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-12-05 14:38:31,2023-12-05 14:43:28,IP Address,,100,296,TRUE,2023-12-05 14:43:29,,,,,,,,email,EN,I consent.,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,*!!*,!,****,!,4,I thought the task involved figuring out the patterns and then predicting the next answer based off of the pattern. ,"I counted and noted the type of symbol associated with each of the categories, then tried to apply that to my answer. ",,,,,,,,,,,,,,,
+2023-12-05 14:39:06,2023-12-05 14:44:18,IP Address,,100,311,TRUE,2023-12-05 14:44:19,,,,,,,,email,EN,I consent.,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,******,****,****,****,6,I thought the task pertained to pattern recognition. The # * symbols were applied to a object or word based on a quality it had. Then a blank word was given that also shared some sort of quality and the # of * attributed to it had to be assigned.,"I used the first given examples to try and deduce a pattern, then I applied that pattern to the blank term. ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-12-05 14:38:26,2023-12-05 14:44:56,IP Address,,100,390,TRUE,2023-12-05 14:44:57,,,,,,,,email,EN,I consent.,8,,,,,,,,,,,,,,,!!!,!!!!,*,(*),1 (least confident),I think the task wanted to note similarities between the information given to aid in choosing the correct answer. Such as Basketball and Baseball had similar symbols not similar to chess.,Find similarities between the symbols and the things they represented. ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
