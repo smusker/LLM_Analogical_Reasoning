@@ -1,7 +1,7 @@
 import math
+import sys
 from itertools import cycle
 
-import grading_stats
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
@@ -11,6 +11,10 @@ import statsmodels.formula.api as smf
 from scipy.stats.distributions import chi2
 
 sns.set_palette("colorblind")
+
+sys.path.insert(1, "../LLM_Analogical_Reasoning")
+
+import Code.grading_stats as grading_stats
 
 experiment_conditions = [
     "defaults",  # 0-3
@@ -59,7 +63,7 @@ def quiz_to_quiz_modded(n: float) -> int:
         return ((n - 20) % 4) + 1
 
 
-def classify_quiz(row: pd.Series):
+def classify_quiz(row: pd.Series) -> str:
     quiz_num = row["quiz_number"]
     if math.isnan(quiz_num):
         return "NA"
@@ -207,66 +211,9 @@ all_subjects_df = pd.DataFrame(
 
 all_subjects_df["quiz_class"] = all_subjects_df.apply(classify_quiz, axis=1)
 
-pilot_df = pd.read_csv(
-    "LLM Data/Phase_1/Human/Final+pilot+survey_May+1,+2023_12.26/Final pilot survey_June 1, 2023_12.35.csv"
-)
+human_df = pd.read_csv("Anonymized Data/Phase 1 (Students)_October 15, 2023_10.49.csv")
 
-followup_df = pd.read_csv(
-    "LLM Data/Phase_1/Human/Pilot+survey+follow+up+controls_May+17,+2023_11.58/Pilot survey follow up controls_June 1, 2023_12.39.csv"
-)
-followup_q_columns = [
-    [f"Q{n}{s}" for n in [1, 3, 5, 7, 9, 10, 11]]
-    for s in [""] + [f".{i}" for i in range(1, 8)]
-]
-followup_column_mapping = {
-    q: f"{q.split('.')[0]}.{i+20}" for i in range(8) for q in followup_q_columns[i]
-}
-followup_df.rename(columns=followup_column_mapping, inplace=True)
-
-pilot_df = pilot_df.rename(
-    columns={"Q226": "Consent", "Q227": "Prolific_ID", "Q222": "Attention"}
-)
-
-followup_df = followup_df.rename(
-    columns={"Q90": "Consent", "Q91": "Prolific_ID", "Q92": "Attention"}
-)
-
-human_df = pd.concat([pilot_df, followup_df], axis=0, ignore_index=True)
-
-
-human_df.insert(0, "PROLIFIC_PID", human_df.pop("PROLIFIC_PID"))
-human_df.insert(1, "Prolific_ID", human_df.pop("Prolific_ID"))
-
-in_person_df = pd.read_csv(
-    "LLM Data/Phase_1/Human/In_Person_Phase_1/Phase+1+(Students)_October+8,+2023_15.09/Phase 1 (Students)_October 15, 2023_10.49.csv"
-)
-
-in_person_df["RecipientEmail"] = in_person_df["Q347"]
-in_person_df = in_person_df.drop(columns=["Q347"])
-in_person_df["RecipientEmail"] = in_person_df["RecipientEmail"].replace(np.nan, "")
-in_person_df = in_person_df[
-    in_person_df["RecipientEmail"].str.contains("@University_Name.edu")
-]
-in_person_df = in_person_df.drop_duplicates(subset=["RecipientEmail"], keep="last")
-
-in_person_df = in_person_df.rename(columns={"Q226": "Consent", "Q222": "Attention"})
-
-in_person_df.insert(0, "PROLIFIC_PID", "")
-in_person_df.insert(1, "Prolific_ID", "")
-
-human_df.drop(human_df.index[[0, 1]], inplace=True)
-
-human_df = pd.concat([human_df, in_person_df], axis=0, ignore_index=True)
-
-
-def classify_in_person(row: pd.Series) -> int:
-    if len(row["Prolific_ID"]) > 0:
-        return False
-    else:
-        return True
-
-
-human_df["In_Person"] = human_df.apply(classify_in_person, axis=1)
+human_df = human_df.rename(columns={"Q226": "Consent", "Q222": "Attention"})
 
 
 def extract_quiz_number(row: pd.Series) -> int | None:
@@ -289,13 +236,11 @@ human_df["duration_float"] = pd.to_numeric(
     human_df["Duration (in seconds)"], errors="coerce"
 )
 
-print(
-    "Num human subjects phase 1:", human_df.loc[human_df["In_Person"] == True].shape[0]
-)
+print("Num human subjects phase 1:", human_df.shape[0])
 
 print("Grouped by condition:")
 
-human_df_for_counts = human_df.loc[human_df["In_Person"] == True]
+human_df_for_counts = human_df
 
 print(human_df_for_counts.groupby(["quiz_class"]).size())
 
@@ -405,36 +350,7 @@ def score_respondent_all(
     return this_respondent_scores_arr
 
 
-prolific_df = human_df.loc[human_df["In_Person"] == False].copy()
-University_Name_df = human_df.loc[human_df["In_Person"] == True].copy()
-
-prolific_q_scores_per_quiz: list[list[list[int]]] = [
-    [[] for _ in range(4)] for _ in range(28)
-]
-prolific_incorrect_responses: list[tuple[str, str, str]] = []
-prolific_failure_modes: list[float] = [0 for _ in range(len(grading_stats.FailureMode))]
-
-prolific_individual_scores: list[list[float]] = [
-    [] for _ in range(len(experiment_conditions))
-]
-prolific_scores_grouped_by_quiz: list[list[list[float]]] = [
-    [[] for _ in range(len(experiment_conditions))] for _ in range(4)
-]
-
-prolific_df["respondent_score"] = prolific_df.apply(
-    lambda row: score_respondent(  # type: ignore
-        row,
-        prolific_q_scores_per_quiz,
-        prolific_incorrect_responses,
-        prolific_individual_scores,
-        prolific_failure_modes,
-        prolific_scores_grouped_by_quiz,
-    ),
-    axis=1,
-)
-prolific_failure_modes = [
-    n / sum(prolific_failure_modes) for n in prolific_failure_modes
-]
+University_Name_df = human_df.copy()
 
 University_Name_q_scores_per_quiz: list[list[list[int]]] = [
     [[] for _ in range(4)] for _ in range(28)
@@ -469,30 +385,6 @@ University_Name_failure_modes = [
 University_Name_failure_modes = [
     n / sum(University_Name_failure_modes) for n in University_Name_failure_modes
 ]
-
-prolific_avg_grade_per_q = [
-    float(np.average(q_scores))
-    for quiz in prolific_q_scores_per_quiz
-    for q_scores in quiz
-]
-
-prolific_avg_grade_per_q_stds = [
-    float(np.std(q_scores)) for quiz in prolific_q_scores_per_quiz for q_scores in quiz
-]
-
-prolific_avg_grade_per_q_stderrs = [
-    (np.std(q_scores) / np.sqrt(np.size(q_scores)))
-    for quiz in prolific_q_scores_per_quiz
-    for q_scores in quiz
-]
-
-prolific_condition_stats, prolific_question_stats = grading_stats.score_stats(
-    prolific_avg_grade_per_q,
-    prolific_avg_grade_per_q_stds,
-    prolific_avg_grade_per_q_stderrs,
-    experiment_conditions,
-    questions_per_quiz,
-)
 
 University_Name_avg_grade_per_q = [
     float(np.average(q_scores))
@@ -678,24 +570,6 @@ plotting.comparison_bar_plot(
     "plots/phase_1/Human_Accuracy_by_Quiz.png",
     y_lim=(0, 1),
     ind_data=University_Name_scores_grouped_by_quiz,
-)
-
-plotting.comparison_bar_plot(
-    experiment_conditions,
-    [
-        prolific_condition_stats["avg_condition_accuracy"],
-        University_Name_condition_stats["avg_condition_accuracy"],
-    ],
-    [
-        prolific_condition_stats["stderrs_per_condition"],
-        University_Name_condition_stats["stderrs_per_condition"],
-    ],
-    ["Prolific", "University students"],
-    "plots/phase_1/Prolific_University_Name_Comparison.png",
-    ind_data=[prolific_individual_scores, University_Name_individual_scores],
-    y_lim=(0, 1),
-    label_x=False,
-    color="red",
 )
 
 myorder = [0]
@@ -1659,6 +1533,11 @@ for i in range(len(experiment_conditions)):
             ncols=8,
         )
 
+plt.tight_layout(pad=3)
+
+plt.savefig("plots/phase_1/top_performers_best_fit_and_points.png")
+plt.close("all")
+
 human_q1_vals = [
     human_q1_vals[0],
     human_q1_vals[3],
@@ -1800,10 +1679,6 @@ q1_errs = [human_q1_errs, gpt4_q1_errs, claude3opus_q1_errs]
 q4_vals = [human_q4_vals, gpt4_q4_vals, claude3opus_q4_vals]
 q4_errs = [human_q4_errs, gpt4_q4_errs, claude3opus_q4_errs]
 
-plt.tight_layout(pad=3)
-
-plt.savefig("plots/phase_1/top_performers_best_fit_and_points.png")
-plt.close()
 
 # plot overall performance for top three, only q1s then only q4s
 
@@ -1819,8 +1694,6 @@ plotting.comparison_bar_plot(
     "plots/phase_1/Top_3_Comparison_q1s.png",
     y_lim=(0, 1),
 )
-
-plt.clf()
 
 plotting.comparison_bar_plot(
     experiment_conditions_reordered,
@@ -1881,25 +1754,6 @@ University_Name_df["respondent_scores"] = University_Name_df.apply(
     axis=1,
 )
 
-
-prolific_df["respondent_scores"] = prolific_df.apply(
-    lambda row: score_respondent_all(  # type: ignore
-        row,
-        prolific_q_scores_per_quiz,
-        prolific_incorrect_responses,
-        prolific_failure_modes,
-    ),
-    axis=1,
-)
-
-prolific_df = prolific_df.dropna(subset=["respondent_score"])
-
-prolific_df_exploded = prolific_df.explode("respondent_scores")
-
-prolific_df_exploded["subject_type"] = pd.Series(
-    ["Prolific" for x in range(len(prolific_df_exploded.index))]
-)
-
 University_Name_df = University_Name_df.dropna(subset=["respondent_score"])
 
 University_Name_df_exploded = University_Name_df.explode("respondent_scores")
@@ -1908,7 +1762,8 @@ University_Name_df_exploded["subject_type"] = pd.Series(
     ["human" for x in range(len(University_Name_df_exploded.index))]
 )
 
-human_df_exploded = pd.concat([prolific_df_exploded, University_Name_df_exploded])
+# human_df_exploded = pd.concat([prolific_df_exploded, University_Name_df_exploded])
+human_df_exploded = University_Name_df_exploded
 
 human_df_exploded["respondent_scores"] = pd.to_numeric(
     human_df_exploded["respondent_scores"]

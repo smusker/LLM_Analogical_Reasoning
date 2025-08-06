@@ -112,13 +112,13 @@ def comparison_bar_plot(
     accuracy values for these conditions, errors for these accuracy values,
     labels for the sources of data, and a file string to use for saving the plot.
     """
+    plt.rcParams["figure.figsize"] = fig_size
     if transpose:
         # Swap conditions and labels
         conditions, labels = labels, conditions
         labels = titleify(labels)
         accuracies = np.transpose(accuracies).tolist()
         errors = np.transpose(errors).tolist()
-    plt.rcParams["figure.figsize"] = fig_size
     ax = plt.subplot(111)
     x_axis = np.arange(len(conditions))
     width = 0.9 / len(accuracies)
@@ -249,6 +249,7 @@ def comparison_bar_plot_with_second_axis(
     plt.tight_layout()
 
     plt.savefig(file_string)
+    plt.close()
 
 
 def raincloud_plot(
@@ -330,8 +331,9 @@ def human_accuracy_distribution_plot(human_df, experiment_conditions):
     plt.legend(experiment_conditions)
     plt.title("Human accuracy distribution")
 
-    filestring = "plots/human_acc_distribution.png"
+    filestring = "Plots/human_acc_distribution.png"
     plt.savefig(filestring)
+    plt.close()
 
 
 def human_accuracy_v_duration_plot(human_df, filestring):
@@ -349,7 +351,7 @@ def human_accuracy_v_duration_plot(human_df, filestring):
     ax2 = plt.twinx()
 
     g2 = sns.regplot(
-        data=human_df[human_df["Finished"] == "True"],
+        data=human_df[human_df["Finished"] == "TRUE"],
         x="duration_float",
         y="respondent_score",
         ax=ax2,  # type: ignore
@@ -364,6 +366,7 @@ def human_accuracy_v_duration_plot(human_df, filestring):
     plt.ylim(0, 1)
 
     plt.savefig(filestring, bbox_inches="tight")
+    plt.close()
 
 
 def human_accuracy_raincloud_plot(human_df, experiment_conditions, filestring):
@@ -433,6 +436,7 @@ def human_accuracy_raincloud_plot(human_df, experiment_conditions, filestring):
     plt.title("Human accuracy distribution by condition")
     plt.tight_layout()
     plt.savefig(filestring)
+    plt.close()
 
 
 def plot_wrong_answers_bar(
@@ -459,6 +463,6 @@ def plot_wrong_answers_bar(
     ax.set_title("Percent of Incorrect Answers by Target Domain")
     plt.xticks(rotation=0)
 
-    plt.savefig(f"plots/{filename}", bbox_inches="tight")
+    plt.savefig(f"Plots/{filename}", bbox_inches="tight")
     plt.clf()
     plt.close()

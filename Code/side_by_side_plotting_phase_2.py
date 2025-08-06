@@ -1,7 +1,7 @@
 import math
+import sys
 from itertools import cycle
 
-import grading_stats
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
@@ -11,6 +11,10 @@ import statsmodels.formula.api as smf
 from scipy.stats.distributions import chi2
 
 sns.set_palette("colorblind")
+
+sys.path.insert(1, "../LLM_Analogical_Reasoning")
+
+import Code.grading_stats as grading_stats
 
 experiment_conditions = [
     "categorial",
@@ -36,7 +40,7 @@ def quiz_to_quiz_modded(n: float) -> int:
     return (int(n) % 2) + 1
 
 
-def classify_quiz(row: pd.Series):
+def classify_quiz(row: pd.Series) -> str:
     quiz_num = row["quiz_number"]
     if math.isnan(quiz_num):
         return "NA"
@@ -184,18 +188,8 @@ all_subjects_df = pd.DataFrame(
 all_subjects_df["quiz_class"] = all_subjects_df.apply(classify_quiz, axis=1)
 
 
-human_df = pd.read_csv(
-    "LLM Data/Phase_2/Human/Phase 2 (Students)_December 5, 2023_14.54.csv"
-)
+human_df = pd.read_csv("Anonymized Data/Phase 2 (Students)_December 5, 2023_14.54.csv")
 
-human_df["RecipientEmail"] = human_df["Q111"]
-
-human_df = human_df.drop(columns=["Q111"])
-
-human_df["RecipientEmail"] = human_df["RecipientEmail"].replace(np.nan, "")
-
-human_df = human_df[human_df["RecipientEmail"].str.contains("@University_Name.edu")]
-human_df = human_df.drop_duplicates(subset=["RecipientEmail"], keep="last")
 human_df = human_df.rename(columns={"Q112": "Consent", "Q113": "Attention"})
 
 
@@ -279,9 +273,9 @@ def score_respondent(
         this_respondent_scores.append(score)
         if score != 1:
             incorrect_responses.append((response, answer[0], prev_answer[0]))
-            failure_modes[
-                grading_stats.get_failure_mode(response, answer[0]).value
-            ] += 1
+            # failure_modes[
+            #     grading_stats.get_failure_mode(response, answer[0]).value
+            # ] += 1
     respondent_overall_score = float(np.mean(np.asarray(this_respondent_scores)))
     individual_scores[experiment_conditions.index(row["quiz_class"])].append(
         respondent_overall_score
@@ -330,9 +324,9 @@ def score_respondent_all(
         this_respondent_scores.append(score)
         if score != 1:
             incorrect_responses.append((response, answer[0], prev_answer[0]))
-            failure_modes[
-                grading_stats.get_failure_mode(response, answer[0]).value
-            ] += 1
+            # failure_modes[
+            #     grading_stats.get_failure_mode(response, answer[0]).value
+            # ] += 1
     this_respondent_scores_arr = np.asarray(this_respondent_scores)
     return this_respondent_scores_arr
 

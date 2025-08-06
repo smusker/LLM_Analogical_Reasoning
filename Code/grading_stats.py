@@ -1,4 +1,5 @@
 import ast
+import sys
 from enum import Enum
 from typing import Callable
 
@@ -6,6 +7,8 @@ import numpy as np
 import pandas as pd
 import scipy.stats
 from Levenshtein import ratio
+
+sys.path.insert(1, "../LLM_Analogical_Reasoning")
 
 from Code.quiz_generation import GROUNDINGS, SEPARATOR
 
